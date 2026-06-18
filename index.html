@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alerta Médico — Informações de emergência sempre à mão</title>
+  <meta name="description" content="App gratuito que exibe seus medicamentos e dados médicos na tela de bloqueio do celular para socorristas, detecta interações perigosas e envia lembretes de horário." />
+  <meta property="og:title" content="Alerta Médico" />
+  <meta property="og:description" content="Seus dados médicos visíveis na tela de bloqueio. Para emergências, quando cada segundo importa." />
+  <meta property="og:url" content="https://alertamedico.ia.br" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:   #1C3F7A;
+      --bg:     #F2F4F8;
+      --accent: #E07B4F;
+      --text:   #1A1F2E;
+      --muted:  #6B7280;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--blue);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .logo-icon {
+      width: 36px; height: 36px; border-radius: 9px;
+      background: #fff; display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+    }
+    .logo-name { color: #fff; font-size: 18px; font-weight: 700; }
+    header nav a {
+      color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px;
+      margin-left: 20px;
+    }
+    header nav a:hover { color: #fff; }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(160deg, #1C3F7A 0%, #0f2550 100%);
+      color: #fff;
+      padding: 72px 24px 80px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 48px);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 18px;
+      max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero h1 span { color: #7cb9ff; }
+    .hero p {
+      font-size: clamp(15px, 2.5vw, 18px);
+      color: rgba(255,255,255,0.8);
+      max-width: 520px;
+      margin: 0 auto 36px;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 15px 32px;
+      border-radius: 12px;
+      transition: transform .15s, box-shadow .15s;
+      box-shadow: 0 4px 20px rgba(224,123,79,0.4);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(224,123,79,0.5); }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 14px;
+      margin-top: 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 2px;
+    }
+    .hero-ctas { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+
+    /* ── Features ── */
+    .section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: clamp(22px, 3.5vw, 32px);
+      font-weight: 800;
+      color: var(--blue);
+      margin-bottom: 12px;
+    }
+    .section-sub {
+      font-size: 16px;
+      color: var(--muted);
+      max-width: 560px;
+      margin-bottom: 48px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px 24px;
+      border: 1px solid rgba(0,0,0,0.06);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    .feature-icon { font-size: 32px; margin-bottom: 14px; }
+    .feature-title { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
+    .feature-desc { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+    /* ── How it works ── */
+    .how-bg { background: #fff; }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 28px;
+    }
+    .step { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+    .step-num {
+      width: 40px; height: 40px; border-radius: 12px;
+      background: var(--blue); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 800; flex-shrink: 0;
+    }
+    .step-title { font-size: 16px; font-weight: 700; color: var(--text); }
+    .step-desc { font-size: 14px; color: var(--muted); line-height: 1.55; }
+
+    /* ── Privacy strip ── */
+    .privacy-strip {
+      background: #EEF3FF;
+      border-top: 1px solid rgba(28,63,122,0.1);
+      border-bottom: 1px solid rgba(28,63,122,0.1);
+    }
+    .privacy-strip .section { padding: 40px 24px; }
+    .privacy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .privacy-item { display: flex; align-items: flex-start; gap: 12px; }
+    .privacy-icon { font-size: 24px; flex-shrink: 0; margin-top: 2px; }
+    .privacy-item-title { font-size: 14px; font-weight: 700; color: var(--blue); }
+    .privacy-item-desc { font-size: 13px; color: var(--muted); margin-top: 2px; line-height: 1.5; }
+
+    /* ── CTA band ── */
+    .cta-band {
+      background: linear-gradient(135deg, var(--blue) 0%, #0f2550 100%);
+      color: #fff;
+      text-align: center;
+      padding: 64px 24px;
+    }
+    .cta-band h2 { font-size: clamp(22px, 4vw, 36px); font-weight: 800; margin-bottom: 12px; }
+    .cta-band p { font-size: 16px; color: rgba(255,255,255,0.75); margin-bottom: 32px; }
+
+    /* ── Footer ── */
+    footer {
+      background: #0f1e3d;
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 13px;
+    }
+    footer a { color: rgba(255,255,255,0.65); text-decoration: none; }
+    footer a:hover { color: #fff; }
+    footer .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 12px; }
+
+    @media (max-width: 480px) {
+      .hero { padding: 52px 20px 60px; }
+      header nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <a class="logo" href="/">
+    <div class="logo-icon">🏥</div>
+    <span class="logo-name">Alerta Médico</span>
+  </a>
+  <nav>
+    <a href="#como-usar">Como usar</a>
+    <a href="#privacidade">Privacidade</a>
+    <a href="privacy.html">Política</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-badge">📱 Aplicativo gratuito para Android</div>
+  <h1>Seus dados médicos visíveis<br /><span>quando você mais precisa</span></h1>
+  <p>Em uma emergência, socorristas precisam saber seus medicamentos em segundos — antes de qualquer tratamento. O Alerta Médico coloca essas informações na tela de bloqueio do seu celular.</p>
+  <div class="hero-ctas">
+    <a class="btn-primary" href="#" id="play-btn">
+      ▶ &nbsp;Baixar na Google Play
+    </a>
+    <a class="btn-secondary" href="#como-usar">Ver como funciona →</a>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section" id="funcionalidades">
+  <div class="section-label">Funcionalidades</div>
+  <h2 class="section-title">Tudo que você precisa em emergências</h2>
+  <p class="section-sub">Simples de configurar, funciona offline e não exige conta ou cadastro.</p>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="feature-icon">🔒</div>
+      <div class="feature-title">Tela de bloqueio</div>
+      <div class="feature-desc">Sua ficha médica completa fica visível na notificação persistente — sem precisar desbloquear o celular. Medicamentos, alergias e tipo sanguíneo sempre acessíveis.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">⚡</div>
+      <div class="feature-title">Interações perigosas</div>
+      <div class="feature-desc">O app verifica automaticamente combinações perigosas entre seus medicamentos e alerta sobre riscos críticos, altos e moderados com explicações claras.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔔</div>
+      <div class="feature-title">Lembretes inteligentes</div>
+      <div class="feature-desc">Configure lembretes diários, semanais, mensais ou periódicos. O app mostra o próximo horário de cada medicamento na tela principal e de bloqueio.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">📋</div>
+      <div class="feature-title">Bula integrada</div>
+      <div class="feature-desc">Acesse a bula oficial (ANVISA) de qualquer medicamento cadastrado com um toque. Base de dados atualizada com milhares de medicamentos genéricos e comerciais.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">👥</div>
+      <div class="feature-title">Contatos de emergência</div>
+      <div class="feature-desc">Cadastre familiares e médicos de referência. As informações ficam disponíveis junto com sua ficha médica para quem prestar o socorro.</div>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon">🔐</div>
+      <div class="feature-title">100% privado</div>
+      <div class="feature-desc">Todos os dados ficam exclusivamente no seu celular. Nenhuma conta, nenhum servidor, nenhum compartilhamento. Funciona completamente offline.</div>
+    </div>
+  </div>
+</section>
+
+<!-- How it works -->
+<div class="how-bg" id="como-usar">
+  <section class="section">
+    <div class="section-label">Como usar</div>
+    <h2 class="section-title">Pronto em menos de 5 minutos</h2>
+    <p class="section-sub">Configure uma vez. As informações ficam sempre disponíveis, mesmo sem internet.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div>
+          <div class="step-title">Perfil médico</div>
+          <div class="step-desc">Preencha seu nome, tipo sanguíneo e alergias na aba Perfil.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div>
+          <div class="step-title">Medicamentos</div>
+          <div class="step-desc">Cadastre todos os remédios que usa. O app detecta interações automaticamente.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div>
+          <div class="step-title">Contatos</div>
+          <div class="step-desc">Adicione um familiar ou médico de referência para emergências.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div>
+          <div class="step-title">Ativar alerta</div>
+          <div class="step-desc">Na tela Início, ative o alerta. Sua ficha aparece na tela de bloqueio imediatamente.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Privacy -->
+<div class="privacy-strip" id="privacidade">
+  <section class="section">
+    <div class="section-label">Privacidade</div>
+    <h2 class="section-title" style="margin-bottom:32px;">Seus dados são seus</h2>
+    <div class="privacy-grid">
+      <div class="privacy-item">
+        <div class="privacy-icon">📱</div>
+        <div>
+          <div class="privacy-item-title">Armazenamento local</div>
+          <div class="privacy-item-desc">Nome, medicamentos, contatos e alergias ficam somente no seu celular. Nunca saem do dispositivo.</div>
+        </div>
+      </div>
+      <div class="privacy-item">
+        <div class="privacy-icon">🚫</div>
+        <div>
+          <div class="privacy-item-title">Sem conta, sem rastreamento</div>
+          <div class="privacy-item-desc">Não pedimos e-mail, senha ou qualquer dado de cadastro. Nenhum rastreamento de uso.</div>
+        </div>
+      </div>
+      <div class="privacy-item">
+        <div class="privacy-icon">⚖️</div>
+        <div>
+          <div class="privacy-item-title">Conformidade com a LGPD</div>
+          <div class="privacy-item-desc">Dados de saúde são sensíveis pela Lei 13.709/2018. Respeitamos essa classificação ao não coletá-los.</div>
+        </div>
+      </div>
+      <div class="privacy-item">
+        <div class="privacy-icon">📡</div>
+        <div>
+          <div class="privacy-item-title">Funciona offline</div>
+          <div class="privacy-item-desc">A única conexão usada é para atualizar a base de medicamentos — sem dados pessoais envolvidos.</div>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:28px; font-size:14px; color:var(--muted);">
+      <a href="privacy.html" style="color:var(--blue); font-weight:600;">Leia a Política de Privacidade completa →</a>
+    </p>
+  </section>
+</div>
+
+<!-- CTA -->
+<section class="cta-band">
+  <h2>Baixe agora — é gratuito</h2>
+  <p>Disponível para Android. Sem anúncios, sem assinatura, sem coleta de dados.</p>
+  <a class="btn-primary" href="#" id="play-btn-2">▶ &nbsp;Baixar na Google Play</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-links">
+    <a href="privacy.html">Política de Privacidade</a>
+    <a href="mailto:contato@alertamedico.ia.br">Contato</a>
+  </div>
+  <div>© 2025 Alerta Médico · Todos os direitos reservados</div>
+</footer>
+
+<script>
+  // Placeholder: substituir pelo link real da Play Store quando publicado
+  const playUrl = '#'; // ex: 'https://play.google.com/store/apps/details?id=com.medalert.app'
+  document.querySelectorAll('[id^="play-btn"]').forEach(el => el.href = playUrl);
+</script>
+</body>
+</html>
