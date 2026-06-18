@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Referências Científicas — Alerta Médico</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root { --blue: #1C3F7A; --bg: #F2F4F8; --accent: #E07B4F; --text: #1A1F2E; --muted: #6B7280; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--blue);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      background: #fff; display: flex; align-items: center;
+      justify-content: center; font-size: 18px;
+    }
+    header a { color: #fff; text-decoration: none; font-size: 17px; font-weight: 700; }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+
+    h1 { font-size: 28px; font-weight: 800; color: var(--blue); margin-bottom: 6px; }
+    .subtitle {
+      font-size: 15px; color: var(--muted); margin-bottom: 40px; max-width: 620px;
+      border-left: 3px solid var(--accent); padding-left: 14px;
+    }
+
+    h2 {
+      font-size: 15px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--accent);
+      margin: 40px 0 16px;
+    }
+    h2:first-of-type { margin-top: 0; }
+
+    /* Fonte principal (PDFs) */
+    .source-card {
+      background: #fff;
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 14px;
+      padding: 20px 22px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    }
+    .source-card-type {
+      font-size: 11px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; color: #fff;
+      background: var(--blue); border-radius: 6px;
+      padding: 2px 8px; display: inline-block; margin-bottom: 8px;
+    }
+    .source-card-type.guideline { background: #2e7d32; }
+    .source-card-type.article { background: #7b1fa2; }
+    .source-card-type.review { background: #0277bd; }
+    .source-card-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+    .source-card-authors { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+    .source-card-meta { font-size: 13px; color: var(--text); }
+    .source-card-meta a { color: var(--blue); text-decoration: none; font-weight: 500; }
+    .source-card-meta a:hover { text-decoration: underline; }
+
+    /* Tabela de interações */
+    .int-group { margin-bottom: 32px; }
+    .int-title {
+      font-size: 14px; font-weight: 700; color: var(--blue);
+      margin-bottom: 8px; display: flex; align-items: center; gap: 8px;
+    }
+    .badge {
+      font-size: 11px; font-weight: 700; padding: 2px 8px;
+      border-radius: 6px; letter-spacing: 0.3px;
+    }
+    .badge.critical { background: #ffebee; color: #c62828; }
+    .badge.high     { background: #fff3e0; color: #e65100; }
+    .badge.moderate { background: #fffde7; color: #f57f17; }
+    .ref-list { list-style: none; padding: 0; }
+    .ref-list li {
+      font-size: 13px; color: #444; line-height: 1.6;
+      padding: 6px 0 6px 18px;
+      border-left: 2px solid #e0e7ff;
+      margin-bottom: 6px;
+    }
+    .ref-list li a { color: var(--blue); text-decoration: none; }
+    .ref-list li a:hover { text-decoration: underline; }
+    .ref-journal { font-style: italic; }
+
+    .divider { border: none; border-top: 1px solid rgba(0,0,0,0.07); margin: 36px 0; }
+
+    .disclaimer {
+      background: #EEF3FF;
+      border-radius: 12px;
+      padding: 18px 20px;
+      font-size: 13px;
+      color: #3c4a6b;
+      margin-top: 40px;
+      line-height: 1.6;
+    }
+    .disclaimer strong { color: var(--blue); }
+
+    footer {
+      text-align: center; font-size: 13px; color: var(--muted); padding: 24px;
+    }
+    footer a { color: var(--blue); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo-icon" href="/">🏥</a>
+  <a href="/">Alerta Médico</a>
+</header>
+
+<div class="container">
+  <h1>Referências Científicas</h1>
+  <p class="subtitle">Base de evidências utilizada para mapear as interações medicamentosas detectadas pelo Alerta Médico. As interações foram compiladas a partir de guias brasileiros, artigos indexados e guidelines internacionais.</p>
+
+  <!-- ── Documentos brasileiros ── -->
+  <h2>Guias e publicações brasileiras</h2>
+
+  <div class="source-card">
+    <span class="source-card-type guideline">Guia Clínico</span>
+    <div class="source-card-title">Guia de Interação Medicamentosa — RIOSAÚDE</div>
+    <div class="source-card-authors">Empresa Pública de Saúde do Rio de Janeiro (RIOSAÚDE)</div>
+    <div class="source-card-meta">Rio de Janeiro, agosto de 2024 · Uso multidisciplinar em unidades de saúde públicas</div>
+  </div>
+
+  <div class="source-card">
+    <span class="source-card-type review">Revisão de Literatura</span>
+    <div class="source-card-title">Interações medicamentosas entre medicamentos fitoterápicos e alopáticos: uma revisão de literatura sobre potenciais interações e suas manifestações</div>
+    <div class="source-card-authors">Ruver-Martins AC, Silva BR</div>
+    <div class="source-card-meta">
+      <span class="ref-journal">Revista Fitos</span>, Rio de Janeiro, 2024; 18(1): e1629 · FIOCRUZ · CC-BY 4.0<br />
+      <a href="https://doi.org/10.32712/2446-4775.2024.1629" target="_blank" rel="noopener">doi: 10.32712/2446-4775.2024.1629</a>
+    </div>
+  </div>
+
+  <div class="source-card">
+    <span class="source-card-type article">Artigo Científico</span>
+    <div class="source-card-title">Principais interações no uso de medicamentos fitoterápicos</div>
+    <div class="source-card-authors">Nicoletti MA, Oliveira-Júnior MA, Bertasso CC, Caporossi PY, Tavares APL — FCF/USP, UNIP, UnG</div>
+    <div class="source-card-meta">
+      <span class="ref-journal">Infarma</span>, v.19, nº 1/2, 2007 · Conselho Federal de Farmácia
+    </div>
+  </div>
+
+  <hr class="divider" />
+
+  <!-- ── Papers por interação ── -->
+  <h2>Evidências por interação</h2>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Metformina + Contraste Iodado</div>
+    <ul class="ref-list">
+      <li>Kamber L et al. "Prevention of lactic acidosis due to metformin intoxication in contrast media nephropathy." <span class="ref-journal">Internist</span>, 2000. PMID: 11045136</li>
+      <li>ACR Committee on Drugs and Contrast Media. Guidelines — suspensão da metformina 48h antes/após contraste iodado. American College of Radiology.</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Varfarina + AINEs</div>
+    <ul class="ref-list">
+      <li>Schalekamp T et al. "Risk factors of drug interaction between warfarin and NSAIDs." <span class="ref-journal">Pharmacoepidemiology &amp; Drug Safety</span>, 2010. PMID: 20191029</li>
+      <li>Cheung KS et al. "Risk of Bleeding with Warfarin and NSAIDs: A Systematic Review and Meta-Analysis." <span class="ref-journal">Pharmacotherapy</span>, 2020. PMID: 32455439</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> IMAOs + Simpaticomiméticos</div>
+    <ul class="ref-list">
+      <li>Shulman KI et al. "Dietary Restrictions and Drug Interactions With MAOIs: An Update." <span class="ref-journal">Journal of Clinical Psychiatry</span>, 2013.</li>
+      <li>StatPearls — "Monoamine Oxidase Inhibitors (MAOIs)." NCBI Bookshelf NBK539848.</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Digoxina + Amiodarona</div>
+    <ul class="ref-list">
+      <li>Nademanee K et al. "Amiodarone-digoxin interaction: clinical significance, time course of development, potential pharmacokinetic mechanisms." <span class="ref-journal">Journal of the American College of Cardiology</span>, 1984. PMID: 6736437. <a href="https://doi.org/10.1016/S0735-1097(84)80327-7" target="_blank" rel="noopener">doi: 10.1016/S0735-1097(84)80327-7</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Lítio + Diuréticos Tiazídicos</div>
+    <ul class="ref-list">
+      <li>Finley PR. "Drug interactions with lithium: an update." <span class="ref-journal">Clinical Pharmacokinetics</span>, 2016. PMID: 8521679</li>
+      <li>Handler J. "Lithium and Antihypertensive Medication: A Potentially Dangerous Interaction." <span class="ref-journal">J Clin Hypertension</span>, 2009. <a href="https://doi.org/10.1111/j.1751-7176.2009.00181.x" target="_blank" rel="noopener">doi: 10.1111/j.1751-7176.2009.00181.x</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Sildenafila + Nitratos</div>
+    <ul class="ref-list">
+      <li>FDA Drug Label — VIAGRA (sildenafil citrate). Contraindicação absoluta com nitratos orgânicos. <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/020895s039s042lbl.pdf" target="_blank" rel="noopener">FDA accessdata</a></li>
+      <li>StatPearls — "Sildenafil." NCBI Bookshelf NBK558978.</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> IMAOs + Tramadol / Triptanos</div>
+    <ul class="ref-list">
+      <li>Beakley BD et al. "Tramadol, Pharmacology, Side Effects and Serotonin Syndrome." <span class="ref-journal">Pain Physician</span>, 2015. PMID: 24153222</li>
+      <li>StatPearls — "MAO Inhibitors." NCBI Bookshelf NBK557395. Contraindicação absoluta com triptanos documentada.</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Metotrexato + AINEs</div>
+    <ul class="ref-list">
+      <li>Thyss A et al. "Clinical and pharmacokinetic evidence of a life-threatening interaction between methotrexate and ketoprofen." <span class="ref-journal">Lancet</span>, 1986. PMID: 1554938</li>
+      <li>NHS Specialist Pharmacy Service — "Managing interactions with methotrexate." <a href="https://www.sps.nhs.uk" target="_blank" rel="noopener">sps.nhs.uk</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge critical">Crítico</span> Amiodarona + Varfarina</div>
+    <ul class="ref-list">
+      <li>Wittkowsky AK et al. "Clinical Observations With the Amiodarone/Warfarin Interaction." <span class="ref-journal">Chest</span>, 1995.</li>
+      <li>Wieloch M et al. "Effect of amiodarone on warfarin anticoagulation." <span class="ref-journal">Europace</span>, 2017. PMID: 28058824</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Clopidogrel + IBPs (CYP2C19)</div>
+    <ul class="ref-list">
+      <li>Ramste M et al. "CYP2C19 loss-of-function alleles and omeprazole/esomeprazole increase cardiovascular risk in clopidogrel patients." <span class="ref-journal">Clinical and Translational Science</span>, 2023. PMC10582682</li>
+      <li>AHA/ACC Joint Guideline. <span class="ref-journal">Circulation</span>, 2010. <a href="https://doi.org/10.1161/CIRCULATIONAHA.110.006866" target="_blank" rel="noopener">doi: 10.1161/CIRCULATIONAHA.110.006866</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Claritromicina + Estatinas (CYP3A4)</div>
+    <ul class="ref-list">
+      <li>Hougaard Christensen MK et al. "Interaction potential between clarithromycin and individual statins." <span class="ref-journal">Basic &amp; Clinical Pharmacology &amp; Toxicology</span>, 2020. <a href="https://doi.org/10.1111/bcpt.13343" target="_blank" rel="noopener">doi: 10.1111/bcpt.13343</a></li>
+      <li>Lee AJ, Maddix DS. "Rhabdomyolysis Secondary to a Drug Interaction between Simvastatin and Clarithromycin." <span class="ref-journal">Ann Pharmacother</span>, 2001. <a href="https://doi.org/10.1345/aph.10177" target="_blank" rel="noopener">doi: 10.1345/aph.10177</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Fluconazol + Varfarina (CYP2C9)</div>
+    <ul class="ref-list">
+      <li>Geng X et al. "A PBPK/PD modeling approach for drug-drug-gene interaction of S-warfarin with fluconazole." <span class="ref-journal">CPT: Pharmacometrics &amp; Systems Pharmacology</span>, 2024. <a href="https://doi.org/10.1002/psp4.13123" target="_blank" rel="noopener">doi: 10.1002/psp4.13123</a></li>
+      <li>Holbrook AM et al. "Drug-drug interactions with warfarin." <span class="ref-journal">Blood</span>, 2005. PMC6246002</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Gentamicina + Furosemida</div>
+    <ul class="ref-list">
+      <li>Khalili H et al. "Gentamicin-mediated ototoxicity and nephrotoxicity: A clinical trial study." <span class="ref-journal">Iran J Pharm Res</span>, 2016. PMID: 27942103. PMC5126748</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> IECAs/BRAs + Poupadores de K⁺ (Hipercalemia)</div>
+    <ul class="ref-list">
+      <li>Pitt B et al. "The Effect of Spironolactone on Morbidity and Mortality in Patients with Severe Heart Failure (RALES)." <span class="ref-journal">New England Journal of Medicine</span>, 1999. PMID: 10471456</li>
+      <li>Juurlink DN et al. "Rates of Hyperkalemia after Publication of the Randomized Aldactone Evaluation Study." <span class="ref-journal">NEJM</span>, 2004. <a href="https://doi.org/10.1056/NEJMoa040135" target="_blank" rel="noopener">doi: 10.1056/NEJMoa040135</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Estatinas + Fibratos (Gemfibrozila)</div>
+    <ul class="ref-list">
+      <li>Alexandridis G et al. "Rhabdomyolysis due to combination of cerivastatin and gemfibrozil." <span class="ref-journal">Am J Med</span>, 2000.</li>
+      <li>FDA Drug Safety Communication — interações entre estatinas e fibratos; retirada da cerivastatina do mercado em 2001 por mortes por rabdomiólise.</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Corticosteroides + AINEs</div>
+    <ul class="ref-list">
+      <li>Piper JM et al. "Corticosteroid use and peptic ulcer disease: role of NSAIDs." <span class="ref-journal">Ann Intern Med</span>, 1991. RR 15x para úlcera péptica na combinação.</li>
+      <li>Narum S et al. "Corticosteroids and risk of gastrointestinal bleeding: systematic review and meta-analysis." <span class="ref-journal">BMJ Open</span>, 2014.</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Fenitoína + Ácido Valpróico</div>
+    <ul class="ref-list">
+      <li>Friel PN et al. "Decreased plasma protein binding of phenytoin in patients on valproic acid." <span class="ref-journal">Br J Clin Pharmacol</span>, 1979. PMID: 391256. PMC1429898</li>
+      <li>Mattson RH et al. "Interaction between phenytoin and valproic acid: plasma protein binding and metabolic effects." <span class="ref-journal">Clin Pharmacol Ther</span>, 1982. PMID: 6777108</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> NOACs + AAS &gt;100 mg</div>
+    <ul class="ref-list">
+      <li>Li X et al. "Bleeding risk comparison between DOACs at doses approved for AF and aspirin." <span class="ref-journal">Eur J Intern Med</span>, 2020. PMID: 32409203</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge high">Alto</span> Metronidazol + Álcool</div>
+    <ul class="ref-list">
+      <li>Visapää JP et al. "Lack of Disulfiram-Like Reaction with Metronidazole and Ethanol." <span class="ref-journal">Annals of Pharmacotherapy</span>, 2002. PMID: 12022894</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge moderate">Moderado</span> Insulina + Betabloqueadores</div>
+    <ul class="ref-list">
+      <li>Kerr D et al. "Higher glycemic thresholds for symptoms during beta-adrenergic blockade in IDDM." <span class="ref-journal">Diabetes</span>, 1990. PMID: 1657673</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge moderate">Moderado</span> Carbamazepina + Anticoncepcional Oral (CYP3A4)</div>
+    <ul class="ref-list">
+      <li>Doose DR et al. "Carbamazepine coadministration with an oral contraceptive: Effects on steroid pharmacokinetics, ovulation, and bleeding." <span class="ref-journal">Epilepsia</span>, 2003.</li>
+      <li>Davis AR et al. "Pharmacoepidemiologic Approach to Evaluate Real-world Effectiveness of Hormonal Contraceptives in the Presence of DDIs." <span class="ref-journal">Contraception</span>, 2021. PMC7850590</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge moderate">Moderado</span> Quinolonas + Antiácidos / Fe / Zn (Quelação)</div>
+    <ul class="ref-list">
+      <li>Shinn AF. "Absorption interactions with fluoroquinolones. 1995 update." <span class="ref-journal">Drug Safety</span>, 1995. PMID: 7669261</li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge moderate">Moderado</span> Metformina + Levotiroxina</div>
+    <ul class="ref-list">
+      <li>Idrees T et al. "Metformin and thyroid disease." <span class="ref-journal">Journal of Endocrinology</span>, 2017. <a href="https://doi.org/10.1530/JOE-16-0606" target="_blank" rel="noopener">doi: 10.1530/JOE-16-0606</a></li>
+    </ul>
+  </div>
+
+  <div class="int-group">
+    <div class="int-title"><span class="badge moderate">Moderado</span> IECAs/BRAs + AINEs (Lesão Renal)</div>
+    <ul class="ref-list">
+      <li>Harirforoosh S, Jamali F. "Renal adverse effects of NSAIDs." <span class="ref-journal">Expert Opin Drug Saf</span>, 2009.</li>
+    </ul>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Aviso:</strong> As referências acima embasam o banco de dados de interações do Alerta Médico para fins educativos e de alerta ao usuário. As informações do app <strong>não substituem</strong> avaliação médica ou farmacêutica profissional. Em caso de dúvida sobre seus medicamentos, consulte sempre seu médico ou farmacêutico.
+  </div>
+</div>
+
+<footer>
+  <a href="/">← Voltar ao site</a> &nbsp;·&nbsp; <a href="privacy.html">Política de Privacidade</a> &nbsp;·&nbsp; © 2025 Alerta Médico
+</footer>
+
+</body>
+</html>
