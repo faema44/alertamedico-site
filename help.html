@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajuda — Alerta Médico</title>
+  <meta name="description" content="Guia completo de uso do Alerta Médico: tela de bloqueio, interações medicamentosas, lembretes e solução de problemas." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root { --blue: #1C3F7A; --bg: #F2F4F8; --accent: #E07B4F; --text: #1A1F2E; --muted: #6B7280; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.7;
+    }
+
+    header {
+      background: var(--blue); padding: 14px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .logo-icon {
+      width: 32px; height: 32px; border-radius: 8px;
+      background: #fff; display: flex; align-items: center; justify-content: center; font-size: 18px;
+    }
+    header .logo-name { color: #fff; font-size: 17px; font-weight: 700; }
+    header nav a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px; margin-left: 18px; }
+    header nav a:hover { color: #fff; }
+
+    .container { max-width: 760px; margin: 0 auto; padding: 40px 24px 72px; }
+
+    h1 { font-size: 26px; font-weight: 800; color: var(--blue); margin-bottom: 6px; }
+    .page-sub { font-size: 15px; color: var(--muted); margin-bottom: 32px; border-left: 3px solid var(--accent); padding-left: 14px; }
+
+    /* TOC */
+    .toc {
+      background: #fff; border-radius: 14px; padding: 20px 22px;
+      border: 1px solid rgba(0,0,0,0.07); margin-bottom: 32px;
+    }
+    .toc-title { font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .toc a { display: block; font-size: 14px; color: var(--blue); text-decoration: none; padding: 4px 0; border-bottom: 1px solid var(--bg); }
+    .toc a:last-child { border-bottom: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(160deg, #1C3F7A 0%, #0f2550 100%);
+      border-radius: 16px; padding: 28px 26px; color: #fff; margin-bottom: 16px;
+      text-align: center;
+    }
+    .hero-icon { font-size: 40px; margin-bottom: 12px; }
+    .hero-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; }
+    .hero-features { text-align: left; margin-bottom: 16px; }
+    .hero-feature { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
+    .hero-feature-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+    .hero-feature-text { font-size: 14px; color: #fff; line-height: 1.55; }
+    .hero-divider { border: none; border-top: 1px solid rgba(255,255,255,0.15); margin: 16px 0; }
+    .hero-text { font-size: 14px; color: rgba(255,255,255,0.8); line-height: 1.65; margin-bottom: 10px; text-align: left; }
+
+    /* Cards */
+    .card {
+      background: #fff; border-radius: 14px; padding: 22px 22px;
+      border: 1px solid rgba(0,0,0,0.07);
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04); margin-bottom: 14px;
+    }
+    .card-title { font-size: 15px; font-weight: 700; color: var(--blue); margin-bottom: 14px; }
+
+    p { font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+
+    /* Steps */
+    .step { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+    .step-num {
+      width: 26px; height: 26px; border-radius: 13px; background: var(--blue);
+      color: #fff; font-weight: 700; font-size: 12px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px;
+    }
+    .step-text { font-size: 14px; color: #333; line-height: 1.6; }
+
+    /* Bullets */
+    ul.bullets { margin: 6px 0 10px 20px; }
+    ul.bullets li { font-size: 14px; color: #333; line-height: 1.65; margin-bottom: 3px; }
+
+    /* Tip */
+    .tip {
+      background: #f0faf4; border-radius: 8px; padding: 12px 14px;
+      font-size: 13px; color: #1a5c36; line-height: 1.6; margin-top: 12px;
+    }
+
+    /* Risk badges */
+    .risk { border-left: 4px solid; border-radius: 6px; padding: 10px 14px; margin-bottom: 8px; }
+    .risk.critical { background: #fff0f0; border-left-color: #c62828; }
+    .risk.high     { background: #fff5f0; border-left-color: #e65100; }
+    .risk.moderate { background: #fffde7; border-left-color: #f9a825; }
+    .risk-label { font-size: 13px; font-weight: 700; margin-bottom: 3px; }
+    .risk.critical .risk-label { color: #c62828; }
+    .risk.high     .risk-label { color: #e65100; }
+    .risk.moderate .risk-label { color: #f9a825; }
+    .risk-desc { font-size: 13px; color: #555; }
+
+    /* Video card */
+    .video-card {
+      display: flex; align-items: center; gap: 14px;
+      background: #fff; border-radius: 12px; padding: 14px 16px;
+      border: 1px solid #ffd0d0; margin-bottom: 14px; text-decoration: none;
+      transition: box-shadow .15s;
+    }
+    .video-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .video-thumb {
+      width: 52px; height: 38px; border-radius: 6px; background: #FF0000;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 18px; flex-shrink: 0;
+    }
+    .video-title { font-size: 13px; font-weight: 600; color: var(--blue); margin-bottom: 4px; line-height: 1.4; }
+    .video-sub { font-size: 11px; color: var(--muted); }
+    .video-arrow { color: #ccc; font-size: 22px; margin-left: auto; flex-shrink: 0; }
+
+    /* Warning */
+    .warning-label { font-size: 13px; font-weight: 700; color: #b05800; margin: 12px 0 4px; }
+
+    /* Settings button */
+    .settings-btn {
+      display: block; background: var(--blue); color: #fff; text-align: center;
+      border-radius: 8px; padding: 12px; font-weight: 600; font-size: 14px;
+      text-decoration: none; margin: 12px 0 4px;
+    }
+    .settings-btn:hover { background: #153070; }
+
+    /* Privacy link card */
+    .link-card {
+      display: flex; align-items: center; justify-content: space-between;
+      background: #fff; border-radius: 12px; padding: 16px 18px;
+      border: 1px solid #dde3f0; margin-bottom: 14px; text-decoration: none;
+    }
+    .link-card:hover { border-color: var(--blue); }
+    .link-card-main { font-size: 15px; font-weight: 600; color: var(--blue); }
+    .link-card-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .link-card-arrow { color: #ccc; font-size: 22px; }
+
+    /* Final card */
+    .final-card {
+      background: #e8f4fd; border-radius: 12px; padding: 18px 20px;
+      border-left: 4px solid #0066cc; margin-top: 8px;
+    }
+    .final-title { font-size: 15px; font-weight: 700; color: #0066cc; margin-bottom: 8px; }
+    .final-text { font-size: 14px; color: #333; line-height: 1.65; }
+
+    footer { text-align: center; font-size: 13px; color: var(--muted); padding: 24px; }
+    footer a { color: var(--blue); text-decoration: none; }
+
+    @media (max-width: 480px) { header nav { display: none; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">
+    <div class="logo-icon">🏥</div>
+    <span class="logo-name">Alerta Médico</span>
+  </a>
+  <nav>
+    <a href="/">Início</a>
+    <a href="references.html">Referências</a>
+    <a href="privacy.html">Privacidade</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>Central de Ajuda</h1>
+  <p class="page-sub">Guia completo de uso do Alerta Médico — tela de bloqueio, interações, lembretes e solução de problemas.</p>
+
+  <nav class="toc">
+    <div class="toc-title">Nesta página</div>
+    <a href="#para-que-serve">Para que serve o app</a>
+    <a href="#como-usar">Como usar — passo a passo</a>
+    <a href="#tela-bloqueio">Tela de bloqueio</a>
+    <a href="#config-bloqueio">Como liberar a notificação na tela de bloqueio</a>
+    <a href="#interacoes">Interações medicamentosas</a>
+    <a href="#lembretes">Lembretes de medicamentos</a>
+    <a href="#bateria">Lembretes não tocam? Solução para Samsung e outros</a>
+    <a href="#privacidade">Privacidade e segurança (LGPD)</a>
+    <a href="#avisos">Avisos e limitações importantes</a>
+  </nav>
+
+  <!-- Para que serve -->
+  <div id="para-que-serve" class="hero">
+    <div class="hero-icon">🏥</div>
+    <div class="hero-title">Para que serve o Alerta Médico?</div>
+    <div class="hero-features">
+      <div class="hero-feature">
+        <div class="hero-feature-icon">🔒</div>
+        <div class="hero-feature-text">Exibe seus medicamentos e condição de saúde na tela de bloqueio para socorristas</div>
+      </div>
+      <div class="hero-feature">
+        <div class="hero-feature-icon">⚡</div>
+        <div class="hero-feature-text">Detecta interações perigosas entre seus medicamentos</div>
+      </div>
+      <div class="hero-feature">
+        <div class="hero-feature-icon">🔔</div>
+        <div class="hero-feature-text">Envia lembretes para você não esquecer de tomar seus remédios</div>
+      </div>
+    </div>
+    <hr class="hero-divider" />
+    <p class="hero-text">Em caso de acidente ou emergência médica, os socorristas precisam saber rapidamente quais medicamentos você toma antes de aplicar qualquer tratamento — certos remédios podem interagir perigosamente com anestesias, contrastes e procedimentos de urgência.</p>
+    <p class="hero-text">O Alerta Médico mantém essas informações visíveis na tela de bloqueio do celular, acessíveis sem precisar desbloqueá-lo, mesmo que você esteja inconsciente.</p>
+  </div>
+
+  <!-- Como usar -->
+  <div id="como-usar" class="card">
+    <div class="card-title">Como usar — passo a passo</div>
+    <div class="step"><div class="step-num">1</div><div class="step-text">Abra a aba <strong>Perfil</strong> e preencha seu nome, tipo sanguíneo e alergias.</div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text">Cadastre todos os medicamentos que você usa regularmente na aba <strong>Medicamentos</strong>. Marque como "crítico" os que não podem ser interrompidos.</div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-text">Adicione ao menos um <strong>contato de emergência</strong> na aba Contatos (familiar ou médico de referência).</div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-text">Na tela <strong>Início</strong>, toque em "Ícone na Tela de Bloqueio (Emergência)" para ativar. Sua ficha médica ficará visível na notificação persistente imediatamente.</div></div>
+  </div>
+
+  <!-- Tela de bloqueio -->
+  <div id="tela-bloqueio" class="card">
+    <div class="card-title">🔒 Ícone na tela de bloqueio</div>
+    <p>Quando o alerta está ativo, uma notificação permanente aparece na tela de bloqueio do Android. Ao expandir (deslizando para baixo), o socorrista vê:</p>
+    <ul class="bullets">
+      <li>Seu nome e tipo sanguíneo</li>
+      <li>Todos os medicamentos cadastrados (com dose)</li>
+      <li>Medicamentos críticos sinalizados com ⚠️</li>
+      <li>Alergias e observações médicas</li>
+      <li>Contatos de emergência</li>
+    </ul>
+    <div class="tip">💡 Nenhum desbloqueio é necessário. O socorrista vê tudo na própria tela de bloqueio.</div>
+  </div>
+
+  <!-- Configurar bloqueio -->
+  <div id="config-bloqueio" class="card">
+    <div class="card-title">⚙️ Como liberar a notificação na tela de bloqueio</div>
+    <p>Para que o conteúdo da notificação apareça na tela de bloqueio (e não apenas um ícone), ajuste as configurações do Android:</p>
+    <div class="step"><div class="step-num">1</div><div class="step-text">Abra as <strong>Configurações</strong> do celular</div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text">Vá em <strong>Notificações</strong> (ou Aplicativos → Alerta Médico → Notificações)</div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-text">Em <strong>Tela de Bloqueio</strong>, selecione "Mostrar todo o conteúdo"</div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-text">Confirme que as notificações do Alerta Médico estão ativadas</div></div>
+    <div class="tip">💡 O caminho exato varia por fabricante.<br /><strong>Samsung:</strong> Configurações → Notificações → Configurações avançadas → Mostrar na tela de bloqueio.<br /><strong>Motorola:</strong> Configurações → Notificações → Privacidade de notificações.</div>
+  </div>
+
+  <!-- Interações -->
+  <div id="interacoes" class="card">
+    <div class="card-title">⚡ Interações medicamentosas</div>
+    <p>O app verifica automaticamente combinações perigosas entre os seus medicamentos. Alertas aparecem diretamente nos cartões da lista e são classificados em três níveis:</p>
+    <div class="risk critical">
+      <div class="risk-label">⚡ Crítico</div>
+      <div class="risk-desc">Combinação contraindicada. Informe imediatamente seu médico.</div>
+    </div>
+    <div class="risk high">
+      <div class="risk-label">⚡ Alto</div>
+      <div class="risk-desc">Risco significativo. Monitoramento médico necessário.</div>
+    </div>
+    <div class="risk moderate">
+      <div class="risk-label">⚡ Moderado</div>
+      <div class="risk-desc">Atenção recomendada. Converse com seu médico ou farmacêutico.</div>
+    </div>
+    <div class="tip">💡 Use a aba Interações no app para ver o relatório completo com mecanismos e recomendações.</div>
+  </div>
+
+  <!-- Vídeo -->
+  <a class="video-card" href="https://www.youtube.com/watch?v=lPaP_QgjEW4" target="_blank" rel="noopener">
+    <div class="video-thumb">▶</div>
+    <div>
+      <div class="video-title">Por que as interações medicamentosas são perigosas?</div>
+      <div class="video-sub">@CardioDF — Cardiologia e Saúde · YouTube</div>
+    </div>
+    <div class="video-arrow">›</div>
+  </a>
+
+  <!-- Lembretes -->
+  <div id="lembretes" class="card">
+    <div class="card-title">🔔 Lembretes de medicamentos</div>
+    <p>Na aba Medicamentos, toque no ícone 🔔 de qualquer medicamento para configurar lembretes. Você pode definir:</p>
+    <ul class="bullets">
+      <li>Horário(s) diários</li>
+      <li>Dias específicos da semana (ex.: seg, qua e sex)</li>
+      <li>Dias específicos do mês (ex.: dias 1 e 15)</li>
+      <li>Intervalo periódico (ex.: a cada 2 meses, no dia 10)</li>
+    </ul>
+    <div class="tip">💡 Lembretes funcionam offline. Nenhuma conexão é necessária para receber as notificações.</div>
+  </div>
+
+  <!-- Bateria -->
+  <div id="bateria" class="card">
+    <div class="card-title">🔋 Lembretes não tocam? Veja como corrigir</div>
+    <p>Samsung e outros fabricantes bloqueiam alarmes de apps em segundo plano por padrão. Para os lembretes funcionarem mesmo com o celular em repouso:</p>
+    <div class="step"><div class="step-num">1</div><div class="step-text">Configurações → Apps → <strong>Alerta Médico</strong> → Bateria</div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text">Selecione <strong>"Sem restrições"</strong> (em vez de "Otimizada")</div></div>
+    <div class="tip">💡 <strong>Samsung:</strong> Configurações → Bateria → Limites de uso em segundo plano → adicione Alerta Médico em "Apps que nunca adormecem".</div>
+  </div>
+
+  <!-- Privacidade -->
+  <div id="privacidade" class="card">
+    <div class="card-title">🔐 Privacidade e segurança (LGPD)</div>
+    <p>Seus dados de saúde (nome, tipo sanguíneo, medicamentos, contatos) ficam armazenados exclusivamente no seu celular. A Lei Geral de Proteção de Dados (Lei 13.709/2018) classifica dados de saúde como dados sensíveis — e o Alerta Médico respeita essa exigência.</p>
+    <p>A única exceção é o recurso opcional "Reportar medicamento em falta": ao usá-lo, apenas o nome do medicamento é enviado anonimamente — sem qualquer dado pessoal.</p>
+    <p>A notificação da tela de bloqueio é visível por qualquer pessoa com acesso físico ao aparelho — isso é intencional para emergências. Desative o alerta se não quiser que terceiros vejam suas informações médicas.</p>
+  </div>
+
+  <!-- Avisos -->
+  <div id="avisos" class="card">
+    <div class="card-title">⚠️ Avisos e limitações importantes</div>
+
+    <div class="warning-label">Desenvolvido com inteligência artificial</div>
+    <p>Este aplicativo foi criado com o auxílio de inteligência artificial e pode conter erros, imprecisões ou omissões. Verifique sempre as informações com seu médico ou farmacêutico antes de tomar qualquer decisão sobre seus medicamentos.</p>
+
+    <div class="warning-label">Não substitui profissional de saúde</div>
+    <p>As informações sobre interações medicamentosas têm caráter exclusivamente educativo e informativo. Elas não constituem diagnóstico, prescrição ou aconselhamento médico ou farmacêutico. Nos termos da Lei 12.842/2013 e das resoluções do CFM e CFF, apenas profissionais habilitados podem avaliar interações clinicamente. Consulte sempre seu médico.</p>
+
+    <div class="warning-label">Base de medicamentos e interações</div>
+    <p>A base de dados pode estar incompleta ou desatualizada. Para informações oficiais sobre medicamentos registrados no Brasil, consulte o <strong>Bulário Eletrônico da ANVISA</strong> (bulario.anvisa.gov.br).</p>
+
+    <div class="warning-label">Funcionamento depende do seu celular</div>
+    <p>A exibição na tela de bloqueio, os lembretes e as notificações dependem das configurações do seu dispositivo. O comportamento pode variar conforme o fabricante, modelo e versão do Android. O Alerta Médico não garante funcionamento idêntico em todos os aparelhos.</p>
+  </div>
+
+  <!-- Links -->
+  <a class="link-card" href="privacy.html">
+    <div>
+      <div class="link-card-main">🔐 Política de Privacidade</div>
+      <div class="link-card-sub">Seus dados ficam apenas no seu celular</div>
+    </div>
+    <div class="link-card-arrow">›</div>
+  </a>
+
+  <a class="link-card" href="references.html">
+    <div>
+      <div class="link-card-main">📚 Referências Científicas</div>
+      <div class="link-card-sub">Papers e guidelines que embasam as interações detectadas</div>
+    </div>
+    <div class="link-card-arrow">›</div>
+  </a>
+
+  <!-- Dica final -->
+  <div class="final-card">
+    <div class="final-title">Mostre ao seu médico</div>
+    <div class="final-text">Na sua próxima consulta, mostre a lista de medicamentos cadastrada e os alertas de interação ao seu médico. Ele pode confirmar se a lista está correta e se há riscos que precisam de atenção especial.</div>
+  </div>
+</div>
+
+<footer>
+  <a href="/">← Voltar ao site</a> &nbsp;·&nbsp; <a href="privacy.html">Privacidade</a> &nbsp;·&nbsp; <a href="references.html">Referências</a> &nbsp;·&nbsp; © 2025 Alerta Médico
+</footer>
+
+</body>
+</html>
