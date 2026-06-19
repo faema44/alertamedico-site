@@ -7,13 +7,14 @@
   <meta name="description" content="App gratuito para Android: exibe seus dados médicos na tela de bloqueio para socorristas, detecta interações perigosas entre medicamentos e envia lembretes de horário." />
   <meta property="og:title" content="Alerta Médico" />
   <meta property="og:description" content="Tela de bloqueio médica, detecção de interações perigosas e lembretes. Gratuito e 100% offline." />
-  <meta property="og:url" content="https://alertamedico.ia.br" />
+  <meta property="og:url" content="https://www.alertamedico.ia.br" />
   <link rel="icon" href="favicon.png" type="image/png" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
       --blue:   #1C3F7A;
+      --dark:   #0f2550;
       --bg:     #F2F4F8;
       --accent: #E07B4F;
       --text:   #1A1F2E;
@@ -50,13 +51,13 @@
     header nav a:hover { color: #fff; }
 
     /* ── Shared ── */
-    .section { max-width: 960px; margin: 0 auto; padding: 64px 24px; }
+    .section { max-width: 960px; margin: 0 auto; padding: 72px 24px; }
     .label {
       font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
       text-transform: uppercase; color: var(--accent); margin-bottom: 8px;
     }
     .title { font-size: clamp(22px, 3.5vw, 32px); font-weight: 800; color: var(--blue); margin-bottom: 12px; }
-    .sub { font-size: 16px; color: var(--muted); max-width: 560px; margin-bottom: 48px; }
+    .sub { font-size: 16px; color: var(--muted); max-width: 520px; margin-bottom: 36px; line-height: 1.65; }
 
     .btn-primary {
       display: inline-flex; align-items: center; gap: 10px;
@@ -75,20 +76,23 @@
     }
     .btn-outline:hover { border-color: #fff; background: rgba(255,255,255,0.08); }
 
-    /* ══════════════════════════════════════════
-       HERO — 50% do peso visual
-    ══════════════════════════════════════════ */
-    .hero {
-      background: linear-gradient(160deg, #1C3F7A 0%, #0f2550 100%);
-      color: #fff;
-      padding: 80px 24px 88px;
-    }
-    .hero-inner {
-      max-width: 960px; margin: 0 auto;
+    .feature-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 48px;
       align-items: center;
+    }
+    .feature-grid.reversed { direction: rtl; }
+    .feature-grid.reversed > * { direction: ltr; }
+
+    /* ══════════════════════════════════════════
+       HERO — compacto
+    ══════════════════════════════════════════ */
+    .hero {
+      background: linear-gradient(160deg, var(--blue) 0%, var(--dark) 100%);
+      color: #fff;
+      text-align: center;
+      padding: 64px 24px 72px;
     }
     .hero-badge {
       display: inline-flex; align-items: center; gap: 8px;
@@ -98,62 +102,83 @@
       font-size: 13px; margin-bottom: 24px;
     }
     .hero h1 {
-      font-size: clamp(28px, 4vw, 44px); font-weight: 800;
-      line-height: 1.15; margin-bottom: 20px;
+      font-size: clamp(28px, 4.5vw, 48px); font-weight: 800;
+      line-height: 1.15; margin-bottom: 18px;
     }
     .hero h1 span { color: #7cb9ff; }
-    .hero-desc { font-size: 17px; color: rgba(255,255,255,0.8); margin-bottom: 32px; line-height: 1.65; }
-    .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
-
-    .hero-lockscreen {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 20px;
-      padding: 24px;
+    .hero-desc {
+      font-size: 18px; color: rgba(255,255,255,0.75);
+      max-width: 560px; margin: 0 auto 36px; line-height: 1.65;
     }
-    .ls-label { font-size: 11px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
-    .ls-card {
-      background: rgba(255,255,255,0.1);
-      border: 1px solid rgba(255,255,255,0.15);
-      border-radius: 14px;
-      padding: 18px 20px;
+    .hero-pills {
+      display: flex; justify-content: center; gap: 20px;
+      flex-wrap: wrap; margin-top: 28px;
     }
-    .ls-card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
-    .ls-icon { font-size: 22px; }
-    .ls-title { font-size: 14px; font-weight: 700; color: #fff; }
-    .ls-subtitle { font-size: 12px; color: rgba(255,255,255,0.6); }
-    .ls-row { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.08); font-size: 13px; }
-    .ls-row:last-child { border-bottom: none; }
-    .ls-key { color: rgba(255,255,255,0.6); }
-    .ls-val { color: #fff; font-weight: 600; }
-    .ls-alert {
-      margin-top: 12px; background: rgba(224,123,79,0.25);
-      border: 1px solid rgba(224,123,79,0.4);
-      border-radius: 8px; padding: 10px 14px;
-      font-size: 12px; color: #ffb894; display: flex; gap: 8px;
+    .hero-pill {
+      font-size: 14px; color: rgba(255,255,255,0.65);
+      display: flex; align-items: center; gap: 6px;
     }
 
     /* ══════════════════════════════════════════
-       INTERAÇÕES — 35% do peso visual
+       BANDA 1 — Dados médicos
     ══════════════════════════════════════════ */
-    .interactions-band {
-      background: #0f2550;
+    .band-dados {
+      background: var(--blue);
       color: #fff;
     }
-    .interactions-band .section { padding: 72px 24px; }
-    .interactions-band .label { color: #ffb894; }
-    .interactions-band .title { color: #fff; margin-bottom: 16px; }
-    .interactions-band .sub { color: rgba(255,255,255,0.7); margin-bottom: 40px; }
+    .band-dados .label { color: #ffb894; }
+    .band-dados .title { color: #fff; }
+    .band-dados .sub { color: rgba(255,255,255,0.7); }
 
-    .int-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      align-items: start;
+    .ls-card {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 18px;
+      padding: 22px 24px;
     }
+    .ls-top {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .ls-icon { font-size: 24px; }
+    .ls-app { font-size: 13px; font-weight: 700; color: #fff; }
+    .ls-tagline { font-size: 11px; color: rgba(255,255,255,0.5); }
+    .ls-row {
+      display: flex; justify-content: space-between;
+      padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.07);
+      font-size: 13px;
+    }
+    .ls-row:last-of-type { border-bottom: none; }
+    .ls-key { color: rgba(255,255,255,0.55); }
+    .ls-val { color: #fff; font-weight: 600; }
+    .ls-alert {
+      margin-top: 14px; background: rgba(224,123,79,0.25);
+      border: 1px solid rgba(224,123,79,0.4);
+      border-radius: 8px; padding: 10px 14px;
+      font-size: 12px; color: #ffb894; display: flex; gap: 8px; align-items: flex-start;
+    }
+    .ls-screen-label {
+      font-size: 11px; color: rgba(255,255,255,0.4);
+      text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    /* ══════════════════════════════════════════
+       BANDA 2 — Interações
+    ══════════════════════════════════════════ */
+    .band-int {
+      background: var(--dark);
+      color: #fff;
+    }
+    .band-int .label { color: #ffb894; }
+    .band-int .title { color: #fff; }
+    .band-int .sub { color: rgba(255,255,255,0.7); }
+
     .video-wrap {
       position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
-      border-radius: 14px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      border-radius: 14px; box-shadow: 0 8px 32px rgba(0,0,0,0.35);
     }
     .video-wrap iframe {
       position: absolute; top: 0; left: 0; width: 100%; height: 100%;
@@ -170,51 +195,99 @@
     .video-credit p { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.5; }
     .video-credit a { color: #7cb9ff; font-weight: 600; text-decoration: none; }
 
-    .int-examples { display: flex; flex-direction: column; gap: 12px; }
+    .int-examples { display: flex; flex-direction: column; gap: 10px; }
     .int-item {
       background: rgba(255,255,255,0.06);
       border: 1px solid rgba(255,255,255,0.1);
       border-left: 4px solid;
-      border-radius: 10px; padding: 14px 16px;
+      border-radius: 10px; padding: 12px 14px;
     }
     .int-item.critical { border-left-color: #ef5350; }
     .int-item.high     { border-left-color: #ff9800; }
     .int-item.moderate { border-left-color: #fdd835; }
-    .int-pair { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .int-pair { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 3px; }
     .int-desc { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.5; }
     .int-badge {
       display: inline-block; font-size: 10px; font-weight: 700;
-      letter-spacing: 0.5px; padding: 2px 7px; border-radius: 5px; margin-bottom: 6px;
+      letter-spacing: 0.5px; padding: 2px 7px; border-radius: 5px; margin-bottom: 5px;
     }
     .int-badge.critical { background: rgba(239,83,80,0.2); color: #ef9a9a; }
     .int-badge.high     { background: rgba(255,152,0,0.2); color: #ffcc80; }
     .int-badge.moderate { background: rgba(253,216,53,0.15); color: #fff176; }
 
-    .int-cta-row {
-      margin-top: 28px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
-    }
+    .cta-row { margin-top: 28px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
     .link-refs { font-size: 13px; color: #7cb9ff; text-decoration: none; font-weight: 600; }
     .link-refs:hover { text-decoration: underline; }
 
     /* ══════════════════════════════════════════
-       OUTROS RECURSOS — 15%
+       BANDA 3 — Lembretes
     ══════════════════════════════════════════ */
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
+    .band-alarm {
+      background: #162d5c;
+      color: #fff;
     }
-    .feature-card {
-      background: #fff; border-radius: 14px; padding: 22px 20px;
-      border: 1px solid rgba(0,0,0,0.06);
-      box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+    .band-alarm .label { color: #ffb894; }
+    .band-alarm .title { color: #fff; }
+    .band-alarm .sub { color: rgba(255,255,255,0.7); }
+    .band-alarm li { color: rgba(255,255,255,0.9) !important; }
+    .band-alarm li strong { color: #fff; }
+
+    .alarm-mockup {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      padding: 20px;
     }
-    .feature-icon { font-size: 28px; margin-bottom: 12px; }
-    .feature-title { font-size: 15px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
-    .feature-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .alarm-header {
+      font-size: 11px; color: rgba(255,255,255,0.4);
+      text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 14px;
+    }
+    .alarm-item {
+      display: flex; align-items: center; gap: 14px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 14px 16px; margin-bottom: 8px;
+    }
+    .alarm-item.next {
+      background: rgba(224,123,79,0.15);
+      border-color: rgba(224,123,79,0.45);
+    }
+    .alarm-time {
+      font-size: 18px; font-weight: 800; color: rgba(255,255,255,0.7);
+      min-width: 56px; text-align: center; line-height: 1;
+    }
+    .alarm-item.next .alarm-time { color: #ffb894; }
+    .alarm-med { font-size: 14px; font-weight: 700; color: #fff; }
+    .alarm-dose { font-size: 12px; color: rgba(255,255,255,0.5); margin-top: 2px; }
+    .alarm-badge {
+      margin-left: auto; font-size: 11px; font-weight: 700;
+      padding: 4px 10px; border-radius: 20px;
+    }
+    .alarm-badge.now { background: rgba(224,123,79,0.25); color: #ffb894; }
+    .alarm-badge.soon { background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.7); }
+    .alarm-badge.later { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.4); }
+    .alarm-divider {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 12px; color: rgba(255,255,255,0.3); margin: 4px 0 12px;
+    }
+    .alarm-divider::before, .alarm-divider::after {
+      content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.08);
+    }
+    .alarm-notif {
+      margin-top: 14px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 12px; padding: 14px 16px;
+      display: flex; gap: 12px; align-items: center;
+    }
+    .alarm-notif-icon { font-size: 22px; }
+    .alarm-notif-title { font-size: 13px; font-weight: 700; color: #fff; }
+    .alarm-notif-body { font-size: 12px; color: rgba(255,255,255,0.6); margin-top: 2px; }
 
     /* ── Como usar ── */
-    .how-bg { background: #fff; }
+    .how-bg { background: var(--bg); }
     .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 24px; }
     .step { display: flex; flex-direction: column; gap: 10px; }
     .step-num {
@@ -228,7 +301,6 @@
 
     /* ── Privacy strip ── */
     .privacy-strip { background: #EEF3FF; border-top: 1px solid rgba(28,63,122,0.1); border-bottom: 1px solid rgba(28,63,122,0.1); }
-    .privacy-strip .section { padding: 40px 24px; }
     .privacy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
     .privacy-item { display: flex; gap: 12px; }
     .privacy-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
@@ -237,7 +309,7 @@
 
     /* ── CTA band ── */
     .cta-band {
-      background: linear-gradient(135deg, var(--blue) 0%, #0f2550 100%);
+      background: linear-gradient(135deg, var(--blue) 0%, var(--dark) 100%);
       color: #fff; text-align: center; padding: 64px 24px;
     }
     .cta-band h2 { font-size: clamp(22px, 4vw, 34px); font-weight: 800; margin-bottom: 10px; }
@@ -254,11 +326,9 @@
 
     /* ── Responsive ── */
     @media (max-width: 680px) {
-      .hero-inner { grid-template-columns: 1fr; }
-      .hero-lockscreen { display: none; }
-      .int-grid { grid-template-columns: 1fr; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .feature-grid.reversed { direction: ltr; }
       header nav { display: none; }
-      .hero { padding: 56px 20px 64px; }
     }
   </style>
 </head>
@@ -271,56 +341,102 @@
     <span class="logo-name">Alerta Médico</span>
   </a>
   <nav>
+    <a href="#dados">Dados médicos</a>
     <a href="#interacoes">Interações</a>
-    <a href="#como-usar">Como usar</a>
+    <a href="#lembretes">Lembretes</a>
     <a href="help.html">Ajuda</a>
     <a href="references.html">Referências</a>
     <a href="privacy.html">Privacidade</a>
   </nav>
 </header>
 
-<!-- ══ HERO — Emergência (50%) ══ -->
+<!-- ══ HERO — compacto ══ -->
 <section class="hero">
-  <div class="hero-inner">
-    <div>
-      <div class="hero-badge">📱 Gratuito para Android · 100% offline</div>
-      <h1>Seus dados médicos visíveis<br /><span>quando você não pode falar</span></h1>
-      <p class="hero-desc">Em um acidente ou emergência, socorristas precisam saber seus medicamentos antes de agir. O Alerta Médico exibe sua ficha completa na tela de bloqueio — sem precisar desbloquear o celular.</p>
-      <div class="hero-ctas">
-        <a class="btn-primary" href="#" id="play-btn">▶ &nbsp;Baixar na Google Play</a>
-        <a class="btn-outline" href="#interacoes">Ver interações →</a>
-      </div>
-    </div>
-
-    <div class="hero-lockscreen">
-      <div class="ls-label">Tela de bloqueio — visível para socorristas</div>
-      <div class="ls-card">
-        <div class="ls-card-header">
-          <div class="ls-icon">🏥</div>
-          <div>
-            <div class="ls-title">Alerta Médico</div>
-            <div class="ls-subtitle">Informações de emergência</div>
-          </div>
-        </div>
-        <div class="ls-row"><span class="ls-key">Nome</span><span class="ls-val">João Silva, 67 anos</span></div>
-        <div class="ls-row"><span class="ls-key">Tipo sanguíneo</span><span class="ls-val">A+</span></div>
-        <div class="ls-row"><span class="ls-key">Medicamentos</span><span class="ls-val">Varfarina · Metformina</span></div>
-        <div class="ls-row"><span class="ls-key">Alergias</span><span class="ls-val">Penicilina</span></div>
-        <div class="ls-row"><span class="ls-key">Contato</span><span class="ls-val">Maria Silva (filha)</span></div>
-        <div class="ls-alert">⚠️ Usa anticoagulante — risco de sangramento</div>
-      </div>
-    </div>
+  <div class="hero-badge">📱 Gratuito para Android · 100% offline</div>
+  <h1>Três proteções.<br /><span>Um único app.</span></h1>
+  <p class="hero-desc">
+    Dados médicos na tela de bloqueio para socorristas,
+    detecção de interações perigosas entre remédios
+    e lembretes diários no horário certo.
+  </p>
+  <a class="btn-primary" href="#" id="play-btn">▶ &nbsp;Baixar na Google Play</a>
+  <div class="hero-pills">
+    <span class="hero-pill">✔ Sem conta</span>
+    <span class="hero-pill">✔ Sem internet</span>
+    <span class="hero-pill">✔ Sem anúncios</span>
   </div>
 </section>
 
-<!-- ══ INTERAÇÕES — Segundo bloco (35%) ══ -->
-<div class="interactions-band" id="interacoes">
+<!-- ══ BANDA 1 — Dados médicos ══ -->
+<div class="band-dados" id="dados">
   <section class="section">
-    <div class="label">Interações medicamentosas</div>
-    <h2 class="title">Seus remédios podem ser<br />perigosos juntos</h2>
-    <p class="sub">Milhões de brasileiros tomam dois ou mais medicamentos sem saber que a combinação pode causar hemorragia, insuficiência renal ou parada cardíaca. O Alerta Médico detecta isso automaticamente.</p>
+    <div class="feature-grid">
+      <div>
+        <div class="label">Dados médicos</div>
+        <h2 class="title">Suas informações visíveis<br />quando você não pode falar</h2>
+        <p class="sub">Em um acidente, socorristas precisam saber seus medicamentos e alergias antes de agir. O Alerta Médico exibe sua ficha completa na tela de bloqueio — sem precisar desbloquear o celular.</p>
+        <div class="cta-row">
+          <a class="btn-primary" href="#" id="play-btn-dados">▶ &nbsp;Configurar minha ficha</a>
+        </div>
+      </div>
+      <div>
+        <div class="ls-screen-label">Tela de bloqueio — visível para socorristas</div>
+        <div class="ls-card">
+          <div class="ls-top">
+            <div class="ls-icon">🏥</div>
+            <div>
+              <div class="ls-app">Alerta Médico</div>
+              <div class="ls-tagline">Informações de emergência</div>
+            </div>
+          </div>
+          <div class="ls-row"><span class="ls-key">Nome</span><span class="ls-val">João Silva, 67 anos</span></div>
+          <div class="ls-row"><span class="ls-key">Tipo sanguíneo</span><span class="ls-val">A+</span></div>
+          <div class="ls-row"><span class="ls-key">Medicamentos</span><span class="ls-val">Varfarina · Metformina</span></div>
+          <div class="ls-row"><span class="ls-key">Alergias</span><span class="ls-val">Penicilina</span></div>
+          <div class="ls-row"><span class="ls-key">Contato</span><span class="ls-val">Maria Silva (filha)</span></div>
+          <div class="ls-alert">⚠️ Usa anticoagulante — risco de sangramento elevado</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
-    <div class="int-grid">
+<!-- ══ BANDA 2 — Interações ══ -->
+<div class="band-int" id="interacoes">
+  <section class="section">
+    <div class="feature-grid reversed">
+      <!-- Exemplos de interações -->
+      <div>
+        <div class="label">Interações medicamentosas</div>
+        <h2 class="title">Seus remédios podem ser<br />perigosos juntos</h2>
+        <p class="sub">Milhões de brasileiros tomam dois ou mais medicamentos sem saber que a combinação pode causar hemorragia, insuficiência renal ou parada cardíaca. O app detecta isso automaticamente.</p>
+        <div class="int-examples">
+          <div class="int-item critical">
+            <div class="int-badge critical">Crítico</div>
+            <div class="int-pair">Varfarina + Ibuprofeno</div>
+            <div class="int-desc">Risco elevado de hemorragia grave — combinação muito comum e perigosa.</div>
+          </div>
+          <div class="int-item critical">
+            <div class="int-badge critical">Crítico</div>
+            <div class="int-pair">Digoxina + Amiodarona</div>
+            <div class="int-desc">Amiodarona pode dobrar os níveis de digoxina, causando arritmias fatais.</div>
+          </div>
+          <div class="int-item high">
+            <div class="int-badge high">Alto</div>
+            <div class="int-pair">Clopidogrel + Omeprazol</div>
+            <div class="int-desc">Omeprazol bloqueia a ativação do clopidogrel via CYP2C19 — proteção cardíaca reduzida.</div>
+          </div>
+          <div class="int-item moderate">
+            <div class="int-badge moderate">Moderado</div>
+            <div class="int-pair">Carbamazepina + Anticoncepcional</div>
+            <div class="int-desc">Reduz os hormônios do anticoncepcional, podendo causar falha contraceptiva.</div>
+          </div>
+        </div>
+        <div class="cta-row">
+          <a class="btn-primary" href="#" id="play-btn-int">▶ &nbsp;Verificar meus medicamentos</a>
+          <a class="link-refs" href="references.html">Ver referências científicas →</a>
+        </div>
+      </div>
       <!-- Vídeo -->
       <div>
         <div class="video-wrap">
@@ -336,101 +452,90 @@
           <p>Canal <a href="https://www.youtube.com/@cardiodf" target="_blank" rel="noopener">@cardiodf</a> — Dr. Leandro Echenique, cardiologista</p>
         </div>
       </div>
+    </div>
+  </section>
+</div>
 
-      <!-- Exemplos de interações -->
+<!-- ══ BANDA 3 — Lembretes ══ -->
+<div class="band-alarm" id="lembretes">
+  <section class="section">
+    <div class="feature-grid">
       <div>
-        <div class="int-examples">
-          <div class="int-item critical">
-            <div class="int-badge critical">Crítico</div>
-            <div class="int-pair">Varfarina + Ibuprofeno</div>
-            <div class="int-desc">Risco elevado de hemorragia grave — combinação muito comum e perigosa.</div>
-          </div>
-          <div class="int-item critical">
-            <div class="int-badge critical">Crítico</div>
-            <div class="int-pair">Digoxina + Amiodarona</div>
-            <div class="int-desc">Amiodarona pode dobrar os níveis de digoxina, causando arritmias fatais.</div>
-          </div>
-          <div class="int-item critical">
-            <div class="int-badge critical">Crítico</div>
-            <div class="int-pair">Sildenafila + Nitratos</div>
-            <div class="int-desc">Contraindicação absoluta — colapso cardiovascular por hipotensão grave.</div>
-          </div>
-          <div class="int-item high">
-            <div class="int-badge high">Alto</div>
-            <div class="int-pair">Claritromicina + Estatinas</div>
-            <div class="int-desc">Inibe CYP3A4, elevando níveis da estatina até 10x — risco de rabdomiólise.</div>
-          </div>
-          <div class="int-item high">
-            <div class="int-badge high">Alto</div>
-            <div class="int-pair">Clopidogrel + Omeprazol</div>
-            <div class="int-desc">Omeprazol bloqueia a ativação do clopidogrel via CYP2C19 — proteção cardíaca reduzida.</div>
-          </div>
-          <div class="int-item moderate">
-            <div class="int-badge moderate">Moderado</div>
-            <div class="int-pair">Carbamazepina + Anticoncepcional</div>
-            <div class="int-desc">Reduz os hormônios do anticoncepcional, podendo causar falha contraceptiva.</div>
-          </div>
-        </div>
+        <div class="label">Lembretes de horário</div>
+        <h2 class="title">Nunca mais esqueça<br />um medicamento</h2>
+        <p class="sub">Cadastre cada remédio com seu horário e o app avisa na hora certa — todo dia, sem falhar. O lembrete aparece na tela de bloqueio mesmo com o celular no silencioso.</p>
+        <ul style="list-style:none; display:flex; flex-direction:column; gap:12px; margin-bottom:32px;">
+          <li style="display:flex; gap:10px; align-items:flex-start; font-size:15px; color:var(--text);">
+            <span style="color:var(--accent); font-size:18px; margin-top:1px;">✔</span>
+            <span><strong>Notificação no horário exato</strong> — alarme pontual, não aproximado.</span>
+          </li>
+          <li style="display:flex; gap:10px; align-items:flex-start; font-size:15px; color:var(--text);">
+            <span style="color:var(--accent); font-size:18px; margin-top:1px;">✔</span>
+            <span><strong>Próximo horário na tela de bloqueio</strong> — visível sem desbloquear.</span>
+          </li>
+          <li style="display:flex; gap:10px; align-items:flex-start; font-size:15px; color:var(--text);">
+            <span style="color:var(--accent); font-size:18px; margin-top:1px;">✔</span>
+            <span><strong>Diário, semanal ou conforme necessário</strong> — você define a frequência.</span>
+          </li>
+        </ul>
+        <a class="btn-primary" href="#" id="play-btn-alarm">▶ &nbsp;Configurar meus lembretes</a>
+      </div>
+      <div>
+        <div class="alarm-mockup">
+          <div class="alarm-header">Hoje — lembretes</div>
 
-        <div class="int-cta-row">
-          <a class="btn-primary" href="#" id="play-btn-2">▶ &nbsp;Verificar meus medicamentos</a>
-          <a class="link-refs" href="references.html">Ver referências científicas →</a>
+          <div class="alarm-item next">
+            <div class="alarm-time">08:00</div>
+            <div>
+              <div class="alarm-med">Metformina 500mg</div>
+              <div class="alarm-dose">1 comprimido · com o café</div>
+            </div>
+            <span class="alarm-badge now">Agora</span>
+          </div>
+
+          <div class="alarm-item">
+            <div class="alarm-time">12:00</div>
+            <div>
+              <div class="alarm-med">Losartana 50mg</div>
+              <div class="alarm-dose">1 comprimido</div>
+            </div>
+            <span class="alarm-badge soon">4h</span>
+          </div>
+
+          <div class="alarm-item">
+            <div class="alarm-time">20:00</div>
+            <div>
+              <div class="alarm-med">Sinvastatina 20mg</div>
+              <div class="alarm-dose">1 comprimido · antes de dormir</div>
+            </div>
+            <span class="alarm-badge later">12h</span>
+          </div>
+
+          <div class="alarm-divider">notificação enviada</div>
+
+          <div class="alarm-notif">
+            <div class="alarm-notif-icon">🔔</div>
+            <div>
+              <div class="alarm-notif-title">Alerta Médico</div>
+              <div class="alarm-notif-body">08:00 · Metformina 500mg — hora de tomar</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </div>
 
-<!-- ══ OUTROS RECURSOS — 15% ══ -->
-<section class="section">
-  <div class="label">Mais recursos</div>
-  <h2 class="title">Tudo que você precisa em um app</h2>
-  <p class="sub">Simples de configurar, funciona offline e não exige conta ou cadastro.</p>
-
-  <div class="features">
-    <div class="feature-card">
-      <div class="feature-icon">🔒</div>
-      <div class="feature-title">Tela de bloqueio</div>
-      <div class="feature-desc">Ficha médica visível para socorristas sem precisar desbloquear o celular.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">⚡</div>
-      <div class="feature-title">Detector de interações</div>
-      <div class="feature-desc">Analisa automaticamente todos os seus medicamentos e classifica os riscos em crítico, alto e moderado.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🔔</div>
-      <div class="feature-title">Lembretes de horário</div>
-      <div class="feature-desc">Configure lembretes diários, semanais ou mensais. O próximo horário aparece na tela de bloqueio.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📋</div>
-      <div class="feature-title">Bula integrada</div>
-      <div class="feature-desc">Acesse a bula oficial (ANVISA) de qualquer medicamento cadastrado com um toque.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">👥</div>
-      <div class="feature-title">Contatos de emergência</div>
-      <div class="feature-desc">Familiares e médicos de referência exibidos junto à ficha para socorristas.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🔐</div>
-      <div class="feature-title">100% privado</div>
-      <div class="feature-desc">Todos os dados ficam no seu celular. Sem conta, sem servidor, sem rastreamento.</div>
-    </div>
-  </div>
-</section>
-
 <!-- Como usar -->
 <div class="how-bg" id="como-usar">
-  <section class="section" style="padding-top:48px; padding-bottom:56px;">
+  <section class="section" style="padding-top:56px; padding-bottom:64px;">
     <div class="label">Como usar</div>
     <h2 class="title">Pronto em menos de 5 minutos</h2>
     <div class="steps" style="margin-top:32px;">
       <div class="step">
         <div class="step-num">1</div>
         <div class="step-title">Perfil médico</div>
-        <div class="step-desc">Preencha nome, tipo sanguíneo e alergias.</div>
+        <div class="step-desc">Preencha nome, tipo sanguíneo, alergias e contatos de emergência.</div>
       </div>
       <div class="step">
         <div class="step-num">2</div>
@@ -439,8 +544,8 @@
       </div>
       <div class="step">
         <div class="step-num">3</div>
-        <div class="step-title">Contatos</div>
-        <div class="step-desc">Adicione um familiar ou médico de referência.</div>
+        <div class="step-title">Lembretes</div>
+        <div class="step-desc">Configure o horário de cada medicamento e ative as notificações.</div>
       </div>
       <div class="step">
         <div class="step-num">4</div>
@@ -497,7 +602,7 @@
 <section class="cta-band">
   <h2>Baixe agora — é gratuito</h2>
   <p>Disponível para Android. Sem anúncios, sem assinatura, sem coleta de dados.</p>
-  <a class="btn-primary" href="#" id="play-btn-3">▶ &nbsp;Baixar na Google Play</a>
+  <a class="btn-primary" href="#" id="play-btn-final">▶ &nbsp;Baixar na Google Play</a>
 </section>
 
 <!-- Footer -->
