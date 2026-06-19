@@ -205,6 +205,10 @@
     .int-item.critical { border-left-color: #ef5350; }
     .int-item.high     { border-left-color: #ff9800; }
     .int-item.moderate { border-left-color: #fdd835; }
+    .int-tag-phyto {
+      display: inline-block; font-size: 10px; font-weight: 600;
+      color: #a5d6a7; letter-spacing: 0.3px; margin-bottom: 3px;
+    }
     .int-pair { font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 3px; }
     .int-desc { font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.5; }
     .int-badge {
@@ -409,7 +413,7 @@
       <div>
         <div class="label">Interações medicamentosas</div>
         <h2 class="title">Seus remédios podem ser<br />perigosos juntos</h2>
-        <p class="sub">Milhões de brasileiros tomam dois ou mais medicamentos sem saber que a combinação pode causar hemorragia, insuficiência renal ou parada cardíaca. O app detecta isso automaticamente.</p>
+        <p class="sub">Milhões de brasileiros combinam remédios entre si — ou com chás e fitoterápicos — sem saber que a mistura pode causar hemorragia, síndrome serotoninérgica ou parada cardíaca. O app detecta isso automaticamente, incluindo interações com Erva de São João, Ginkgo biloba e outros fitoterápicos.</p>
         <div class="int-examples">
           <div class="int-item critical">
             <div class="int-badge critical">Crítico</div>
@@ -420,6 +424,18 @@
             <div class="int-badge critical">Crítico</div>
             <div class="int-pair">Digoxina + Amiodarona</div>
             <div class="int-desc">Amiodarona pode dobrar os níveis de digoxina, causando arritmias fatais.</div>
+          </div>
+          <div class="int-item critical">
+            <div class="int-badge critical">Crítico</div>
+            <div class="int-tag-phyto">🌿 fitoterápico</div>
+            <div class="int-pair">Erva de São João + Antidepressivo (ISRS)</div>
+            <div class="int-desc">Hypericum inibe a recaptação de serotonina — combinado com fluoxetina ou sertralina causa síndrome serotoninérgica potencialmente fatal.</div>
+          </div>
+          <div class="int-item high">
+            <div class="int-badge high">Alto</div>
+            <div class="int-tag-phyto">🌿 fitoterápico</div>
+            <div class="int-pair">Ginkgo biloba + Varfarina</div>
+            <div class="int-desc">Ginkgo inibe a agregação plaquetária — potencializa o efeito anticoagulante com relatos de hemorragia intracraniana.</div>
           </div>
           <div class="int-item high">
             <div class="int-badge high">Alto</div>
