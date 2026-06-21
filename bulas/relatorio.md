@@ -1,0 +1,200 @@
+# Relatório de Download de Bulas ANVISA
+
+**Data:** 20/06/2026 23:39
+**Total:** 184 medicamentos
+**Baixados:** 0
+**Não encontrados:** 22
+**Erros:** 162
+
+## Bulas Baixadas (0)
+
+
+## Não Encontrados na ANVISA (22)
+
+- Amicacina
+- Amilorida
+- Anticoncepcional Oral
+- Eritromicina
+- Febuxostate
+- Fenelzina
+- Gentamicina
+- Heparina
+- Imipramina
+- Lovastatina
+- Nifedipina
+- Nitroglicerina
+- Paroxetina
+- Prasugrel
+- Propiltiouracil
+- Pseudoefedrina
+- Salmeterol
+- Torasemida
+- Tramadol + Paracetamol
+- Vardenafila
+- Vitamina B12
+- Ácido Fólico
+
+## Erros (162)
+
+- **Metformina**: error
+- **Glibenclamida**: error
+- **Gliclazida**: error
+- **Glimepirida**: error
+- **Insulina NPH**: error
+- **Insulina Regular**: error
+- **Insulina Glargina**: error
+- **Insulina Aspart**: error
+- **Insulina Lispro**: error
+- **Losartana**: error
+- **Valsartana**: error
+- **Olmesartana**: error
+- **Candesartana**: error
+- **Irbesartana**: error
+- **Enalapril**: error
+- **Captopril**: error
+- **Ramipril**: error
+- **Lisinopril**: error
+- **Perindopril**: error
+- **Anlodipina**: error
+- **Diltiazem**: error
+- **Verapamil**: error
+- **Atorvastatina**: error
+- **Sinvastatina**: error
+- **Rosuvastatina**: error
+- **Pravastatina**: error
+- **Omeprazol**: error
+- **Pantoprazol**: error
+- **Esomeprazol**: error
+- **Lansoprazol**: error
+- **Rabeprazol**: error
+- **Metoprolol**: error
+- **Atenolol**: error
+- **Propranolol**: error
+- **Carvedilol**: error
+- **Bisoprolol**: error
+- **Nebivolol**: error
+- **Hidroclorotiazida**: error
+- **Clortalidona**: error
+- **Furosemida**: error
+- **Espironolactona**: error
+- **Amoxicilina**: error
+- **Amoxicilina + Clavulanato**: error
+- **Ampicilina**: error
+- **Piperacilina + Tazobactam**: error
+- **Azitromicina**: error
+- **Claritromicina**: error
+- **Ciprofloxacino**: error
+- **Levofloxacino**: error
+- **Norfloxacino**: error
+- **Moxifloxacino**: error
+- **Cefalexina**: error
+- **Ceftriaxona**: error
+- **Cefuroxima**: error
+- **Cefazolina**: error
+- **Metronidazol**: error
+- **Tinidazol**: error
+- **Fluconazol**: error
+- **Itraconazol**: error
+- **Voriconazol**: error
+- **Fluoxetina**: error
+- **Sertralina**: error
+- **Escitalopram**: no_pdf
+- **Citalopram**: error
+- **Venlafaxina**: error
+- **Duloxetina**: error
+- **Desvenlafaxina**: error
+- **Amitriptilina**: error
+- **Nortriptilina**: error
+- **Clomipramina**: error
+- **Ibuprofeno**: error
+- **Naproxeno**: error
+- **Diclofenaco**: error
+- **Cetoprofeno**: error
+- **Meloxicam**: error
+- **Celecoxibe**: error
+- **Paracetamol**: error
+- **Dipirona**: error
+- **Aspirina**: error
+- **AAS**: no_pdf
+- **Tramadol**: error
+- **Codeína**: error
+- **Morfina**: no_pdf
+- **Oxicodona**: error
+- **Gabapentina**: error
+- **Pregabalina**: error
+- **Varfarina**: error
+- **Clopidogrel**: error
+- **Ticagrelor**: error
+- **Rivaroxabana**: error
+- **Apixabana**: error
+- **Dabigatrana**: error
+- **Edoxabana**: error
+- **Enoxaparina**: error
+- **Digoxina**: error
+- **Amiodarona**: error
+- **Levotiroxina**: error
+- **Metimazol**: error
+- **Prednisona**: error
+- **Prednisolona**: error
+- **Dexametasona**: error
+- **Betametasona**: error
+- **Hidrocortisona**: error
+- **Carbamazepina**: error
+- **Fenitoína**: error
+- **Fenobarbital**: error
+- **Ácido Valpróico**: error
+- **Valproato de Sódio**: error
+- **Lamotrigina**: error
+- **Levetiracetam**: error
+- **Topiramato**: error
+- **Diazepam**: error
+- **Clonazepam**: error
+- **Alprazolam**: error
+- **Lorazepam**: error
+- **Midazolam**: error
+- **Lítio**: error
+- **Quetiapina**: error
+- **Risperidona**: error
+- **Olanzapina**: error
+- **Haloperidol**: error
+- **Aripiprazol**: error
+- **Clozapina**: error
+- **Metotrexato**: error
+- **Sildenafila**: error
+- **Tadalafila**: error
+- **Isossorbida**: error
+- **Mononitrato de Isossorbida**: error
+- **Tobramicina**: error
+- **Ciclosporina**: error
+- **Tacrolimo**: error
+- **Alopurinol**: error
+- **Colchicina**: error
+- **Alendronato**: error
+- **Risedronato**: error
+- **Ibandronato**: error
+- **Salbutamol**: error
+- **Fenoterol**: error
+- **Formoterol**: error
+- **Budesonida**: error
+- **Fluticasona**: error
+- **Beclometasona**: error
+- **Brometo de Ipratrópio**: error
+- **Tiotrópio**: error
+- **Tamoxifeno**: error
+- **Letrozol**: error
+- **Anastrozol**: error
+- **Finasterida**: error
+- **Dutasterida**: error
+- **Donepezila**: error
+- **Rivastigmina**: error
+- **Galantamina**: error
+- **Memantina**: error
+- **Sumatriptano**: error
+- **Rizatriptano**: error
+- **Zolmitriptano**: error
+- **Efedrina**: error
+- **Tranilcipromina**: error
+- **Etinilestradiol**: error
+- **Contraste Iodado**: error
+- **Ferro Sulfato**: error
+- **Vitamina D**: error
