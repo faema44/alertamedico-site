@@ -179,6 +179,9 @@
     <a href="#config-bloqueio">Como liberar a notificação na tela de bloqueio</a>
     <a href="#interacoes">Interações medicamentosas</a>
     <a href="#lembretes">Lembretes de medicamentos</a>
+    <a href="#sons">Sons diferenciados por tipo</a>
+    <a href="#agenda">Atividades e Consultas</a>
+    <a href="#bula">Busca e bula de medicamentos</a>
     <a href="#bateria">Lembretes não tocam? Solução para Samsung e outros</a>
     <a href="#privacidade">Privacidade e segurança (LGPD)</a>
     <a href="#avisos">Avisos e limitações importantes</a>
@@ -199,7 +202,11 @@
       </div>
       <div class="hero-feature">
         <div class="hero-feature-icon">🔔</div>
-        <div class="hero-feature-text">Envia lembretes para você não esquecer de tomar seus remédios</div>
+        <div class="hero-feature-text">Lembretes com melodias distintas para remédios, atividades e consultas</div>
+      </div>
+      <div class="hero-feature">
+        <div class="hero-feature-icon">📅</div>
+        <div class="hero-feature-text">Agenda de atividades físicas e consultas médicas com lembretes automáticos</div>
       </div>
     </div>
     <hr class="hero-divider" />
@@ -213,7 +220,8 @@
     <div class="step"><div class="step-num">1</div><div class="step-text">Abra a aba <strong>Perfil</strong> e preencha seu nome, tipo sanguíneo e alergias.</div></div>
     <div class="step"><div class="step-num">2</div><div class="step-text">Cadastre todos os medicamentos que você usa regularmente na aba <strong>Medicamentos</strong>. Marque como "crítico" os que não podem ser interrompidos.</div></div>
     <div class="step"><div class="step-num">3</div><div class="step-text">Adicione ao menos um <strong>contato de emergência</strong> na aba Contatos (familiar ou médico de referência).</div></div>
-    <div class="step"><div class="step-num">4</div><div class="step-text">Na tela <strong>Início</strong>, toque em "Ícone na Tela de Bloqueio (Emergência)" para ativar. Sua ficha médica ficará visível na notificação persistente imediatamente.</div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-text">Use a aba <strong>Agenda</strong> para registrar atividades físicas e consultas médicas — lembretes serão criados automaticamente.</div></div>
+    <div class="step"><div class="step-num">5</div><div class="step-text">Na tela <strong>Início</strong>, toque no chip de status para ativar o alerta de emergência. Sua ficha médica ficará visível na tela de bloqueio imediatamente.</div></div>
     <div class="tip">💡 Após configurar lembretes, a tela Início exibe um card <strong>"Próximos lembretes"</strong> com o horário mais próximo de cada medicamento — por exemplo: <em>Zyloric hoje às 14:00 · Glifage amanhã às 08:00</em>. Toque no card para ir à lista de medicamentos.</div>
   </div>
 
@@ -281,8 +289,42 @@
       <li>Dias específicos da semana (ex.: seg, qua e sex)</li>
       <li>Dias específicos do mês (ex.: dias 1 e 15)</li>
       <li>Intervalo periódico (ex.: a cada 2 meses, no dia 10)</li>
+      <li>Repetição do alarme em intervalos de minutos</li>
     </ul>
     <div class="tip">💡 Lembretes funcionam offline. Nenhuma conexão é necessária para receber as notificações.</div>
+  </div>
+
+  <!-- Sons diferenciados -->
+  <div id="sons" class="card">
+    <div class="card-title">🎵 Sons diferenciados por tipo</div>
+    <p>Cada tipo de lembrete toca uma melodia diferente para você identificar o aviso antes mesmo de olhar para o celular:</p>
+    <ul class="bullets">
+      <li>💊 <strong>Remédios</strong> — três notas ascendentes (ding-ding-ding), mais urgentes</li>
+      <li>🏃 <strong>Atividades</strong> — dois tons suaves e crescentes</li>
+      <li>🩺 <strong>Consultas</strong> — dois tons descendentes e calmos</li>
+    </ul>
+    <div class="tip">💡 Na tela Início, toque em 🔔 / 🔕 ao lado de qualquer item para silenciar ou reativar o som daquele lembrete individualmente.</div>
+  </div>
+
+  <!-- Agenda -->
+  <div id="agenda" class="card">
+    <div class="card-title">📅 Atividades e Consultas</div>
+    <p>A aba Agenda permite registrar dois tipos de compromissos de saúde:</p>
+    <ul class="bullets">
+      <li>Atividades de rotina — caminhada, fisioterapia, tomar água e outras, com lembretes diários</li>
+      <li>Medições de saúde — pressão arterial (❤️), glicose (🩸) e peso/IMC (⚖️) com histórico e faixas de referência coloridas</li>
+      <li>Consultas — médico, dentista, exames, com lembretes automáticos 1 dia e 1 hora antes</li>
+    </ul>
+    <p>Para registrar uma medição (pressão, glicose ou peso), toque no ícone de lápis ao lado da atividade na lista. O app calcula o IMC automaticamente ao pesar.</p>
+    <div class="tip">💡 Consultas passadas não aparecem nos lembretes — apenas futuras são exibidas.</div>
+  </div>
+
+  <!-- Busca e bula -->
+  <div id="bula" class="card">
+    <div class="card-title">🔍 Busca e bula de medicamentos</div>
+    <p>Ao cadastrar um medicamento, o app sugere nomes automaticamente conforme você digita, buscando na base da ANVISA. Toque em uma sugestão para preencher o nome correto.</p>
+    <p>Nos cartões de medicamento, toque no ícone 📄 para abrir a bula oficial diretamente pelo Bulário Eletrônico da ANVISA — sem sair do aplicativo.</p>
+    <div class="tip">💡 A busca funciona por nome genérico e comercial. Se um medicamento não aparecer, verifique a grafia ou consulte o Bulário em bulario.anvisa.gov.br.</div>
   </div>
 
   <!-- Bateria -->
