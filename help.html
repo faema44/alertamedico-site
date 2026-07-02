@@ -183,6 +183,7 @@
     <a href="#agenda">Atividades e Consultas</a>
     <a href="#bula">Busca e bula de medicamentos</a>
     <a href="#bateria">Lembretes não tocam? Solução para Samsung e outros</a>
+    <a href="#backup">Backup dos seus dados</a>
     <a href="#privacidade">Privacidade e segurança (LGPD)</a>
     <a href="#avisos">Avisos e limitações importantes</a>
   </nav>
@@ -217,11 +218,11 @@
   <!-- Como usar -->
   <div id="como-usar" class="card">
     <div class="card-title">Como usar — passo a passo</div>
-    <div class="step"><div class="step-num">1</div><div class="step-text">Abra a aba <strong>Perfil</strong> e preencha seu nome, tipo sanguíneo e alergias.</div></div>
-    <div class="step"><div class="step-num">2</div><div class="step-text">Cadastre todos os medicamentos que você usa regularmente na aba <strong>Medicamentos</strong>. Marque como "crítico" os que não podem ser interrompidos.</div></div>
-    <div class="step"><div class="step-num">3</div><div class="step-text">Adicione ao menos um <strong>contato de emergência</strong> na aba Contatos (familiar ou médico de referência).</div></div>
-    <div class="step"><div class="step-num">4</div><div class="step-text">Use a aba <strong>Agenda</strong> para registrar atividades físicas e consultas médicas — lembretes serão criados automaticamente.</div></div>
-    <div class="step"><div class="step-num">5</div><div class="step-text">Na tela <strong>Início</strong>, toque no chip de status para ativar o alerta de emergência. Sua ficha médica ficará visível na tela de bloqueio imediatamente.</div></div>
+    <div class="step"><div class="step-num">1</div><div class="step-text">Abra a aba <strong>Emergência</strong> e complete os 3 passos: Perfil Médico (nome, tipo sanguíneo, alergias), Contato de emergência e Ativar alerta.</div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text">Cadastre os medicamentos que você usa na aba <strong>Medicamentos</strong>, tocando em +. O assistente pergunta nome, dose, horários, prazo e estoque — um passo de cada vez.</div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-text">Use a aba <strong>Atividades</strong> para registrar atividades físicas, medições (pressão, glicose, peso) e consultas médicas — lembretes são criados automaticamente.</div></div>
+    <div class="step"><div class="step-num">4</div><div class="step-text">Acompanhe na aba <strong>Histórico</strong> as doses que você tomou ou pulou e as atividades realizadas.</div></div>
+    <div class="step"><div class="step-num">5</div><div class="step-text">Com o alerta ativo, sua ficha médica fica visível na <strong>tela de bloqueio</strong> imediatamente — sem precisar desbloquear o celular.</div></div>
     <div class="tip">💡 Após configurar lembretes, a tela Início exibe um card <strong>"Próximos lembretes"</strong> com o horário mais próximo de cada medicamento — por exemplo: <em>Zyloric hoje às 14:00 · Glifage amanhã às 08:00</em>. Toque no card para ir à lista de medicamentos.</div>
   </div>
 
@@ -267,7 +268,7 @@
       <div class="risk-label">⚡ Moderado</div>
       <div class="risk-desc">Atenção recomendada. Converse com seu médico ou farmacêutico.</div>
     </div>
-    <div class="tip">💡 Use a aba Interações no app para ver o relatório completo com mecanismos e recomendações. As abas Medicamentos e Contatos exibem um número em vermelho quando há itens cadastrados.</div>
+    <div class="tip">💡 Toque no ícone 📋 no topo de qualquer tela do app para abrir as <strong>Tabelas</strong> — todas as interações da base (mais de 900), com busca e filtros por risco, além das listas completas de medicamentos e fitoterápicos.</div>
   </div>
 
   <!-- Vídeo -->
@@ -283,15 +284,16 @@
   <!-- Lembretes -->
   <div id="lembretes" class="card">
     <div class="card-title">🔔 Lembretes de medicamentos</div>
-    <p>Na aba Medicamentos, toque no ícone 🔔 de qualquer medicamento para configurar lembretes. Você pode definir:</p>
+    <p>Os lembretes são definidos ao cadastrar o medicamento. Para alterá-los depois, toque no cartão do medicamento na aba Medicamentos. Você pode definir:</p>
     <ul class="bullets">
-      <li>Horário(s) diários</li>
+      <li>Horário(s) diários — inclusive pelos horários das suas refeições</li>
       <li>Dias específicos da semana (ex.: seg, qua e sex)</li>
       <li>Dias específicos do mês (ex.: dias 1 e 15)</li>
-      <li>Intervalo periódico (ex.: a cada 2 meses, no dia 10)</li>
-      <li>Repetição do alarme em intervalos de minutos</li>
+      <li>Intervalo livre (ex.: a cada 2 meses, no dia 10)</li>
+      <li>Repetição do alarme a cada 5 min até confirmar Tomei / Não tomei</li>
+      <li>Prazo do tratamento e controle de estoque com aviso de reposição</li>
     </ul>
-    <div class="tip">💡 Lembretes funcionam offline. Nenhuma conexão é necessária para receber as notificações.</div>
+    <div class="tip">💡 O ícone 🔔 / 🔕 no cartão do medicamento silencia ou reativa o som do lembrete sem apagá-lo. Lembretes funcionam offline — nenhuma conexão é necessária.</div>
   </div>
 
   <!-- Sons diferenciados -->
@@ -309,13 +311,13 @@
   <!-- Agenda -->
   <div id="agenda" class="card">
     <div class="card-title">📅 Atividades e Consultas</div>
-    <p>A aba Agenda permite registrar dois tipos de compromissos de saúde:</p>
+    <p>A aba Atividades permite registrar compromissos de saúde:</p>
     <ul class="bullets">
       <li>Atividades de rotina — caminhada, fisioterapia, tomar água e outras, com lembretes diários</li>
       <li>Medições de saúde — pressão arterial (❤️), glicose (🩸) e peso/IMC (⚖️) com histórico e faixas de referência coloridas</li>
       <li>Consultas — médico, dentista, exames, com lembretes automáticos 1 dia e 1 hora antes</li>
     </ul>
-    <p>Para registrar uma medição (pressão, glicose ou peso), toque no ícone de lápis ao lado da atividade na lista. O app calcula o IMC automaticamente ao pesar.</p>
+    <p>Para registrar uma medição (pressão, glicose ou peso), toque no cartão da atividade na lista — o ícone de lápis ✏️ serve para editar nome e horários. O app calcula o IMC automaticamente ao pesar.</p>
     <div class="tip">💡 Consultas passadas não aparecem nos lembretes — apenas futuras são exibidas.</div>
   </div>
 
@@ -323,7 +325,7 @@
   <div id="bula" class="card">
     <div class="card-title">🔍 Busca e bula de medicamentos</div>
     <p>Ao cadastrar um medicamento, o app sugere nomes automaticamente conforme você digita, buscando na base da ANVISA. Toque em uma sugestão para preencher o nome correto.</p>
-    <p>Nos cartões de medicamento, toque no ícone 📄 para abrir a bula oficial diretamente pelo Bulário Eletrônico da ANVISA — sem sair do aplicativo.</p>
+    <p>Nos cartões de medicamento, toque no ícone 📋 para abrir a bula oficial — sem sair do aplicativo.</p>
     <div class="tip">💡 A busca funciona por nome genérico e comercial. Se um medicamento não aparecer, verifique a grafia ou consulte o Bulário em bulario.anvisa.gov.br.</div>
   </div>
 
@@ -336,10 +338,22 @@
     <div class="tip">💡 <strong>Samsung:</strong> Configurações → Bateria → Limites de uso em segundo plano → adicione Alerta Médico em "Apps que nunca adormecem".</div>
   </div>
 
+  <!-- Backup -->
+  <div id="backup" class="card">
+    <div class="card-title">💾 Backup dos seus dados</div>
+    <p>Seus dados são protegidos de duas formas:</p>
+    <ul class="bullets">
+      <li><strong>Automático</strong> — com o backup do Android ativo (Configurações → Google → Backup), uma cópia criptografada vai para sua conta Google e é restaurada sozinha ao trocar de celular ou reinstalar o app</li>
+      <li><strong>Manual</strong> — em Emergência → Perfil Médico → Backup de Dados, salve um arquivo no celular (ex.: pasta Downloads) ou compartilhe por WhatsApp/e-mail, e restaure quando precisar</li>
+    </ul>
+    <div class="tip">💡 O backup automático depende do backup do Google estar ativado no aparelho. O arquivo manual é uma garantia extra — guarde-o fora do celular.</div>
+  </div>
+
   <!-- Privacidade -->
   <div id="privacidade" class="card">
     <div class="card-title">🔐 Privacidade e segurança (LGPD)</div>
-    <p>Seus dados de saúde (nome, tipo sanguíneo, medicamentos, contatos) ficam armazenados exclusivamente no seu celular. A Lei Geral de Proteção de Dados (Lei 13.709/2018) classifica dados de saúde como dados sensíveis — e o Alerta Médico respeita essa exigência.</p>
+    <p>Seus dados de saúde (nome, tipo sanguíneo, medicamentos, contatos) ficam armazenados no seu celular. A Lei Geral de Proteção de Dados (Lei 13.709/2018) classifica dados de saúde como dados sensíveis — e o Alerta Médico respeita essa exigência.</p>
+    <p>Se o backup do Android estiver ativo na sua conta Google, uma cópia criptografada dos dados do app é guardada no Google Drive e restaurada automaticamente ao trocar de celular — o desenvolvedor não tem acesso a ela.</p>
     <p>A única exceção é o recurso opcional "Reportar medicamento em falta": ao usá-lo, apenas o nome do medicamento é enviado anonimamente — sem qualquer dado pessoal.</p>
     <p>A notificação da tela de bloqueio é visível por qualquer pessoa com acesso físico ao aparelho — isso é intencional para emergências. Desative o alerta se não quiser que terceiros vejam suas informações médicas.</p>
   </div>
@@ -365,7 +379,7 @@
   <a class="link-card" href="privacy.html">
     <div>
       <div class="link-card-main">🔐 Política de Privacidade</div>
-      <div class="link-card-sub">Seus dados ficam apenas no seu celular</div>
+      <div class="link-card-sub">Como tratamos seus dados de saúde</div>
     </div>
     <div class="link-card-arrow">›</div>
   </a>
@@ -386,7 +400,7 @@
 </div>
 
 <footer>
-  <a href="/">← Voltar ao site</a> &nbsp;·&nbsp; <a href="privacy.html">Privacidade</a> &nbsp;·&nbsp; <a href="references.html">Referências</a> &nbsp;·&nbsp; © 2025 Alerta Médico
+  <a href="/">← Voltar ao site</a> &nbsp;·&nbsp; <a href="privacy.html">Privacidade</a> &nbsp;·&nbsp; <a href="references.html">Referências</a> &nbsp;·&nbsp; © 2026 Alerta Médico
 </footer>
 
 </body>
