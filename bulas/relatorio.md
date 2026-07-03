@@ -1,200 +1,175 @@
 # Relatório de Download de Bulas ANVISA
 
-**Data:** 20/06/2026 23:39
-**Total:** 184 medicamentos
-**Baixados:** 0
-**Não encontrados:** 22
-**Erros:** 162
+**Data:** 03/07/2026 10:57
+**Total:** 1 medicamentos
+**Baixados:** 161
+**Não encontrados:** 0
+**Erros:** 0
 
-## Bulas Baixadas (0)
+## Bulas Baixadas (161)
 
+- **Alendronato** → `alendronato.pdf` | busca: _?_ | pub: ? | —
+- **Alopurinol** → `alopurinol.pdf` | busca: _?_ | pub: ? | —
+- **Alprazolam** → `alprazolam.pdf` | busca: _?_ | pub: ? | —
+- **Amiodarona** → `amiodarona.pdf` | busca: _?_ | pub: ? | —
+- **Amitriptilina** → `amitriptilina.pdf` | busca: _?_ | pub: ? | —
+- **Amoxicilina** → `amoxicilina.pdf` | busca: _?_ | pub: ? | —
+- **Amoxicilina + Clavulanato** → `amoxicilina.pdf` | busca: _?_ | pub: ? | —
+- **Ampicilina** → `ampicilina.pdf` | busca: _?_ | pub: ? | —
+- **Anastrozol** → `anastrozol.pdf` | busca: _?_ | pub: ? | —
+- **Anlodipina** → `anlodipina.pdf` | busca: _?_ | pub: ? | —
+- **Apixabana** → `apixabana.pdf` | busca: _?_ | pub: ? | —
+- **Aripiprazol** → `aripiprazol.pdf` | busca: _?_ | pub: ? | —
+- **Aspirina** → `aspirina.pdf` | busca: _?_ | pub: ? | —
+- **Atenolol** → `atenolol.pdf` | busca: _?_ | pub: ? | —
+- **Atorvastatina** → `atorvastatina.pdf` | busca: _?_ | pub: ? | —
+- **Azitromicina** → `azitromicina.pdf` | busca: _?_ | pub: ? | —
+- **Beclometasona** → `beclometasona.pdf` | busca: _?_ | pub: ? | —
+- **Betametasona** → `betametasona.pdf` | busca: _?_ | pub: ? | —
+- **Bisoprolol** → `bisoprolol.pdf` | busca: _?_ | pub: ? | —
+- **Brometo de Ipratrópio** → `brometo-de-ipratropio.pdf` | busca: _?_ | pub: ? | —
+- **Budesonida** → `budesonida.pdf` | busca: _?_ | pub: ? | —
+- **Candesartana** → `candesartana.pdf` | busca: _?_ | pub: ? | —
+- **Captopril** → `captopril.pdf` | busca: _?_ | pub: ? | —
+- **Carbamazepina** → `carbamazepina.pdf` | busca: _?_ | pub: ? | —
+- **Carvedilol** → `carvedilol.pdf` | busca: _?_ | pub: ? | —
+- **Cefalexina** → `cefalexina.pdf` | busca: _?_ | pub: ? | —
+- **Cefazolina** → `cefazolina.pdf` | busca: _?_ | pub: ? | —
+- **Ceftriaxona** → `ceftriaxona.pdf` | busca: _?_ | pub: ? | —
+- **Cefuroxima** → `cefuroxima.pdf` | busca: _?_ | pub: ? | —
+- **Celecoxibe** → `celecoxibe.pdf` | busca: _?_ | pub: ? | —
+- **Cetoprofeno** → `cetoprofeno.pdf` | busca: _?_ | pub: ? | —
+- **Ciclosporina** → `ciclosporina.pdf` | busca: _?_ | pub: ? | —
+- **Ciprofloxacino** → `ciprofloxacino.pdf` | busca: _?_ | pub: ? | —
+- **Citalopram** → `citalopram.pdf` | busca: _?_ | pub: ? | —
+- **Claritromicina** → `claritromicina.pdf` | busca: _?_ | pub: ? | —
+- **Clomipramina** → `clomipramina.pdf` | busca: _?_ | pub: ? | —
+- **Clonazepam** → `clonazepam.pdf` | busca: _?_ | pub: ? | —
+- **Clopidogrel** → `clopidogrel.pdf` | busca: _?_ | pub: ? | —
+- **Clortalidona** → `clortalidona.pdf` | busca: _?_ | pub: ? | —
+- **Clozapina** → `clozapina.pdf` | busca: _?_ | pub: ? | —
+- **Codeína** → `codeina.pdf` | busca: _?_ | pub: ? | —
+- **Colchicina** → `colchicina.pdf` | busca: _?_ | pub: ? | —
+- **Contraste Iodado** → `contraste-iodado.pdf` | busca: _?_ | pub: ? | —
+- **Dabigatrana** → `dabigatrana.pdf` | busca: _?_ | pub: ? | —
+- **Desvenlafaxina** → `desvenlafaxina.pdf` | busca: _?_ | pub: ? | —
+- **Dexametasona** → `dexametasona.pdf` | busca: _?_ | pub: ? | —
+- **Diazepam** → `diazepam.pdf` | busca: _?_ | pub: ? | —
+- **Diclofenaco** → `diclofenaco.pdf` | busca: _?_ | pub: ? | —
+- **Digoxina** → `digoxina.pdf` | busca: _?_ | pub: ? | —
+- **Diltiazem** → `diltiazem.pdf` | busca: _?_ | pub: ? | —
+- **Dipirona** → `dipirona.pdf` | busca: _?_ | pub: ? | —
+- **Donepezila** → `donepezila.pdf` | busca: _?_ | pub: ? | —
+- **Duloxetina** → `duloxetina.pdf` | busca: _?_ | pub: ? | —
+- **Dutasterida** → `dutasterida.pdf` | busca: _?_ | pub: ? | —
+- **Edoxabana** → `edoxabana.pdf` | busca: _?_ | pub: ? | —
+- **Efedrina** → `efedrina.pdf` | busca: _?_ | pub: ? | —
+- **Enalapril** → `enalapril.pdf` | busca: _?_ | pub: ? | —
+- **Enoxaparina** → `enoxaparina.pdf` | busca: _?_ | pub: ? | —
+- **Esomeprazol** → `esomeprazol.pdf` | busca: _?_ | pub: ? | —
+- **Espironolactona** → `espironolactona.pdf` | busca: _?_ | pub: ? | —
+- **Etinilestradiol** → `etinilestradiol.pdf` | busca: _?_ | pub: ? | —
+- **Fenitoína** → `fenitoina.pdf` | busca: _?_ | pub: ? | —
+- **Fenobarbital** → `fenobarbital.pdf` | busca: _?_ | pub: ? | —
+- **Fenoterol** → `fenoterol.pdf` | busca: _?_ | pub: ? | —
+- **Ferro Sulfato** → `ferro-sulfato.pdf` | busca: _?_ | pub: ? | —
+- **Finasterida** → `finasterida.pdf` | busca: _?_ | pub: ? | —
+- **Fluconazol** → `fluconazol.pdf` | busca: _?_ | pub: ? | —
+- **Fluoxetina** → `fluoxetina.pdf` | busca: _?_ | pub: ? | —
+- **Fluticasona** → `fluticasona.pdf` | busca: _?_ | pub: ? | —
+- **Formoterol** → `formoterol.pdf` | busca: _?_ | pub: ? | —
+- **Furosemida** → `furosemida.pdf` | busca: _?_ | pub: ? | —
+- **Gabapentina** → `gabapentina.pdf` | busca: _?_ | pub: ? | —
+- **Galantamina** → `galantamina.pdf` | busca: _?_ | pub: ? | —
+- **Ginkgo Biloba** → `ginkgo-biloba.pdf` | busca: _Ginkgo_ | pub: 23/01/2026 | ✓ monit.
+- **Glibenclamida** → `glibenclamida.pdf` | busca: _?_ | pub: ? | —
+- **Gliclazida** → `gliclazida.pdf` | busca: _?_ | pub: ? | —
+- **Glimepirida** → `glimepirida.pdf` | busca: _?_ | pub: ? | —
+- **Haloperidol** → `haloperidol.pdf` | busca: _?_ | pub: ? | —
+- **Hidroclorotiazida** → `hidroclorotiazida.pdf` | busca: _?_ | pub: ? | —
+- **Hidrocortisona** → `hidrocortisona.pdf` | busca: _?_ | pub: ? | —
+- **Ibandronato** → `ibandronato.pdf` | busca: _?_ | pub: ? | —
+- **Ibuprofeno** → `ibuprofeno.pdf` | busca: _?_ | pub: ? | —
+- **Insulina Aspart** → `insulina-aspart.pdf` | busca: _?_ | pub: ? | —
+- **Insulina Glargina** → `insulina-glargina.pdf` | busca: _?_ | pub: ? | —
+- **Insulina Lispro** → `insulina-lispro.pdf` | busca: _?_ | pub: ? | —
+- **Insulina NPH** → `insulina-nph.pdf` | busca: _?_ | pub: ? | —
+- **Insulina Regular** → `insulina-regular.pdf` | busca: _?_ | pub: ? | —
+- **Irbesartana** → `irbesartana.pdf` | busca: _?_ | pub: ? | —
+- **Isossorbida** → `isossorbida.pdf` | busca: _?_ | pub: ? | —
+- **Itraconazol** → `itraconazol.pdf` | busca: _?_ | pub: ? | —
+- **Lamotrigina** → `lamotrigina.pdf` | busca: _?_ | pub: ? | —
+- **Lansoprazol** → `lansoprazol.pdf` | busca: _?_ | pub: ? | —
+- **Letrozol** → `letrozol.pdf` | busca: _?_ | pub: ? | —
+- **Levetiracetam** → `levetiracetam.pdf` | busca: _?_ | pub: ? | —
+- **Levofloxacino** → `levofloxacino.pdf` | busca: _?_ | pub: ? | —
+- **Levotiroxina** → `levotiroxina.pdf` | busca: _?_ | pub: ? | —
+- **Lisinopril** → `lisinopril.pdf` | busca: _?_ | pub: ? | —
+- **Lorazepam** → `lorazepam.pdf` | busca: _?_ | pub: ? | —
+- **Losartana** → `losartana.pdf` | busca: _?_ | pub: ? | —
+- **Lítio** → `litio.pdf` | busca: _?_ | pub: ? | —
+- **Meloxicam** → `meloxicam.pdf` | busca: _?_ | pub: ? | —
+- **Memantina** → `memantina.pdf` | busca: _?_ | pub: ? | —
+- **Metformina** → `metformina.pdf` | busca: _?_ | pub: ? | —
+- **Metimazol** → `metimazol.pdf` | busca: _?_ | pub: ? | —
+- **Metoprolol** → `metoprolol.pdf` | busca: _?_ | pub: ? | —
+- **Metotrexato** → `metotrexato.pdf` | busca: _?_ | pub: ? | —
+- **Metronidazol** → `metronidazol.pdf` | busca: _?_ | pub: ? | —
+- **Midazolam** → `midazolam.pdf` | busca: _?_ | pub: ? | —
+- **Mononitrato de Isossorbida** → `mononitrato-de-isossorbida.pdf` | busca: _?_ | pub: ? | —
+- **Moxifloxacino** → `moxifloxacino.pdf` | busca: _?_ | pub: ? | —
+- **Naproxeno** → `naproxeno.pdf` | busca: _?_ | pub: ? | —
+- **Nebivolol** → `nebivolol.pdf` | busca: _?_ | pub: ? | —
+- **Norfloxacino** → `norfloxacino.pdf` | busca: _?_ | pub: ? | —
+- **Nortriptilina** → `nortriptilina.pdf` | busca: _?_ | pub: ? | —
+- **Olanzapina** → `olanzapina.pdf` | busca: _?_ | pub: ? | —
+- **Olmesartana** → `olmesartana.pdf` | busca: _?_ | pub: ? | —
+- **Omeprazol** → `omeprazol.pdf` | busca: _?_ | pub: ? | —
+- **Oxicodona** → `oxicodona.pdf` | busca: _?_ | pub: ? | —
+- **Pantoprazol** → `pantoprazol.pdf` | busca: _?_ | pub: ? | —
+- **Paracetamol** → `paracetamol.pdf` | busca: _?_ | pub: ? | —
+- **Perindopril** → `perindopril.pdf` | busca: _?_ | pub: ? | —
+- **Piperacilina + Tazobactam** → `piperacilina.pdf` | busca: _?_ | pub: ? | —
+- **Pravastatina** → `pravastatina.pdf` | busca: _?_ | pub: ? | —
+- **Prednisolona** → `prednisolona.pdf` | busca: _?_ | pub: ? | —
+- **Prednisona** → `prednisona.pdf` | busca: _?_ | pub: ? | —
+- **Pregabalina** → `pregabalina.pdf` | busca: _?_ | pub: ? | —
+- **Propranolol** → `propranolol.pdf` | busca: _?_ | pub: ? | —
+- **Quetiapina** → `quetiapina.pdf` | busca: _?_ | pub: ? | —
+- **Rabeprazol** → `rabeprazol.pdf` | busca: _?_ | pub: ? | —
+- **Ramipril** → `ramipril.pdf` | busca: _?_ | pub: ? | —
+- **Risedronato** → `risedronato.pdf` | busca: _?_ | pub: ? | —
+- **Risperidona** → `risperidona.pdf` | busca: _?_ | pub: ? | —
+- **Rivaroxabana** → `rivaroxabana.pdf` | busca: _?_ | pub: ? | —
+- **Rivastigmina** → `rivastigmina.pdf` | busca: _?_ | pub: ? | —
+- **Rizatriptano** → `rizatriptano.pdf` | busca: _?_ | pub: ? | —
+- **Rosuvastatina** → `rosuvastatina.pdf` | busca: _?_ | pub: ? | —
+- **Salbutamol** → `salbutamol.pdf` | busca: _?_ | pub: ? | —
+- **Sertralina** → `sertralina.pdf` | busca: _?_ | pub: ? | —
+- **Sildenafila** → `sildenafila.pdf` | busca: _?_ | pub: ? | —
+- **Sinvastatina** → `sinvastatina.pdf` | busca: _?_ | pub: ? | —
+- **Sumatriptano** → `sumatriptano.pdf` | busca: _?_ | pub: ? | —
+- **Tacrolimo** → `tacrolimo.pdf` | busca: _?_ | pub: ? | —
+- **Tadalafila** → `tadalafila.pdf` | busca: _?_ | pub: ? | —
+- **Tamoxifeno** → `tamoxifeno.pdf` | busca: _?_ | pub: ? | —
+- **Ticagrelor** → `ticagrelor.pdf` | busca: _?_ | pub: ? | —
+- **Tinidazol** → `tinidazol.pdf` | busca: _?_ | pub: ? | —
+- **Tiotrópio** → `tiotropio.pdf` | busca: _?_ | pub: ? | —
+- **Tobramicina** → `tobramicina.pdf` | busca: _?_ | pub: ? | —
+- **Topiramato** → `topiramato.pdf` | busca: _?_ | pub: ? | —
+- **Tramadol** → `tramadol.pdf` | busca: _?_ | pub: ? | —
+- **Tramadol + Paracetamol** → `tramadol.pdf` | busca: _?_ | pub: ? | —
+- **Tranilcipromina** → `tranilcipromina.pdf` | busca: _?_ | pub: ? | —
+- **Valproato de Sódio** → `valproato-de-sodio.pdf` | busca: _?_ | pub: ? | —
+- **Valsartana** → `valsartana.pdf` | busca: _?_ | pub: ? | —
+- **Varfarina** → `varfarina.pdf` | busca: _?_ | pub: ? | —
+- **Venlafaxina** → `venlafaxina.pdf` | busca: _?_ | pub: ? | —
+- **Verapamil** → `verapamil.pdf` | busca: _?_ | pub: ? | —
+- **Vitamina D** → `vitamina-d.pdf` | busca: _?_ | pub: ? | —
+- **Voriconazol** → `voriconazol.pdf` | busca: _?_ | pub: ? | —
+- **Zolmitriptano** → `zolmitriptano.pdf` | busca: _?_ | pub: ? | —
+- **Ácido Valpróico** → `acido-valproico.pdf` | busca: _?_ | pub: ? | —
 
-## Não Encontrados na ANVISA (22)
+## Não Encontrados na ANVISA (0)
 
-- Amicacina
-- Amilorida
-- Anticoncepcional Oral
-- Eritromicina
-- Febuxostate
-- Fenelzina
-- Gentamicina
-- Heparina
-- Imipramina
-- Lovastatina
-- Nifedipina
-- Nitroglicerina
-- Paroxetina
-- Prasugrel
-- Propiltiouracil
-- Pseudoefedrina
-- Salmeterol
-- Torasemida
-- Tramadol + Paracetamol
-- Vardenafila
-- Vitamina B12
-- Ácido Fólico
-
-## Erros (162)
-
-- **Metformina**: error
-- **Glibenclamida**: error
-- **Gliclazida**: error
-- **Glimepirida**: error
-- **Insulina NPH**: error
-- **Insulina Regular**: error
-- **Insulina Glargina**: error
-- **Insulina Aspart**: error
-- **Insulina Lispro**: error
-- **Losartana**: error
-- **Valsartana**: error
-- **Olmesartana**: error
-- **Candesartana**: error
-- **Irbesartana**: error
-- **Enalapril**: error
-- **Captopril**: error
-- **Ramipril**: error
-- **Lisinopril**: error
-- **Perindopril**: error
-- **Anlodipina**: error
-- **Diltiazem**: error
-- **Verapamil**: error
-- **Atorvastatina**: error
-- **Sinvastatina**: error
-- **Rosuvastatina**: error
-- **Pravastatina**: error
-- **Omeprazol**: error
-- **Pantoprazol**: error
-- **Esomeprazol**: error
-- **Lansoprazol**: error
-- **Rabeprazol**: error
-- **Metoprolol**: error
-- **Atenolol**: error
-- **Propranolol**: error
-- **Carvedilol**: error
-- **Bisoprolol**: error
-- **Nebivolol**: error
-- **Hidroclorotiazida**: error
-- **Clortalidona**: error
-- **Furosemida**: error
-- **Espironolactona**: error
-- **Amoxicilina**: error
-- **Amoxicilina + Clavulanato**: error
-- **Ampicilina**: error
-- **Piperacilina + Tazobactam**: error
-- **Azitromicina**: error
-- **Claritromicina**: error
-- **Ciprofloxacino**: error
-- **Levofloxacino**: error
-- **Norfloxacino**: error
-- **Moxifloxacino**: error
-- **Cefalexina**: error
-- **Ceftriaxona**: error
-- **Cefuroxima**: error
-- **Cefazolina**: error
-- **Metronidazol**: error
-- **Tinidazol**: error
-- **Fluconazol**: error
-- **Itraconazol**: error
-- **Voriconazol**: error
-- **Fluoxetina**: error
-- **Sertralina**: error
-- **Escitalopram**: no_pdf
-- **Citalopram**: error
-- **Venlafaxina**: error
-- **Duloxetina**: error
-- **Desvenlafaxina**: error
-- **Amitriptilina**: error
-- **Nortriptilina**: error
-- **Clomipramina**: error
-- **Ibuprofeno**: error
-- **Naproxeno**: error
-- **Diclofenaco**: error
-- **Cetoprofeno**: error
-- **Meloxicam**: error
-- **Celecoxibe**: error
-- **Paracetamol**: error
-- **Dipirona**: error
-- **Aspirina**: error
-- **AAS**: no_pdf
-- **Tramadol**: error
-- **Codeína**: error
-- **Morfina**: no_pdf
-- **Oxicodona**: error
-- **Gabapentina**: error
-- **Pregabalina**: error
-- **Varfarina**: error
-- **Clopidogrel**: error
-- **Ticagrelor**: error
-- **Rivaroxabana**: error
-- **Apixabana**: error
-- **Dabigatrana**: error
-- **Edoxabana**: error
-- **Enoxaparina**: error
-- **Digoxina**: error
-- **Amiodarona**: error
-- **Levotiroxina**: error
-- **Metimazol**: error
-- **Prednisona**: error
-- **Prednisolona**: error
-- **Dexametasona**: error
-- **Betametasona**: error
-- **Hidrocortisona**: error
-- **Carbamazepina**: error
-- **Fenitoína**: error
-- **Fenobarbital**: error
-- **Ácido Valpróico**: error
-- **Valproato de Sódio**: error
-- **Lamotrigina**: error
-- **Levetiracetam**: error
-- **Topiramato**: error
-- **Diazepam**: error
-- **Clonazepam**: error
-- **Alprazolam**: error
-- **Lorazepam**: error
-- **Midazolam**: error
-- **Lítio**: error
-- **Quetiapina**: error
-- **Risperidona**: error
-- **Olanzapina**: error
-- **Haloperidol**: error
-- **Aripiprazol**: error
-- **Clozapina**: error
-- **Metotrexato**: error
-- **Sildenafila**: error
-- **Tadalafila**: error
-- **Isossorbida**: error
-- **Mononitrato de Isossorbida**: error
-- **Tobramicina**: error
-- **Ciclosporina**: error
-- **Tacrolimo**: error
-- **Alopurinol**: error
-- **Colchicina**: error
-- **Alendronato**: error
-- **Risedronato**: error
-- **Ibandronato**: error
-- **Salbutamol**: error
-- **Fenoterol**: error
-- **Formoterol**: error
-- **Budesonida**: error
-- **Fluticasona**: error
-- **Beclometasona**: error
-- **Brometo de Ipratrópio**: error
-- **Tiotrópio**: error
-- **Tamoxifeno**: error
-- **Letrozol**: error
-- **Anastrozol**: error
-- **Finasterida**: error
-- **Dutasterida**: error
-- **Donepezila**: error
-- **Rivastigmina**: error
-- **Galantamina**: error
-- **Memantina**: error
-- **Sumatriptano**: error
-- **Rizatriptano**: error
-- **Zolmitriptano**: error
-- **Efedrina**: error
-- **Tranilcipromina**: error
-- **Etinilestradiol**: error
-- **Contraste Iodado**: error
-- **Ferro Sulfato**: error
-- **Vitamina D**: error
+_Nenhum_

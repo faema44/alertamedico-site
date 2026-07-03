@@ -15,9 +15,12 @@ Saída:
   site/bulas/relatorio.md   → relatório final
 
 Uso:
-  python download_bulas.py              # execução completa
-  python download_bulas.py --resumir    # pula os já baixados
-  python download_bulas.py --sem-delay  # sem espera de 2 min (testes)
+  python download_bulas.py                              # medicamentos, execução completa
+  python download_bulas.py --resumir                     # pula os já baixados (checa o disco)
+  python download_bulas.py --sem-delay                   # sem espera de 2 min (testes)
+  python download_bulas.py --alvo=fitoterapicos          # só a lista de fitoterápicos
+  python download_bulas.py --alvo=todos --resumir        # medicamentos + fitoterápicos, pulando já baixados
+  python download_bulas.py --limite=1 --sem-delay        # roda só 1 item (teste rápido)
 """
 
 import asyncio
@@ -26,6 +29,10 @@ import re
 import sys
 import unicodedata
 from datetime import datetime
+
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 from pathlib import Path
 
 from playwright.async_api import async_playwright, Page, BrowserContext
@@ -45,6 +52,34 @@ REPORT_FILE    = THIS_DIR / "relatorio.md"
 
 RESUMIR       = "--resumir"    in sys.argv
 SEM_DELAY     = "--sem-delay"  in sys.argv
+
+def _flag_value(name: str, default: str) -> str:
+    for arg in sys.argv:
+        if arg.startswith(f"{name}="):
+            return arg.split("=", 1)[1]
+    return default
+
+ALVO    = _flag_value("--alvo", "medicamentos")   # medicamentos | fitoterapicos | todos
+LIMITE  = int(_flag_value("--limite", "0")) or None  # limita a N itens (0 = sem limite)
+
+# Fitoterápicos usados no banco de interações (src/data/interactions.json) que
+# ainda não têm bula baixada. Nome de busca = termo em português mais provável
+# de aparecer no cadastro ANVISA; termos extras funcionam como sinônimos de busca.
+PHYTO_ITEMS: list[dict] = [
+    {"name": "Ginkgo Biloba",     "terms": ["Ginkgo"]},
+    {"name": "Erva de São João",  "terms": ["Hiperico", "Hypericum"]},
+    {"name": "Valeriana",         "terms": ["Valeriana Officinalis"]},
+    {"name": "Alho",              "terms": ["Allium Sativum", "Alho Medicinal"]},
+    {"name": "Camomila",          "terms": ["Matricaria Recutita"]},
+    {"name": "Boldo",             "terms": ["Peumus Boldus", "Boldo do Chile"]},
+    {"name": "Cha Verde",         "terms": ["Camellia Sinensis", "Chá Verde"]},
+    {"name": "Curcuma",           "terms": ["Curcuma Longa", "Açafrão da Terra"]},
+    {"name": "Alcachofra",        "terms": ["Cynara Scolymus"]},
+    {"name": "Melissa",           "terms": ["Melissa Officinalis", "Erva Cidreira"]},
+    {"name": "Hortela Pimenta",   "terms": ["Mentha Piperita"]},
+    {"name": "Unha de Gato",      "terms": ["Uncaria Tomentosa"]},
+    {"name": "Maracuja",          "terms": ["Passiflora Incarnata", "Passiflora"]},
+]
 
 # ── Utilitários ───────────────────────────────────────────────────────────────
 
@@ -290,8 +325,8 @@ async def process_med(
         "status":      "success",
         "file":        f"{slug}.pdf",
         "date":        date_str,
-        "full_name":   row_name,
-        "brand_used":  term_used,
+        "full_name":   best["name"],
+        "brand_used":  best["term"],
         "bula_type":   bula_type,
         "monitored":   monitored,
     }
@@ -330,14 +365,24 @@ def build_report(medications, index, not_found, errors) -> str:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 async def main():
-    medications: list[str] = json.loads(MEDS_SIMPLE.read_text(encoding="utf-8"))
     brands_map   = load_brands_map()
     index        = load_index()
     not_found: list[str]  = []
     errors: list[dict]    = []
 
+    # Monta a lista de itens (nome, termos de busca) conforme --alvo
+    items: list[tuple[str, list[str]]] = []
+    if ALVO in ("medicamentos", "todos"):
+        medications: list[str] = json.loads(MEDS_SIMPLE.read_text(encoding="utf-8"))
+        items += [(m, brands_map.get(m, [])) for m in medications]
+    if ALVO in ("fitoterapicos", "todos"):
+        items += [(p["name"], p["terms"]) for p in PHYTO_ITEMS]
+
+    if LIMITE:
+        items = items[:LIMITE]
+
     print(f"MedAlert — Downloader de Bulas ANVISA")
-    print(f"Medicamentos: {len(medications)} | resumir={RESUMIR} | delay={0 if SEM_DELAY else DELAY_SECONDS}s\n")
+    print(f"Alvo: {ALVO} | itens: {len(items)} | resumir={RESUMIR} | delay={0 if SEM_DELAY else DELAY_SECONDS}s\n")
 
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(
@@ -359,17 +404,17 @@ async def main():
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
 
-        for i, med in enumerate(medications):
+        for i, (med, brands) in enumerate(items):
             print(f"\n{'─'*60}")
-            print(f"[{i+1}/{len(medications)}] {med}")
+            print(f"[{i+1}/{len(items)}] {med}")
 
-            if RESUMIR and med in index and index[med].get("status") == "success":
-                dest = THIS_DIR / index[med].get("file", "")
-                if dest.exists():
-                    print("  ↷ já baixado, pulando")
-                    continue
-
-            brands = brands_map.get(med, [])
+            dest_by_slug = THIS_DIR / f"{slugify(med)}.pdf"
+            if RESUMIR and dest_by_slug.exists():
+                print(f"  ↷ já existe ({dest_by_slug.name}), pulando")
+                index.setdefault(med, {
+                    "name": med, "status": "success", "file": dest_by_slug.name,
+                })
+                continue
 
             try:
                 result = await process_med(page, med, brands, THIS_DIR)
@@ -387,15 +432,15 @@ async def main():
 
             save_index(index)
 
-            if i < len(medications) - 1 and not SEM_DELAY:
-                remaining = len(medications) - i - 1
+            if i < len(items) - 1 and not SEM_DELAY:
+                remaining = len(items) - i - 1
                 eta = (remaining * DELAY_SECONDS) // 60
                 print(f"\n  ⏳ aguardando {DELAY_SECONDS}s… (restam {remaining}, ~{eta} min)")
                 await asyncio.sleep(DELAY_SECONDS)
 
         await browser.close()
 
-    REPORT_FILE.write_text(build_report(medications, index, not_found, errors), encoding="utf-8")
+    REPORT_FILE.write_text(build_report([m for m, _ in items], index, not_found, errors), encoding="utf-8")
 
     print(f"\n{'='*60}")
     print(f"CONCLUÍDO: {len(index)} baixados | {len(not_found)} não encontrados | {len(errors)} erros")

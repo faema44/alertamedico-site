@@ -1,1 +1,972 @@
-{}
+{
+  "Metformina": {
+    "name": "Metformina",
+    "status": "success",
+    "file": "metformina.pdf",
+    "reconciled": true
+  },
+  "Glibenclamida": {
+    "name": "Glibenclamida",
+    "status": "success",
+    "file": "glibenclamida.pdf",
+    "reconciled": true
+  },
+  "Gliclazida": {
+    "name": "Gliclazida",
+    "status": "success",
+    "file": "gliclazida.pdf",
+    "reconciled": true
+  },
+  "Glimepirida": {
+    "name": "Glimepirida",
+    "status": "success",
+    "file": "glimepirida.pdf",
+    "reconciled": true
+  },
+  "Insulina NPH": {
+    "name": "Insulina NPH",
+    "status": "success",
+    "file": "insulina-nph.pdf",
+    "reconciled": true
+  },
+  "Insulina Regular": {
+    "name": "Insulina Regular",
+    "status": "success",
+    "file": "insulina-regular.pdf",
+    "reconciled": true
+  },
+  "Insulina Glargina": {
+    "name": "Insulina Glargina",
+    "status": "success",
+    "file": "insulina-glargina.pdf",
+    "reconciled": true
+  },
+  "Insulina Aspart": {
+    "name": "Insulina Aspart",
+    "status": "success",
+    "file": "insulina-aspart.pdf",
+    "reconciled": true
+  },
+  "Insulina Lispro": {
+    "name": "Insulina Lispro",
+    "status": "success",
+    "file": "insulina-lispro.pdf",
+    "reconciled": true
+  },
+  "Losartana": {
+    "name": "Losartana",
+    "status": "success",
+    "file": "losartana.pdf",
+    "reconciled": true
+  },
+  "Valsartana": {
+    "name": "Valsartana",
+    "status": "success",
+    "file": "valsartana.pdf",
+    "reconciled": true
+  },
+  "Olmesartana": {
+    "name": "Olmesartana",
+    "status": "success",
+    "file": "olmesartana.pdf",
+    "reconciled": true
+  },
+  "Candesartana": {
+    "name": "Candesartana",
+    "status": "success",
+    "file": "candesartana.pdf",
+    "reconciled": true
+  },
+  "Irbesartana": {
+    "name": "Irbesartana",
+    "status": "success",
+    "file": "irbesartana.pdf",
+    "reconciled": true
+  },
+  "Enalapril": {
+    "name": "Enalapril",
+    "status": "success",
+    "file": "enalapril.pdf",
+    "reconciled": true
+  },
+  "Captopril": {
+    "name": "Captopril",
+    "status": "success",
+    "file": "captopril.pdf",
+    "reconciled": true
+  },
+  "Ramipril": {
+    "name": "Ramipril",
+    "status": "success",
+    "file": "ramipril.pdf",
+    "reconciled": true
+  },
+  "Lisinopril": {
+    "name": "Lisinopril",
+    "status": "success",
+    "file": "lisinopril.pdf",
+    "reconciled": true
+  },
+  "Perindopril": {
+    "name": "Perindopril",
+    "status": "success",
+    "file": "perindopril.pdf",
+    "reconciled": true
+  },
+  "Anlodipina": {
+    "name": "Anlodipina",
+    "status": "success",
+    "file": "anlodipina.pdf",
+    "reconciled": true
+  },
+  "Diltiazem": {
+    "name": "Diltiazem",
+    "status": "success",
+    "file": "diltiazem.pdf",
+    "reconciled": true
+  },
+  "Verapamil": {
+    "name": "Verapamil",
+    "status": "success",
+    "file": "verapamil.pdf",
+    "reconciled": true
+  },
+  "Atorvastatina": {
+    "name": "Atorvastatina",
+    "status": "success",
+    "file": "atorvastatina.pdf",
+    "reconciled": true
+  },
+  "Sinvastatina": {
+    "name": "Sinvastatina",
+    "status": "success",
+    "file": "sinvastatina.pdf",
+    "reconciled": true
+  },
+  "Rosuvastatina": {
+    "name": "Rosuvastatina",
+    "status": "success",
+    "file": "rosuvastatina.pdf",
+    "reconciled": true
+  },
+  "Pravastatina": {
+    "name": "Pravastatina",
+    "status": "success",
+    "file": "pravastatina.pdf",
+    "reconciled": true
+  },
+  "Omeprazol": {
+    "name": "Omeprazol",
+    "status": "success",
+    "file": "omeprazol.pdf",
+    "reconciled": true
+  },
+  "Pantoprazol": {
+    "name": "Pantoprazol",
+    "status": "success",
+    "file": "pantoprazol.pdf",
+    "reconciled": true
+  },
+  "Esomeprazol": {
+    "name": "Esomeprazol",
+    "status": "success",
+    "file": "esomeprazol.pdf",
+    "reconciled": true
+  },
+  "Lansoprazol": {
+    "name": "Lansoprazol",
+    "status": "success",
+    "file": "lansoprazol.pdf",
+    "reconciled": true
+  },
+  "Rabeprazol": {
+    "name": "Rabeprazol",
+    "status": "success",
+    "file": "rabeprazol.pdf",
+    "reconciled": true
+  },
+  "Metoprolol": {
+    "name": "Metoprolol",
+    "status": "success",
+    "file": "metoprolol.pdf",
+    "reconciled": true
+  },
+  "Atenolol": {
+    "name": "Atenolol",
+    "status": "success",
+    "file": "atenolol.pdf",
+    "reconciled": true
+  },
+  "Propranolol": {
+    "name": "Propranolol",
+    "status": "success",
+    "file": "propranolol.pdf",
+    "reconciled": true
+  },
+  "Carvedilol": {
+    "name": "Carvedilol",
+    "status": "success",
+    "file": "carvedilol.pdf",
+    "reconciled": true
+  },
+  "Bisoprolol": {
+    "name": "Bisoprolol",
+    "status": "success",
+    "file": "bisoprolol.pdf",
+    "reconciled": true
+  },
+  "Nebivolol": {
+    "name": "Nebivolol",
+    "status": "success",
+    "file": "nebivolol.pdf",
+    "reconciled": true
+  },
+  "Hidroclorotiazida": {
+    "name": "Hidroclorotiazida",
+    "status": "success",
+    "file": "hidroclorotiazida.pdf",
+    "reconciled": true
+  },
+  "Clortalidona": {
+    "name": "Clortalidona",
+    "status": "success",
+    "file": "clortalidona.pdf",
+    "reconciled": true
+  },
+  "Furosemida": {
+    "name": "Furosemida",
+    "status": "success",
+    "file": "furosemida.pdf",
+    "reconciled": true
+  },
+  "Espironolactona": {
+    "name": "Espironolactona",
+    "status": "success",
+    "file": "espironolactona.pdf",
+    "reconciled": true
+  },
+  "Amoxicilina": {
+    "name": "Amoxicilina",
+    "status": "success",
+    "file": "amoxicilina.pdf",
+    "reconciled": true
+  },
+  "Amoxicilina + Clavulanato": {
+    "name": "Amoxicilina + Clavulanato",
+    "status": "success",
+    "file": "amoxicilina.pdf",
+    "reconciled": true
+  },
+  "Ampicilina": {
+    "name": "Ampicilina",
+    "status": "success",
+    "file": "ampicilina.pdf",
+    "reconciled": true
+  },
+  "Piperacilina + Tazobactam": {
+    "name": "Piperacilina + Tazobactam",
+    "status": "success",
+    "file": "piperacilina.pdf",
+    "reconciled": true
+  },
+  "Azitromicina": {
+    "name": "Azitromicina",
+    "status": "success",
+    "file": "azitromicina.pdf",
+    "reconciled": true
+  },
+  "Claritromicina": {
+    "name": "Claritromicina",
+    "status": "success",
+    "file": "claritromicina.pdf",
+    "reconciled": true
+  },
+  "Ciprofloxacino": {
+    "name": "Ciprofloxacino",
+    "status": "success",
+    "file": "ciprofloxacino.pdf",
+    "reconciled": true
+  },
+  "Levofloxacino": {
+    "name": "Levofloxacino",
+    "status": "success",
+    "file": "levofloxacino.pdf",
+    "reconciled": true
+  },
+  "Norfloxacino": {
+    "name": "Norfloxacino",
+    "status": "success",
+    "file": "norfloxacino.pdf",
+    "reconciled": true
+  },
+  "Moxifloxacino": {
+    "name": "Moxifloxacino",
+    "status": "success",
+    "file": "moxifloxacino.pdf",
+    "reconciled": true
+  },
+  "Cefalexina": {
+    "name": "Cefalexina",
+    "status": "success",
+    "file": "cefalexina.pdf",
+    "reconciled": true
+  },
+  "Ceftriaxona": {
+    "name": "Ceftriaxona",
+    "status": "success",
+    "file": "ceftriaxona.pdf",
+    "reconciled": true
+  },
+  "Cefuroxima": {
+    "name": "Cefuroxima",
+    "status": "success",
+    "file": "cefuroxima.pdf",
+    "reconciled": true
+  },
+  "Cefazolina": {
+    "name": "Cefazolina",
+    "status": "success",
+    "file": "cefazolina.pdf",
+    "reconciled": true
+  },
+  "Metronidazol": {
+    "name": "Metronidazol",
+    "status": "success",
+    "file": "metronidazol.pdf",
+    "reconciled": true
+  },
+  "Tinidazol": {
+    "name": "Tinidazol",
+    "status": "success",
+    "file": "tinidazol.pdf",
+    "reconciled": true
+  },
+  "Fluconazol": {
+    "name": "Fluconazol",
+    "status": "success",
+    "file": "fluconazol.pdf",
+    "reconciled": true
+  },
+  "Itraconazol": {
+    "name": "Itraconazol",
+    "status": "success",
+    "file": "itraconazol.pdf",
+    "reconciled": true
+  },
+  "Voriconazol": {
+    "name": "Voriconazol",
+    "status": "success",
+    "file": "voriconazol.pdf",
+    "reconciled": true
+  },
+  "Fluoxetina": {
+    "name": "Fluoxetina",
+    "status": "success",
+    "file": "fluoxetina.pdf",
+    "reconciled": true
+  },
+  "Sertralina": {
+    "name": "Sertralina",
+    "status": "success",
+    "file": "sertralina.pdf",
+    "reconciled": true
+  },
+  "Citalopram": {
+    "name": "Citalopram",
+    "status": "success",
+    "file": "citalopram.pdf",
+    "reconciled": true
+  },
+  "Venlafaxina": {
+    "name": "Venlafaxina",
+    "status": "success",
+    "file": "venlafaxina.pdf",
+    "reconciled": true
+  },
+  "Duloxetina": {
+    "name": "Duloxetina",
+    "status": "success",
+    "file": "duloxetina.pdf",
+    "reconciled": true
+  },
+  "Desvenlafaxina": {
+    "name": "Desvenlafaxina",
+    "status": "success",
+    "file": "desvenlafaxina.pdf",
+    "reconciled": true
+  },
+  "Amitriptilina": {
+    "name": "Amitriptilina",
+    "status": "success",
+    "file": "amitriptilina.pdf",
+    "reconciled": true
+  },
+  "Nortriptilina": {
+    "name": "Nortriptilina",
+    "status": "success",
+    "file": "nortriptilina.pdf",
+    "reconciled": true
+  },
+  "Clomipramina": {
+    "name": "Clomipramina",
+    "status": "success",
+    "file": "clomipramina.pdf",
+    "reconciled": true
+  },
+  "Ibuprofeno": {
+    "name": "Ibuprofeno",
+    "status": "success",
+    "file": "ibuprofeno.pdf",
+    "reconciled": true
+  },
+  "Naproxeno": {
+    "name": "Naproxeno",
+    "status": "success",
+    "file": "naproxeno.pdf",
+    "reconciled": true
+  },
+  "Diclofenaco": {
+    "name": "Diclofenaco",
+    "status": "success",
+    "file": "diclofenaco.pdf",
+    "reconciled": true
+  },
+  "Cetoprofeno": {
+    "name": "Cetoprofeno",
+    "status": "success",
+    "file": "cetoprofeno.pdf",
+    "reconciled": true
+  },
+  "Meloxicam": {
+    "name": "Meloxicam",
+    "status": "success",
+    "file": "meloxicam.pdf",
+    "reconciled": true
+  },
+  "Celecoxibe": {
+    "name": "Celecoxibe",
+    "status": "success",
+    "file": "celecoxibe.pdf",
+    "reconciled": true
+  },
+  "Paracetamol": {
+    "name": "Paracetamol",
+    "status": "success",
+    "file": "paracetamol.pdf",
+    "reconciled": true
+  },
+  "Dipirona": {
+    "name": "Dipirona",
+    "status": "success",
+    "file": "dipirona.pdf",
+    "reconciled": true
+  },
+  "Aspirina": {
+    "name": "Aspirina",
+    "status": "success",
+    "file": "aspirina.pdf",
+    "reconciled": true
+  },
+  "Tramadol": {
+    "name": "Tramadol",
+    "status": "success",
+    "file": "tramadol.pdf",
+    "reconciled": true
+  },
+  "Codeína": {
+    "name": "Codeína",
+    "status": "success",
+    "file": "codeina.pdf",
+    "reconciled": true
+  },
+  "Oxicodona": {
+    "name": "Oxicodona",
+    "status": "success",
+    "file": "oxicodona.pdf",
+    "reconciled": true
+  },
+  "Tramadol + Paracetamol": {
+    "name": "Tramadol + Paracetamol",
+    "status": "success",
+    "file": "tramadol.pdf",
+    "reconciled": true
+  },
+  "Gabapentina": {
+    "name": "Gabapentina",
+    "status": "success",
+    "file": "gabapentina.pdf",
+    "reconciled": true
+  },
+  "Pregabalina": {
+    "name": "Pregabalina",
+    "status": "success",
+    "file": "pregabalina.pdf",
+    "reconciled": true
+  },
+  "Varfarina": {
+    "name": "Varfarina",
+    "status": "success",
+    "file": "varfarina.pdf",
+    "reconciled": true
+  },
+  "Clopidogrel": {
+    "name": "Clopidogrel",
+    "status": "success",
+    "file": "clopidogrel.pdf",
+    "reconciled": true
+  },
+  "Ticagrelor": {
+    "name": "Ticagrelor",
+    "status": "success",
+    "file": "ticagrelor.pdf",
+    "reconciled": true
+  },
+  "Rivaroxabana": {
+    "name": "Rivaroxabana",
+    "status": "success",
+    "file": "rivaroxabana.pdf",
+    "reconciled": true
+  },
+  "Apixabana": {
+    "name": "Apixabana",
+    "status": "success",
+    "file": "apixabana.pdf",
+    "reconciled": true
+  },
+  "Dabigatrana": {
+    "name": "Dabigatrana",
+    "status": "success",
+    "file": "dabigatrana.pdf",
+    "reconciled": true
+  },
+  "Edoxabana": {
+    "name": "Edoxabana",
+    "status": "success",
+    "file": "edoxabana.pdf",
+    "reconciled": true
+  },
+  "Enoxaparina": {
+    "name": "Enoxaparina",
+    "status": "success",
+    "file": "enoxaparina.pdf",
+    "reconciled": true
+  },
+  "Digoxina": {
+    "name": "Digoxina",
+    "status": "success",
+    "file": "digoxina.pdf",
+    "reconciled": true
+  },
+  "Amiodarona": {
+    "name": "Amiodarona",
+    "status": "success",
+    "file": "amiodarona.pdf",
+    "reconciled": true
+  },
+  "Levotiroxina": {
+    "name": "Levotiroxina",
+    "status": "success",
+    "file": "levotiroxina.pdf",
+    "reconciled": true
+  },
+  "Metimazol": {
+    "name": "Metimazol",
+    "status": "success",
+    "file": "metimazol.pdf",
+    "reconciled": true
+  },
+  "Prednisona": {
+    "name": "Prednisona",
+    "status": "success",
+    "file": "prednisona.pdf",
+    "reconciled": true
+  },
+  "Prednisolona": {
+    "name": "Prednisolona",
+    "status": "success",
+    "file": "prednisolona.pdf",
+    "reconciled": true
+  },
+  "Dexametasona": {
+    "name": "Dexametasona",
+    "status": "success",
+    "file": "dexametasona.pdf",
+    "reconciled": true
+  },
+  "Betametasona": {
+    "name": "Betametasona",
+    "status": "success",
+    "file": "betametasona.pdf",
+    "reconciled": true
+  },
+  "Hidrocortisona": {
+    "name": "Hidrocortisona",
+    "status": "success",
+    "file": "hidrocortisona.pdf",
+    "reconciled": true
+  },
+  "Carbamazepina": {
+    "name": "Carbamazepina",
+    "status": "success",
+    "file": "carbamazepina.pdf",
+    "reconciled": true
+  },
+  "Fenitoína": {
+    "name": "Fenitoína",
+    "status": "success",
+    "file": "fenitoina.pdf",
+    "reconciled": true
+  },
+  "Fenobarbital": {
+    "name": "Fenobarbital",
+    "status": "success",
+    "file": "fenobarbital.pdf",
+    "reconciled": true
+  },
+  "Ácido Valpróico": {
+    "name": "Ácido Valpróico",
+    "status": "success",
+    "file": "acido-valproico.pdf",
+    "reconciled": true
+  },
+  "Valproato de Sódio": {
+    "name": "Valproato de Sódio",
+    "status": "success",
+    "file": "valproato-de-sodio.pdf",
+    "reconciled": true
+  },
+  "Lamotrigina": {
+    "name": "Lamotrigina",
+    "status": "success",
+    "file": "lamotrigina.pdf",
+    "reconciled": true
+  },
+  "Levetiracetam": {
+    "name": "Levetiracetam",
+    "status": "success",
+    "file": "levetiracetam.pdf",
+    "reconciled": true
+  },
+  "Topiramato": {
+    "name": "Topiramato",
+    "status": "success",
+    "file": "topiramato.pdf",
+    "reconciled": true
+  },
+  "Diazepam": {
+    "name": "Diazepam",
+    "status": "success",
+    "file": "diazepam.pdf",
+    "reconciled": true
+  },
+  "Clonazepam": {
+    "name": "Clonazepam",
+    "status": "success",
+    "file": "clonazepam.pdf",
+    "reconciled": true
+  },
+  "Alprazolam": {
+    "name": "Alprazolam",
+    "status": "success",
+    "file": "alprazolam.pdf",
+    "reconciled": true
+  },
+  "Lorazepam": {
+    "name": "Lorazepam",
+    "status": "success",
+    "file": "lorazepam.pdf",
+    "reconciled": true
+  },
+  "Midazolam": {
+    "name": "Midazolam",
+    "status": "success",
+    "file": "midazolam.pdf",
+    "reconciled": true
+  },
+  "Lítio": {
+    "name": "Lítio",
+    "status": "success",
+    "file": "litio.pdf",
+    "reconciled": true
+  },
+  "Quetiapina": {
+    "name": "Quetiapina",
+    "status": "success",
+    "file": "quetiapina.pdf",
+    "reconciled": true
+  },
+  "Risperidona": {
+    "name": "Risperidona",
+    "status": "success",
+    "file": "risperidona.pdf",
+    "reconciled": true
+  },
+  "Olanzapina": {
+    "name": "Olanzapina",
+    "status": "success",
+    "file": "olanzapina.pdf",
+    "reconciled": true
+  },
+  "Haloperidol": {
+    "name": "Haloperidol",
+    "status": "success",
+    "file": "haloperidol.pdf",
+    "reconciled": true
+  },
+  "Aripiprazol": {
+    "name": "Aripiprazol",
+    "status": "success",
+    "file": "aripiprazol.pdf",
+    "reconciled": true
+  },
+  "Clozapina": {
+    "name": "Clozapina",
+    "status": "success",
+    "file": "clozapina.pdf",
+    "reconciled": true
+  },
+  "Metotrexato": {
+    "name": "Metotrexato",
+    "status": "success",
+    "file": "metotrexato.pdf",
+    "reconciled": true
+  },
+  "Sildenafila": {
+    "name": "Sildenafila",
+    "status": "success",
+    "file": "sildenafila.pdf",
+    "reconciled": true
+  },
+  "Tadalafila": {
+    "name": "Tadalafila",
+    "status": "success",
+    "file": "tadalafila.pdf",
+    "reconciled": true
+  },
+  "Isossorbida": {
+    "name": "Isossorbida",
+    "status": "success",
+    "file": "isossorbida.pdf",
+    "reconciled": true
+  },
+  "Mononitrato de Isossorbida": {
+    "name": "Mononitrato de Isossorbida",
+    "status": "success",
+    "file": "mononitrato-de-isossorbida.pdf",
+    "reconciled": true
+  },
+  "Tobramicina": {
+    "name": "Tobramicina",
+    "status": "success",
+    "file": "tobramicina.pdf",
+    "reconciled": true
+  },
+  "Ciclosporina": {
+    "name": "Ciclosporina",
+    "status": "success",
+    "file": "ciclosporina.pdf",
+    "reconciled": true
+  },
+  "Tacrolimo": {
+    "name": "Tacrolimo",
+    "status": "success",
+    "file": "tacrolimo.pdf",
+    "reconciled": true
+  },
+  "Alopurinol": {
+    "name": "Alopurinol",
+    "status": "success",
+    "file": "alopurinol.pdf",
+    "reconciled": true
+  },
+  "Colchicina": {
+    "name": "Colchicina",
+    "status": "success",
+    "file": "colchicina.pdf",
+    "reconciled": true
+  },
+  "Alendronato": {
+    "name": "Alendronato",
+    "status": "success",
+    "file": "alendronato.pdf",
+    "reconciled": true
+  },
+  "Risedronato": {
+    "name": "Risedronato",
+    "status": "success",
+    "file": "risedronato.pdf",
+    "reconciled": true
+  },
+  "Ibandronato": {
+    "name": "Ibandronato",
+    "status": "success",
+    "file": "ibandronato.pdf",
+    "reconciled": true
+  },
+  "Salbutamol": {
+    "name": "Salbutamol",
+    "status": "success",
+    "file": "salbutamol.pdf",
+    "reconciled": true
+  },
+  "Fenoterol": {
+    "name": "Fenoterol",
+    "status": "success",
+    "file": "fenoterol.pdf",
+    "reconciled": true
+  },
+  "Formoterol": {
+    "name": "Formoterol",
+    "status": "success",
+    "file": "formoterol.pdf",
+    "reconciled": true
+  },
+  "Budesonida": {
+    "name": "Budesonida",
+    "status": "success",
+    "file": "budesonida.pdf",
+    "reconciled": true
+  },
+  "Fluticasona": {
+    "name": "Fluticasona",
+    "status": "success",
+    "file": "fluticasona.pdf",
+    "reconciled": true
+  },
+  "Beclometasona": {
+    "name": "Beclometasona",
+    "status": "success",
+    "file": "beclometasona.pdf",
+    "reconciled": true
+  },
+  "Brometo de Ipratrópio": {
+    "name": "Brometo de Ipratrópio",
+    "status": "success",
+    "file": "brometo-de-ipratropio.pdf",
+    "reconciled": true
+  },
+  "Tiotrópio": {
+    "name": "Tiotrópio",
+    "status": "success",
+    "file": "tiotropio.pdf",
+    "reconciled": true
+  },
+  "Tamoxifeno": {
+    "name": "Tamoxifeno",
+    "status": "success",
+    "file": "tamoxifeno.pdf",
+    "reconciled": true
+  },
+  "Letrozol": {
+    "name": "Letrozol",
+    "status": "success",
+    "file": "letrozol.pdf",
+    "reconciled": true
+  },
+  "Anastrozol": {
+    "name": "Anastrozol",
+    "status": "success",
+    "file": "anastrozol.pdf",
+    "reconciled": true
+  },
+  "Finasterida": {
+    "name": "Finasterida",
+    "status": "success",
+    "file": "finasterida.pdf",
+    "reconciled": true
+  },
+  "Dutasterida": {
+    "name": "Dutasterida",
+    "status": "success",
+    "file": "dutasterida.pdf",
+    "reconciled": true
+  },
+  "Donepezila": {
+    "name": "Donepezila",
+    "status": "success",
+    "file": "donepezila.pdf",
+    "reconciled": true
+  },
+  "Rivastigmina": {
+    "name": "Rivastigmina",
+    "status": "success",
+    "file": "rivastigmina.pdf",
+    "reconciled": true
+  },
+  "Galantamina": {
+    "name": "Galantamina",
+    "status": "success",
+    "file": "galantamina.pdf",
+    "reconciled": true
+  },
+  "Memantina": {
+    "name": "Memantina",
+    "status": "success",
+    "file": "memantina.pdf",
+    "reconciled": true
+  },
+  "Sumatriptano": {
+    "name": "Sumatriptano",
+    "status": "success",
+    "file": "sumatriptano.pdf",
+    "reconciled": true
+  },
+  "Rizatriptano": {
+    "name": "Rizatriptano",
+    "status": "success",
+    "file": "rizatriptano.pdf",
+    "reconciled": true
+  },
+  "Zolmitriptano": {
+    "name": "Zolmitriptano",
+    "status": "success",
+    "file": "zolmitriptano.pdf",
+    "reconciled": true
+  },
+  "Efedrina": {
+    "name": "Efedrina",
+    "status": "success",
+    "file": "efedrina.pdf",
+    "reconciled": true
+  },
+  "Tranilcipromina": {
+    "name": "Tranilcipromina",
+    "status": "success",
+    "file": "tranilcipromina.pdf",
+    "reconciled": true
+  },
+  "Etinilestradiol": {
+    "name": "Etinilestradiol",
+    "status": "success",
+    "file": "etinilestradiol.pdf",
+    "reconciled": true
+  },
+  "Contraste Iodado": {
+    "name": "Contraste Iodado",
+    "status": "success",
+    "file": "contraste-iodado.pdf",
+    "reconciled": true
+  },
+  "Ferro Sulfato": {
+    "name": "Ferro Sulfato",
+    "status": "success",
+    "file": "ferro-sulfato.pdf",
+    "reconciled": true
+  },
+  "Vitamina D": {
+    "name": "Vitamina D",
+    "status": "success",
+    "file": "vitamina-d.pdf",
+    "reconciled": true
+  },
+  "Ginkgo Biloba": {
+    "name": "Ginkgo Biloba",
+    "status": "success",
+    "file": "ginkgo-biloba.pdf",
+    "date": "23/01/2026",
+    "full_name": "Ginkgo biloba MCG",
+    "brand_used": "Ginkgo",
+    "bula_type": "paciente",
+    "monitored": true
+  }
+}
