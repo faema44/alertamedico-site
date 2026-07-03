@@ -19,7 +19,8 @@ Uso:
   python download_bulas.py --resumir                     # pula os já baixados (checa o disco)
   python download_bulas.py --sem-delay                   # sem espera de 2 min (testes)
   python download_bulas.py --alvo=fitoterapicos          # só a lista de fitoterápicos
-  python download_bulas.py --alvo=todos --resumir        # medicamentos + fitoterápicos, pulando já baixados
+  python download_bulas.py --alvo=xr                     # só as versões XR/Retard/CR
+  python download_bulas.py --alvo=todos --resumir        # medicamentos + fitoterápicos + XR, pulando já baixados
   python download_bulas.py --limite=1 --sem-delay        # roda só 1 item (teste rápido)
 """
 
@@ -59,7 +60,7 @@ def _flag_value(name: str, default: str) -> str:
             return arg.split("=", 1)[1]
     return default
 
-ALVO    = _flag_value("--alvo", "medicamentos")   # medicamentos | fitoterapicos | todos
+ALVO    = _flag_value("--alvo", "medicamentos")   # medicamentos | fitoterapicos | xr | todos
 LIMITE  = int(_flag_value("--limite", "0")) or None  # limita a N itens (0 = sem limite)
 
 # Fitoterápicos usados no banco de interações (src/data/interactions.json) que
@@ -79,6 +80,23 @@ PHYTO_ITEMS: list[dict] = [
     {"name": "Hortela Pimenta",   "terms": ["Mentha Piperita"]},
     {"name": "Unha de Gato",      "terms": ["Uncaria Tomentosa"]},
     {"name": "Maracuja",          "terms": ["Passiflora Incarnata", "Passiflora"]},
+]
+
+# Versões de liberação prolongada (XR/Retard/CR/MR) de medicamentos já presentes
+# na lista principal, cuja bula (posologia, farmacocinética) é distinta da
+# versão de liberação imediata. Só inclui os que já estão em medications.json.
+XR_ITEMS: list[dict] = [
+    {"name": "Metformina XR",           "terms": ["Glifage XR", "Formet XR", "Glicep XR"]},
+    {"name": "Gliclazida MR",           "terms": ["Clazi XR", "Gliclazida MR"]},
+    {"name": "Nifedipina Retard",       "terms": ["Nifedipina Retard", "Oxcord Retard", "Adalex Retard", "Cardalin Retard"]},
+    {"name": "Diltiazem Retard",        "terms": ["Balcor Retard", "Diltiazem Retard"]},
+    {"name": "Metoprolol Succinato XR", "terms": ["Emprol XR", "Inephoros XR", "Metoprolol Succinato"]},
+    {"name": "Venlafaxina XR",          "terms": ["Alenthus XR", "Venlafaxina XR"]},
+    {"name": "Diclofenaco Retard",      "terms": ["Inflaren Retard", "Desinflex Retard", "Diclac SR"]},
+    {"name": "Cetoprofeno Retard",      "terms": ["Cetofen Retard"]},
+    {"name": "Carbamazepina CR",        "terms": ["Tegretard", "Carbamazepina CR"]},
+    {"name": "Quetiapina XR",           "terms": ["Quet XR", "Atip XR"]},
+    {"name": "Tramadol Retard",         "terms": ["Timasen SR", "Tramadol Retard"]},
 ]
 
 # ── Utilitários ───────────────────────────────────────────────────────────────
@@ -377,6 +395,8 @@ async def main():
         items += [(m, brands_map.get(m, [])) for m in medications]
     if ALVO in ("fitoterapicos", "todos"):
         items += [(p["name"], p["terms"]) for p in PHYTO_ITEMS]
+    if ALVO in ("xr", "todos"):
+        items += [(x["name"], x["terms"]) for x in XR_ITEMS]
 
     if LIMITE:
         items = items[:LIMITE]

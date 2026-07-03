@@ -968,5 +968,135 @@
     "brand_used": "Ginkgo",
     "bula_type": "paciente",
     "monitored": true
+  },
+  "Nifedipina": {
+    "name": "Nifedipina",
+    "status": "success",
+    "file": "nifedipina.pdf",
+    "date": "22/06/2026",
+    "full_name": "NEO FEDIPINA",
+    "brand_used": "Neo Fedipina",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Paroxetina": {
+    "name": "Paroxetina",
+    "status": "success",
+    "file": "paroxetina.pdf",
+    "date": "30/06/2026",
+    "full_name": "Roxetin",
+    "brand_used": "Roxetin",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Escitalopram": {
+    "name": "Escitalopram",
+    "status": "success",
+    "file": "escitalopram.pdf",
+    "date": "05/12/2024",
+    "full_name": "LEXAPRO",
+    "brand_used": "Lexapro",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Imipramina": {
+    "name": "Imipramina",
+    "status": "success",
+    "file": "imipramina.pdf",
+    "date": "11/06/2026",
+    "full_name": "IMIPRA",
+    "brand_used": "Imipra",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "AAS": {
+    "name": "AAS",
+    "status": "success",
+    "file": "aas.pdf",
+    "date": "03/06/2026",
+    "full_name": "AAS",
+    "brand_used": "AAS",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Morfina": {
+    "name": "Morfina",
+    "status": "success",
+    "file": "morfina.pdf",
+    "date": "24/06/2026",
+    "full_name": "DIMORF BOLSA",
+    "brand_used": "Dimorf",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Nitroglicerina": {
+    "name": "Nitroglicerina",
+    "status": "success",
+    "file": "nitroglicerina.pdf",
+    "date": "17/04/2026",
+    "full_name": "TRIDIL",
+    "brand_used": "Tridil",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Gentamicina": {
+    "name": "Gentamicina",
+    "status": "success",
+    "file": "gentamicina.pdf",
+    "date": "23/06/2026",
+    "full_name": "GENTAMISAN",
+    "brand_used": "Gentamisan",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Vitamina B12": {
+    "name": "Vitamina B12",
+    "status": "success",
+    "file": "vitamina-b12.pdf",
+    "date": "01/10/2025",
+    "full_name": "VITAMINA B12",
+    "brand_used": "Vitamina B12",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Camomila": {
+    "name": "Camomila",
+    "status": "success",
+    "file": "camomila.pdf",
+    "date": "10/06/2025",
+    "full_name": "CAMOMILA COMPOSTA CATARINENSE",
+    "brand_used": "Camomila",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Boldo": {
+    "name": "Boldo",
+    "status": "success",
+    "file": "boldo.pdf",
+    "date": "23/12/2025",
+    "full_name": "BOLDO BELFAR",
+    "brand_used": "Boldo",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Alcachofra": {
+    "name": "Alcachofra",
+    "status": "success",
+    "file": "alcachofra.pdf",
+    "date": "30/12/2025",
+    "full_name": "ALCACHOFRA NATULAB",
+    "brand_used": "Alcachofra",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Maracuja": {
+    "name": "Maracuja",
+    "status": "success",
+    "file": "maracuja.pdf",
+    "date": "03/02/2026",
+    "full_name": "Passiflora MCG",
+    "brand_used": "Passiflora",
+    "bula_type": "paciente",
+    "monitored": true
   }
 }
