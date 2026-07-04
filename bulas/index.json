@@ -1098,5 +1098,191 @@
     "brand_used": "Passiflora",
     "bula_type": "paciente",
     "monitored": true
+  },
+  "Castanha da Índia": {
+    "name": "Castanha da Índia",
+    "status": "success",
+    "file": "castanha-da-india.pdf",
+    "reconciled": true
+  },
+  "Alho": {
+    "name": "Alho",
+    "status": "success",
+    "file": "alho.pdf",
+    "reconciled": true
+  },
+  "Equinácea": {
+    "name": "Equinácea",
+    "status": "success",
+    "file": "equinacea.pdf",
+    "reconciled": true
+  },
+  "Cáscara Sagrada": {
+    "name": "Cáscara Sagrada",
+    "status": "success",
+    "file": "cascara-sagrada.pdf",
+    "reconciled": true
+  },
+  "Soja": {
+    "name": "Soja",
+    "status": "success",
+    "file": "soja-isoflavona.pdf",
+    "reconciled": true
+  },
+  "Erva de São João": {
+    "name": "Erva de São João",
+    "status": "success",
+    "file": "erva-de-sao-joao.pdf",
+    "reconciled": true
+  },
+  "Guaraná": {
+    "name": "Guaraná",
+    "status": "success",
+    "file": "guarana.pdf",
+    "reconciled": true
+  },
+  "Kava Kava": {
+    "name": "Kava Kava",
+    "status": "success",
+    "file": "kava-kava.pdf",
+    "reconciled": true
+  },
+  "Sene": {
+    "name": "Sene",
+    "status": "success",
+    "file": "sene.pdf",
+    "reconciled": true
+  },
+  "Saw Palmetto": {
+    "name": "Saw Palmetto",
+    "status": "success",
+    "file": "saw-palmetto.pdf",
+    "reconciled": true
+  },
+  "Valeriana": {
+    "name": "Valeriana",
+    "status": "success",
+    "file": "valeriana.pdf",
+    "reconciled": true
+  },
+  "Silimarina": {
+    "name": "Silimarina",
+    "status": "success",
+    "file": "silimarina.pdf",
+    "reconciled": true
+  },
+  "Espinheira Santa": {
+    "name": "Espinheira Santa",
+    "status": "success",
+    "file": "espinheira-santa.pdf",
+    "reconciled": true
+  },
+  "Guaco": {
+    "name": "Guaco",
+    "status": "success",
+    "file": "guaco.pdf",
+    "reconciled": true
+  },
+  "Centella Asiática": {
+    "name": "Centella Asiática",
+    "status": "success",
+    "file": "centella-asiatica.pdf",
+    "reconciled": true
+  },
+  "Cimicífuga": {
+    "name": "Cimicífuga",
+    "status": "success",
+    "file": "cimicifuga.pdf",
+    "reconciled": true
+  },
+  "Ginseng": {
+    "name": "Ginseng",
+    "status": "success",
+    "file": "ginseng.pdf",
+    "reconciled": true
+  },
+  "Chá Verde": {
+    "name": "Chá Verde",
+    "status": "success",
+    "file": "cha-verde.pdf",
+    "reconciled": true
+  },
+  "Unha de Gato": {
+    "name": "Unha de Gato",
+    "status": "success",
+    "file": "unha-de-gato.pdf",
+    "reconciled": true
+  },
+  "Cúrcuma": {
+    "name": "Cúrcuma",
+    "status": "success",
+    "file": "curcuma.pdf",
+    "reconciled": true
+  },
+  "Hortelã-pimenta": {
+    "name": "Hortelã-pimenta",
+    "status": "success",
+    "file": "hortela-pimenta.pdf",
+    "reconciled": true
+  },
+  "Danshen": {
+    "name": "Danshen",
+    "status": "success",
+    "file": "salvia-milthiorrizae.pdf",
+    "reconciled": true
+  },
+  "Sálvia": {
+    "name": "Sálvia",
+    "status": "success",
+    "file": "salvia.pdf",
+    "reconciled": true
+  },
+  "Tanaceto": {
+    "name": "Tanaceto",
+    "status": "success",
+    "file": "tanaceto.pdf",
+    "reconciled": true
+  },
+  "Salgueiro": {
+    "name": "Salgueiro",
+    "status": "success",
+    "file": "salgueiro.pdf",
+    "reconciled": true
+  },
+  "Gengibre": {
+    "name": "Gengibre",
+    "status": "success",
+    "file": "gengibre.pdf",
+    "reconciled": true
+  },
+  "Erva-doce": {
+    "name": "Erva-doce",
+    "status": "success",
+    "file": "erva-doce.pdf",
+    "reconciled": true
+  },
+  "Arnica": {
+    "name": "Arnica",
+    "status": "success",
+    "file": "arnica.pdf",
+    "reconciled": true
+  },
+  "Alcaçuz": {
+    "name": "Alcaçuz",
+    "status": "success",
+    "file": "alcacuz.pdf",
+    "reconciled": true
+  },
+  "Eucalipto": {
+    "name": "Eucalipto",
+    "status": "success",
+    "file": "eucalipto.pdf",
+    "reconciled": true
+  },
+  "Erva Cidreira": {
+    "name": "Erva Cidreira",
+    "status": "success",
+    "file": "melissa.pdf",
+    "reconciled": true
   }
 }
