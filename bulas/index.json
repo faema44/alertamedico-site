@@ -1284,5 +1284,45 @@
     "status": "success",
     "file": "melissa.pdf",
     "reconciled": true
+  },
+  "Metformina XR": {
+    "name": "Metformina XR",
+    "status": "success",
+    "file": "metformina-xr.pdf",
+    "date": "31/07/2025",
+    "full_name": "GLIFAGE XR",
+    "brand_used": "Glifage XR",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Gliclazida MR": {
+    "name": "Gliclazida MR",
+    "status": "success",
+    "file": "gliclazida-mr.pdf",
+    "date": "10/03/2026",
+    "full_name": "CLAZI XR",
+    "brand_used": "Clazi XR",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Venlafaxina XR": {
+    "name": "Venlafaxina XR",
+    "status": "success",
+    "file": "venlafaxina-xr.pdf",
+    "date": "21/10/2025",
+    "full_name": "ALENTHUS XR",
+    "brand_used": "Alenthus XR",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Quetiapina XR": {
+    "name": "Quetiapina XR",
+    "status": "success",
+    "file": "quetiapina-xr.pdf",
+    "date": "19/09/2025",
+    "full_name": "ATIP XR",
+    "brand_used": "Atip XR",
+    "bula_type": "paciente",
+    "monitored": true
   }
 }

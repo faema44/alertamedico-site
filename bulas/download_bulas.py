@@ -41,7 +41,6 @@ from playwright.async_api import async_playwright, Page, BrowserContext
 # ── Configuração ──────────────────────────────────────────────────────────────
 
 MONITOR_EMAIL  = "evidencemedai@gmail.com"
-DELAY_SECONDS  = 120
 ANVISA_FORM    = "https://consultas.anvisa.gov.br/#/bulario/"
 
 THIS_DIR       = Path(__file__).parent
@@ -62,6 +61,7 @@ def _flag_value(name: str, default: str) -> str:
 
 ALVO    = _flag_value("--alvo", "medicamentos")   # medicamentos | fitoterapicos | xr | todos
 LIMITE  = int(_flag_value("--limite", "0")) or None  # limita a N itens (0 = sem limite)
+DELAY_SECONDS = int(_flag_value("--delay", "120"))   # segundos entre itens
 
 # Fitoterápicos usados no banco de interações (src/data/interactions.json) que
 # ainda não têm bula baixada. Nome de busca = termo em português mais provável
