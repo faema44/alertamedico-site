@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alerta Médico — Emergência, interações e lembretes de medicamentos</title>
-  <meta name="description" content="App gratuito para Android: exibe seus dados médicos na tela de bloqueio para socorristas, detecta interações perigosas entre medicamentos e envia lembretes de horário." />
+  <title>Alerta Médico — Lembretes de medicamentos, interações e ficha de emergência</title>
+  <meta name="description" content="App gratuito para Android: lembretes de horário para seus medicamentos, detecção de interações perigosas e ficha médica na tela de bloqueio para socorristas." />
   <meta property="og:title" content="Alerta Médico" />
-  <meta property="og:description" content="Tela de bloqueio médica, detecção de interações perigosas e lembretes. Gratuito e 100% offline." />
+  <meta property="og:description" content="Lembretes de medicamentos, detecção de interações perigosas e ficha de emergência na tela de bloqueio. Gratuito e 100% offline." />
   <meta property="og:url" content="https://www.alertamedico.ia.br" />
   <link rel="icon" href="favicon.png" type="image/png" />
   <style>
@@ -378,9 +378,9 @@
     <span class="logo-name">Alerta Médico</span>
   </a>
   <nav>
+    <a href="#lembretes">Lembretes</a>
     <a href="#dados">Dados médicos</a>
     <a href="#interacoes">Interações</a>
-    <a href="#lembretes">Lembretes</a>
     <a href="help.html">Ajuda</a>
     <a href="references.html">Referências</a>
     <a href="privacy.html">Privacidade</a>
@@ -390,11 +390,10 @@
 <!-- ══ HERO — compacto ══ -->
 <section class="hero">
   <div class="hero-badge">📱 Gratuito para Android · 100% offline</div>
-  <h1>Três proteções.<br /><span>Um único app.</span></h1>
+  <h1>Tome seus remédios na hora certa.<br /><span>E, numa emergência, quem te socorrer já sabe quais.</span></h1>
   <p class="hero-desc">
-    Dados médicos na tela de bloqueio para socorristas,
-    detecção de interações perigosas entre remédios
-    e lembretes diários no horário certo.
+    Lembretes diários de medicamentos, controle de estoque e detecção de interações perigosas —
+    e a mesma ficha fica pronta na tela de bloqueio para socorristas, sem esforço extra.
   </p>
   <a class="btn-primary" href="#" id="play-btn">▶ &nbsp;Baixar na Google Play</a>
   <div class="hero-pills">
@@ -404,108 +403,7 @@
   </div>
 </section>
 
-<!-- ══ BANDA 1 — Dados médicos ══ -->
-<div class="band-dados" id="dados">
-  <section class="section">
-    <div class="feature-grid">
-      <div>
-        <div class="label">Dados médicos</div>
-        <h2 class="title">Suas informações visíveis<br />quando você não pode falar</h2>
-        <p class="sub">Em um acidente, socorristas precisam saber seus medicamentos e alergias antes de agir. O Alerta Médico exibe sua ficha completa na tela de bloqueio — sem precisar desbloquear o celular.</p>
-        <div class="cta-row">
-          <a class="btn-primary" href="#" id="play-btn-dados">▶ &nbsp;Configurar minha ficha</a>
-        </div>
-      </div>
-      <div>
-        <div class="ls-screen-label">Tela de bloqueio — visível para socorristas</div>
-        <div class="ls-card">
-          <div class="ls-top">
-            <div class="ls-icon">🏥</div>
-            <div>
-              <div class="ls-app">Alerta Médico</div>
-              <div class="ls-tagline">Informações de emergência</div>
-            </div>
-          </div>
-          <div class="ls-row"><span class="ls-key">Nome</span><span class="ls-val">João Silva, 67 anos</span></div>
-          <div class="ls-row"><span class="ls-key">Tipo sanguíneo</span><span class="ls-val">A+</span></div>
-          <div class="ls-row"><span class="ls-key">Medicamentos</span><span class="ls-val">Varfarina · Metformina</span></div>
-          <div class="ls-row"><span class="ls-key">Alergias</span><span class="ls-val">Penicilina</span></div>
-          <div class="ls-row"><span class="ls-key">Contato</span><span class="ls-val">Maria Silva (filha)</span></div>
-          <div class="ls-alert">⚠️ Usa anticoagulante — risco de sangramento elevado</div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-<!-- ══ BANDA 2 — Interações ══ -->
-<div class="band-int" id="interacoes">
-  <section class="section">
-    <div class="feature-grid reversed">
-      <!-- Exemplos de interações -->
-      <div>
-        <div class="label">Interações medicamentosas</div>
-        <h2 class="title">Seus remédios podem ser<br />perigosos juntos</h2>
-        <p class="sub">Milhões de brasileiros combinam remédios entre si — ou com chás e fitoterápicos — sem saber que a mistura pode causar hemorragia, síndrome serotoninérgica ou parada cardíaca. O app detecta isso automaticamente com uma base de mais de 900 interações catalogadas, incluindo Erva de São João, Ginkgo biloba e outros fitoterápicos.</p>
-        <div class="int-examples">
-          <div class="int-item critical">
-            <div class="int-badge critical">Crítico</div>
-            <div class="int-pair">Varfarina + Ibuprofeno</div>
-            <div class="int-desc">Risco elevado de hemorragia grave — combinação muito comum e perigosa.</div>
-          </div>
-          <div class="int-item critical">
-            <div class="int-badge critical">Crítico</div>
-            <div class="int-pair">Digoxina + Amiodarona</div>
-            <div class="int-desc">Amiodarona pode dobrar os níveis de digoxina, causando arritmias fatais.</div>
-          </div>
-          <div class="int-item critical">
-            <div class="int-badge critical">Crítico</div>
-            <div class="int-tag-phyto">🌿 fitoterápico</div>
-            <div class="int-pair">Erva de São João + Antidepressivo (ISRS)</div>
-            <div class="int-desc">Hypericum inibe a recaptação de serotonina — combinado com fluoxetina ou sertralina causa síndrome serotoninérgica potencialmente fatal.</div>
-          </div>
-          <div class="int-item high">
-            <div class="int-badge high">Alto</div>
-            <div class="int-tag-phyto">🌿 fitoterápico</div>
-            <div class="int-pair">Ginkgo biloba + Varfarina</div>
-            <div class="int-desc">Ginkgo inibe a agregação plaquetária — potencializa o efeito anticoagulante com relatos de hemorragia intracraniana.</div>
-          </div>
-          <div class="int-item high">
-            <div class="int-badge high">Alto</div>
-            <div class="int-pair">Clopidogrel + Omeprazol</div>
-            <div class="int-desc">Omeprazol bloqueia a ativação do clopidogrel via CYP2C19 — proteção cardíaca reduzida.</div>
-          </div>
-          <div class="int-item moderate">
-            <div class="int-badge moderate">Moderado</div>
-            <div class="int-pair">Carbamazepina + Anticoncepcional</div>
-            <div class="int-desc">Reduz os hormônios do anticoncepcional, podendo causar falha contraceptiva.</div>
-          </div>
-        </div>
-        <div class="cta-row">
-          <a class="btn-primary" href="#" id="play-btn-int">▶ &nbsp;Verificar meus medicamentos</a>
-          <a class="link-refs" href="references.html">Ver referências científicas →</a>
-        </div>
-      </div>
-      <!-- Vídeo -->
-      <div>
-        <div class="video-wrap">
-          <iframe
-            src="https://www.youtube.com/embed/lPaP_QgjEW4"
-            title="Interações medicamentosas perigosas — Dr. Leandro Echenique (CardioDF)"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <div class="video-credit">
-          <div class="yt-icon">▶</div>
-          <p>Canal <a href="https://www.youtube.com/@cardiodf" target="_blank" rel="noopener">@cardiodf</a> — Dr. Leandro Echenique, cardiologista</p>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-<!-- ══ BANDA 3 — Lembretes ══ -->
+<!-- ══ BANDA 1 — Lembretes ══ -->
 <div class="band-alarm" id="lembretes">
   <section class="section">
     <div class="feature-grid">
@@ -577,6 +475,107 @@
               <div class="alarm-notif-body">08:00 · Metformina 500mg — hora de tomar</div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ══ BANDA 2 — Dados médicos ══ -->
+<div class="band-dados" id="dados">
+  <section class="section">
+    <div class="feature-grid">
+      <div>
+        <div class="label">Dados médicos</div>
+        <h2 class="title">As mesmas informações,<br />prontas para uma emergência</h2>
+        <p class="sub">Os remédios que você já cadastra para os lembretes viram, automaticamente, sua ficha de emergência. Em um acidente, socorristas precisam saber seus medicamentos e alergias antes de agir — o Alerta Médico exibe essa ficha na tela de bloqueio, sem precisar desbloquear o celular.</p>
+        <div class="cta-row">
+          <a class="btn-primary" href="#" id="play-btn-dados">▶ &nbsp;Configurar minha ficha</a>
+        </div>
+      </div>
+      <div>
+        <div class="ls-screen-label">Tela de bloqueio — visível para socorristas</div>
+        <div class="ls-card">
+          <div class="ls-top">
+            <div class="ls-icon">🏥</div>
+            <div>
+              <div class="ls-app">Alerta Médico</div>
+              <div class="ls-tagline">Informações de emergência</div>
+            </div>
+          </div>
+          <div class="ls-row"><span class="ls-key">Nome</span><span class="ls-val">João Silva, 67 anos</span></div>
+          <div class="ls-row"><span class="ls-key">Tipo sanguíneo</span><span class="ls-val">A+</span></div>
+          <div class="ls-row"><span class="ls-key">Medicamentos</span><span class="ls-val">Varfarina · Metformina</span></div>
+          <div class="ls-row"><span class="ls-key">Alergias</span><span class="ls-val">Penicilina</span></div>
+          <div class="ls-row"><span class="ls-key">Contato</span><span class="ls-val">Maria Silva (filha)</span></div>
+          <div class="ls-alert">⚠️ Usa anticoagulante — risco de sangramento elevado</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ══ BANDA 3 — Interações ══ -->
+<div class="band-int" id="interacoes">
+  <section class="section">
+    <div class="feature-grid reversed">
+      <!-- Exemplos de interações -->
+      <div>
+        <div class="label">Interações medicamentosas</div>
+        <h2 class="title">Seus remédios podem ser<br />perigosos juntos</h2>
+        <p class="sub">Milhões de brasileiros combinam remédios entre si — ou com chás e fitoterápicos — sem saber que a mistura pode causar hemorragia, síndrome serotoninérgica ou parada cardíaca. O app detecta isso automaticamente com uma base de mais de 900 interações catalogadas, incluindo Erva de São João, Ginkgo biloba e outros fitoterápicos.</p>
+        <div class="int-examples">
+          <div class="int-item critical">
+            <div class="int-badge critical">Crítico</div>
+            <div class="int-pair">Varfarina + Ibuprofeno</div>
+            <div class="int-desc">Risco elevado de hemorragia grave — combinação muito comum e perigosa.</div>
+          </div>
+          <div class="int-item critical">
+            <div class="int-badge critical">Crítico</div>
+            <div class="int-pair">Digoxina + Amiodarona</div>
+            <div class="int-desc">Amiodarona pode dobrar os níveis de digoxina, causando arritmias fatais.</div>
+          </div>
+          <div class="int-item critical">
+            <div class="int-badge critical">Crítico</div>
+            <div class="int-tag-phyto">🌿 fitoterápico</div>
+            <div class="int-pair">Erva de São João + Antidepressivo (ISRS)</div>
+            <div class="int-desc">Hypericum inibe a recaptação de serotonina — combinado com fluoxetina ou sertralina causa síndrome serotoninérgica potencialmente fatal.</div>
+          </div>
+          <div class="int-item high">
+            <div class="int-badge high">Alto</div>
+            <div class="int-tag-phyto">🌿 fitoterápico</div>
+            <div class="int-pair">Ginkgo biloba + Varfarina</div>
+            <div class="int-desc">Ginkgo inibe a agregação plaquetária — potencializa o efeito anticoagulante com relatos de hemorragia intracraniana.</div>
+          </div>
+          <div class="int-item high">
+            <div class="int-badge high">Alto</div>
+            <div class="int-pair">Clopidogrel + Omeprazol</div>
+            <div class="int-desc">Omeprazol bloqueia a ativação do clopidogrel via CYP2C19 — proteção cardíaca reduzida.</div>
+          </div>
+          <div class="int-item moderate">
+            <div class="int-badge moderate">Moderado</div>
+            <div class="int-pair">Carbamazepina + Anticoncepcional</div>
+            <div class="int-desc">Reduz os hormônios do anticoncepcional, podendo causar falha contraceptiva.</div>
+          </div>
+        </div>
+        <div class="cta-row">
+          <a class="btn-primary" href="#" id="play-btn-int">▶ &nbsp;Verificar meus medicamentos</a>
+          <a class="link-refs" href="references.html">Ver referências científicas →</a>
+        </div>
+      </div>
+      <!-- Vídeo -->
+      <div>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/lPaP_QgjEW4"
+            title="Interações medicamentosas perigosas — Dr. Leandro Echenique (CardioDF)"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="video-credit">
+          <div class="yt-icon">▶</div>
+          <p>Canal <a href="https://www.youtube.com/@cardiodf" target="_blank" rel="noopener">@cardiodf</a> — Dr. Leandro Echenique, cardiologista</p>
         </div>
       </div>
     </div>
