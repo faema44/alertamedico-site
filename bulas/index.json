@@ -290,12 +290,6 @@
     "file": "claritromicina.pdf",
     "reconciled": true
   },
-  "Ciprofloxacino": {
-    "name": "Ciprofloxacino",
-    "status": "success",
-    "file": "ciprofloxacino.pdf",
-    "reconciled": true
-  },
   "Levofloxacino": {
     "name": "Levofloxacino",
     "status": "success",
@@ -1433,16 +1427,6 @@
     "bula_type": "paciente",
     "monitored": true
   },
-  "Adenosina": {
-    "name": "Adenosina",
-    "status": "success",
-    "file": "adenosina.pdf",
-    "date": "04/09/2025",
-    "full_name": "ADENON",
-    "brand_used": "Adenon",
-    "bula_type": "paciente",
-    "monitored": true
-  },
   "Aesculus hippocastanum": {
     "name": "Aesculus hippocastanum",
     "status": "success",
@@ -1864,15 +1848,6 @@
     "brand_used": "Vecuron",
     "bula_type": "paciente"
   },
-  "Bromexina": {
-    "name": "Bromexina",
-    "status": "success",
-    "file": "bromexina.pdf",
-    "date": "23/02/2026",
-    "full_name": "BROMUC",
-    "brand_used": "Bromuc",
-    "bula_type": "paciente"
-  },
   "Bupropiona + Naltrexona": {
     "name": "Bupropiona + Naltrexona",
     "status": "success",
@@ -2034,29 +2009,6 @@
     "date": "17/06/2026",
     "full_name": "LIBTAYO",
     "brand_used": "Libtayo",
-    "bula_type": "paciente"
-  },
-  "Cianocobalamina + Piridoxina + Tiamina": {
-    "name": "Cianocobalamina + Piridoxina + Tiamina",
-    "status": "success",
-    "file": "cianocobalamina.pdf",
-    "date": "29/12/2025",
-    "full_name": "NERVAMIN",
-    "brand_used": "Nervamin",
-    "bula_type": "paciente"
-  },
-  "Cianocobalamina + Sulfato ferroso": {
-    "name": "Cianocobalamina + Sulfato ferroso",
-    "status": "success",
-    "file": "cianocobalamina.pdf"
-  },
-  "Ciclobenzaprina": {
-    "name": "Ciclobenzaprina",
-    "status": "success",
-    "file": "ciclobenzaprina.pdf",
-    "date": "30/03/2026",
-    "full_name": "MUSBENO",
-    "brand_used": "Musbeno",
     "bula_type": "paciente"
   },
   "Ciclopirox olamina": {
@@ -2999,15 +2951,6 @@
     "brand_used": "Betaserc",
     "bula_type": "paciente"
   },
-  "Bisacodil": {
-    "name": "Bisacodil",
-    "status": "success",
-    "file": "bisacodil.pdf",
-    "date": "29/12/2025",
-    "full_name": "MINILAX",
-    "brand_used": "Minilax",
-    "bula_type": "paciente"
-  },
   "Ceftolozana + Tazobactam": {
     "name": "Ceftolozana + Tazobactam",
     "status": "success",
@@ -3034,16 +2977,6 @@
     "full_name": "CETROTIDE",
     "brand_used": "Cetrotide",
     "bula_type": "paciente"
-  },
-  "Cianocobalamina": {
-    "name": "Cianocobalamina",
-    "status": "success",
-    "file": "cianocobalamina.pdf"
-  },
-  "Cianocobalamina + Colina + Metionina": {
-    "name": "Cianocobalamina + Colina + Metionina",
-    "status": "success",
-    "file": "cianocobalamina.pdf"
   },
   "Clindamicina": {
     "name": "Clindamicina",
@@ -3908,15 +3841,6 @@
     "brand_used": "Pamidronato dissódico",
     "bula_type": "paciente"
   },
-  "Pamoato de Pirantel": {
-    "name": "Pamoato de Pirantel",
-    "status": "success",
-    "file": "pamoato-de-pirantel.pdf",
-    "date": "15/09/2025",
-    "full_name": "PYVERM",
-    "brand_used": "Pyverm",
-    "bula_type": "paciente"
-  },
   "Pancreatina": {
     "name": "Pancreatina",
     "status": "success",
@@ -4140,15 +4064,6 @@
     "date": "11/06/2026",
     "full_name": "PROPIONATO DE CLOBETASOL",
     "brand_used": "Propionato de Clobetasol",
-    "bula_type": "paciente"
-  },
-  "Propionato de Fluticasona": {
-    "name": "Propionato de Fluticasona",
-    "status": "success",
-    "file": "propionato-de-fluticasona.pdf",
-    "date": "23/06/2026",
-    "full_name": "FLUTINOL",
-    "brand_used": "FLUTINOL",
     "bula_type": "paciente"
   },
   "Protamina": {
@@ -4437,15 +4352,6 @@
     "date": "07/07/2026",
     "full_name": "tretinoína",
     "brand_used": "Tretinoína",
-    "bula_type": "paciente"
-  },
-  "Triancinolona": {
-    "name": "Triancinolona",
-    "status": "success",
-    "file": "triancinolona.pdf",
-    "date": "03/07/2025",
-    "full_name": "BIANCORT",
-    "brand_used": "Biancort",
     "bula_type": "paciente"
   },
   "Triancinolona acetonida": {

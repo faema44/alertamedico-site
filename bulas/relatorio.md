@@ -238,3 +238,19 @@
 
 - **6 atualizadas** (mesma substância pura, versão/marca mais nova, ou mesma substância em outra apresentação): `brometo-de-ipratropio`, `ginkgo-biloba`, `gliclazida`, `glibenclamida`, `metformina`, `dipirona` (gotas → comprimido, Neosaldina DIP).
 - **13 mantidas como estavam** (a bula nova era de medicamento COMBINADO — sobrescrever trocaria a bula do ingrediente isolado por uma de outro produto — ou, em 4 casos, a bula já publicada também era combo e trocar por outro combo não era claramente melhor): `amitriptilina`, `amoxicilina`, `atenolol`, `beclometasona`, `betametasona`, `codeina`, `dexametasona`, `dutasterida`, `esomeprazol`, `etinilestradiol`, `ibuprofeno`, `insulina-glargina`, `prednisolona`. As bulas de combo baixadas nesta rodada para esses 13 casos ficam registradas em `_combo_bulas_nao_publicadas.json` (arquivos originais em `C:\Users\Fabio\bulas1\`) caso um dia se queira publicá-las sob um slug próprio.
+
+## Auditoria de conteúdo (11/07/2026) — bulas erradas removidas
+
+Comparado o texto real (páginas 1–3) de cada PDF publicado contra o genérico que o slug representa. **9 PDFs eram de medicamento totalmente diferente do nome do arquivo** — removidos (o app volta a cair no fallback de busca no Google até uma bula correta ser publicada):
+
+- `adenosina.pdf` era Adenon® (produto antroposófico/homeopático, não a droga cardíaca)
+- `bisacodil.pdf` era Minilax® (sorbitol + laurilsulfato de sódio)
+- `bromexina.pdf` era Bromuc® (acetilcisteína)
+- `cianocobalamina.pdf` era Nervamin (tiamina, vitamina B1)
+- `ciclobenzaprina.pdf` era Musbeno® (bendamustina, quimioterápico)
+- `ciprofloxacino.pdf` era Ciprofibrato (hipolipemiante)
+- `pamoato-de-pirantel.pdf` era Pyverm® (pirvínio, outro anti-helmíntico)
+- `propionato-de-fluticasona.pdf` era Flutinol® (fluormetolona, corticoide oftálmico)
+- `triancinolona.pdf` era Biancort® (ciprofloxacino + dexametasona)
+
+4 outros casos flagados na varredura eram falso positivo (mesmo fármaco, grafia/sinônimo diferente — mantidos sem alteração): `alemtuzumabe` (bula usa "alentuzumabe"), `canacinumabe` (bula usa "canaquinumabe"), `metimazol` (bula usa "tiamazol", sinônimo oficial), `remdesivir` (bula usa "rendesivir", erro de digitação da própria ANVISA).
