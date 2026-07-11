@@ -1,0 +1,203 @@
+{
+  "Metformina": {
+    "name": "Metformina",
+    "status": "success",
+    "file": "metformina.pdf",
+    "date": "15/06/2026",
+    "full_name": "cloridrato de metformina",
+    "brand_used": "Cloridrato de Metformina",
+    "bula_type": "paciente"
+  },
+  "Glibenclamida": {
+    "name": "Glibenclamida",
+    "status": "success",
+    "file": "glibenclamida.pdf",
+    "date": "26/06/2026",
+    "full_name": "glibenclamida",
+    "brand_used": "Gliben",
+    "bula_type": "paciente"
+  },
+  "Gliclazida": {
+    "name": "Gliclazida",
+    "status": "success",
+    "file": "gliclazida.pdf",
+    "date": "10/06/2026",
+    "full_name": "gliclazida",
+    "brand_used": "Gliclazida",
+    "bula_type": "paciente"
+  },
+  "Amitriptilina + Clordiazepóxido": {
+    "name": "Amitriptilina + Clordiazepóxido",
+    "status": "success",
+    "file": "amitriptilina.pdf",
+    "date": "20/03/2026",
+    "full_name": "LIMBITROL",
+    "brand_used": "Limbitrol",
+    "bula_type": "paciente"
+  },
+  "Amoxicilina + Clavulanato de potássio": {
+    "name": "Amoxicilina + Clavulanato de potássio",
+    "status": "success",
+    "file": "amoxicilina.pdf",
+    "date": "25/02/2026",
+    "full_name": "POLICLAVUMOXIL",
+    "brand_used": "Policlavumoxil",
+    "bula_type": "paciente"
+  },
+  "Atenolol + Clortalidona": {
+    "name": "Atenolol + Clortalidona",
+    "status": "success",
+    "file": "atenolol.pdf",
+    "date": "29/10/2025",
+    "full_name": "atenolol + clortalidona",
+    "brand_used": "Atenolol + Clortalidona",
+    "bula_type": "paciente"
+  },
+  "Atenolol + Nifedipino": {
+    "name": "Atenolol + Nifedipino",
+    "status": "success",
+    "file": "atenolol.pdf"
+  },
+  "Brometo de ipratrópio": {
+    "name": "Brometo de ipratrópio",
+    "status": "success",
+    "file": "brometo-de-ipratropio.pdf",
+    "date": "11/06/2026",
+    "full_name": "BROMETO DE IPRATRÓPIO",
+    "brand_used": "Brometo de ipratrópio",
+    "bula_type": "paciente"
+  },
+  "Codeína + Paracetamol": {
+    "name": "Codeína + Paracetamol",
+    "status": "success",
+    "file": "codeina.pdf",
+    "date": "29/05/2026",
+    "full_name": "ALGICOD",
+    "brand_used": "Algicod",
+    "bula_type": "paciente"
+  },
+  "Dexametasona + Tobramicina": {
+    "name": "Dexametasona + Tobramicina",
+    "status": "success",
+    "file": "dexametasona.pdf",
+    "date": "17/11/2025",
+    "full_name": "TOBRACORT",
+    "brand_used": "Tobracort",
+    "bula_type": "paciente"
+  },
+  "DIPIRONA + ISOMETEPTENO + CAFEÍNA": {
+    "name": "DIPIRONA + ISOMETEPTENO + CAFEÍNA",
+    "status": "success",
+    "file": "dipirona.pdf",
+    "date": "20/02/2026",
+    "full_name": "NEOSALDINA DIP",
+    "brand_used": "Neosaldina Dip",
+    "bula_type": "paciente"
+  },
+  "Dutasterida + Tansulosina": {
+    "name": "Dutasterida + Tansulosina",
+    "status": "success",
+    "file": "dutasterida.pdf",
+    "date": "28/01/2026",
+    "full_name": "COMBODART",
+    "brand_used": "Combodart",
+    "bula_type": "paciente"
+  },
+  "Esomeprazol + Naproxeno": {
+    "name": "Esomeprazol + Naproxeno",
+    "status": "success",
+    "file": "esomeprazol.pdf",
+    "date": "20/04/2021",
+    "full_name": "VIMOVO",
+    "brand_used": "Vimovo",
+    "bula_type": "profissional"
+  },
+  "Etinilestradiol + Drospirenona": {
+    "name": "Etinilestradiol + Drospirenona",
+    "status": "success",
+    "file": "etinilestradiol.pdf",
+    "date": "22/05/2025",
+    "full_name": "DUNIA 35",
+    "brand_used": "Dunia 35",
+    "bula_type": "paciente"
+  },
+  "Etinilestradiol + Gestodeno": {
+    "name": "Etinilestradiol + Gestodeno",
+    "status": "success",
+    "file": "etinilestradiol.pdf"
+  },
+  "Etinilestradiol + Levonorgestrel": {
+    "name": "Etinilestradiol + Levonorgestrel",
+    "status": "success",
+    "file": "etinilestradiol.pdf"
+  },
+  "Beclometasona + Formoterol + Glicopirrônio": {
+    "name": "Beclometasona + Formoterol + Glicopirrônio",
+    "status": "success",
+    "file": "beclometasona.pdf",
+    "date": "12/11/2025",
+    "full_name": "TRIMBOW",
+    "brand_used": "Trimbow",
+    "bula_type": "paciente"
+  },
+  "Betametasona + Dexclorfeniramina": {
+    "name": "Betametasona + Dexclorfeniramina",
+    "status": "success",
+    "file": "betametasona.pdf",
+    "date": "18/12/2025",
+    "full_name": "CELESTAMINE",
+    "brand_used": "Celestamine",
+    "bula_type": "paciente"
+  },
+  "Betametasona + Gentamicina": {
+    "name": "Betametasona + Gentamicina",
+    "status": "success",
+    "file": "betametasona.pdf"
+  },
+  "Dexametasona + Cianocobalamina": {
+    "name": "Dexametasona + Cianocobalamina",
+    "status": "success",
+    "file": "dexametasona.pdf"
+  },
+  "Ginkgo biloba": {
+    "name": "Ginkgo biloba",
+    "status": "success",
+    "file": "ginkgo-biloba.pdf",
+    "date": "23/01/2026",
+    "full_name": "Ginkgo biloba MCG",
+    "brand_used": "Ginkgo biloba",
+    "bula_type": "paciente"
+  },
+  "Glibenclamida + Metformina": {
+    "name": "Glibenclamida + Metformina",
+    "status": "success",
+    "file": "glibenclamida.pdf"
+  },
+  "Ibuprofeno + Paracetamol": {
+    "name": "Ibuprofeno + Paracetamol",
+    "status": "success",
+    "file": "ibuprofeno.pdf",
+    "date": "16/01/2026",
+    "full_name": "NUROMOL",
+    "brand_used": "Nuromol",
+    "bula_type": "paciente"
+  },
+  "Insulina glargina + Lixisenatida": {
+    "name": "Insulina glargina + Lixisenatida",
+    "status": "success",
+    "file": "insulina-glargina.pdf",
+    "date": "23/06/2025",
+    "full_name": "SOLIQUA",
+    "brand_used": "Soliqua",
+    "bula_type": "paciente"
+  },
+  "Prednisolona + Gentamicina": {
+    "name": "Prednisolona + Gentamicina",
+    "status": "success",
+    "file": "prednisolona.pdf",
+    "date": "17/12/2025",
+    "full_name": "PREDMICIN",
+    "brand_used": "Predmicin",
+    "bula_type": "paciente"
+  }
+}

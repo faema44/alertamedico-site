@@ -227,3 +227,11 @@
 - Metoprolol Succinato XR
 - Nifedipina Retard
 - Tramadol Retard
+
+## Round 2 (11/07/2026) — `novos_medicamentos.json`
+
+**Total:** 691 medicamentos (lista `novos_medicamentos.json`) | **Baixados:** 406 (352 arquivos únicos) | **Não encontrados:** 290
+
+352 PDFs novos publicados nesta rodada (sem conflito de nome de arquivo com bulas já existentes).
+
+**19 nomes de arquivo em conflito (25 entradas do índice) ficaram de fora**, para revisão manual — a maioria é bula de medicamento COMBINADO cujo slug (primeiro ingrediente) coincide com o de uma bula de ingrediente isolado já publicada (ex: `amitriptilina.pdf` já é a bula da Amitriptilina pura; a bula baixada nesta rodada para "Amitriptilina + Clordiazepóxido" também slugificaria para `amitriptilina`, e sobrescrever apagaria a bula correta). Lista completa em `_pending_combo_review.json`. Arquivos originais permanecem em `C:\Users\Fabio\bulas1\` até a revisão.

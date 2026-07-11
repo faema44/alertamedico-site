@@ -1324,5 +1324,3335 @@
     "brand_used": "Atip XR",
     "bula_type": "paciente",
     "monitored": true
+  },
+  "Abemaciclibe": {
+    "name": "Abemaciclibe",
+    "status": "success",
+    "file": "abemaciclibe.pdf",
+    "date": "01/06/2026",
+    "full_name": "VERZENIOS",
+    "brand_used": "Verzenios",
+    "bula_type": "profissional"
+  },
+  "Acalabrutinibe": {
+    "name": "Acalabrutinibe",
+    "status": "success",
+    "file": "acalabrutinibe.pdf",
+    "date": "19/06/2026",
+    "full_name": "CALQUENCE COMPRIMIDOS",
+    "brand_used": "Calquence",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Acebrofilina": {
+    "name": "Acebrofilina",
+    "status": "success",
+    "file": "acebrofilina.pdf",
+    "date": "25/06/2026",
+    "full_name": "acebrofilina",
+    "brand_used": "Acebrofilina",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Aceclofenaco": {
+    "name": "Aceclofenaco",
+    "status": "success",
+    "file": "aceclofenaco.pdf",
+    "date": "26/01/2026",
+    "full_name": "ACECLOFENACO",
+    "brand_used": "Aceclofenaco",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Aceponato de metilprednisolona": {
+    "name": "Aceponato de metilprednisolona",
+    "status": "success",
+    "file": "aceponato-de-metilprednisolona.pdf",
+    "date": "13/04/2026",
+    "full_name": "ADVANTAN",
+    "brand_used": "Advantan",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Acetato de medroxiprogesterona": {
+    "name": "Acetato de medroxiprogesterona",
+    "status": "success",
+    "file": "acetato-de-medroxiprogesterona.pdf",
+    "date": "24/06/2026",
+    "full_name": "DEPO-PROVERA",
+    "brand_used": "Depo-Provera",
+    "bula_type": "profissional",
+    "monitored": true
+  },
+  "Acetato de medroxiprogesterona + Cipionato de estradiol": {
+    "name": "Acetato de medroxiprogesterona + Cipionato de estradiol",
+    "status": "success",
+    "file": "acetato-de-medroxiprogesterona.pdf",
+    "date": "21/11/2025",
+    "full_name": "CYCLOFEMINA",
+    "brand_used": "Cyclofemina",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Acetilcisteína": {
+    "name": "Acetilcisteína",
+    "status": "success",
+    "file": "acetilcisteina.pdf",
+    "date": "08/07/2026",
+    "full_name": "FLUIMUCIL",
+    "brand_used": "Fluimucil",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Adapaleno": {
+    "name": "Adapaleno",
+    "status": "success",
+    "file": "adapaleno.pdf",
+    "date": "02/02/2026",
+    "full_name": "DIFFERIN",
+    "brand_used": "DIFFERIN",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Adapaleno + Peróxido de benzoíla": {
+    "name": "Adapaleno + Peróxido de benzoíla",
+    "status": "success",
+    "file": "adapaleno.pdf",
+    "date": "16/06/2026",
+    "full_name": "EPIDUO",
+    "brand_used": "Epiduo",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Adenosina": {
+    "name": "Adenosina",
+    "status": "success",
+    "file": "adenosina.pdf",
+    "date": "04/09/2025",
+    "full_name": "ADENON",
+    "brand_used": "Adenon",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Aesculus hippocastanum": {
+    "name": "Aesculus hippocastanum",
+    "status": "success",
+    "file": "aesculus-hippocastanum.pdf",
+    "date": "10/10/2025",
+    "full_name": "CASTANHA DA ÍNDIA HERBARIUM",
+    "brand_used": "Castanha da Índia Herbarium",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Afatinibe": {
+    "name": "Afatinibe",
+    "status": "success",
+    "file": "afatinibe.pdf",
+    "date": "30/12/2025",
+    "full_name": "GIOTRIF",
+    "brand_used": "Giotrif",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Agalsidase alfa": {
+    "name": "Agalsidase alfa",
+    "status": "success",
+    "file": "agalsidase-alfa.pdf",
+    "date": "08/06/2026",
+    "full_name": "Replagal",
+    "brand_used": "Replagal",
+    "bula_type": "paciente",
+    "monitored": true
+  },
+  "Acetato de Medroxiprogesterona": {
+    "name": "Acetato de Medroxiprogesterona",
+    "status": "success",
+    "file": "acetato-de-medroxiprogesterona.pdf"
+  },
+  "Acetato de medroxiprogesterona + Estrogênios conjugados": {
+    "name": "Acetato de medroxiprogesterona + Estrogênios conjugados",
+    "status": "success",
+    "file": "acetato-de-medroxiprogesterona.pdf"
+  },
+  "Aciclovir": {
+    "name": "Aciclovir",
+    "status": "success",
+    "file": "aciclovir.pdf"
+  },
+  "Ácido Acetilsalicílico": {
+    "name": "Ácido Acetilsalicílico",
+    "status": "success",
+    "file": "acido-acetilsalicilico.pdf",
+    "date": "09/11/2020",
+    "full_name": "ácido acetilsalicílico",
+    "brand_used": "Ácido Acetilsalicílico",
+    "bula_type": "paciente"
+  },
+  "Ácido Acetilsalicílico + Ácido Cítrico + Bicarbonato de Sódio": {
+    "name": "Ácido Acetilsalicílico + Ácido Cítrico + Bicarbonato de Sódio",
+    "status": "success",
+    "file": "acido-acetilsalicilico.pdf"
+  },
+  "Ácido Acetilsalicílico + Cafeína + Paracetamol": {
+    "name": "Ácido Acetilsalicílico + Cafeína + Paracetamol",
+    "status": "success",
+    "file": "acido-acetilsalicilico.pdf"
+  },
+  "Ácido Fusídico": {
+    "name": "Ácido Fusídico",
+    "status": "success",
+    "file": "acido-fusidico.pdf",
+    "date": "16/04/2026",
+    "full_name": "ácido fusídico + valerato de betametasona",
+    "brand_used": "Ácido Fusídico",
+    "bula_type": "paciente"
+  },
+  "Ácido Mefenâmico": {
+    "name": "Ácido Mefenâmico",
+    "status": "success",
+    "file": "acido-mefenamico.pdf",
+    "date": "18/12/2025",
+    "full_name": "ácido mefenâmico",
+    "brand_used": "Ácido Mefenâmico",
+    "bula_type": "paciente"
+  },
+  "Albendazol": {
+    "name": "Albendazol",
+    "status": "success",
+    "file": "albendazol.pdf",
+    "date": "15/12/2025",
+    "full_name": "albendazol",
+    "brand_used": "Albendazol",
+    "bula_type": "profissional"
+  },
+  "Alendronato de Sódio": {
+    "name": "Alendronato de Sódio",
+    "status": "success",
+    "file": "alendronato-de-sodio.pdf",
+    "date": "18/05/2026",
+    "full_name": "ALENDRONATO DE SÓDIO",
+    "brand_used": "Alendronato de Sódio",
+    "bula_type": "paciente"
+  },
+  "Alendronato de sódio + Colecalciferol": {
+    "name": "Alendronato de sódio + Colecalciferol",
+    "status": "success",
+    "file": "alendronato-de-sodio.pdf"
+  },
+  "Ácido Ascórbico": {
+    "name": "Ácido Ascórbico",
+    "status": "success",
+    "file": "acido-ascorbico.pdf",
+    "date": "05/03/2021",
+    "full_name": "ÁCIDO ASCÓRBICO HYPOFARMA",
+    "brand_used": "Ácido Ascórbico",
+    "bula_type": "paciente"
+  },
+  "Ácido zoledrônico": {
+    "name": "Ácido zoledrônico",
+    "status": "success",
+    "file": "acido-zoledronico.pdf",
+    "date": "07/08/2024",
+    "full_name": "ácido zoledrônico",
+    "brand_used": "Ácido zoledrônico",
+    "bula_type": "paciente"
+  },
+  "Alcaftadina": {
+    "name": "Alcaftadina",
+    "status": "success",
+    "file": "alcaftadina.pdf",
+    "date": "18/12/2025",
+    "full_name": "LASTACAFT",
+    "brand_used": "Lastacaft",
+    "bula_type": "paciente"
+  },
+  "Alectinibe": {
+    "name": "Alectinibe",
+    "status": "success",
+    "file": "alectinibe.pdf",
+    "date": "23/02/2026",
+    "full_name": "ALECENSA",
+    "brand_used": "Alecensa",
+    "bula_type": "paciente"
+  },
+  "Alogliptina + Pioglitazona": {
+    "name": "Alogliptina + Pioglitazona",
+    "status": "success",
+    "file": "alogliptina.pdf",
+    "date": "10/12/2025",
+    "full_name": "NESINA PIO",
+    "brand_used": "Nesina Pio",
+    "bula_type": "paciente"
+  },
+  "Alpelisibe": {
+    "name": "Alpelisibe",
+    "status": "success",
+    "file": "alpelisibe.pdf",
+    "date": "26/05/2026",
+    "full_name": "PIQRAY",
+    "brand_used": "Piqray",
+    "bula_type": "profissional"
+  },
+  "Ambrisentana": {
+    "name": "Ambrisentana",
+    "status": "success",
+    "file": "ambrisentana.pdf",
+    "date": "26/08/2025",
+    "full_name": "VOLIBRIS",
+    "brand_used": "Volibris",
+    "bula_type": "paciente"
+  },
+  "Basiliximabe": {
+    "name": "Basiliximabe",
+    "status": "success",
+    "file": "basiliximabe.pdf",
+    "date": "17/11/2025",
+    "full_name": "SIMULECT",
+    "brand_used": "Simulect",
+    "bula_type": "paciente"
+  },
+  "Ácido gadotérico": {
+    "name": "Ácido gadotérico",
+    "status": "success",
+    "file": "acido-gadoterico.pdf",
+    "date": "13/05/2026",
+    "full_name": "DOTAREM",
+    "brand_used": "Dotarem",
+    "bula_type": "paciente"
+  },
+  "Alemtuzumabe": {
+    "name": "Alemtuzumabe",
+    "status": "success",
+    "file": "alemtuzumabe.pdf",
+    "date": "23/02/2026",
+    "full_name": "Lemtrada",
+    "brand_used": "Lemtrada",
+    "bula_type": "profissional"
+  },
+  "Alfaepoetina": {
+    "name": "Alfaepoetina",
+    "status": "success",
+    "file": "alfaepoetina.pdf",
+    "date": "05/11/2025",
+    "full_name": "ALFAEPOETINA",
+    "brand_used": "Alfaepoetina",
+    "bula_type": "paciente"
+  },
+  "Alogliptina + Metformina": {
+    "name": "Alogliptina + Metformina",
+    "status": "success",
+    "file": "alogliptina.pdf"
+  },
+  "Alteplase": {
+    "name": "Alteplase",
+    "status": "success",
+    "file": "alteplase.pdf",
+    "date": "13/08/2025",
+    "full_name": "ACTILYSE",
+    "brand_used": "Actilyse",
+    "bula_type": "paciente"
+  },
+  "Aminoácidos": {
+    "name": "Aminoácidos",
+    "status": "success",
+    "file": "aminoacidos.pdf",
+    "date": "01/07/2026",
+    "full_name": "Aminoven 10% Infant",
+    "brand_used": "Aminoven 10% Infant",
+    "bula_type": "paciente"
+  },
+  "Aminofilina": {
+    "name": "Aminofilina",
+    "status": "success",
+    "file": "aminofilina.pdf",
+    "date": "07/04/2025",
+    "full_name": "aminofilina",
+    "brand_used": "Aminofilina",
+    "bula_type": "paciente"
+  },
+  "Apalutamida": {
+    "name": "Apalutamida",
+    "status": "success",
+    "file": "apalutamida.pdf",
+    "date": "06/02/2026",
+    "full_name": "ERLEADA",
+    "brand_used": "Erleada",
+    "bula_type": "paciente"
+  },
+  "Axitinibe": {
+    "name": "Axitinibe",
+    "status": "success",
+    "file": "axitinibe.pdf",
+    "date": "14/11/2025",
+    "full_name": "INLYTA",
+    "brand_used": "Inlyta",
+    "bula_type": "paciente"
+  },
+  "Azacitidina": {
+    "name": "Azacitidina",
+    "status": "success",
+    "file": "azacitidina.pdf",
+    "date": "27/06/2026",
+    "full_name": "azacitidina",
+    "brand_used": "Azacitidina",
+    "bula_type": "paciente"
+  },
+  "Aztreonam": {
+    "name": "Aztreonam",
+    "status": "success",
+    "file": "aztreonam.pdf",
+    "date": "24/06/2026",
+    "full_name": "AZTREONAM",
+    "brand_used": "Aztreonam",
+    "bula_type": "paciente"
+  },
+  "Bacitracina + Sulfato de Neomicina": {
+    "name": "Bacitracina + Sulfato de Neomicina",
+    "status": "success",
+    "file": "bacitracina.pdf",
+    "date": "10/06/2026",
+    "full_name": "sulfato de neomicina + bacitracina zíncica",
+    "brand_used": "Sulfato de Neomicina + Bacitracina",
+    "bula_type": "profissional"
+  },
+  "Baricitinibe": {
+    "name": "Baricitinibe",
+    "status": "success",
+    "file": "baricitinibe.pdf",
+    "date": "02/07/2026",
+    "full_name": "Olumiant",
+    "brand_used": "Olumiant",
+    "bula_type": "paciente"
+  },
+  "Besilato de Atracúrio": {
+    "name": "Besilato de Atracúrio",
+    "status": "success",
+    "file": "besilato-de-atracurio.pdf",
+    "date": "15/03/2023",
+    "full_name": "besilato de atracúrio",
+    "brand_used": "Besilato de Atracúrio",
+    "bula_type": "paciente"
+  },
+  "Besilato de Cisatracúrio": {
+    "name": "Besilato de Cisatracúrio",
+    "status": "success",
+    "file": "besilato-de-cisatracurio.pdf",
+    "date": "25/05/2026",
+    "full_name": "besilato de cisatracúrio",
+    "brand_used": "Besilato de Cisatracúrio",
+    "bula_type": "paciente"
+  },
+  "Betacaroteno": {
+    "name": "Betacaroteno",
+    "status": "success",
+    "file": "betacaroteno.pdf",
+    "date": "03/06/2014",
+    "full_name": "FDC BETACAROTENO 15 MG",
+    "brand_used": "FDC Betacaroteno",
+    "bula_type": "paciente"
+  },
+  "Bezafibrato": {
+    "name": "Bezafibrato",
+    "status": "success",
+    "file": "bezafibrato.pdf",
+    "date": "04/12/2025",
+    "full_name": "bezafibrato",
+    "brand_used": "Bezafibrato",
+    "bula_type": "paciente"
+  },
+  "Bicalutamida": {
+    "name": "Bicalutamida",
+    "status": "success",
+    "file": "bicalutamida.pdf",
+    "date": "17/06/2026",
+    "full_name": "CASODEX",
+    "brand_used": "Casodex",
+    "bula_type": "paciente"
+  },
+  "Bimatoprosta": {
+    "name": "Bimatoprosta",
+    "status": "success",
+    "file": "bimatoprosta.pdf",
+    "date": "26/02/2026",
+    "full_name": "BIMAGAN",
+    "brand_used": "Bimagan",
+    "bula_type": "paciente"
+  },
+  "Binimetinibe": {
+    "name": "Binimetinibe",
+    "status": "success",
+    "file": "binimetinibe.pdf",
+    "date": "16/12/2025",
+    "full_name": "MEKTOVI",
+    "brand_used": "Mektovi",
+    "bula_type": "paciente"
+  },
+  "Blinatumomabe": {
+    "name": "Blinatumomabe",
+    "status": "success",
+    "file": "blinatumomabe.pdf",
+    "date": "05/02/2026",
+    "full_name": "BLINCYTO",
+    "brand_used": "Blincyto",
+    "bula_type": "paciente"
+  },
+  "Brigatinibe": {
+    "name": "Brigatinibe",
+    "status": "success",
+    "file": "brigatinibe.pdf",
+    "date": "18/12/2025",
+    "full_name": "EVOBRIG",
+    "brand_used": "Evobrig",
+    "bula_type": "paciente"
+  },
+  "Brimonidina + Brinzolamida": {
+    "name": "Brimonidina + Brinzolamida",
+    "status": "success",
+    "file": "brimonidina.pdf",
+    "date": "27/03/2026",
+    "full_name": "SIMBRINZA",
+    "brand_used": "Simbrinza",
+    "bula_type": "paciente"
+  },
+  "Brimonidina + Timolol": {
+    "name": "Brimonidina + Timolol",
+    "status": "success",
+    "file": "brimonidina.pdf"
+  },
+  "Brometo de Pancurônio": {
+    "name": "Brometo de Pancurônio",
+    "status": "success",
+    "file": "brometo-de-pancuronio.pdf",
+    "date": "26/06/2026",
+    "full_name": "PANCURON",
+    "brand_used": "Pancuron",
+    "bula_type": "paciente"
+  },
+  "Brometo de piridostigmina": {
+    "name": "Brometo de piridostigmina",
+    "status": "success",
+    "file": "brometo-de-piridostigmina.pdf",
+    "date": "18/12/2025",
+    "full_name": "MESTINON",
+    "brand_used": "Mestinon",
+    "bula_type": "paciente"
+  },
+  "Brometo de Rocurônio": {
+    "name": "Brometo de Rocurônio",
+    "status": "success",
+    "file": "brometo-de-rocuronio.pdf",
+    "date": "05/08/2024",
+    "full_name": "brometo de rocurônio",
+    "brand_used": "Brometo de Rocurônio",
+    "bula_type": "paciente"
+  },
+  "Brometo de vecurônio": {
+    "name": "Brometo de vecurônio",
+    "status": "success",
+    "file": "brometo-de-vecuronio.pdf",
+    "date": "28/05/2026",
+    "full_name": "VECURON",
+    "brand_used": "Vecuron",
+    "bula_type": "paciente"
+  },
+  "Bromexina": {
+    "name": "Bromexina",
+    "status": "success",
+    "file": "bromexina.pdf",
+    "date": "23/02/2026",
+    "full_name": "BROMUC",
+    "brand_used": "Bromuc",
+    "bula_type": "paciente"
+  },
+  "Bupropiona + Naltrexona": {
+    "name": "Bupropiona + Naltrexona",
+    "status": "success",
+    "file": "bupropiona.pdf",
+    "date": "19/06/2026",
+    "full_name": "CONTRAVE",
+    "brand_used": "Contrave",
+    "bula_type": "paciente"
+  },
+  "Bussulfano": {
+    "name": "Bussulfano",
+    "status": "success",
+    "file": "bussulfano.pdf",
+    "date": "10/11/2025",
+    "full_name": "bussulfano",
+    "brand_used": "Bussulfano",
+    "bula_type": "paciente"
+  },
+  "Butilbrometo de escopolamina + Dipirona": {
+    "name": "Butilbrometo de escopolamina + Dipirona",
+    "status": "success",
+    "file": "butilbrometo-de-escopolamina.pdf",
+    "date": "30/12/2025",
+    "full_name": "BUSCOPLEX COMPOSTO",
+    "brand_used": "Buscoplex Composto",
+    "bula_type": "paciente"
+  },
+  "Cabazitaxel": {
+    "name": "Cabazitaxel",
+    "status": "success",
+    "file": "cabazitaxel.pdf",
+    "date": "11/06/2026",
+    "full_name": "cabazitaxel",
+    "brand_used": "Cabazitaxel",
+    "bula_type": "paciente"
+  },
+  "Cabozantinibe": {
+    "name": "Cabozantinibe",
+    "status": "success",
+    "file": "cabozantinibe.pdf",
+    "date": "16/03/2026",
+    "full_name": "CABOMETYX",
+    "brand_used": "Cabometyx",
+    "bula_type": "paciente"
+  },
+  "Cafeína + Dipirona": {
+    "name": "Cafeína + Dipirona",
+    "status": "success",
+    "file": "cafeina.pdf",
+    "date": "02/04/2019",
+    "full_name": "DORIL DC 500",
+    "brand_used": "Doril DC 500",
+    "bula_type": "profissional"
+  },
+  "Cafeína + Dipirona + Isometepteno": {
+    "name": "Cafeína + Dipirona + Isometepteno",
+    "status": "success",
+    "file": "cafeina.pdf"
+  },
+  "Cafeína + Paracetamol + Propifenazona": {
+    "name": "Cafeína + Paracetamol + Propifenazona",
+    "status": "success",
+    "file": "cafeina.pdf"
+  },
+  "Calcipotriol": {
+    "name": "Calcipotriol",
+    "status": "success",
+    "file": "calcipotriol.pdf",
+    "date": "18/07/2025",
+    "full_name": "DAIVONEX",
+    "brand_used": "Daivonex",
+    "bula_type": "paciente"
+  },
+  "CANACINUMABE": {
+    "name": "CANACINUMABE",
+    "status": "success",
+    "file": "canacinumabe.pdf",
+    "date": "26/11/2025",
+    "full_name": "Ilaris",
+    "brand_used": "Ilaris",
+    "bula_type": "paciente"
+  },
+  "Carbidopa + Levodopa": {
+    "name": "Carbidopa + Levodopa",
+    "status": "success",
+    "file": "carbidopa.pdf",
+    "date": "05/02/2026",
+    "full_name": "carbidopa + levodopa",
+    "brand_used": "Carbidopa + Levodopa",
+    "bula_type": "paciente"
+  },
+  "Carbômero": {
+    "name": "Carbômero",
+    "status": "success",
+    "file": "carbomero.pdf",
+    "date": "27/02/2025",
+    "full_name": "LIPOSIC",
+    "brand_used": "Liposic",
+    "bula_type": "paciente"
+  },
+  "Carfilzomibe": {
+    "name": "Carfilzomibe",
+    "status": "success",
+    "file": "carfilzomibe.pdf",
+    "date": "19/05/2025",
+    "full_name": "KYPROLIS",
+    "brand_used": "Kyprolis",
+    "bula_type": "paciente"
+  },
+  "Cefaclor": {
+    "name": "Cefaclor",
+    "status": "success",
+    "file": "cefaclor.pdf",
+    "date": "26/04/2021",
+    "full_name": "cefaclor",
+    "brand_used": "Cefaclor",
+    "bula_type": "paciente"
+  },
+  "Cefalotina": {
+    "name": "Cefalotina",
+    "status": "success",
+    "file": "cefalotina.pdf",
+    "date": "12/03/2026",
+    "full_name": "CEFALOTINA SÓDICA",
+    "brand_used": "Cefalotina",
+    "bula_type": "paciente"
+  },
+  "Cefalotina Sódica": {
+    "name": "Cefalotina Sódica",
+    "status": "success",
+    "file": "cefalotina-sodica.pdf",
+    "date": "12/03/2026",
+    "full_name": "CEFALOTINA SÓDICA",
+    "brand_used": "Cefalotina Sódica",
+    "bula_type": "paciente"
+  },
+  "Cefotaxima": {
+    "name": "Cefotaxima",
+    "status": "success",
+    "file": "cefotaxima.pdf",
+    "date": "16/06/2026",
+    "full_name": "CEFOTAXIMA SÓDICA",
+    "brand_used": "Cefotaxima",
+    "bula_type": "paciente"
+  },
+  "Cefoxitina Sódica": {
+    "name": "Cefoxitina Sódica",
+    "status": "success",
+    "file": "cefoxitina-sodica.pdf",
+    "date": "24/03/2017",
+    "full_name": "CEFOXITINA SÓDICA",
+    "brand_used": "Cefoxitina Sódica",
+    "bula_type": "paciente"
+  },
+  "Cemiplimabe": {
+    "name": "Cemiplimabe",
+    "status": "success",
+    "file": "cemiplimabe.pdf",
+    "date": "17/06/2026",
+    "full_name": "LIBTAYO",
+    "brand_used": "Libtayo",
+    "bula_type": "paciente"
+  },
+  "Cianocobalamina + Piridoxina + Tiamina": {
+    "name": "Cianocobalamina + Piridoxina + Tiamina",
+    "status": "success",
+    "file": "cianocobalamina.pdf",
+    "date": "29/12/2025",
+    "full_name": "NERVAMIN",
+    "brand_used": "Nervamin",
+    "bula_type": "paciente"
+  },
+  "Cianocobalamina + Sulfato ferroso": {
+    "name": "Cianocobalamina + Sulfato ferroso",
+    "status": "success",
+    "file": "cianocobalamina.pdf"
+  },
+  "Ciclobenzaprina": {
+    "name": "Ciclobenzaprina",
+    "status": "success",
+    "file": "ciclobenzaprina.pdf",
+    "date": "30/03/2026",
+    "full_name": "MUSBENO",
+    "brand_used": "Musbeno",
+    "bula_type": "paciente"
+  },
+  "Ciclopirox olamina": {
+    "name": "Ciclopirox olamina",
+    "status": "success",
+    "file": "ciclopirox-olamina.pdf",
+    "date": "24/04/2026",
+    "full_name": "CICLOPIROX OLAMINA",
+    "brand_used": "Ciclopirox olamina",
+    "bula_type": "paciente"
+  },
+  "Cimetidina": {
+    "name": "Cimetidina",
+    "status": "success",
+    "file": "cimetidina.pdf",
+    "date": "23/06/2026",
+    "full_name": "cimetidina",
+    "brand_used": "Cimetidina",
+    "bula_type": "paciente"
+  },
+  "Cinarizina": {
+    "name": "Cinarizina",
+    "status": "success",
+    "file": "cinarizina.pdf",
+    "date": "27/09/2024",
+    "full_name": "CINARIZINA",
+    "brand_used": "Cinarizina",
+    "bula_type": "profissional"
+  },
+  "Ciprofibrato": {
+    "name": "Ciprofibrato",
+    "status": "success",
+    "file": "ciprofibrato.pdf",
+    "date": "12/06/2026",
+    "full_name": "ciprofibrato",
+    "brand_used": "Ciprofibrato",
+    "bula_type": "paciente"
+  },
+  "Citarabina": {
+    "name": "Citarabina",
+    "status": "success",
+    "file": "citarabina.pdf",
+    "date": "18/06/2026",
+    "full_name": "CITARABINA",
+    "brand_used": "Citarabina",
+    "bula_type": "paciente"
+  },
+  "Citrato de potássio": {
+    "name": "Citrato de potássio",
+    "status": "success",
+    "file": "citrato-de-potassio.pdf",
+    "date": "08/12/2025",
+    "full_name": "LITOCIT",
+    "brand_used": "Litocit",
+    "bula_type": "paciente"
+  },
+  "Citrato de Tamoxifeno": {
+    "name": "Citrato de Tamoxifeno",
+    "status": "success",
+    "file": "citrato-de-tamoxifeno.pdf",
+    "date": "04/12/2025",
+    "full_name": "CITRATO DE TAMOXIFENO",
+    "brand_used": "Citrato de Tamoxifeno",
+    "bula_type": "paciente"
+  },
+  "Cladribina": {
+    "name": "Cladribina",
+    "status": "success",
+    "file": "cladribina.pdf",
+    "date": "18/05/2026",
+    "full_name": "MAVENCLAD",
+    "brand_used": "Mavenclad",
+    "bula_type": "paciente"
+  },
+  "Clindamicina + Peróxido de Benzoíla": {
+    "name": "Clindamicina + Peróxido de Benzoíla",
+    "status": "success",
+    "file": "clindamicina.pdf",
+    "date": "26/08/2025",
+    "full_name": "CLINDOXYL",
+    "brand_used": "Clindoxyl",
+    "bula_type": "paciente"
+  },
+  "Clonixinato de Lisina": {
+    "name": "Clonixinato de Lisina",
+    "status": "success",
+    "file": "clonixinato-de-lisina.pdf",
+    "date": "18/12/2025",
+    "full_name": "clonixinato de lisina + cloridrato de ciclobenzaprin",
+    "brand_used": "Clonixinato de Lisina",
+    "bula_type": "paciente"
+  },
+  "Clorambucila": {
+    "name": "Clorambucila",
+    "status": "success",
+    "file": "clorambucila.pdf",
+    "date": "03/10/2025",
+    "full_name": "LEUKERAN",
+    "brand_used": "Leukeran",
+    "bula_type": "paciente"
+  },
+  "Cloranfenicol": {
+    "name": "Cloranfenicol",
+    "status": "success",
+    "file": "cloranfenicol.pdf",
+    "date": "17/10/2025",
+    "full_name": "ARIFENICOL",
+    "brand_used": "Arifenicol",
+    "bula_type": "profissional"
+  },
+  "Cloranfenicol + Dexametasona": {
+    "name": "Cloranfenicol + Dexametasona",
+    "status": "success",
+    "file": "cloranfenicol.pdf"
+  },
+  "Cloreto de potássio": {
+    "name": "Cloreto de potássio",
+    "status": "success",
+    "file": "cloreto-de-potassio.pdf",
+    "date": "02/02/2021",
+    "full_name": "CLORETO DE POTÁSSIO 19,1%",
+    "brand_used": "Cloreto de potássio",
+    "bula_type": "paciente"
+  },
+  "Cloreto de sódio": {
+    "name": "Cloreto de sódio",
+    "status": "success",
+    "file": "cloreto-de-sodio.pdf",
+    "date": "03/07/2026",
+    "full_name": "CLORETO DE SÓDIO 0,9%",
+    "brand_used": "Cloreto de sódio",
+    "bula_type": "paciente"
+  },
+  "Cloreto de tróspio": {
+    "name": "Cloreto de tróspio",
+    "status": "success",
+    "file": "cloreto-de-trospio.pdf",
+    "date": "17/12/2025",
+    "full_name": "SPASMEX",
+    "brand_used": "Spasmex",
+    "bula_type": "paciente"
+  },
+  "Clorfeniramina + Fenilefrina + Paracetamol": {
+    "name": "Clorfeniramina + Fenilefrina + Paracetamol",
+    "status": "success",
+    "file": "clorfeniramina.pdf",
+    "date": "23/06/2026",
+    "full_name": "FLUVIRAL NOITE",
+    "brand_used": "Fluviral Noite",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Benazepril": {
+    "name": "Cloridrato de Benazepril",
+    "status": "success",
+    "file": "cloridrato-de-benazepril.pdf",
+    "date": "20/04/2021",
+    "full_name": "cloridrato de benazepril",
+    "brand_used": "Cloridrato de Benazepril",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Bupivacaína": {
+    "name": "Cloridrato de Bupivacaína",
+    "status": "success",
+    "file": "cloridrato-de-bupivacaina.pdf",
+    "date": "14/04/2026",
+    "full_name": "cloridrato de bupivacaína hiperbárica",
+    "brand_used": "Cloridrato de Bupivacaína",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Cefepime": {
+    "name": "Cloridrato de Cefepime",
+    "status": "success",
+    "file": "cloridrato-de-cefepime.pdf",
+    "date": "20/05/2026",
+    "full_name": "CLORIDRATO DE CEFEPIME",
+    "brand_used": "Cloridrato de Cefepime",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Clobutinol": {
+    "name": "Cloridrato de Clobutinol",
+    "status": "success",
+    "file": "cloridrato-de-clobutinol.pdf",
+    "date": "29/03/2023",
+    "full_name": "CLORIDRATO DE CLOBUTINOL + SUCCINATO DE DOXILAMINA",
+    "brand_used": "Cloridrato de Clobutinol",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Clobutinol + Succinato de Doxilamina": {
+    "name": "Cloridrato de Clobutinol + Succinato de Doxilamina",
+    "status": "success",
+    "file": "cloridrato-de-clobutinol.pdf"
+  },
+  "Cloridrato de Dobutamina": {
+    "name": "Cloridrato de Dobutamina",
+    "status": "success",
+    "file": "cloridrato-de-dobutamina.pdf",
+    "date": "16/03/2026",
+    "full_name": "cloridrato de dobutamina",
+    "brand_used": "Cloridrato de Dobutamina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Dopamina": {
+    "name": "Cloridrato de Dopamina",
+    "status": "success",
+    "file": "cloridrato-de-dopamina.pdf",
+    "date": "09/06/2026",
+    "full_name": "CLORIDRATO DE DOPAMINA",
+    "brand_used": "Cloridrato de Dopamina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Epirrubicina": {
+    "name": "Cloridrato de Epirrubicina",
+    "status": "success",
+    "file": "cloridrato-de-epirrubicina.pdf",
+    "date": "18/06/2026",
+    "full_name": "CLORIDRATO DE EPIRRUBICINA",
+    "brand_used": "Cloridrato de Epirrubicina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Fingolimode": {
+    "name": "Cloridrato de Fingolimode",
+    "status": "success",
+    "file": "cloridrato-de-fingolimode.pdf",
+    "date": "25/06/2026",
+    "full_name": "cloridrato de fingolimode",
+    "brand_used": "Cloridrato de Fingolimode",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Gencitabina": {
+    "name": "Cloridrato de Gencitabina",
+    "status": "success",
+    "file": "cloridrato-de-gencitabina.pdf",
+    "date": "22/05/2026",
+    "full_name": "cloridrato de gencitabina",
+    "brand_used": "Cloridrato de Gencitabina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Irinotecano": {
+    "name": "Cloridrato de Irinotecano",
+    "status": "success",
+    "file": "cloridrato-de-irinotecano.pdf",
+    "date": "23/06/2026",
+    "full_name": "cloridrato de irinotecano",
+    "brand_used": "Cloridrato de Irinotecano",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Lercanidipino": {
+    "name": "Cloridrato de Lercanidipino",
+    "status": "success",
+    "file": "cloridrato-de-lercanidipino.pdf",
+    "date": "16/03/2026",
+    "full_name": "cloridrato de lercanidipino",
+    "brand_used": "Cloridrato de Lercanidipino",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Lidocaína": {
+    "name": "Cloridrato de Lidocaína",
+    "status": "success",
+    "file": "cloridrato-de-lidocaina.pdf",
+    "date": "16/12/2025",
+    "full_name": "cloridrato de lidocaína",
+    "brand_used": "Cloridrato de Lidocaína",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Lincomicina": {
+    "name": "Cloridrato de Lincomicina",
+    "status": "success",
+    "file": "cloridrato-de-lincomicina.pdf",
+    "date": "27/04/2021",
+    "full_name": "Cloridrato de Lincomicina",
+    "brand_used": "Cloridrato de Lincomicina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Mepivacaína": {
+    "name": "Cloridrato de Mepivacaína",
+    "status": "success",
+    "file": "cloridrato-de-mepivacaina.pdf",
+    "date": "07/04/2017",
+    "full_name": "cloridrato de mepivacaína",
+    "brand_used": "Cloridrato de Mepivacaína",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Naratriptana": {
+    "name": "Cloridrato de Naratriptana",
+    "status": "success",
+    "file": "cloridrato-de-naratriptana.pdf",
+    "date": "11/12/2025",
+    "full_name": "cloridrato de naratriptana",
+    "brand_used": "Cloridrato de Naratriptana",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Pioglitazona": {
+    "name": "Cloridrato de Pioglitazona",
+    "status": "success",
+    "file": "cloridrato-de-pioglitazona.pdf",
+    "date": "25/06/2026",
+    "full_name": "cloridrato de pioglitazona",
+    "brand_used": "Cloridrato de Pioglitazona",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Ranitidina": {
+    "name": "Cloridrato de Ranitidina",
+    "status": "success",
+    "file": "cloridrato-de-ranitidina.pdf",
+    "date": "19/05/2021",
+    "full_name": "CLORIDRATO DE RANITIDINA",
+    "brand_used": "Cloridrato de Ranitidina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Ropivacaína": {
+    "name": "Cloridrato de Ropivacaína",
+    "status": "success",
+    "file": "cloridrato-de-ropivacaina.pdf",
+    "date": "20/08/2025",
+    "full_name": "cloridrato de ropivacaína",
+    "brand_used": "Cloridrato de Ropivacaína",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Tetraciclina": {
+    "name": "Cloridrato de Tetraciclina",
+    "status": "success",
+    "file": "cloridrato-de-tetraciclina.pdf",
+    "date": "27/03/2026",
+    "full_name": "CLORIDRATO DE TETRACICLINA",
+    "brand_used": "Cloridrato de Tetraciclina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de Tiamina": {
+    "name": "Cloridrato de Tiamina",
+    "status": "success",
+    "file": "cloridrato-de-tiamina.pdf",
+    "date": "10/10/2024",
+    "full_name": "CLORIDRATO DE TIAMINA",
+    "brand_used": "Cloridrato de Tiamina",
+    "bula_type": "paciente"
+  },
+  "Cloridrato de xilometazolina": {
+    "name": "Cloridrato de xilometazolina",
+    "status": "success",
+    "file": "cloridrato-de-xilometazolina.pdf",
+    "date": "10/08/2023",
+    "full_name": "OTRIVINA",
+    "brand_used": "Otrivina",
+    "bula_type": "paciente"
+  },
+  "Cobimetinibe": {
+    "name": "Cobimetinibe",
+    "status": "success",
+    "file": "cobimetinibe.pdf",
+    "date": "16/12/2025",
+    "full_name": "Cotellic®",
+    "brand_used": "Cotellic",
+    "bula_type": "paciente"
+  },
+  "Colagenase": {
+    "name": "Colagenase",
+    "status": "success",
+    "file": "colagenase.pdf",
+    "date": "17/12/2024",
+    "full_name": "IRUXOL MONO",
+    "brand_used": "Iruxol Mono",
+    "bula_type": "paciente"
+  },
+  "Colestiramina": {
+    "name": "Colestiramina",
+    "status": "success",
+    "file": "colestiramina.pdf",
+    "date": "30/09/2025",
+    "full_name": "QUESTRAN LIGHT",
+    "brand_used": "QUESTRAN LIGHT",
+    "bula_type": "paciente"
+  },
+  "Colistimetato de Sódio": {
+    "name": "Colistimetato de Sódio",
+    "status": "success",
+    "file": "colistimetato-de-sodio.pdf",
+    "date": "30/03/2026",
+    "full_name": "colistimetato de sódio",
+    "brand_used": "Colistimetato de Sódio",
+    "bula_type": "paciente"
+  },
+  "Cordia verbenacea": {
+    "name": "Cordia verbenacea",
+    "status": "success",
+    "file": "cordia-verbenacea.pdf",
+    "date": "07/11/2025",
+    "full_name": "ACHEFLAN",
+    "brand_used": "Acheflan",
+    "bula_type": "paciente"
+  },
+  "Crizotinibe": {
+    "name": "Crizotinibe",
+    "status": "success",
+    "file": "crizotinibe.pdf",
+    "date": "12/11/2025",
+    "full_name": "XALKORI",
+    "brand_used": "Xalkori",
+    "bula_type": "paciente"
+  },
+  "Dabrafenibe": {
+    "name": "Dabrafenibe",
+    "status": "success",
+    "file": "dabrafenibe.pdf",
+    "date": "29/09/2025",
+    "full_name": "TAFINLAR",
+    "brand_used": "Tafinlar",
+    "bula_type": "paciente"
+  },
+  "Dacarbazina": {
+    "name": "Dacarbazina",
+    "status": "success",
+    "file": "dacarbazina.pdf",
+    "date": "23/02/2026",
+    "full_name": "dacarbazina",
+    "brand_used": "Dacarbazina",
+    "bula_type": "paciente"
+  },
+  "Dapagliflozina + Saxagliptina": {
+    "name": "Dapagliflozina + Saxagliptina",
+    "status": "success",
+    "file": "dapagliflozina.pdf",
+    "date": "12/09/2025",
+    "full_name": "QTERN",
+    "brand_used": "Qtern",
+    "bula_type": "paciente"
+  },
+  "Darifenacina": {
+    "name": "Darifenacina",
+    "status": "success",
+    "file": "darifenacina.pdf",
+    "date": "23/06/2026",
+    "full_name": "BROMIDRATO DE DARIFENACINA",
+    "brand_used": "Bromidrato De Darifenacina",
+    "bula_type": "paciente"
+  },
+  "Dasatinibe": {
+    "name": "Dasatinibe",
+    "status": "success",
+    "file": "dasatinibe.pdf",
+    "date": "11/05/2026",
+    "full_name": "dasatinibe monoidratado",
+    "brand_used": "Dasatinibe",
+    "bula_type": "paciente"
+  },
+  "Deferasirox": {
+    "name": "Deferasirox",
+    "status": "success",
+    "file": "deferasirox.pdf",
+    "date": "13/02/2026",
+    "full_name": "EXJADE",
+    "brand_used": "Exjade",
+    "bula_type": "paciente"
+  },
+  "Deferiprona": {
+    "name": "Deferiprona",
+    "status": "success",
+    "file": "deferiprona.pdf",
+    "date": "12/02/2026",
+    "full_name": "FERRIPROX BD",
+    "brand_used": "Ferriprox",
+    "bula_type": "paciente"
+  },
+  "Deflazacorte": {
+    "name": "Deflazacorte",
+    "status": "success",
+    "file": "deflazacorte.pdf",
+    "date": "28/03/2024",
+    "full_name": "DEFLAZACORTE",
+    "brand_used": "Deflazacorte",
+    "bula_type": "paciente"
+  },
+  "Degarelix": {
+    "name": "Degarelix",
+    "status": "success",
+    "file": "degarelix.pdf",
+    "date": "30/08/2024",
+    "full_name": "FIRMAGON",
+    "brand_used": "Firmagon",
+    "bula_type": "paciente"
+  },
+  "Desloratadina": {
+    "name": "Desloratadina",
+    "status": "success",
+    "file": "desloratadina.pdf",
+    "date": "22/06/2026",
+    "full_name": "desloratadina",
+    "brand_used": "Desloratadina",
+    "bula_type": "paciente"
+  },
+  "Dexlansoprazol": {
+    "name": "Dexlansoprazol",
+    "status": "success",
+    "file": "dexlansoprazol.pdf",
+    "date": "18/05/2026",
+    "full_name": "dexlansoprazol",
+    "brand_used": "Dexlansoprazol",
+    "bula_type": "paciente"
+  },
+  "Diacereína": {
+    "name": "Diacereína",
+    "status": "success",
+    "file": "diacereina.pdf",
+    "date": "17/12/2025",
+    "full_name": "ARTRODAR",
+    "brand_used": "Artrodar",
+    "bula_type": "paciente"
+  },
+  "Didrogesterona": {
+    "name": "Didrogesterona",
+    "status": "success",
+    "file": "didrogesterona.pdf",
+    "date": "01/12/2025",
+    "full_name": "DUPHASTON",
+    "brand_used": "Duphaston",
+    "bula_type": "paciente"
+  },
+  "Didrogesterona + Estradiol": {
+    "name": "Didrogesterona + Estradiol",
+    "status": "success",
+    "file": "didrogesterona.pdf"
+  },
+  "Dienogeste": {
+    "name": "Dienogeste",
+    "status": "success",
+    "file": "dienogeste.pdf",
+    "date": "03/06/2026",
+    "full_name": "dienogeste",
+    "brand_used": "Dienogeste",
+    "bula_type": "paciente"
+  },
+  "Dietilcarbamazina": {
+    "name": "Dietilcarbamazina",
+    "status": "success",
+    "file": "dietilcarbamazina.pdf",
+    "date": "12/12/2025",
+    "full_name": "DIETILCARBAMAZINA CITRATO",
+    "brand_used": "Dietilcarbamazina Citrato",
+    "bula_type": "paciente"
+  },
+  "Dimenidrinato + Piridoxina": {
+    "name": "Dimenidrinato + Piridoxina",
+    "status": "success",
+    "file": "dimenidrinato.pdf",
+    "date": "02/03/2026",
+    "full_name": "NAUSILON B6",
+    "brand_used": "Nausilon B6",
+    "bula_type": "paciente"
+  },
+  "Dimetilfumarato": {
+    "name": "Dimetilfumarato",
+    "status": "success",
+    "file": "dimetilfumarato.pdf",
+    "date": "24/06/2025",
+    "full_name": "TECFIDERA",
+    "brand_used": "Tecfidera",
+    "bula_type": "paciente"
+  },
+  "Diosmina": {
+    "name": "Diosmina",
+    "status": "success",
+    "file": "diosmina.pdf",
+    "date": "23/12/2025",
+    "full_name": "FLEBODIA",
+    "brand_used": "Flebodia",
+    "bula_type": "paciente"
+  },
+  "Diosmina + Hesperidina": {
+    "name": "Diosmina + Hesperidina",
+    "status": "success",
+    "file": "diosmina.pdf"
+  },
+  "Dipropionato de beclometasona": {
+    "name": "Dipropionato de beclometasona",
+    "status": "success",
+    "file": "dipropionato-de-beclometasona.pdf",
+    "date": "19/12/2025",
+    "full_name": "dipropionato de beclometasona",
+    "brand_used": "Dipropionato de beclometasona",
+    "bula_type": "paciente"
+  },
+  "Dobutamina": {
+    "name": "Dobutamina",
+    "status": "success",
+    "file": "dobutamina.pdf",
+    "date": "02/07/2026",
+    "full_name": "DOBUTREX",
+    "brand_used": "Dobutrex",
+    "bula_type": "paciente"
+  },
+  "Dolutegravir + Lamivudina": {
+    "name": "Dolutegravir + Lamivudina",
+    "status": "success",
+    "file": "dolutegravir.pdf",
+    "date": "16/10/2025",
+    "full_name": "DOVATO",
+    "brand_used": "Dovato",
+    "bula_type": "paciente"
+  },
+  "Dopamina": {
+    "name": "Dopamina",
+    "status": "success",
+    "file": "dopamina.pdf",
+    "date": "23/06/2026",
+    "full_name": "DOPACRIS",
+    "brand_used": "Dopacris",
+    "bula_type": "paciente"
+  },
+  "Dornase alfa": {
+    "name": "Dornase alfa",
+    "status": "success",
+    "file": "dornase-alfa.pdf",
+    "date": "23/06/2025",
+    "full_name": "PULMOZYME",
+    "brand_used": "Pulmozyme",
+    "bula_type": "paciente"
+  },
+  "Dropropizina": {
+    "name": "Dropropizina",
+    "status": "success",
+    "file": "dropropizina.pdf",
+    "date": "23/06/2026",
+    "full_name": "dropropizina",
+    "brand_used": "Dropropizina",
+    "bula_type": "paciente"
+  },
+  "Drospirenona": {
+    "name": "Drospirenona",
+    "status": "success",
+    "file": "drospirenona.pdf",
+    "date": "22/06/2026",
+    "full_name": "drospirenona + etinilestradiol",
+    "brand_used": "Drospirenona",
+    "bula_type": "paciente"
+  },
+  "Drospirenona + Estradiol": {
+    "name": "Drospirenona + Estradiol",
+    "status": "success",
+    "file": "drospirenona.pdf"
+  },
+  "Drospirenona + Etinilestradiol": {
+    "name": "Drospirenona + Etinilestradiol",
+    "status": "success",
+    "file": "drospirenona.pdf"
+  },
+  "Durvalumabe": {
+    "name": "Durvalumabe",
+    "status": "success",
+    "file": "durvalumabe.pdf",
+    "date": "04/05/2026",
+    "full_name": "IMFINZI",
+    "brand_used": "Imfinzi",
+    "bula_type": "paciente"
+  },
+  "Elotuzumabe": {
+    "name": "Elotuzumabe",
+    "status": "success",
+    "file": "elotuzumabe.pdf",
+    "date": "26/02/2026",
+    "full_name": "Empliciti",
+    "brand_used": "Empliciti",
+    "bula_type": "paciente"
+  },
+  "Eltrombopague": {
+    "name": "Eltrombopague",
+    "status": "success",
+    "file": "eltrombopague.pdf",
+    "date": "11/03/2026",
+    "full_name": "eltrombopague olamina",
+    "brand_used": "Eltrombopague",
+    "bula_type": "paciente"
+  },
+  "Empagliflozina + Linagliptina": {
+    "name": "Empagliflozina + Linagliptina",
+    "status": "success",
+    "file": "empagliflozina.pdf",
+    "date": "17/11/2025",
+    "full_name": "GLYXAMBI",
+    "brand_used": "Glyxambi",
+    "bula_type": "profissional"
+  },
+  "Enfuvirtida": {
+    "name": "Enfuvirtida",
+    "status": "success",
+    "file": "enfuvirtida.pdf",
+    "date": "29/04/2022",
+    "full_name": "FUZEON",
+    "brand_used": "Fuzeon",
+    "bula_type": "paciente"
+  },
+  "Eplerenona": {
+    "name": "Eplerenona",
+    "status": "success",
+    "file": "eplerenona.pdf",
+    "date": "11/12/2025",
+    "full_name": "INSPRA",
+    "brand_used": "Inspra",
+    "bula_type": "paciente"
+  },
+  "Epoetina alfa": {
+    "name": "Epoetina alfa",
+    "status": "success",
+    "file": "epoetina-alfa.pdf",
+    "date": "05/11/2025",
+    "full_name": "EPREX",
+    "brand_used": "Eprex",
+    "bula_type": "paciente"
+  },
+  "Eritropoietina": {
+    "name": "Eritropoietina",
+    "status": "success",
+    "file": "eritropoietina.pdf",
+    "date": "17/12/2025",
+    "full_name": "ERITROPOIETINA",
+    "brand_used": "Eritropoietina",
+    "bula_type": "paciente"
+  },
+  "Estreptomicina": {
+    "name": "Estreptomicina",
+    "status": "success",
+    "file": "estreptomicina.pdf",
+    "date": "28/05/2025",
+    "full_name": "FURP-ESTREPTOMICINA",
+    "brand_used": "FURP-estreptomicina",
+    "bula_type": "paciente"
+  },
+  "Etilefrina": {
+    "name": "Etilefrina",
+    "status": "success",
+    "file": "etilefrina.pdf",
+    "date": "19/06/2026",
+    "full_name": "ETILEFRIL",
+    "brand_used": "Etilefril",
+    "bula_type": "paciente"
+  },
+  "Etodolaco": {
+    "name": "Etodolaco",
+    "status": "success",
+    "file": "etodolaco.pdf",
+    "date": "17/06/2026",
+    "full_name": "etodolaco",
+    "brand_used": "Etodolaco",
+    "bula_type": "paciente"
+  },
+  "Etomidato": {
+    "name": "Etomidato",
+    "status": "success",
+    "file": "etomidato.pdf",
+    "date": "03/07/2026",
+    "full_name": "HYPNOMIDATE",
+    "brand_used": "Hypnomidate",
+    "bula_type": "paciente"
+  },
+  "Etravirina": {
+    "name": "Etravirina",
+    "status": "success",
+    "file": "etravirina.pdf",
+    "date": "04/11/2025",
+    "full_name": "INTELENCE",
+    "brand_used": "Intelence",
+    "bula_type": "paciente"
+  },
+  "Evolocumabe": {
+    "name": "Evolocumabe",
+    "status": "success",
+    "file": "evolocumabe.pdf",
+    "date": "16/12/2025",
+    "full_name": "REPATHA",
+    "brand_used": "Repatha",
+    "bula_type": "paciente"
+  },
+  "Fator IX de coagulação": {
+    "name": "Fator IX de coagulação",
+    "status": "success",
+    "file": "fator-ix-de-coagulacao.pdf",
+    "date": "05/07/2024",
+    "full_name": "FATOR IX DE COAGULAÇÃO HEMOBRÁS",
+    "brand_used": "Fator IX de coagulação",
+    "bula_type": "paciente"
+  },
+  "Fator VIII": {
+    "name": "Fator VIII",
+    "status": "success",
+    "file": "fator-viii.pdf",
+    "date": "30/08/2024",
+    "full_name": "FATOR VIII DE COAGULAÇÃO HEMOBRÁS",
+    "brand_used": "Fator VIII",
+    "bula_type": "paciente"
+  },
+  "Fator VIII de coagulação": {
+    "name": "Fator VIII de coagulação",
+    "status": "success",
+    "file": "fator-viii-de-coagulacao.pdf",
+    "date": "30/08/2024",
+    "full_name": "FATOR VIII DE COAGULAÇÃO HEMOBRÁS",
+    "brand_used": "Fator VIII de coagulação",
+    "bula_type": "paciente"
+  },
+  "Fenazopiridina": {
+    "name": "Fenazopiridina",
+    "status": "success",
+    "file": "fenazopiridina.pdf",
+    "date": "18/12/2025",
+    "full_name": "PYRIDIUM",
+    "brand_used": "Pyridium",
+    "bula_type": "paciente"
+  },
+  "Agalsidase beta": {
+    "name": "Agalsidase beta",
+    "status": "success",
+    "file": "agalsidase-beta.pdf",
+    "date": "02/04/2026",
+    "full_name": "FABRAZYME",
+    "brand_used": "Fabrazyme",
+    "bula_type": "paciente"
+  },
+  "Alglucosidase alfa": {
+    "name": "Alglucosidase alfa",
+    "status": "success",
+    "file": "alglucosidase-alfa.pdf",
+    "date": "26/05/2025",
+    "full_name": "MYOZYME",
+    "brand_used": "Myozyme",
+    "bula_type": "paciente"
+  },
+  "Amivantamabe": {
+    "name": "Amivantamabe",
+    "status": "success",
+    "file": "amivantamabe.pdf",
+    "date": "30/06/2026",
+    "full_name": "RYBREVANT",
+    "brand_used": "Rybrevant",
+    "bula_type": "paciente"
+  },
+  "Anagrelida": {
+    "name": "Anagrelida",
+    "status": "success",
+    "file": "anagrelida.pdf",
+    "date": "18/12/2025",
+    "full_name": "AGRYLIN",
+    "brand_used": "Agrylin",
+    "bula_type": "paciente"
+  },
+  "Anlodipino": {
+    "name": "Anlodipino",
+    "status": "success",
+    "file": "anlodipino.pdf",
+    "date": "16/05/2025",
+    "full_name": "AMLOVASC",
+    "brand_used": "Amlovasc",
+    "bula_type": "paciente"
+  },
+  "Asfotase Alfa": {
+    "name": "Asfotase Alfa",
+    "status": "success",
+    "file": "asfotase-alfa.pdf",
+    "date": "08/10/2025",
+    "full_name": "Strensiq",
+    "brand_used": "Strensiq",
+    "bula_type": "paciente"
+  },
+  "Atomoxetina": {
+    "name": "Atomoxetina",
+    "status": "success",
+    "file": "atomoxetina.pdf",
+    "date": "08/12/2025",
+    "full_name": "ATENTAH",
+    "brand_used": "Atentah",
+    "bula_type": "paciente"
+  },
+  "Atracúrio": {
+    "name": "Atracúrio",
+    "status": "success",
+    "file": "atracurio.pdf",
+    "date": "23/08/2022",
+    "full_name": "TRACRIUM",
+    "brand_used": "Tracrium",
+    "bula_type": "paciente"
+  },
+  "Atropina": {
+    "name": "Atropina",
+    "status": "success",
+    "file": "atropina.pdf",
+    "date": "28/11/2025",
+    "full_name": "ATROPINA",
+    "brand_used": "Atropina",
+    "bula_type": "paciente"
+  },
+  "Atropina + Difenoxilato": {
+    "name": "Atropina + Difenoxilato",
+    "status": "success",
+    "file": "atropina.pdf"
+  },
+  "Azelastina + Fluticasona": {
+    "name": "Azelastina + Fluticasona",
+    "status": "success",
+    "file": "azelastina.pdf",
+    "date": "17/12/2025",
+    "full_name": "Dymista",
+    "brand_used": "Dymista",
+    "bula_type": "paciente"
+  },
+  "Bacitracina + Neomicina": {
+    "name": "Bacitracina + Neomicina",
+    "status": "success",
+    "file": "bacitracina.pdf"
+  },
+  "Benserazida + Levodopa": {
+    "name": "Benserazida + Levodopa",
+    "status": "success",
+    "file": "benserazida.pdf",
+    "date": "03/09/2025",
+    "full_name": "DOPABANE",
+    "brand_used": "Dopabane",
+    "bula_type": "paciente"
+  },
+  "Benzilpenicilina benzatina": {
+    "name": "Benzilpenicilina benzatina",
+    "status": "success",
+    "file": "benzilpenicilina-benzatina.pdf",
+    "date": "03/07/2025",
+    "full_name": "benzilpenicilina benzatina",
+    "brand_used": "Benzilpenicilina benzatina",
+    "bula_type": "profissional"
+  },
+  "Beractanto": {
+    "name": "Beractanto",
+    "status": "success",
+    "file": "beractanto.pdf",
+    "date": "19/11/2025",
+    "full_name": "SURVANTA",
+    "brand_used": "Survanta",
+    "bula_type": "paciente"
+  },
+  "Betaistina": {
+    "name": "Betaistina",
+    "status": "success",
+    "file": "betaistina.pdf",
+    "date": "15/05/2025",
+    "full_name": "BETASERC",
+    "brand_used": "Betaserc",
+    "bula_type": "paciente"
+  },
+  "Bisacodil": {
+    "name": "Bisacodil",
+    "status": "success",
+    "file": "bisacodil.pdf",
+    "date": "29/12/2025",
+    "full_name": "MINILAX",
+    "brand_used": "Minilax",
+    "bula_type": "paciente"
+  },
+  "Ceftolozana + Tazobactam": {
+    "name": "Ceftolozana + Tazobactam",
+    "status": "success",
+    "file": "ceftolozana.pdf",
+    "date": "25/06/2025",
+    "full_name": "ZERBAXA",
+    "brand_used": "Zerbaxa",
+    "bula_type": "paciente"
+  },
+  "Cetorolaco": {
+    "name": "Cetorolaco",
+    "status": "success",
+    "file": "cetorolaco.pdf",
+    "date": "19/06/2026",
+    "full_name": "TEROLAC",
+    "brand_used": "Terolac",
+    "bula_type": "paciente"
+  },
+  "Cetrorrelix": {
+    "name": "Cetrorrelix",
+    "status": "success",
+    "file": "cetrorrelix.pdf",
+    "date": "30/04/2026",
+    "full_name": "CETROTIDE",
+    "brand_used": "Cetrotide",
+    "bula_type": "paciente"
+  },
+  "Cianocobalamina": {
+    "name": "Cianocobalamina",
+    "status": "success",
+    "file": "cianocobalamina.pdf"
+  },
+  "Cianocobalamina + Colina + Metionina": {
+    "name": "Cianocobalamina + Colina + Metionina",
+    "status": "success",
+    "file": "cianocobalamina.pdf"
+  },
+  "Clindamicina": {
+    "name": "Clindamicina",
+    "status": "success",
+    "file": "clindamicina.pdf"
+  },
+  "Enflurano": {
+    "name": "Enflurano",
+    "status": "success",
+    "file": "enflurano.pdf",
+    "date": "23/08/2016",
+    "full_name": "ENFLURAN",
+    "brand_used": "Enfluran",
+    "bula_type": "paciente"
+  },
+  "Enzalutamida": {
+    "name": "Enzalutamida",
+    "status": "success",
+    "file": "enzalutamida.pdf",
+    "date": "31/03/2026",
+    "full_name": "XTANDI",
+    "brand_used": "Xtandi",
+    "bula_type": "paciente"
+  },
+  "Epinastina": {
+    "name": "Epinastina",
+    "status": "success",
+    "file": "epinastina.pdf",
+    "date": "28/11/2025",
+    "full_name": "RELESTAT",
+    "brand_used": "Relestat",
+    "bula_type": "paciente"
+  },
+  "Epinefrina": {
+    "name": "Epinefrina",
+    "status": "success",
+    "file": "epinefrina.pdf",
+    "date": "15/01/2025",
+    "full_name": "Epinefrina",
+    "brand_used": "Epinefrina",
+    "bula_type": "paciente"
+  },
+  "Epinefrina + Lidocaína": {
+    "name": "Epinefrina + Lidocaína",
+    "status": "success",
+    "file": "epinefrina.pdf"
+  },
+  "Epinefrina + Mepivacaína": {
+    "name": "Epinefrina + Mepivacaína",
+    "status": "success",
+    "file": "epinefrina.pdf"
+  },
+  "Eribulina": {
+    "name": "Eribulina",
+    "status": "success",
+    "file": "eribulina.pdf",
+    "date": "17/12/2025",
+    "full_name": "HALAVEN",
+    "brand_used": "Halaven",
+    "bula_type": "paciente"
+  },
+  "Escetamina": {
+    "name": "Escetamina",
+    "status": "success",
+    "file": "escetamina.pdf",
+    "date": "02/04/2026",
+    "full_name": "SPRAVATO",
+    "brand_used": "Spravato",
+    "bula_type": "paciente"
+  },
+  "Esmolol": {
+    "name": "Esmolol",
+    "status": "success",
+    "file": "esmolol.pdf",
+    "date": "14/05/2026",
+    "full_name": "BREVIBLOC",
+    "brand_used": "Brevibloc",
+    "bula_type": "paciente"
+  },
+  "Espiramicina": {
+    "name": "Espiramicina",
+    "status": "success",
+    "file": "espiramicina.pdf",
+    "date": "18/12/2025",
+    "full_name": "ROVAMICINA",
+    "brand_used": "Rovamicina",
+    "bula_type": "paciente"
+  },
+  "Estradiol": {
+    "name": "Estradiol",
+    "status": "success",
+    "file": "estradiol.pdf",
+    "date": "18/05/2026",
+    "full_name": "estradiol + drospirenona",
+    "brand_used": "Estradiol",
+    "bula_type": "paciente"
+  },
+  "Estradiol + Noretisterona": {
+    "name": "Estradiol + Noretisterona",
+    "status": "success",
+    "file": "estradiol.pdf"
+  },
+  "Estriol": {
+    "name": "Estriol",
+    "status": "success",
+    "file": "estriol.pdf",
+    "date": "30/01/2026",
+    "full_name": "estriol",
+    "brand_used": "Estriol",
+    "bula_type": "profissional"
+  },
+  "Etoposídeo": {
+    "name": "Etoposídeo",
+    "status": "success",
+    "file": "etoposideo.pdf",
+    "date": "21/05/2026",
+    "full_name": "EVOPOSDO",
+    "brand_used": "Evoposdo",
+    "bula_type": "paciente"
+  },
+  "Exemestano": {
+    "name": "Exemestano",
+    "status": "success",
+    "file": "exemestano.pdf",
+    "date": "05/02/2026",
+    "full_name": "exemestano",
+    "brand_used": "Exemestano",
+    "bula_type": "paciente"
+  },
+  "Fampridina": {
+    "name": "Fampridina",
+    "status": "success",
+    "file": "fampridina.pdf",
+    "date": "10/12/2025",
+    "full_name": "fampridina",
+    "brand_used": "Fampridina",
+    "bula_type": "paciente"
+  },
+  "Fenilefrina + Paracetamol": {
+    "name": "Fenilefrina + Paracetamol",
+    "status": "success",
+    "file": "fenilefrina.pdf",
+    "date": "23/06/2026",
+    "full_name": "FLUVIRAL DIA",
+    "brand_used": "Fluviral Dia",
+    "bula_type": "paciente"
+  },
+  "Fenofibrato": {
+    "name": "Fenofibrato",
+    "status": "success",
+    "file": "fenofibrato.pdf",
+    "date": "26/06/2026",
+    "full_name": "fenofibrato",
+    "brand_used": "Fenofibrato",
+    "bula_type": "paciente"
+  },
+  "Ferro": {
+    "name": "Ferro",
+    "status": "success",
+    "file": "ferro.pdf",
+    "date": "10/12/2025",
+    "full_name": "FERRO",
+    "brand_used": "Ferro",
+    "bula_type": "paciente"
+  },
+  "Filgrastim": {
+    "name": "Filgrastim",
+    "status": "success",
+    "file": "filgrastim.pdf",
+    "date": "05/05/2026",
+    "full_name": "FILGRASTIM",
+    "brand_used": "Filgrastim",
+    "bula_type": "paciente"
+  },
+  "Filgrastima": {
+    "name": "Filgrastima",
+    "status": "success",
+    "file": "filgrastima.pdf",
+    "date": "03/11/2025",
+    "full_name": "GRANULOKINE",
+    "brand_used": "Granulokine",
+    "bula_type": "paciente"
+  },
+  "Fingolimode": {
+    "name": "Fingolimode",
+    "status": "success",
+    "file": "fingolimode.pdf",
+    "date": "16/04/2026",
+    "full_name": "GILENYA",
+    "brand_used": "Gilenya",
+    "bula_type": "paciente"
+  },
+  "Fitomenadiona": {
+    "name": "Fitomenadiona",
+    "status": "success",
+    "file": "fitomenadiona.pdf",
+    "date": "17/03/2021",
+    "full_name": "HYVIT K",
+    "brand_used": "Hyvit K",
+    "bula_type": "profissional"
+  },
+  "Fludrocortisona": {
+    "name": "Fludrocortisona",
+    "status": "success",
+    "file": "fludrocortisona.pdf",
+    "date": "09/12/2025",
+    "full_name": "FLORINEFE",
+    "brand_used": "Florinefe",
+    "bula_type": "paciente"
+  },
+  "Flumazenil": {
+    "name": "Flumazenil",
+    "status": "success",
+    "file": "flumazenil.pdf",
+    "date": "25/06/2026",
+    "full_name": "FLUMAZIL",
+    "brand_used": "Flumazil",
+    "bula_type": "paciente"
+  },
+  "Flunitrazepam": {
+    "name": "Flunitrazepam",
+    "status": "success",
+    "file": "flunitrazepam.pdf",
+    "date": "01/04/2026",
+    "full_name": "ROHYDORM",
+    "brand_used": "Rohydorm",
+    "bula_type": "paciente"
+  },
+  "Fluoruracila": {
+    "name": "Fluoruracila",
+    "status": "success",
+    "file": "fluoruracila.pdf",
+    "date": "28/06/2026",
+    "full_name": "FLUORURACILA",
+    "brand_used": "Fluoruracila",
+    "bula_type": "paciente"
+  },
+  "Flutamida": {
+    "name": "Flutamida",
+    "status": "success",
+    "file": "flutamida.pdf",
+    "date": "17/10/2025",
+    "full_name": "FLUTAMIDA",
+    "brand_used": "Flutamida",
+    "bula_type": "paciente"
+  },
+  "Fosfato de potássio": {
+    "name": "Fosfato de potássio",
+    "status": "success",
+    "file": "fosfato-de-potassio.pdf",
+    "date": "01/07/2026",
+    "full_name": "FOSFATO DE POTÁSSIO",
+    "brand_used": "Fosfato de Potássio",
+    "bula_type": "paciente"
+  },
+  "Fosfomicina": {
+    "name": "Fosfomicina",
+    "status": "success",
+    "file": "fosfomicina.pdf",
+    "date": "22/05/2026",
+    "full_name": "fosfomicina trometamol",
+    "brand_used": "Fosfomicina",
+    "bula_type": "paciente"
+  },
+  "Fulvestranto": {
+    "name": "Fulvestranto",
+    "status": "success",
+    "file": "fulvestranto.pdf",
+    "date": "02/04/2026",
+    "full_name": "FULVESTRANTO",
+    "brand_used": "Fulvestranto",
+    "bula_type": "paciente"
+  },
+  "Gatifloxacino + Prednisolona": {
+    "name": "Gatifloxacino + Prednisolona",
+    "status": "success",
+    "file": "gatifloxacino.pdf",
+    "date": "28/11/2025",
+    "full_name": "ZYPRED",
+    "brand_used": "Zypred",
+    "bula_type": "paciente"
+  },
+  "Hialuronato de sódio": {
+    "name": "Hialuronato de sódio",
+    "status": "success",
+    "file": "hialuronato-de-sodio.pdf",
+    "date": "19/12/2025",
+    "full_name": "Euflexxa",
+    "brand_used": "Euflexxa",
+    "bula_type": "paciente"
+  },
+  "Hialuronidase + Imunoglobulina humana": {
+    "name": "Hialuronidase + Imunoglobulina humana",
+    "status": "success",
+    "file": "hialuronidase.pdf",
+    "date": "29/08/2025",
+    "full_name": "HYQVIA",
+    "brand_used": "Hyqvia",
+    "bula_type": "paciente"
+  },
+  "Hidroquinona": {
+    "name": "Hidroquinona",
+    "status": "success",
+    "file": "hidroquinona.pdf",
+    "date": "12/05/2026",
+    "full_name": "HIDROQUINONA+ TRETINOINA + FLUOCINOLONA ACETONIDA",
+    "brand_used": "Hidroquinona",
+    "bula_type": "paciente"
+  },
+  "Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona": {
+    "name": "Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona",
+    "status": "success",
+    "file": "hidroxido-de-aluminio.pdf",
+    "date": "25/03/2026",
+    "full_name": "MYLANTA PLUS",
+    "brand_used": "Mylanta Plus",
+    "bula_type": "paciente"
+  },
+  "Hidroxiureia": {
+    "name": "Hidroxiureia",
+    "status": "success",
+    "file": "hidroxiureia.pdf",
+    "date": "02/02/2026",
+    "full_name": "hidroxiureia",
+    "brand_used": "Hidroxiureia",
+    "bula_type": "paciente"
+  },
+  "Ibrutinibe": {
+    "name": "Ibrutinibe",
+    "status": "success",
+    "file": "ibrutinibe.pdf",
+    "date": "30/06/2026",
+    "full_name": "IMBRUVICA",
+    "brand_used": "Imbruvica",
+    "bula_type": "paciente"
+  },
+  "Icatibanto": {
+    "name": "Icatibanto",
+    "status": "success",
+    "file": "icatibanto.pdf",
+    "date": "30/11/2023",
+    "full_name": "FIRAZYR",
+    "brand_used": "Firazyr",
+    "bula_type": "paciente"
+  },
+  "Ifosfamida": {
+    "name": "Ifosfamida",
+    "status": "success",
+    "file": "ifosfamida.pdf",
+    "date": "28/01/2026",
+    "full_name": "IFOSFAMIDA",
+    "brand_used": "Ifosfamida",
+    "bula_type": "paciente"
+  },
+  "Imunoglobulina humana": {
+    "name": "Imunoglobulina humana",
+    "status": "success",
+    "file": "imunoglobulina-humana.pdf",
+    "date": "07/02/2025",
+    "full_name": "IMUNOGLOBULINA HUMANA HEMOBRÁS",
+    "brand_used": "Imunoglobulina humana",
+    "bula_type": "paciente"
+  },
+  "Inibidor de C1 esterase": {
+    "name": "Inibidor de C1 esterase",
+    "status": "success",
+    "file": "inibidor-de-c1-esterase.pdf",
+    "date": "18/05/2026",
+    "full_name": "BERINERT",
+    "brand_used": "Berinert",
+    "bula_type": "paciente"
+  },
+  "Iopamidol": {
+    "name": "Iopamidol",
+    "status": "success",
+    "file": "iopamidol.pdf",
+    "date": "27/06/2025",
+    "full_name": "IOPAMIRON",
+    "brand_used": "Iopamiron",
+    "bula_type": "paciente"
+  },
+  "Ioversol": {
+    "name": "Ioversol",
+    "status": "success",
+    "file": "ioversol.pdf",
+    "date": "30/04/2026",
+    "full_name": "OPTIRAY",
+    "brand_used": "Optiray",
+    "bula_type": "paciente"
+  },
+  "Isatuximabe": {
+    "name": "Isatuximabe",
+    "status": "success",
+    "file": "isatuximabe.pdf",
+    "date": "08/01/2026",
+    "full_name": "Sarclisa",
+    "brand_used": "Sarclisa",
+    "bula_type": "profissional"
+  },
+  "Isavuconazol": {
+    "name": "Isavuconazol",
+    "status": "success",
+    "file": "isavuconazol.pdf",
+    "date": "09/12/2025",
+    "full_name": "Cresemba",
+    "brand_used": "Cresemba",
+    "bula_type": "paciente"
+  },
+  "Isoflavonas": {
+    "name": "Isoflavonas",
+    "status": "success",
+    "file": "isoflavonas.pdf",
+    "date": "14/10/2025",
+    "full_name": "PROMENSIL",
+    "brand_used": "Promensil",
+    "bula_type": "paciente"
+  },
+  "Isoflurano": {
+    "name": "Isoflurano",
+    "status": "success",
+    "file": "isoflurano.pdf",
+    "date": "23/12/2025",
+    "full_name": "ISOFLURANO",
+    "brand_used": "Isoflurano",
+    "bula_type": "paciente"
+  },
+  "L-ornitina L-aspartato": {
+    "name": "L-ornitina L-aspartato",
+    "status": "success",
+    "file": "l-ornitina-l-aspartato.pdf",
+    "date": "10/12/2025",
+    "full_name": "HEPA-MERZ",
+    "brand_used": "Hepa-Merz",
+    "bula_type": "paciente"
+  },
+  "Laronidase": {
+    "name": "Laronidase",
+    "status": "success",
+    "file": "laronidase.pdf",
+    "date": "25/07/2024",
+    "full_name": "ALDURAZYME",
+    "brand_used": "Aldurazyme",
+    "bula_type": "paciente"
+  },
+  "Latanoprosta": {
+    "name": "Latanoprosta",
+    "status": "success",
+    "file": "latanoprosta.pdf",
+    "date": "26/06/2026",
+    "full_name": "Arulatan",
+    "brand_used": "Arulatan",
+    "bula_type": "paciente"
+  },
+  "Lenvatinibe": {
+    "name": "Lenvatinibe",
+    "status": "success",
+    "file": "lenvatinibe.pdf",
+    "date": "17/12/2025",
+    "full_name": "Lenvima",
+    "brand_used": "Lenvima",
+    "bula_type": "paciente"
+  },
+  "Lidocaína": {
+    "name": "Lidocaína",
+    "status": "success",
+    "file": "lidocaina.pdf",
+    "date": "17/06/2026",
+    "full_name": "MEDICAÍNA",
+    "brand_used": "Medicaína",
+    "bula_type": "paciente"
+  },
+  "Lidocaína + Prilocaína": {
+    "name": "Lidocaína + Prilocaína",
+    "status": "success",
+    "file": "lidocaina.pdf"
+  },
+  "Lidocaína + Tetracaína": {
+    "name": "Lidocaína + Tetracaína",
+    "status": "success",
+    "file": "lidocaina.pdf"
+  },
+  "Limeciclina": {
+    "name": "Limeciclina",
+    "status": "success",
+    "file": "limeciclina.pdf",
+    "date": "06/03/2026",
+    "full_name": "LIMECICLINA",
+    "brand_used": "Limeciclina",
+    "bula_type": "paciente"
+  },
+  "Lisado Bacteriano": {
+    "name": "Lisado Bacteriano",
+    "status": "success",
+    "file": "lisado-bacteriano.pdf",
+    "date": "24/01/2025",
+    "full_name": "BRONCHO-VAXOM",
+    "brand_used": "Broncho-Vaxom",
+    "bula_type": "paciente"
+  },
+  "Lisado bacteriano de Escherichia coli": {
+    "name": "Lisado bacteriano de Escherichia coli",
+    "status": "success",
+    "file": "lisado-bacteriano-de-escherichia-coli.pdf",
+    "date": "17/12/2025",
+    "full_name": "URO-VAXOM",
+    "brand_used": "Uro-Vaxom",
+    "bula_type": "paciente"
+  },
+  "Lisdexanfetamina": {
+    "name": "Lisdexanfetamina",
+    "status": "success",
+    "file": "lisdexanfetamina.pdf",
+    "date": "04/03/2026",
+    "full_name": "VENVANSE",
+    "brand_used": "Venvanse",
+    "bula_type": "paciente"
+  },
+  "Lumasiran": {
+    "name": "Lumasiran",
+    "status": "success",
+    "file": "lumasiran.pdf",
+    "date": "06/03/2026",
+    "full_name": "OXLUMO",
+    "brand_used": "Oxlumo",
+    "bula_type": "paciente"
+  },
+  "Luspatercepte": {
+    "name": "Luspatercepte",
+    "status": "success",
+    "file": "luspatercepte.pdf",
+    "date": "13/08/2025",
+    "full_name": "REBLOZYL",
+    "brand_used": "Reblozyl",
+    "bula_type": "paciente"
+  },
+  "Magaldrato": {
+    "name": "Magaldrato",
+    "status": "success",
+    "file": "magaldrato.pdf",
+    "date": "11/03/2021",
+    "full_name": "RIOPAN",
+    "brand_used": "Riopan",
+    "bula_type": "paciente"
+  },
+  "Magaldrato + Simeticona": {
+    "name": "Magaldrato + Simeticona",
+    "status": "success",
+    "file": "magaldrato.pdf"
+  },
+  "Manitol": {
+    "name": "Manitol",
+    "status": "success",
+    "file": "manitol.pdf",
+    "date": "01/07/2026",
+    "full_name": "MANITOL FARMACE",
+    "brand_used": "Manitol",
+    "bula_type": "profissional"
+  },
+  "Menotropina": {
+    "name": "Menotropina",
+    "status": "success",
+    "file": "menotropina.pdf",
+    "date": "03/07/2026",
+    "full_name": "MENOPUR",
+    "brand_used": "Menopur",
+    "bula_type": "paciente"
+  },
+  "Meropeném": {
+    "name": "Meropeném",
+    "status": "success",
+    "file": "meropenem.pdf",
+    "date": "02/07/2026",
+    "full_name": "meropeném",
+    "brand_used": "Meropeném",
+    "bula_type": "paciente"
+  },
+  "Mesilato de desferroxamina": {
+    "name": "Mesilato de desferroxamina",
+    "status": "success",
+    "file": "mesilato-de-desferroxamina.pdf",
+    "date": "15/06/2026",
+    "full_name": "mesilato de desferroxamina",
+    "brand_used": "Mesilato de Desferroxamina",
+    "bula_type": "paciente"
+  },
+  "Metadoxina": {
+    "name": "Metadoxina",
+    "status": "success",
+    "file": "metadoxina.pdf",
+    "date": "19/12/2025",
+    "full_name": "METADOXIL",
+    "brand_used": "Metadoxil",
+    "bula_type": "paciente"
+  },
+  "Metilfenidato": {
+    "name": "Metilfenidato",
+    "status": "success",
+    "file": "metilfenidato.pdf",
+    "date": "15/12/2025",
+    "full_name": "CONCERTA",
+    "brand_used": "Concerta",
+    "bula_type": "paciente"
+  },
+  "Metilsulfato de neostigmina": {
+    "name": "Metilsulfato de neostigmina",
+    "status": "success",
+    "file": "metilsulfato-de-neostigmina.pdf",
+    "date": "03/07/2026",
+    "full_name": "metilsulfato de neostigmina",
+    "brand_used": "Metilsulfato de Neostigmina",
+    "bula_type": "paciente"
+  },
+  "Metreleptina": {
+    "name": "Metreleptina",
+    "status": "success",
+    "file": "metreleptina.pdf",
+    "date": "02/07/2025",
+    "full_name": "MYALEPT",
+    "brand_used": "Myalept",
+    "bula_type": "paciente"
+  },
+  "Micafungina": {
+    "name": "Micafungina",
+    "status": "success",
+    "file": "micafungina.pdf",
+    "date": "08/07/2026",
+    "full_name": "micafungina sódica",
+    "brand_used": "Micafungina",
+    "bula_type": "paciente"
+  },
+  "Midostaurina": {
+    "name": "Midostaurina",
+    "status": "success",
+    "file": "midostaurina.pdf",
+    "date": "15/09/2025",
+    "full_name": "Rydapt",
+    "brand_used": "Rydapt",
+    "bula_type": "paciente"
+  },
+  "Miglustate": {
+    "name": "Miglustate",
+    "status": "success",
+    "file": "miglustate.pdf",
+    "date": "02/10/2025",
+    "full_name": "ZAVESCA",
+    "brand_used": "Zavesca",
+    "bula_type": "paciente"
+  },
+  "Milrinona": {
+    "name": "Milrinona",
+    "status": "success",
+    "file": "milrinona.pdf",
+    "date": "08/12/2025",
+    "full_name": "PRIMACOR",
+    "brand_used": "Primacor",
+    "bula_type": "paciente"
+  },
+  "Montelucaste": {
+    "name": "Montelucaste",
+    "status": "success",
+    "file": "montelucaste.pdf",
+    "date": "26/06/2026",
+    "full_name": "montelucaste de sódio",
+    "brand_used": "Montelucaste",
+    "bula_type": "profissional"
+  },
+  "Nandrolona": {
+    "name": "Nandrolona",
+    "status": "success",
+    "file": "nandrolona.pdf",
+    "date": "29/04/2026",
+    "full_name": "DECA-DURABOLIN",
+    "brand_used": "Deca-Durabolin",
+    "bula_type": "paciente"
+  },
+  "Natalizumabe": {
+    "name": "Natalizumabe",
+    "status": "success",
+    "file": "natalizumabe.pdf",
+    "date": "29/04/2026",
+    "full_name": "TYSABRI",
+    "brand_used": "Tysabri",
+    "bula_type": "paciente"
+  },
+  "Neostigmina": {
+    "name": "Neostigmina",
+    "status": "success",
+    "file": "neostigmina.pdf",
+    "date": "06/04/2026",
+    "full_name": "NORMASTIG",
+    "brand_used": "Normastig",
+    "bula_type": "paciente"
+  },
+  "Nilotinibe": {
+    "name": "Nilotinibe",
+    "status": "success",
+    "file": "nilotinibe.pdf",
+    "date": "08/01/2026",
+    "full_name": "TASIGNA",
+    "brand_used": "Tasigna",
+    "bula_type": "paciente"
+  },
+  "Nintedanibe": {
+    "name": "Nintedanibe",
+    "status": "success",
+    "file": "nintedanibe.pdf",
+    "date": "02/12/2025",
+    "full_name": "OFEV",
+    "brand_used": "Ofev",
+    "bula_type": "paciente"
+  },
+  "Nirmatrelvir + Ritonavir": {
+    "name": "Nirmatrelvir + Ritonavir",
+    "status": "success",
+    "file": "nirmatrelvir.pdf",
+    "date": "08/07/2026",
+    "full_name": "PAXLOVID",
+    "brand_used": "Paxlovid",
+    "bula_type": "paciente"
+  },
+  "Nitrendipino": {
+    "name": "Nitrendipino",
+    "status": "success",
+    "file": "nitrendipino.pdf",
+    "date": "05/12/2024",
+    "full_name": "NITRENDIPINO",
+    "brand_used": "Nitrendipino",
+    "bula_type": "paciente"
+  },
+  "Norepinefrina": {
+    "name": "Norepinefrina",
+    "status": "success",
+    "file": "norepinefrina.pdf",
+    "date": "19/06/2026",
+    "full_name": "HEMITARTARATO DE NOREPINEFRINA",
+    "brand_used": "Hemitartarato de Norepinefrina",
+    "bula_type": "paciente"
+  },
+  "Nusinersena": {
+    "name": "Nusinersena",
+    "status": "success",
+    "file": "nusinersena.pdf",
+    "date": "26/01/2026",
+    "full_name": "SPINRAZA",
+    "brand_used": "Spinraza",
+    "bula_type": "paciente"
+  },
+  "Ocitocina": {
+    "name": "Ocitocina",
+    "status": "success",
+    "file": "ocitocina.pdf",
+    "date": "18/12/2025",
+    "full_name": "OCITOCINA",
+    "brand_used": "Ocitocina",
+    "bula_type": "paciente"
+  },
+  "Ocrelizumabe": {
+    "name": "Ocrelizumabe",
+    "status": "success",
+    "file": "ocrelizumabe.pdf",
+    "date": "23/10/2025",
+    "full_name": "OCREVUS",
+    "brand_used": "Ocrevus",
+    "bula_type": "paciente"
+  },
+  "Octreotida": {
+    "name": "Octreotida",
+    "status": "success",
+    "file": "octreotida.pdf",
+    "date": "20/08/2025",
+    "full_name": "OCTRIDE",
+    "brand_used": "Octride",
+    "bula_type": "paciente"
+  },
+  "Olaparibe": {
+    "name": "Olaparibe",
+    "status": "success",
+    "file": "olaparibe.pdf",
+    "date": "26/09/2025",
+    "full_name": "Lynparza comprimidos",
+    "brand_used": "Lynparza",
+    "bula_type": "paciente"
+  },
+  "Olmesartana medoxomila": {
+    "name": "Olmesartana medoxomila",
+    "status": "success",
+    "file": "olmesartana-medoxomila.pdf",
+    "date": "18/06/2026",
+    "full_name": "olmesartana medoxomila + besilato de anlodipino",
+    "brand_used": "Olmesartana medoxomila",
+    "bula_type": "paciente"
+  },
+  "Ondansetrona": {
+    "name": "Ondansetrona",
+    "status": "success",
+    "file": "ondansetrona.pdf",
+    "date": "15/06/2026",
+    "full_name": "ondansetrona",
+    "brand_used": "Ondansetrona",
+    "bula_type": "paciente"
+  },
+  "Orlistate": {
+    "name": "Orlistate",
+    "status": "success",
+    "file": "orlistate.pdf",
+    "date": "29/01/2026",
+    "full_name": "ORLISTATE",
+    "brand_used": "Orlistate",
+    "bula_type": "paciente"
+  },
+  "Oxacilina": {
+    "name": "Oxacilina",
+    "status": "success",
+    "file": "oxacilina.pdf",
+    "date": "12/11/2025",
+    "full_name": "oxacilina sódica",
+    "brand_used": "Oxacilina",
+    "bula_type": "paciente"
+  },
+  "Oxacilina Sódica": {
+    "name": "Oxacilina Sódica",
+    "status": "success",
+    "file": "oxacilina-sodica.pdf",
+    "date": "12/11/2025",
+    "full_name": "oxacilina sódica",
+    "brand_used": "Oxacilina Sódica",
+    "bula_type": "paciente"
+  },
+  "Oxaliplatina": {
+    "name": "Oxaliplatina",
+    "status": "success",
+    "file": "oxaliplatina.pdf",
+    "date": "11/06/2026",
+    "full_name": "OXALIPLATINA",
+    "brand_used": "Oxaliplatina",
+    "bula_type": "paciente"
+  },
+  "Palbociclibe": {
+    "name": "Palbociclibe",
+    "status": "success",
+    "file": "palbociclibe.pdf",
+    "date": "05/02/2026",
+    "full_name": "palbociclibe",
+    "brand_used": "Palbociclibe",
+    "bula_type": "paciente"
+  },
+  "Palivizumabe": {
+    "name": "Palivizumabe",
+    "status": "success",
+    "file": "palivizumabe.pdf",
+    "date": "06/06/2025",
+    "full_name": "SYNAGIS",
+    "brand_used": "SYNAGIS",
+    "bula_type": "paciente"
+  },
+  "Pamidronato dissódico": {
+    "name": "Pamidronato dissódico",
+    "status": "success",
+    "file": "pamidronato-dissodico.pdf",
+    "date": "07/10/2025",
+    "full_name": "PAMIDRONATO DISSÓDICO",
+    "brand_used": "Pamidronato dissódico",
+    "bula_type": "paciente"
+  },
+  "Pamoato de Pirantel": {
+    "name": "Pamoato de Pirantel",
+    "status": "success",
+    "file": "pamoato-de-pirantel.pdf",
+    "date": "15/09/2025",
+    "full_name": "PYVERM",
+    "brand_used": "Pyverm",
+    "bula_type": "paciente"
+  },
+  "Pancreatina": {
+    "name": "Pancreatina",
+    "status": "success",
+    "file": "pancreatina.pdf",
+    "date": "19/03/2025",
+    "full_name": "CREON",
+    "brand_used": "Creon",
+    "bula_type": "paciente"
+  },
+  "Panitumumabe": {
+    "name": "Panitumumabe",
+    "status": "success",
+    "file": "panitumumabe.pdf",
+    "date": "21/05/2025",
+    "full_name": "VECTIBIX",
+    "brand_used": "Vectibix",
+    "bula_type": "paciente"
+  },
+  "Parecoxibe": {
+    "name": "Parecoxibe",
+    "status": "success",
+    "file": "parecoxibe.pdf",
+    "date": "11/11/2025",
+    "full_name": "parecoxibe sódico",
+    "brand_used": "Parecoxibe",
+    "bula_type": "paciente"
+  },
+  "Paricalcitol": {
+    "name": "Paricalcitol",
+    "status": "success",
+    "file": "paricalcitol.pdf",
+    "date": "28/11/2025",
+    "full_name": "ZEMPLAR",
+    "brand_used": "Zemplar",
+    "bula_type": "paciente"
+  },
+  "Patisirana": {
+    "name": "Patisirana",
+    "status": "success",
+    "file": "patisirana.pdf",
+    "date": "05/11/2025",
+    "full_name": "Onpattro",
+    "brand_used": "Onpattro",
+    "bula_type": "paciente"
+  },
+  "Paullinia cupana + Ptychopetalum olacoides + Trichilia catigua + Zingiber officinale": {
+    "name": "Paullinia cupana + Ptychopetalum olacoides + Trichilia catigua + Zingiber officinale",
+    "status": "success",
+    "file": "paullinia-cupana.pdf",
+    "date": "02/05/2022",
+    "full_name": "CATUAMA",
+    "brand_used": "Catuama",
+    "bula_type": "paciente"
+  },
+  "Pazopanibe": {
+    "name": "Pazopanibe",
+    "status": "success",
+    "file": "pazopanibe.pdf",
+    "date": "16/09/2025",
+    "full_name": "VOTRIENT",
+    "brand_used": "Votrient",
+    "bula_type": "paciente"
+  },
+  "Pegfilgrastim": {
+    "name": "Pegfilgrastim",
+    "status": "success",
+    "file": "pegfilgrastim.pdf",
+    "date": "02/12/2022",
+    "full_name": "PELGRAZ",
+    "brand_used": "Pelgraz",
+    "bula_type": "paciente"
+  },
+  "Pemetrexede": {
+    "name": "Pemetrexede",
+    "status": "success",
+    "file": "pemetrexede.pdf",
+    "date": "27/05/2026",
+    "full_name": "pemetrexede dissodico",
+    "brand_used": "Pemetrexede",
+    "bula_type": "paciente"
+  },
+  "Penicilamina": {
+    "name": "Penicilamina",
+    "status": "success",
+    "file": "penicilamina.pdf",
+    "date": "18/12/2025",
+    "full_name": "CUPRIMINE",
+    "brand_used": "Cuprimine",
+    "bula_type": "paciente"
+  },
+  "Pentoxifilina": {
+    "name": "Pentoxifilina",
+    "status": "success",
+    "file": "pentoxifilina.pdf",
+    "date": "19/12/2025",
+    "full_name": "pentoxifilina",
+    "brand_used": "Pentoxifilina",
+    "bula_type": "paciente"
+  },
+  "Periciazina": {
+    "name": "Periciazina",
+    "status": "success",
+    "file": "periciazina.pdf",
+    "date": "01/04/2025",
+    "full_name": "NEULEPTIL",
+    "brand_used": "Neuleptil",
+    "bula_type": "paciente"
+  },
+  "Permetrina": {
+    "name": "Permetrina",
+    "status": "success",
+    "file": "permetrina.pdf",
+    "date": "12/06/2026",
+    "full_name": "PERMETRINA",
+    "brand_used": "Permetrina",
+    "bula_type": "paciente"
+  },
+  "Pilocarpina": {
+    "name": "Pilocarpina",
+    "status": "success",
+    "file": "pilocarpina.pdf",
+    "date": "28/06/2022",
+    "full_name": "PILOCARPINA",
+    "brand_used": "Pilocarpina",
+    "bula_type": "paciente"
+  },
+  "Pioglitazona": {
+    "name": "Pioglitazona",
+    "status": "success",
+    "file": "pioglitazona.pdf",
+    "date": "12/11/2020",
+    "full_name": "pioglit",
+    "brand_used": "Pioglit",
+    "bula_type": "paciente"
+  },
+  "Pirfenidona": {
+    "name": "Pirfenidona",
+    "status": "success",
+    "file": "pirfenidona.pdf",
+    "date": "18/07/2025",
+    "full_name": "pirfenidona",
+    "brand_used": "Pirfenidona",
+    "bula_type": "paciente"
+  },
+  "Piridoxina": {
+    "name": "Piridoxina",
+    "status": "success",
+    "file": "piridoxina.pdf",
+    "date": "12/12/2025",
+    "full_name": "NEURI - B6",
+    "brand_used": "Neuri - B6",
+    "bula_type": "paciente"
+  },
+  "Piroxicam": {
+    "name": "Piroxicam",
+    "status": "success",
+    "file": "piroxicam.pdf",
+    "date": "20/06/2026",
+    "full_name": "piroxicam",
+    "brand_used": "Piroxicam",
+    "bula_type": "paciente"
+  },
+  "Polimixina B": {
+    "name": "Polimixina B",
+    "status": "success",
+    "file": "polimixina-b.pdf",
+    "date": "07/08/2024",
+    "full_name": "POLIXIL B",
+    "brand_used": "Polixil B",
+    "bula_type": "paciente"
+  },
+  "Ponatinibe": {
+    "name": "Ponatinibe",
+    "status": "success",
+    "file": "ponatinibe.pdf",
+    "date": "17/06/2026",
+    "full_name": "ICLUSIG",
+    "brand_used": "Iclusig",
+    "bula_type": "paciente"
+  },
+  "Poractanto alfa": {
+    "name": "Poractanto alfa",
+    "status": "success",
+    "file": "poractanto-alfa.pdf",
+    "date": "17/06/2025",
+    "full_name": "CUROSURF",
+    "brand_used": "Curosurf",
+    "bula_type": "paciente"
+  },
+  "Pravastatina Sódica": {
+    "name": "Pravastatina Sódica",
+    "status": "success",
+    "file": "pravastatina-sodica.pdf",
+    "date": "16/12/2025",
+    "full_name": "PRAVASTATINA SÓDICA",
+    "brand_used": "Pravastatina Sódica",
+    "bula_type": "paciente"
+  },
+  "Promestrieno": {
+    "name": "Promestrieno",
+    "status": "success",
+    "file": "promestrieno.pdf",
+    "date": "30/10/2025",
+    "full_name": "promestrieno",
+    "brand_used": "Promestrieno",
+    "bula_type": "paciente"
+  },
+  "Propiltiouracila": {
+    "name": "Propiltiouracila",
+    "status": "success",
+    "file": "propiltiouracila.pdf",
+    "date": "10/12/2025",
+    "full_name": "PROPILRACIL",
+    "brand_used": "Propilracil",
+    "bula_type": "paciente"
+  },
+  "Propionato de Clobetasol": {
+    "name": "Propionato de Clobetasol",
+    "status": "success",
+    "file": "propionato-de-clobetasol.pdf",
+    "date": "11/06/2026",
+    "full_name": "PROPIONATO DE CLOBETASOL",
+    "brand_used": "Propionato de Clobetasol",
+    "bula_type": "paciente"
+  },
+  "Propionato de Fluticasona": {
+    "name": "Propionato de Fluticasona",
+    "status": "success",
+    "file": "propionato-de-fluticasona.pdf",
+    "date": "23/06/2026",
+    "full_name": "FLUTINOL",
+    "brand_used": "FLUTINOL",
+    "bula_type": "paciente"
+  },
+  "Protamina": {
+    "name": "Protamina",
+    "status": "success",
+    "file": "protamina.pdf",
+    "date": "27/02/2026",
+    "full_name": "PROTAMINA",
+    "brand_used": "Protamina",
+    "bula_type": "paciente"
+  },
+  "Prucaloprida": {
+    "name": "Prucaloprida",
+    "status": "success",
+    "file": "prucaloprida.pdf",
+    "date": "17/12/2025",
+    "full_name": "RESOLOR",
+    "brand_used": "Resolor",
+    "bula_type": "paciente"
+  },
+  "Ramelteon": {
+    "name": "Ramelteon",
+    "status": "success",
+    "file": "ramelteon.pdf",
+    "date": "03/06/2026",
+    "full_name": "ramelteona",
+    "brand_used": "Ramelteon",
+    "bula_type": "paciente"
+  },
+  "Ramelteona": {
+    "name": "Ramelteona",
+    "status": "success",
+    "file": "ramelteona.pdf",
+    "date": "03/06/2026",
+    "full_name": "ramelteona",
+    "brand_used": "Ramelteona",
+    "bula_type": "paciente"
+  },
+  "Regorafenibe": {
+    "name": "Regorafenibe",
+    "status": "success",
+    "file": "regorafenibe.pdf",
+    "date": "22/12/2025",
+    "full_name": "STIVARGA",
+    "brand_used": "Stivarga",
+    "bula_type": "paciente"
+  },
+  "Remdesivir": {
+    "name": "Remdesivir",
+    "status": "success",
+    "file": "remdesivir.pdf",
+    "date": "03/07/2024",
+    "full_name": "VEKLURY®",
+    "brand_used": "Veklury",
+    "bula_type": "paciente"
+  },
+  "Remifentanila": {
+    "name": "Remifentanila",
+    "status": "success",
+    "file": "remifentanila.pdf",
+    "date": "03/07/2026",
+    "full_name": "ULTIVA",
+    "brand_used": "Ultiva",
+    "bula_type": "paciente"
+  },
+  "Ribavirina": {
+    "name": "Ribavirina",
+    "status": "success",
+    "file": "ribavirina.pdf",
+    "date": "12/12/2025",
+    "full_name": "RIBAVIRINA",
+    "brand_used": "Ribavirina",
+    "bula_type": "paciente"
+  },
+  "Ribociclibe": {
+    "name": "Ribociclibe",
+    "status": "success",
+    "file": "ribociclibe.pdf",
+    "date": "16/09/2025",
+    "full_name": "Kisqali",
+    "brand_used": "Kisqali",
+    "bula_type": "paciente"
+  },
+  "Risedronato sódico": {
+    "name": "Risedronato sódico",
+    "status": "success",
+    "file": "risedronato-sodico.pdf",
+    "date": "24/06/2026",
+    "full_name": "risedronato sódico",
+    "brand_used": "Risedronato sódico",
+    "bula_type": "paciente"
+  },
+  "Ruxolitinibe": {
+    "name": "Ruxolitinibe",
+    "status": "success",
+    "file": "ruxolitinibe.pdf",
+    "date": "26/09/2025",
+    "full_name": "JAKAVI",
+    "brand_used": "Jakavi",
+    "bula_type": "paciente"
+  },
+  "Safinamida": {
+    "name": "Safinamida",
+    "status": "success",
+    "file": "safinamida.pdf",
+    "date": "01/07/2026",
+    "full_name": "XADAGO",
+    "brand_used": "Xadago",
+    "bula_type": "paciente"
+  },
+  "Sebelipase alfa": {
+    "name": "Sebelipase alfa",
+    "status": "success",
+    "file": "sebelipase-alfa.pdf",
+    "date": "28/08/2025",
+    "full_name": "Kanuma",
+    "brand_used": "Kanuma",
+    "bula_type": "paciente"
+  },
+  "Secnidazol": {
+    "name": "Secnidazol",
+    "status": "success",
+    "file": "secnidazol.pdf",
+    "date": "03/07/2026",
+    "full_name": "secnidazol",
+    "brand_used": "Secnidazol",
+    "bula_type": "paciente"
+  },
+  "Selexipague": {
+    "name": "Selexipague",
+    "status": "success",
+    "file": "selexipague.pdf",
+    "date": "18/09/2025",
+    "full_name": "UPTRAVI",
+    "brand_used": "Uptravi",
+    "bula_type": "paciente"
+  },
+  "Succinato de Sumatriptana": {
+    "name": "Succinato de Sumatriptana",
+    "status": "success",
+    "file": "succinato-de-sumatriptana.pdf",
+    "date": "22/09/2025",
+    "full_name": "succinato de sumatriptana",
+    "brand_used": "Succinato de Sumatriptana",
+    "bula_type": "paciente"
+  },
+  "Sugamadex": {
+    "name": "Sugamadex",
+    "status": "success",
+    "file": "sugamadex.pdf",
+    "date": "17/11/2025",
+    "full_name": "BRIDION",
+    "brand_used": "Bridion",
+    "bula_type": "paciente"
+  },
+  "Sulfato de Polimixina B": {
+    "name": "Sulfato de Polimixina B",
+    "status": "success",
+    "file": "sulfato-de-polimixina-b.pdf",
+    "date": "26/06/2026",
+    "full_name": "sulfato de polimixina B",
+    "brand_used": "Sulfato de Polimixina B",
+    "bula_type": "paciente"
+  },
+  "Sulfato de Vincristina": {
+    "name": "Sulfato de Vincristina",
+    "status": "success",
+    "file": "sulfato-de-vincristina.pdf",
+    "date": "03/03/2026",
+    "full_name": "SULFATO DE VINCRISTINA",
+    "brand_used": "Sulfato de Vincristina",
+    "bula_type": "profissional"
+  },
+  "Sumatriptana": {
+    "name": "Sumatriptana",
+    "status": "success",
+    "file": "sumatriptana.pdf",
+    "date": "23/09/2025",
+    "full_name": "SUTRIPTAN",
+    "brand_used": "Sutriptan",
+    "bula_type": "paciente"
+  },
+  "Temozolomida": {
+    "name": "Temozolomida",
+    "status": "success",
+    "file": "temozolomida.pdf",
+    "date": "21/05/2026",
+    "full_name": "TEMODAL",
+    "brand_used": "TEMODAL",
+    "bula_type": "paciente"
+  },
+  "Tenecteplase": {
+    "name": "Tenecteplase",
+    "status": "success",
+    "file": "tenecteplase.pdf",
+    "date": "13/02/2026",
+    "full_name": "METALYSE",
+    "brand_used": "Metalyse",
+    "bula_type": "paciente"
+  },
+  "Teriflunomida": {
+    "name": "Teriflunomida",
+    "status": "success",
+    "file": "teriflunomida.pdf",
+    "date": "25/06/2026",
+    "full_name": "Teriflunomida",
+    "brand_used": "Teriflunomida",
+    "bula_type": "paciente"
+  },
+  "TERLIPRESSINA": {
+    "name": "TERLIPRESSINA",
+    "status": "success",
+    "file": "terlipressina.pdf",
+    "date": "02/07/2026",
+    "full_name": "GLYPRESSIN",
+    "brand_used": "Glypressin",
+    "bula_type": "paciente"
+  },
+  "Tigeciclina": {
+    "name": "Tigeciclina",
+    "status": "success",
+    "file": "tigeciclina.pdf",
+    "date": "10/06/2026",
+    "full_name": "tigeciclina",
+    "brand_used": "Tigeciclina",
+    "bula_type": "paciente"
+  },
+  "Timolol": {
+    "name": "Timolol",
+    "status": "success",
+    "file": "timolol.pdf",
+    "date": "30/09/2025",
+    "full_name": "TIMOPTOL",
+    "brand_used": "Timoptol",
+    "bula_type": "paciente"
+  },
+  "Tiocolchicosídeo": {
+    "name": "Tiocolchicosídeo",
+    "status": "success",
+    "file": "tiocolchicosideo.pdf",
+    "date": "25/05/2026",
+    "full_name": "tiocolchicosídeo",
+    "brand_used": "Tiocolchicosídeo",
+    "bula_type": "paciente"
+  },
+  "Tiopental": {
+    "name": "Tiopental",
+    "status": "success",
+    "file": "tiopental.pdf",
+    "date": "08/03/2021",
+    "full_name": "THIOPENTAX",
+    "brand_used": "Thiopentax",
+    "bula_type": "paciente"
+  },
+  "Tioridazina": {
+    "name": "Tioridazina",
+    "status": "success",
+    "file": "tioridazina.pdf",
+    "date": "06/06/2023",
+    "full_name": "MELLERIL",
+    "brand_used": "Melleril",
+    "bula_type": "paciente"
+  },
+  "Trametinibe": {
+    "name": "Trametinibe",
+    "status": "success",
+    "file": "trametinibe.pdf",
+    "date": "02/04/2026",
+    "full_name": "MEKINIST",
+    "brand_used": "Mekinist",
+    "bula_type": "paciente"
+  },
+  "Trastuzumabe entansina": {
+    "name": "Trastuzumabe entansina",
+    "status": "success",
+    "file": "trastuzumabe-entansina.pdf",
+    "date": "14/04/2026",
+    "full_name": "KADCYLA",
+    "brand_used": "Kadcyla",
+    "bula_type": "paciente"
+  },
+  "Tretinoína": {
+    "name": "Tretinoína",
+    "status": "success",
+    "file": "tretinoina.pdf",
+    "date": "07/07/2026",
+    "full_name": "tretinoína",
+    "brand_used": "Tretinoína",
+    "bula_type": "paciente"
+  },
+  "Triancinolona": {
+    "name": "Triancinolona",
+    "status": "success",
+    "file": "triancinolona.pdf",
+    "date": "03/07/2025",
+    "full_name": "BIANCORT",
+    "brand_used": "Biancort",
+    "bula_type": "paciente"
+  },
+  "Triancinolona acetonida": {
+    "name": "Triancinolona acetonida",
+    "status": "success",
+    "file": "triancinolona-acetonida.pdf",
+    "date": "17/06/2025",
+    "full_name": "triancinolona acetonida",
+    "brand_used": "Triancinolona acetonida",
+    "bula_type": "paciente"
+  },
+  "Trimetazidina": {
+    "name": "Trimetazidina",
+    "status": "success",
+    "file": "trimetazidina.pdf",
+    "date": "15/06/2026",
+    "full_name": "dicloridrato de trimetazidina",
+    "brand_used": "Dicloridrato de Trimetazidina",
+    "bula_type": "paciente"
+  },
+  "Trióxido de arsênio": {
+    "name": "Trióxido de arsênio",
+    "status": "success",
+    "file": "trioxido-de-arsenio.pdf",
+    "date": "12/12/2025",
+    "full_name": "TRISENOX",
+    "brand_used": "Trisenox",
+    "bula_type": "paciente"
+  },
+  "Tropicamida": {
+    "name": "Tropicamida",
+    "status": "success",
+    "file": "tropicamida.pdf",
+    "date": "10/12/2025",
+    "full_name": "MYDRIACYL",
+    "brand_used": "Mydriacyl",
+    "bula_type": "paciente"
+  },
+  "Udenafila": {
+    "name": "Udenafila",
+    "status": "success",
+    "file": "udenafila.pdf",
+    "date": "31/08/2017",
+    "full_name": "ZYDENA",
+    "brand_used": "Zydena",
+    "bula_type": "paciente"
+  },
+  "Upadacitinibe": {
+    "name": "Upadacitinibe",
+    "status": "success",
+    "file": "upadacitinibe.pdf",
+    "date": "20/05/2026",
+    "full_name": "RINVOQ",
+    "brand_used": "Rinvoq",
+    "bula_type": "paciente"
+  },
+  "Ureia": {
+    "name": "Ureia",
+    "status": "success",
+    "file": "ureia.pdf",
+    "date": "22/07/2021",
+    "full_name": "UREADIN",
+    "brand_used": "Ureadin",
+    "bula_type": "paciente"
+  },
+  "Vacina contra dengue": {
+    "name": "Vacina contra dengue",
+    "status": "success",
+    "file": "vacina-contra-dengue.pdf",
+    "date": "22/12/2022",
+    "full_name": "DENGVAXIA",
+    "brand_used": "Dengvaxia",
+    "bula_type": "paciente"
+  },
+  "Vacina meningocócica B": {
+    "name": "Vacina meningocócica B",
+    "status": "success",
+    "file": "vacina-meningococica-b.pdf",
+    "date": "04/02/2026",
+    "full_name": "Bexsero",
+    "brand_used": "Bexsero",
+    "bula_type": "paciente"
+  },
+  "Valaciclovir": {
+    "name": "Valaciclovir",
+    "status": "success",
+    "file": "valaciclovir.pdf",
+    "date": "31/07/2025",
+    "full_name": "VALTREX",
+    "brand_used": "Valtrex",
+    "bula_type": "paciente"
+  },
+  "Valganciclovir": {
+    "name": "Valganciclovir",
+    "status": "success",
+    "file": "valganciclovir.pdf",
+    "date": "12/12/2025",
+    "full_name": "VALCYTE",
+    "brand_used": "Valcyte",
+    "bula_type": "paciente"
+  },
+  "Vandetanibe": {
+    "name": "Vandetanibe",
+    "status": "success",
+    "file": "vandetanibe.pdf",
+    "date": "01/09/2025",
+    "full_name": "CAPRELSA",
+    "brand_used": "Caprelsa",
+    "bula_type": "paciente"
+  },
+  "Vemurafenibe": {
+    "name": "Vemurafenibe",
+    "status": "success",
+    "file": "vemurafenibe.pdf",
+    "date": "17/10/2025",
+    "full_name": "ZELBORAF",
+    "brand_used": "Zelboraf",
+    "bula_type": "paciente"
+  },
+  "Venetoclax": {
+    "name": "Venetoclax",
+    "status": "success",
+    "file": "venetoclax.pdf",
+    "date": "25/03/2026",
+    "full_name": "VENCLEXTA",
+    "brand_used": "Venclexta",
+    "bula_type": "paciente"
+  },
+  "Vestronidase alfa": {
+    "name": "Vestronidase alfa",
+    "status": "success",
+    "file": "vestronidase-alfa.pdf",
+    "date": "02/12/2025",
+    "full_name": "MEPSEVII",
+    "brand_used": "Mepsevii",
+    "bula_type": "paciente"
+  },
+  "Vimblastina": {
+    "name": "Vimblastina",
+    "status": "success",
+    "file": "vimblastina.pdf",
+    "date": "30/06/2014",
+    "full_name": "VELBAN",
+    "brand_used": "Velban",
+    "bula_type": "paciente"
+  },
+  "Vinorelbina": {
+    "name": "Vinorelbina",
+    "status": "success",
+    "file": "vinorelbina.pdf",
+    "date": "04/04/2022",
+    "full_name": "NORELBIN",
+    "brand_used": "NORELBIN",
+    "bula_type": "paciente"
+  },
+  "Vírus da Influenza inativado": {
+    "name": "Vírus da Influenza inativado",
+    "status": "success",
+    "file": "virus-da-influenza-inativado.pdf",
+    "date": "23/03/2026",
+    "full_name": "VACINA INFLUENZA TRIVALENTE ( FRAGMENTADA E INATIVADA )",
+    "brand_used": "Vacina Influenza Trivalente",
+    "bula_type": "paciente"
+  },
+  "Vismodegibe": {
+    "name": "Vismodegibe",
+    "status": "success",
+    "file": "vismodegibe.pdf",
+    "date": "09/10/2025",
+    "full_name": "ERIVEDGE",
+    "brand_used": "Erivedge",
+    "bula_type": "paciente"
+  },
+  "Vitamina E": {
+    "name": "Vitamina E",
+    "status": "success",
+    "file": "vitamina-e.pdf",
+    "date": "07/01/2015",
+    "full_name": "VITAMINA E 400UI",
+    "brand_used": "Vitamina E",
+    "bula_type": "paciente"
+  },
+  "Vitaminas do Complexo B": {
+    "name": "Vitaminas do Complexo B",
+    "status": "success",
+    "file": "vitaminas-do-complexo-b.pdf",
+    "date": "23/03/2022",
+    "full_name": "COMPLE B",
+    "brand_used": "Comple B",
+    "bula_type": "paciente"
+  },
+  "Vosoritida": {
+    "name": "Vosoritida",
+    "status": "success",
+    "file": "vosoritida.pdf",
+    "date": "24/04/2026",
+    "full_name": "VOXZOGO",
+    "brand_used": "Voxzogo",
+    "bula_type": "paciente"
+  },
+  "Zanubrutinibe": {
+    "name": "Zanubrutinibe",
+    "status": "success",
+    "file": "zanubrutinibe.pdf",
+    "date": "15/09/2025",
+    "full_name": "BRUKINSA",
+    "brand_used": "Brukinsa",
+    "bula_type": "paciente"
+  },
+  "Zuclopentixol": {
+    "name": "Zuclopentixol",
+    "status": "success",
+    "file": "zuclopentixol.pdf",
+    "date": "21/01/2026",
+    "full_name": "CLOPIXOL",
+    "brand_used": "Clopixol",
+    "bula_type": "paciente"
   }
 }
