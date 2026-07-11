@@ -254,3 +254,27 @@ Comparado o texto real (páginas 1–3) de cada PDF publicado contra o genérico
 - `triancinolona.pdf` era Biancort® (ciprofloxacino + dexametasona)
 
 4 outros casos flagados na varredura eram falso positivo (mesmo fármaco, grafia/sinônimo diferente — mantidos sem alteração): `alemtuzumabe` (bula usa "alentuzumabe"), `canacinumabe` (bula usa "canaquinumabe"), `metimazol` (bula usa "tiamazol", sinônimo oficial), `remdesivir` (bula usa "rendesivir", erro de digitação da própria ANVISA).
+
+## Bulas de medicamento composto (11/07/2026)
+
+`getBulaUrl()` do app foi corrigido pra gerar um slug próprio pra medicamento composto (ingredientes ordenados alfabeticamente e unidos por hífen, ex: `drospirenona-etinilestradiol.pdf`) em vez de sempre usar só o primeiro ingrediente — isso fazia o app mostrar a bula do ingrediente isolado (errada) pra qualquer composto.
+
+Das bulas de combo baixadas na Round 2 mas não publicadas antes (colidiam com o slug do ingrediente puro), **12 batiam exatamente com uma entrada composta do banco** e foram republicadas sob o novo slug:
+
+- `amitriptilina-clordiazepoxido.pdf` (Limbitrol)
+- `amoxicilina-clavulanato.pdf` e `amoxicilina-clavulanato-de-potassio.pdf` (Policlavumoxil — banco tem as duas grafias como entradas separadas)
+- `atenolol-clortalidona.pdf`
+- `codeina-paracetamol.pdf` (Algicod — cobre as duas ordens duplicadas no banco)
+- `dexametasona-tobramicina.pdf` (Tobracort — cobre as duas ordens duplicadas no banco)
+- `dutasterida-tansulosina.pdf` (Combodart)
+- `esomeprazol-naproxeno.pdf` (Vimovo)
+- `beclometasona-formoterol-glicopirronio.pdf` (Trimbow)
+- `betametasona-dexclorfeniramina.pdf` (Celestamine)
+- `ibuprofeno-paracetamol.pdf` (Nuromol)
+- `insulina-glargina-lixisenatida.pdf` (Soliqua)
+
+**4 continuam sem bula correta** (o PDF baixado não corresponde a nenhuma composição cadastrada no banco) — registrados em `_combo_bulas_nao_publicadas.json`:
+- `Etinilestradiol + Drospirenona` / `+ Gestodeno` / `+ Levonorgestrel`: o PDF baixado foi "Dunia 35" (Etinilestradiol + **Ciproterona**), combinação que não existe no banco.
+- `Prednisolona + Gentamicina`: o PDF baixado foi "Predmicin" (Prednisolona + polimixina B + benzocaína + clioquinol), composição diferente da cadastrada.
+
+Ficam pendentes pra busca no site dos fabricantes, junto com os 9 removidos na auditoria de conteúdo e os ~170 medicamentos compostos do banco que nunca tiveram bula baixada.

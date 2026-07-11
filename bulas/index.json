@@ -261,10 +261,10 @@
     "reconciled": true
   },
   "Amoxicilina + Clavulanato": {
-    "name": "Amoxicilina + Clavulanato",
-    "status": "success",
-    "file": "amoxicilina.pdf",
-    "reconciled": true
+    "file": "amoxicilina-clavulanato.pdf",
+    "full_name": "POLICLAVUMOXIL",
+    "brand_used": "Policlavumoxil",
+    "status": "success"
   },
   "Ampicilina": {
     "name": "Ampicilina",
@@ -4596,5 +4596,83 @@
     "full_name": "Ginkgo biloba MCG",
     "brand_used": "Ginkgo biloba",
     "bula_type": "paciente"
+  },
+  "Amitriptilina + Clordiazepóxido": {
+    "file": "amitriptilina-clordiazepoxido.pdf",
+    "full_name": "LIMBITROL",
+    "brand_used": "Limbitrol",
+    "status": "success"
+  },
+  "Amoxicilina + Clavulanato de potássio": {
+    "file": "amoxicilina-clavulanato-de-potassio.pdf",
+    "full_name": "POLICLAVUMOXIL",
+    "brand_used": "Policlavumoxil",
+    "status": "success"
+  },
+  "Atenolol + Clortalidona": {
+    "file": "atenolol-clortalidona.pdf",
+    "full_name": "atenolol + clortalidona",
+    "brand_used": "Atenolol + Clortalidona",
+    "status": "success"
+  },
+  "Codeína + Paracetamol": {
+    "file": "codeina-paracetamol.pdf",
+    "full_name": "ALGICOD",
+    "brand_used": "Algicod",
+    "status": "success"
+  },
+  "Paracetamol + Codeína": {
+    "file": "codeina-paracetamol.pdf",
+    "full_name": "ALGICOD",
+    "brand_used": "Algicod",
+    "status": "success"
+  },
+  "Dexametasona + Tobramicina": {
+    "file": "dexametasona-tobramicina.pdf",
+    "full_name": "TOBRACORT",
+    "brand_used": "Tobracort",
+    "status": "success"
+  },
+  "Tobramicina + Dexametasona": {
+    "file": "dexametasona-tobramicina.pdf",
+    "full_name": "TOBRACORT",
+    "brand_used": "Tobracort",
+    "status": "success"
+  },
+  "Dutasterida + Tansulosina": {
+    "file": "dutasterida-tansulosina.pdf",
+    "full_name": "COMBODART",
+    "brand_used": "Combodart",
+    "status": "success"
+  },
+  "Esomeprazol + Naproxeno": {
+    "file": "esomeprazol-naproxeno.pdf",
+    "full_name": "VIMOVO",
+    "brand_used": "Vimovo",
+    "status": "success"
+  },
+  "Beclometasona + Formoterol + Glicopirrônio": {
+    "file": "beclometasona-formoterol-glicopirronio.pdf",
+    "full_name": "TRIMBOW",
+    "brand_used": "Trimbow",
+    "status": "success"
+  },
+  "Betametasona + Dexclorfeniramina": {
+    "file": "betametasona-dexclorfeniramina.pdf",
+    "full_name": "CELESTAMINE",
+    "brand_used": "Celestamine",
+    "status": "success"
+  },
+  "Ibuprofeno + Paracetamol": {
+    "file": "ibuprofeno-paracetamol.pdf",
+    "full_name": "NUROMOL",
+    "brand_used": "Nuromol",
+    "status": "success"
+  },
+  "Insulina glargina + Lixisenatida": {
+    "file": "insulina-glargina-lixisenatida.pdf",
+    "full_name": "SOLIQUA",
+    "brand_used": "Soliqua",
+    "status": "success"
   }
 }
