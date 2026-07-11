@@ -234,4 +234,7 @@
 
 352 PDFs novos publicados nesta rodada (sem conflito de nome de arquivo com bulas já existentes).
 
-**19 nomes de arquivo em conflito (25 entradas do índice) ficaram de fora**, para revisão manual — a maioria é bula de medicamento COMBINADO cujo slug (primeiro ingrediente) coincide com o de uma bula de ingrediente isolado já publicada (ex: `amitriptilina.pdf` já é a bula da Amitriptilina pura; a bula baixada nesta rodada para "Amitriptilina + Clordiazepóxido" também slugificaria para `amitriptilina`, e sobrescrever apagaria a bula correta). Lista completa em `_pending_combo_review.json`. Arquivos originais permanecem em `C:\Users\Fabio\bulas1\` até a revisão.
+**19 nomes de arquivo em conflito** revisados um a um comparando o conteúdo real dos PDFs (não só o nome do arquivo):
+
+- **6 atualizadas** (mesma substância pura, versão/marca mais nova, ou mesma substância em outra apresentação): `brometo-de-ipratropio`, `ginkgo-biloba`, `gliclazida`, `glibenclamida`, `metformina`, `dipirona` (gotas → comprimido, Neosaldina DIP).
+- **13 mantidas como estavam** (a bula nova era de medicamento COMBINADO — sobrescrever trocaria a bula do ingrediente isolado por uma de outro produto — ou, em 4 casos, a bula já publicada também era combo e trocar por outro combo não era claramente melhor): `amitriptilina`, `amoxicilina`, `atenolol`, `beclometasona`, `betametasona`, `codeina`, `dexametasona`, `dutasterida`, `esomeprazol`, `etinilestradiol`, `ibuprofeno`, `insulina-glargina`, `prednisolona`. As bulas de combo baixadas nesta rodada para esses 13 casos ficam registradas em `_combo_bulas_nao_publicadas.json` (arquivos originais em `C:\Users\Fabio\bulas1\`) caso um dia se queira publicá-las sob um slug próprio.
