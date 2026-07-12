@@ -1495,8 +1495,8 @@
     "name": "Ácido Fusídico",
     "status": "success",
     "file": "acido-fusidico.pdf",
-    "date": "16/04/2026",
-    "full_name": "ácido fusídico + valerato de betametasona",
+    "date": "11/07/2026",
+    "full_name": "ácido fusídico",
     "brand_used": "Ácido Fusídico",
     "bula_type": "paciente"
   },
@@ -2096,8 +2096,8 @@
     "name": "Clonixinato de Lisina",
     "status": "success",
     "file": "clonixinato-de-lisina.pdf",
-    "date": "18/12/2025",
-    "full_name": "clonixinato de lisina + cloridrato de ciclobenzaprin",
+    "date": "11/07/2026",
+    "full_name": "clonixinato de lisina",
     "brand_used": "Clonixinato de Lisina",
     "bula_type": "paciente"
   },
@@ -2187,19 +2187,10 @@
     "brand_used": "Cloridrato de Cefepime",
     "bula_type": "paciente"
   },
-  "Cloridrato de Clobutinol": {
-    "name": "Cloridrato de Clobutinol",
-    "status": "success",
-    "file": "cloridrato-de-clobutinol.pdf",
-    "date": "29/03/2023",
-    "full_name": "CLORIDRATO DE CLOBUTINOL + SUCCINATO DE DOXILAMINA",
-    "brand_used": "Cloridrato de Clobutinol",
-    "bula_type": "paciente"
-  },
   "Cloridrato de Clobutinol + Succinato de Doxilamina": {
     "name": "Cloridrato de Clobutinol + Succinato de Doxilamina",
     "status": "success",
-    "file": "cloridrato-de-clobutinol.pdf"
+    "file": "cloridrato-de-clobutinol-succinato-de-doxilamina.pdf"
   },
   "Cloridrato de Dobutamina": {
     "name": "Cloridrato de Dobutamina",
@@ -2638,20 +2629,20 @@
     "name": "Drospirenona",
     "status": "success",
     "file": "drospirenona.pdf",
-    "date": "22/06/2026",
-    "full_name": "drospirenona + etinilestradiol",
-    "brand_used": "Drospirenona",
+    "date": "11/07/2026",
+    "full_name": "drospirenona (Slinda)",
+    "brand_used": "Slinda",
     "bula_type": "paciente"
   },
   "Drospirenona + Estradiol": {
     "name": "Drospirenona + Estradiol",
     "status": "success",
-    "file": "drospirenona.pdf"
+    "file": "drospirenona-estradiol.pdf"
   },
   "Drospirenona + Etinilestradiol": {
     "name": "Drospirenona + Etinilestradiol",
     "status": "success",
-    "file": "drospirenona.pdf"
+    "file": "drospirenona-etinilestradiol.pdf"
   },
   "Durvalumabe": {
     "name": "Durvalumabe",
@@ -3069,15 +3060,10 @@
     "name": "Estradiol",
     "status": "success",
     "file": "estradiol.pdf",
-    "date": "18/05/2026",
-    "full_name": "estradiol + drospirenona",
-    "brand_used": "Estradiol",
+    "date": "11/07/2026",
+    "full_name": "estradiol (Estradot)",
+    "brand_used": "Estradot",
     "bula_type": "paciente"
-  },
-  "Estradiol + Noretisterona": {
-    "name": "Estradiol + Noretisterona",
-    "status": "success",
-    "file": "estradiol.pdf"
   },
   "Estriol": {
     "name": "Estriol",
@@ -3281,9 +3267,9 @@
     "name": "Hidroquinona",
     "status": "success",
     "file": "hidroquinona.pdf",
-    "date": "12/05/2026",
-    "full_name": "HIDROQUINONA+ TRETINOINA + FLUOCINOLONA ACETONIDA",
-    "brand_used": "Hidroquinona",
+    "date": "11/07/2026",
+    "full_name": "hidroquinona (Solaquin)",
+    "brand_used": "Solaquin",
     "bula_type": "paciente"
   },
   "Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona": {
@@ -3764,8 +3750,8 @@
     "name": "Olmesartana medoxomila",
     "status": "success",
     "file": "olmesartana-medoxomila.pdf",
-    "date": "18/06/2026",
-    "full_name": "olmesartana medoxomila + besilato de anlodipino",
+    "date": "11/07/2026",
+    "full_name": "olmesartana medoxomila",
     "brand_used": "Olmesartana medoxomila",
     "bula_type": "paciente"
   },
@@ -4674,5 +4660,50 @@
     "full_name": "SOLIQUA",
     "brand_used": "Soliqua",
     "status": "success"
+  },
+  "Ácido Fusídico + Valerato de Betametasona": {
+    "name": "Ácido Fusídico + Valerato de Betametasona",
+    "status": "success",
+    "file": "acido-fusidico-valerato-de-betametasona.pdf",
+    "date": "16/04/2026",
+    "full_name": "ácido fusídico + valerato de betametasona",
+    "brand_used": "Ácido Fusídico",
+    "bula_type": "paciente"
+  },
+  "Clonixinato de Lisina + Cloridrato de Ciclobenzaprina": {
+    "name": "Clonixinato de Lisina + Cloridrato de Ciclobenzaprina",
+    "status": "success",
+    "file": "clonixinato-de-lisina-cloridrato-de-ciclobenzaprina.pdf",
+    "date": "18/12/2025",
+    "full_name": "clonixinato de lisina + cloridrato de ciclobenzaprina",
+    "brand_used": "Clonixinato de Lisina",
+    "bula_type": "paciente"
+  },
+  "Fluocinolona Acetonida + Hidroquinona + Tretinoína": {
+    "name": "Fluocinolona Acetonida + Hidroquinona + Tretinoína",
+    "status": "success",
+    "file": "fluocinolona-acetonida-hidroquinona-tretinoina.pdf",
+    "date": "12/05/2026",
+    "full_name": "hidroquinona + tretinoína + fluocinolona acetonida",
+    "brand_used": "Hidroquinona",
+    "bula_type": "paciente"
+  },
+  "Olmesartana + Amlodipino": {
+    "name": "Olmesartana + Amlodipino",
+    "status": "success",
+    "file": "amlodipino-olmesartana.pdf",
+    "date": "18/06/2026",
+    "full_name": "olmesartana medoxomila + besilato de anlodipino",
+    "brand_used": "Olmecor",
+    "bula_type": "paciente"
+  },
+  "Rosuvastatina + Ezetimiba": {
+    "name": "Rosuvastatina + Ezetimiba",
+    "status": "success",
+    "file": "ezetimiba-rosuvastatina.pdf",
+    "date": "11/07/2026",
+    "full_name": "rosuvastatina cálcica + ezetimiba (ZINPASS® EZE)",
+    "brand_used": "Zinpass Eze",
+    "bula_type": "paciente"
   }
 }

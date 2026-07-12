@@ -278,3 +278,23 @@ Das bulas de combo baixadas na Round 2 mas não publicadas antes (colidiam com o
 - `Prednisolona + Gentamicina`: o PDF baixado foi "Predmicin" (Prednisolona + polimixina B + benzocaína + clioquinol), composição diferente da cadastrada.
 
 Ficam pendentes pra busca no site dos fabricantes, junto com os 9 removidos na auditoria de conteúdo e os ~170 medicamentos compostos do banco que nunca tiveram bula baixada.
+## Auditoria de conteúdo — bula composta publicada sob slug de ingrediente puro (2026-07-11)
+
+Usuário relatou que buscar "Ácido Fusídico" no app mostrava a bula de "Ácido Fusídico + Valerato de Betametasona". Auditoria (cruzando `index.json` com `medications-db.json` e conferindo cada PDF via `pdftotext`) achou **7 casos do mesmo bug**: um PDF de combo publicado sob o slug do ingrediente isolado, mascarando o card do ingrediente puro (que já existe no app) com o conteúdo errado.
+
+Resolvido:
+- `acido-fusidico.pdf`, `clonixinato-de-lisina.pdf`, `drospirenona.pdf`, `estradiol.pdf`, `hidroquinona.pdf`, `olmesartana-medoxomila.pdf` → o conteúdo de combo foi copiado pro slug próprio (`toComboSlug`, ingredientes ordenados alfabeticamente) e o slug do puro foi **rebaixado com a bula do ingrediente isolado de verdade**, buscada de novo na ANVISA e conferida página a página (rejeitando qualquer candidato com "+" ou "TRIPLO" na capa/identificação):
+  - `acido-fusidico-valerato-de-betametasona.pdf` ← Multilab, creme 20mg/g + 1mg/g
+  - `clonixinato-de-lisina-cloridrato-de-ciclobenzaprina.pdf` ← EMS, comprimido 125mg + 5mg
+  - `drospirenona-etinilestradiol.pdf` ← Aché (cobre as 2 ordens duplicadas no banco)
+  - `drospirenona-estradiol.pdf` ← Aché (Angeliq)
+  - `fluocinolona-acetonida-hidroquinona-tretinoina.pdf` ← EMS
+  - `amlodipino-olmesartana.pdf` ← Brainfarma (Azor)
+- Duas entradas de combo **não existiam no banco** e foram criadas em `medications-db.json`: "Ácido Fusídico + Valerato de Betametasona" e "Clonixinato de Lisina + Cloridrato de Ciclobenzaprina".
+
+Não resolvido (entrada removida):
+- `Cloridrato de Clobutinol` (puro): a ANVISA só retornou 1 resultado pro termo, e é o próprio composto com doxilamina — não há bula de clobutinol isolado registrada (possivelmente o clobutinol isolado não é mais comercializado no Brasil). O arquivo `cloridrato-de-clobutinol.pdf` foi removido e o usuário optou por remover também a entrada "Cloridrato de Clobutinol" (pura) de `medications-db.json` — só a combinação com doxilamina permanece cadastrada.
+
+## Zinpass Eze (Rosuvastatina + Ezetimiba) — publicado (2026-07-11)
+
+Usuário forneceu a bula oficial (Medley/Sanofi, ZINPASS® EZE, rosuvastatina cálcica + ezetimiba, 10/20/40mg + 10mg) — publicada em `ezetimiba-rosuvastatina.pdf` (slug calculado por `toComboSlug`). Esse era o caso original que revelou o bug do slug de composto sempre cair no primeiro ingrediente (buscar "Zinpass + Ezetimiba" mostrava só a bula da Rosuvastatina).
