@@ -302,3 +302,15 @@ Usuário forneceu a bula oficial (Medley/Sanofi, ZINPASS® EZE, rosuvastatina c�
 ## Truvada (Tenofovir + Emtricitabina) — publicado (2026-07-11)
 
 Usuário forneceu a bula oficial ao profissional de saúde (Gilead, TRUVADA®, entricitabina 200mg + fumarato de tenofovir desoproxila 300mg) — publicada em `emtricitabina-tenofovir.pdf` (slug calculado por `toComboSlug`). Essa composição foi mencionada na auditoria de marcas como possível origem do erro da entrada "Tenofovir + Emtricitabina + Dolutegravir" (já removida).
+
+## Bulas via sites dos fabricantes (12/07/2026)
+
+Novo pipeline `download_bulas_fabricantes.py` (pasta `C:\Users\Fabio\bulas_fabricantes\`, sibling do `download_bulas.py` da ANVISA) — busca a bula direto no site do FABRICANTE usando o nome exato da marca (o "nome do card" no app), não o genérico. Fontes verificadas funcionando via HTTP puro (sem navegador): **Sara** (`sara.com.br` — descoberta importante: não é só EMS, hospeda bulas de vários fabricantes — Pfizer, Novartis, Baxter, Organon, Sandoz, União Química, Opella/Sanofi, Cristália apareceram nos resultados), **Sanofi**, **União Química**, **Novo Nordisk**, **Hypera** (melhor esforço). Aché (reCAPTCHA) e Eurofarma (bloqueio anti-bot tipo Cloudflare) não foram implementados — sem tentativa de contornar proteção ativa. Teuto/Cimed/Biolab sem bulário próprio viável.
+
+Todo PDF baixado passa por validação de conteúdo (`pdftotext -enc UTF-8`, princípio ativo tem que aparecer nas 3 primeiras páginas) antes de ser salvo — pego 2 casos reais de busca errada da Sara no teste (Nobratin Duo → Tobracin, tobramicina; FDC VIT B-12 → Bedfordpoly-B, polimixina B).
+
+**Rodada de 768 medicamentos sem bula: 437 achados (57%)** — auditados de novo (mesma técnica): **zero princípio ativo errado**. Achada uma categoria de risco não coberta pela validação de conteúdo: quando o genérico do banco é "puro" (sem indicar via), a busca às vezes retorna a versão tópica/oftálmica/vaginal do mesmo princípio ativo em vez da forma mais representativa — **8 casos mantidos de fora da publicação** por esse motivo (Ciprofloxacino→colírio em vez de comprimido, Terbinafina→creme em vez de comprimido oral, Zinco→colírio descongestionante em vez de suplemento oral, Progesterona→gel vaginal em vez de cápsula oral, Mometasona→spray nasal em vez de creme, Misoprostol→comprimido vaginal, Metronidazol (antiparasitário)→gel vaginal, Miconazol→gel oral — ambíguo). PDFs originais ficam em `bulas_fabricantes\` pra revisão futura.
+
+**419 publicados** (437 achados − 8 seguros de fora − 4 que já tinham bula equivalente correta de rodada anterior sob mesmo nome, ex: `drospirenona-etinilestradiol.pdf` já era o Aché correto).
+
+Lista completa de tentativas (achados e não encontrados) em `bulas_fabricantes\relatorio.md` e `bulas_fabricantes\index.json`.

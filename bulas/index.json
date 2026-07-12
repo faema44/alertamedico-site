@@ -275,8 +275,11 @@
   "Piperacilina + Tazobactam": {
     "name": "Piperacilina + Tazobactam",
     "status": "success",
-    "file": "piperacilina.pdf",
-    "reconciled": true
+    "file": "piperacilina-tazobactam.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Tazocin",
+    "full_name": "Tazocin 2 g + 250 mg Pó LIOF INJ Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tazocin-2-g-250-mg-po-liof-inj-cartucho-frasco-ampola-de-vidro-transparente-pfizer-7891045008907/7891045008907/pdf"
   },
   "Azitromicina": {
     "name": "Azitromicina",
@@ -1390,12 +1393,11 @@
   "Acetato de medroxiprogesterona + Cipionato de estradiol": {
     "name": "Acetato de medroxiprogesterona + Cipionato de estradiol",
     "status": "success",
-    "file": "acetato-de-medroxiprogesterona.pdf",
-    "date": "21/11/2025",
-    "full_name": "CYCLOFEMINA",
+    "file": "acetato-de-medroxiprogesterona-cipionato-de-estradiol.pdf",
+    "manufacturer": "Sara (CARNOT LABORATORIOS)",
     "brand_used": "Cyclofemina",
-    "bula_type": "paciente",
-    "monitored": true
+    "full_name": "Cyclofemina 25 mg/0,5ML + 5 mg/0,5ML Suspensão Injetável Cartucho AMP VD INC",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cyclofemina-25-mg-05ml-5-mg-05ml-suspensao-injetavel-cartucho-amp-vd-inc-carnot-laboratorios-7896316301008/7896316301008/pdf"
   },
   "Acetilcisteína": {
     "name": "Acetilcisteína",
@@ -1489,7 +1491,11 @@
   "Ácido Acetilsalicílico + Cafeína + Paracetamol": {
     "name": "Ácido Acetilsalicílico + Cafeína + Paracetamol",
     "status": "success",
-    "file": "acido-acetilsalicilico.pdf"
+    "file": "acido-acetilsalicilico-cafeina-paracetamol.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Excedrin",
+    "full_name": "Paracetamol + cafeína 500mg + 65mg com 20 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-paracetamol-cafeina-500mg-65mg-com-20-comprimidos-revestidos-ems-7896004721323/7896004721323/pdf"
   },
   "Ácido Fusídico": {
     "name": "Ácido Fusídico",
@@ -1571,11 +1577,11 @@
   "Alogliptina + Pioglitazona": {
     "name": "Alogliptina + Pioglitazona",
     "status": "success",
-    "file": "alogliptina.pdf",
-    "date": "10/12/2025",
-    "full_name": "NESINA PIO",
+    "file": "alogliptina-pioglitazona.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
     "brand_used": "Nesina Pio",
-    "bula_type": "paciente"
+    "full_name": "Nesina Pio (25,0 + 15,0) mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nesina-pio-250-150-mg-comprimido-revestido-com-30-mantecorp-farmasa-mantecorp-skincare-femevita-7896094999534/7896094999534/pdf"
   },
   "Alpelisibe": {
     "name": "Alpelisibe",
@@ -1634,7 +1640,11 @@
   "Alogliptina + Metformina": {
     "name": "Alogliptina + Metformina",
     "status": "success",
-    "file": "alogliptina.pdf"
+    "file": "alogliptina-metformina.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "Nesina Met",
+    "full_name": "Nesina Met (12,5 + 850,0) mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nesina-met-125-8500-mg-comprimido-revestido-com-10-mantecorp-farmasa-mantecorp-skincare-femevita-7896094925243/7896094925243/pdf"
   },
   "Alteplase": {
     "name": "Alteplase",
@@ -1801,16 +1811,20 @@
   "Brimonidina + Brinzolamida": {
     "name": "Brimonidina + Brinzolamida",
     "status": "success",
-    "file": "brimonidina.pdf",
-    "date": "27/03/2026",
-    "full_name": "SIMBRINZA",
+    "file": "brimonidina-brinzolamida.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
     "brand_used": "Simbrinza",
-    "bula_type": "paciente"
+    "full_name": "Simbrinza 10,0 mg / ml + 2,0 mg / ml Suspensão Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-simbrinza-100-mg-ml-20-mg-ml-suspensao-oftalmica-com-5-ml-novartis-7896548199565/7896548199565/pdf"
   },
   "Brimonidina + Timolol": {
     "name": "Brimonidina + Timolol",
     "status": "success",
-    "file": "brimonidina.pdf"
+    "file": "brimonidina-timolol.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "Combigan",
+    "full_name": "Combigan (2,0 + 5,0) mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-combigan-20-50-mg-ml-solucao-oftalmica-com-5-ml-allergan-produtos-farmaceuticos-ltda-7897316804926/7897316804926/pdf"
   },
   "Brometo de Pancurônio": {
     "name": "Brometo de Pancurônio",
@@ -1869,11 +1883,11 @@
   "Butilbrometo de escopolamina + Dipirona": {
     "name": "Butilbrometo de escopolamina + Dipirona",
     "status": "success",
-    "file": "butilbrometo-de-escopolamina.pdf",
-    "date": "30/12/2025",
-    "full_name": "BUSCOPLEX COMPOSTO",
+    "file": "butilbrometo-de-escopolamina-dipirona.pdf",
+    "manufacturer": "Sara (NATULAB MEDICAMENTOS)",
     "brand_used": "Buscoplex Composto",
-    "bula_type": "paciente"
+    "full_name": "Buscoplex Composto 6,67 mg/ml + 333,4 mg/ml Solução Oral FR GOT  PLAS  AMB com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-buscoplex-composto-667-mg-ml-3334-mg-ml-solucao-oral-fr-got-plas-amb-com-20-ml-natulab-medicamentos-7899470802565/7899470802565/pdf"
   },
   "Cabazitaxel": {
     "name": "Cabazitaxel",
@@ -1896,11 +1910,11 @@
   "Cafeína + Dipirona": {
     "name": "Cafeína + Dipirona",
     "status": "success",
-    "file": "cafeina.pdf",
-    "date": "02/04/2019",
-    "full_name": "DORIL DC 500",
+    "file": "cafeina-dipirona.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
     "brand_used": "Doril DC 500",
-    "bula_type": "profissional"
+    "full_name": "Doril Dc 500 500 mg + 65 mg Comprimido com 16",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-doril-dc-500-500-mg-65-mg-comprimido-com-16-mantecorp-farmasa-mantecorp-skincare-femevita-7896094917323/7896094917323/pdf"
   },
   "Cafeína + Dipirona + Isometepteno": {
     "name": "Cafeína + Dipirona + Isometepteno",
@@ -1933,11 +1947,7 @@
   "Carbidopa + Levodopa": {
     "name": "Carbidopa + Levodopa",
     "status": "success",
-    "file": "carbidopa.pdf",
-    "date": "05/02/2026",
-    "full_name": "carbidopa + levodopa",
-    "brand_used": "Carbidopa + Levodopa",
-    "bula_type": "paciente"
+    "file": "carbidopa-levodopa.pdf"
   },
   "Carbômero": {
     "name": "Carbômero",
@@ -2420,11 +2430,11 @@
   "Dapagliflozina + Saxagliptina": {
     "name": "Dapagliflozina + Saxagliptina",
     "status": "success",
-    "file": "dapagliflozina.pdf",
-    "date": "12/09/2025",
-    "full_name": "QTERN",
+    "file": "dapagliflozina-saxagliptina.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
     "brand_used": "Qtern",
-    "bula_type": "paciente"
+    "full_name": "Qtern (10,0 + 5,0) mg Comprimido Revestido com 7",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-qtern-100-50-mg-comprimido-revestido-com-7-astrazeneca-do-brasil-ltda-5000456026536/5000456026536/pdf"
   },
   "Darifenacina": {
     "name": "Darifenacina",
@@ -2542,11 +2552,11 @@
   "Dimenidrinato + Piridoxina": {
     "name": "Dimenidrinato + Piridoxina",
     "status": "success",
-    "file": "dimenidrinato.pdf",
-    "date": "02/03/2026",
-    "full_name": "NAUSILON B6",
-    "brand_used": "Nausilon B6",
-    "bula_type": "paciente"
+    "file": "dimenidrinato-piridoxina.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "Nausicalm B6",
+    "full_name": "Nausicalm B6 (25 + 5) mg/ml Solução Gotas Oral com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nausicalm-b6-25-5-mg-ml-solucao-gotas-oral-com-20-ml-uniao-quimica-7896006297918/7896006297918/pdf"
   },
   "Dimetilfumarato": {
     "name": "Dimetilfumarato",
@@ -2569,7 +2579,11 @@
   "Diosmina + Hesperidina": {
     "name": "Diosmina + Hesperidina",
     "status": "success",
-    "file": "diosmina.pdf"
+    "file": "diosmina-hesperidina.pdf",
+    "manufacturer": "Sara (LABORATORIOS SERVIER DO BRASIL LTDA)",
+    "brand_used": "Daflon",
+    "full_name": "Daflon 450 + 50 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-daflon-450-50-mg-comprimido-revestido-com-30-laboratorios-servier-do-brasil-ltda-7898029551770/7898029551770/pdf"
   },
   "Dipropionato de beclometasona": {
     "name": "Dipropionato de beclometasona",
@@ -2895,25 +2909,29 @@
   "Azelastina + Fluticasona": {
     "name": "Azelastina + Fluticasona",
     "status": "success",
-    "file": "azelastina.pdf",
-    "date": "17/12/2025",
-    "full_name": "Dymista",
+    "file": "azelastina-fluticasona.pdf",
+    "manufacturer": "Sara (MYLAN LABORATORIOS LTDA.)",
     "brand_used": "Dymista",
-    "bula_type": "paciente"
+    "full_name": "Dymista 137 MCG + 50 MCG/DOSE Suspensão Inalatória Nasal com 6,4 g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dymista-137-mcg-50-mcg-dose-suspensao-inalatoria-nasal-com-64-g-mylan-laboratorios-ltda-7898560664120/7898560664120/pdf"
   },
   "Bacitracina + Neomicina": {
     "name": "Bacitracina + Neomicina",
     "status": "success",
-    "file": "bacitracina.pdf"
+    "file": "bacitracina-neomicina.pdf",
+    "manufacturer": "Sara (Legrand)",
+    "brand_used": "Neotricin",
+    "full_name": "Neotricin 5mg + 250UI/g pomada dermatológica com 15g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-neotricin-5mg-250ui-g-pomada-dermatologica-com-15g-legrand-7896004811574/7896004811574/pdf"
   },
   "Benserazida + Levodopa": {
     "name": "Benserazida + Levodopa",
     "status": "success",
-    "file": "benserazida.pdf",
-    "date": "03/09/2025",
-    "full_name": "DOPABANE",
-    "brand_used": "Dopabane",
-    "bula_type": "paciente"
+    "file": "benserazida-levodopa.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "Levodopa + Cloridrato de Benserazida",
+    "full_name": "Levodopa+Cloridrato De Benserazida (200 + 50) mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-levodopacloridrato-de-benserazida-200-50-mg-comprimido-com-30-biosintetica-ache-7896181923909/7896181923909/pdf"
   },
   "Benzilpenicilina benzatina": {
     "name": "Benzilpenicilina benzatina",
@@ -3013,12 +3031,20 @@
   "Epinefrina + Lidocaína": {
     "name": "Epinefrina + Lidocaína",
     "status": "success",
-    "file": "epinefrina.pdf"
+    "file": "epinefrina-lidocaina.pdf",
+    "manufacturer": "Sara (HYPOFARMA INSTITUTO DE HYPODERMIA E FARMACIA LTDA)",
+    "brand_used": "Hypocaína com vasoconstritor",
+    "full_name": "Hypocaína 20 mg/ml Solução Injetável EPI/IM Caixa 100 Ampola de vidro transparente com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-hypocaina-20-mg-ml-solucao-injetavel-epi-im-caixa-100-ampola-de-vidro-transparente-com-5-ml-hypofarma-instituto-de-hypodermia-e-farmacia-ltda-7898122911822/7898122911822/pdf"
   },
   "Epinefrina + Mepivacaína": {
     "name": "Epinefrina + Mepivacaína",
     "status": "success",
-    "file": "epinefrina.pdf"
+    "file": "epinefrina-mepivacaina.pdf",
+    "manufacturer": "Sara (DLA PHARMA)",
+    "brand_used": "Mepivalem Ad",
+    "full_name": "Mepivalem Ad 20 mg/ml + 10 MCG/ml  Solução Injetável com 1,8 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mepivalem-ad-20-mg-ml-10-mcg-ml-solucao-injetavel-com-18-ml-dla-pharma-7898060520360/7898060520360/pdf"
   },
   "Eribulina": {
     "name": "Eribulina",
@@ -3104,11 +3130,11 @@
   "Fenilefrina + Paracetamol": {
     "name": "Fenilefrina + Paracetamol",
     "status": "success",
-    "file": "fenilefrina.pdf",
-    "date": "23/06/2026",
-    "full_name": "FLUVIRAL DIA",
+    "file": "fenilefrina-paracetamol.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
     "brand_used": "Fluviral Dia",
-    "bula_type": "paciente"
+    "full_name": "Fluviral Dia 800 mg + 20 mg com 50 Comprimido AMARELO + 50 Comprimido BRANCO",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fluviral-dia-800-mg-20-mg-com-50-comprimido-amarelo-50-comprimido-branco-mantecorp-farmasa-mantecorp-skincare-femevita-7896094915527/7896094915527/pdf"
   },
   "Fenofibrato": {
     "name": "Fenofibrato",
@@ -3239,11 +3265,11 @@
   "Gatifloxacino + Prednisolona": {
     "name": "Gatifloxacino + Prednisolona",
     "status": "success",
-    "file": "gatifloxacino.pdf",
-    "date": "28/11/2025",
-    "full_name": "ZYPRED",
+    "file": "gatifloxacino-prednisolona.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
     "brand_used": "Zypred",
-    "bula_type": "paciente"
+    "full_name": "Zypred 3 mg/ml + 10 mg/ml Suspensão Oftálmica com 3 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zypred-3-mg-ml-10-mg-ml-suspensao-oftalmica-com-3-ml-allergan-produtos-farmaceuticos-ltda-7897316805619/7897316805619/pdf"
   },
   "Hialuronato de sódio": {
     "name": "Hialuronato de sódio",
@@ -3257,11 +3283,11 @@
   "Hialuronidase + Imunoglobulina humana": {
     "name": "Hialuronidase + Imunoglobulina humana",
     "status": "success",
-    "file": "hialuronidase.pdf",
-    "date": "29/08/2025",
-    "full_name": "HYQVIA",
+    "file": "hialuronidase-imunoglobulina-humana.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
     "brand_used": "Hyqvia",
-    "bula_type": "paciente"
+    "full_name": "Hyqvia 0,1 g/ml Solução Injetável com 25 ml + 1 FA VD INC com 1,25 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-hyqvia-01-g-ml-solucao-injetavel-com-25-ml-1-fa-vd-inc-com-125-ml-takeda-pharma-7896641816642/7896641816642/pdf"
   },
   "Hidroquinona": {
     "name": "Hidroquinona",
@@ -3275,11 +3301,11 @@
   "Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona": {
     "name": "Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona",
     "status": "success",
-    "file": "hidroxido-de-aluminio.pdf",
-    "date": "25/03/2026",
-    "full_name": "MYLANTA PLUS",
+    "file": "hidroxido-de-aluminio-hidroxido-de-magnesio-simeticona.pdf",
+    "manufacturer": "Sara (JOHNSON)",
     "brand_used": "Mylanta Plus",
-    "bula_type": "paciente"
+    "full_name": "Mylanta Plus 80MG/ml + 80MG/ml + 6MG/ml Suspensão Oral com 240ML (SABOR MENTA)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mylanta-plus-80mg-ml-80mg-ml-6mg-ml-suspensao-oral-com-240ml-sabor-menta-johnson-7891010256425/7891010256425/pdf"
   },
   "Hidroxiureia": {
     "name": "Hidroxiureia",
@@ -3437,7 +3463,11 @@
   "Lidocaína + Prilocaína": {
     "name": "Lidocaína + Prilocaína",
     "status": "success",
-    "file": "lidocaina.pdf"
+    "file": "lidocaina-prilocaina.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "EMLA Creme",
+    "full_name": "Emla (25 + 25) mg/g Creme Dermatológica com 5 g + 2 BAND OCL",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-emla-25-25-mg-g-creme-dermatologica-com-5-g-2-band-ocl-aspen-pharma-industria-farmaceutica-ltda-7895858017194/7895858017194/pdf"
   },
   "Lidocaína + Tetracaína": {
     "name": "Lidocaína + Tetracaína",
@@ -3510,7 +3540,11 @@
   "Magaldrato + Simeticona": {
     "name": "Magaldrato + Simeticona",
     "status": "success",
-    "file": "magaldrato.pdf"
+    "file": "magaldrato-simeticona.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "RIOPAN PLUS",
+    "full_name": "Riopan Plus 80 mg/ml + 10 mg/ml Suspensão Oral com 240 ml (SABOR MENTA)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-riopan-plus-80-mg-ml-10-mg-ml-suspensao-oral-com-240-ml-sabor-menta-takeda-pharma-7896641800740/7896641800740/pdf"
   },
   "Manitol": {
     "name": "Manitol",
@@ -3677,11 +3711,11 @@
   "Nirmatrelvir + Ritonavir": {
     "name": "Nirmatrelvir + Ritonavir",
     "status": "success",
-    "file": "nirmatrelvir.pdf",
-    "date": "08/07/2026",
-    "full_name": "PAXLOVID",
+    "file": "nirmatrelvir-ritonavir.pdf",
+    "manufacturer": "Sara (PFIZER)",
     "brand_used": "Paxlovid",
-    "bula_type": "paciente"
+    "full_name": "Paxlovid 150 mg Comprimido Revestido + 100 mg Comprimido Revestido com 20 + 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-paxlovid-150-mg-comprimido-revestido-100-mg-comprimido-revestido-com-20-10-pfizer-7891045165013/7891045165013/pdf"
   },
   "Nitrendipino": {
     "name": "Nitrendipino",
@@ -4714,5 +4748,3571 @@
     "full_name": "entricitabina + fumarato de tenofovir desoproxila (TRUVADA®)",
     "brand_used": "Truvada",
     "bula_type": "profissional"
+  },
+  "Bisacodil": {
+    "name": "Bisacodil",
+    "status": "success",
+    "file": "bisacodil.pdf",
+    "manufacturer": "EMS (União Química)",
+    "brand_used": "Bisacodil",
+    "full_name": "Bisalax 5 mg Comprimido Revestido de Liberação Retardada com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bisalax-5-mg-comprimido-revestido-de-liberacao-retardada-com-20-uniao-quimica-7896006257929/7896006257929/pdf"
+  },
+  "Bromexina": {
+    "name": "Bromexina",
+    "status": "success",
+    "file": "bromexina.pdf",
+    "manufacturer": "EMS (OPELLA HEALTHCARE BRAZIL LTDA)",
+    "brand_used": "Bisolvon",
+    "full_name": "Bisolvon 0,8 mg/ml Xarope com 120 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bisolvon-08-mg-ml-xarope-com-120-ml-opella-healthcare-brazil-ltda-7891058021627/7891058021627/pdf"
+  },
+  "Ciclobenzaprina": {
+    "name": "Ciclobenzaprina",
+    "status": "success",
+    "file": "ciclobenzaprina.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Miosan",
+    "full_name": "Miosan 5 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-miosan-5-mg-comprimido-revestido-com-30-apsen-farmaceutica-s-a-7896637022835/7896637022835/pdf"
+  },
+  "Etinilestradiol + Gestodeno": {
+    "name": "Etinilestradiol + Gestodeno",
+    "status": "success",
+    "file": "etinilestradiol-gestodeno.pdf",
+    "manufacturer": "Sara (SANDOZ DO BRASIL INDUSTRIA FARMACEUTICA LTDA.)",
+    "brand_used": "MINESSE",
+    "full_name": "Gestodeno + Etinilestradiol 0,06 mg + 0,015 mg Comprimido Revestido com 24",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-gestodeno-etinilestradiol-006-mg-0015-mg-comprimido-revestido-com-24-sandoz-do-brasil-industria-farmaceutica-ltda-7897595614186/7897595614186/pdf"
+  },
+  "Etinilestradiol + Levonorgestrel": {
+    "name": "Etinilestradiol + Levonorgestrel",
+    "status": "success",
+    "file": "etinilestradiol-levonorgestrel.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "NEOVLAR",
+    "full_name": "Neovlar (0,25 + 0,05) mg Comprimido Revestido com 21",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-neovlar-025-005-mg-comprimido-revestido-com-21-uniao-quimica-7896006201687/7896006201687/pdf"
+  },
+  "Ácido Ursodesoxicólico": {
+    "name": "Ácido Ursodesoxicólico",
+    "status": "success",
+    "file": "acido-ursodesoxicolico.pdf",
+    "manufacturer": "Sara (ZAMBON LABORATORIOS FARMACEUTICOS LTDA)",
+    "brand_used": "Ursacol",
+    "full_name": "Ursacol 50 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ursacol-50-mg-comprimido-com-30-zambon-laboratorios-farmaceuticos-ltda-7898074614857/7898074614857/pdf"
+  },
+  "Ciclofosfamida": {
+    "name": "Ciclofosfamida",
+    "status": "success",
+    "file": "ciclofosfamida.pdf",
+    "manufacturer": "Sara (BAXTER)",
+    "brand_used": "Genuxal",
+    "full_name": "Genuxal 50 mg Comprimido Revestido de Liberação Retardada com 50",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-genuxal-50-mg-comprimido-revestido-de-liberacao-retardada-com-50-baxter-7898328790177/7898328790177/pdf"
+  },
+  "Alprostadil": {
+    "name": "Alprostadil",
+    "status": "success",
+    "file": "alprostadil.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Caverject",
+    "full_name": "Caverject 10 MCG Pó LIOF Solução Injetável IC com 1 ml  + 2 AG + 2 Lenço",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-caverject-10-mcg-po-liof-solucao-injetavel-ic-com-1-ml-2-ag-2-lenco-pfizer-7891268100709/7891268100709/pdf"
+  },
+  "Hidroxicloroquina": {
+    "name": "Hidroxicloroquina",
+    "status": "success",
+    "file": "hidroxicloroquina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Sulfato de Hidroxicloroquina",
+    "full_name": "Sulfato de hidroxicloroquina 400mg com 30 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sulfato-de-hidroxicloroquina-400mg-com-30-comprimidos-revestidos-ems-7896004763576/7896004763576/pdf"
+  },
+  "Flunarizina": {
+    "name": "Flunarizina",
+    "status": "success",
+    "file": "flunarizina.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "Flunarin",
+    "full_name": "Flunarin 10MG Cápsula Dura de Liberação Prolongada com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-flunarin-10mg-capsula-dura-de-liberacao-prolongada-com-60-biosintetica-ache-7896658005473/7896658005473/pdf"
+  },
+  "Everolimo": {
+    "name": "Everolimo",
+    "status": "success",
+    "file": "everolimo.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Afinitor",
+    "full_name": "Afinitor 5 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-afinitor-5-mg-comprimido-com-30-novartis-7896261016538/7896261016538/pdf"
+  },
+  "Colecalciferol": {
+    "name": "Colecalciferol",
+    "status": "success",
+    "file": "colecalciferol.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Koli D3",
+    "full_name": "Koli D3 7.000UI com 4 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-koli-d3-7000ui-com-4-comprimidos-revestidos-ems-7894916512138/7894916512138/pdf"
+  },
+  "Carisoprodol": {
+    "name": "Carisoprodol",
+    "status": "success",
+    "file": "carisoprodol.pdf",
+    "manufacturer": "Sara (MEGALABS FARMACEUTICA S.A.)",
+    "brand_used": "Beserol",
+    "full_name": "Beserol 300 mg + 125 mg + 50 mg + 30 mg Comprimido com 12",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-beserol-300-mg-125-mg-50-mg-30-mg-comprimido-com-12-megalabs-farmaceutica-sa-7896026171182/7896026171182/pdf"
+  },
+  "Timolol Ocular": {
+    "name": "Timolol Ocular",
+    "status": "success",
+    "file": "timolol-ocular.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Maleato de Timolol",
+    "full_name": "Maleato de timolol 5mg/mL com 1 frasco gotejador de 5mL de solução oftálmica",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-maleato-de-timolol-5mg-ml-com-1-frasco-gotejador-de-5ml-de-solucao-oftalmica-ems-7896004715711/7896004715711/pdf"
+  },
+  "Norelgestromina + Etinilestradiol": {
+    "name": "Norelgestromina + Etinilestradiol",
+    "status": "success",
+    "file": "etinilestradiol-norelgestromina.pdf",
+    "manufacturer": "Sara (GEDEON RICHTER DO BRASIL IMPORTADORA, EXPORTADORA E DISTRIBUIDORA S.A.)",
+    "brand_used": "Evra",
+    "full_name": "Evra (0,60 + 6,00) mg Adesivo Transdérmica com 3",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-evra-060-600-mg-adesivo-transdermica-com-3-gedeon-richter-do-brasil-importadora-exportadora-e-distribuidora-sa-7898967006141/7898967006141/pdf"
+  },
+  "Anfotericina B": {
+    "name": "Anfotericina B",
+    "status": "success",
+    "file": "anfotericina-b.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Anforicin b",
+    "full_name": "Anforicin B 50 mg Pó LIOF INJ Caixa Frasco-ampola de vidro transparente + Solução Diluente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-anforicin-b-50-mg-po-liof-inj-caixa-frasco-ampola-de-vidro-transparente-solucao-diluente-laboratorio-cristalia-7896676413922/7896676413922/pdf"
+  },
+  "Cefadroxil": {
+    "name": "Cefadroxil",
+    "status": "success",
+    "file": "cefadroxil.pdf",
+    "manufacturer": "Sara (Legrand)",
+    "brand_used": "Cefadroxil EMS",
+    "full_name": "Cedroxil 500mg com 8 cápsulas duras",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cedroxil-500mg-com-8-capsulas-duras-legrand-7896004718309/7896004718309/pdf"
+  },
+  "Etonogestrel": {
+    "name": "Etonogestrel",
+    "status": "success",
+    "file": "etonogestrel.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Implanon",
+    "full_name": "Implanon 68 mg IMPLANTE com 1 Aplicador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-implanon-68-mg-implante-com-1-aplicador-organon-7897337716512/7897337716512/pdf"
+  },
+  "Acarbose": {
+    "name": "Acarbose",
+    "status": "success",
+    "file": "acarbose.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Aglucose",
+    "full_name": "Aglucose 50mg com 30 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aglucose-50mg-com-30-comprimidos-brace-pharma-7894916503754/7894916503754/pdf"
+  },
+  "Vildagliptina": {
+    "name": "Vildagliptina",
+    "status": "success",
+    "file": "vildagliptina.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Galvus",
+    "full_name": "Galvus Met 50 mg + 500 mg Comprimido Revestido com 56",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-galvus-met-50-mg-500-mg-comprimido-revestido-com-56-novartis-7896261016248/7896261016248/pdf"
+  },
+  "Metformina + Vildagliptina": {
+    "name": "Metformina + Vildagliptina",
+    "status": "success",
+    "file": "metformina-vildagliptina.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Galvus Met",
+    "full_name": "Galvus Met 50 mg + 500 mg Comprimido Revestido com 56",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-galvus-met-50-mg-500-mg-comprimido-revestido-com-56-novartis-7896261016248/7896261016248/pdf"
+  },
+  "Metformina + Dapagliflozina": {
+    "name": "Metformina + Dapagliflozina",
+    "status": "success",
+    "file": "dapagliflozina-metformina.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Xigduo",
+    "full_name": "Xigduo Xr (5 + 1000) mg Comprimido Revestido de Liberação Prolongada com 14",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-xigduo-xr-5-1000-mg-comprimido-revestido-de-liberacao-prolongada-com-14-astrazeneca-do-brasil-ltda-5000456028417/5000456028417/pdf"
+  },
+  "Saxagliptina": {
+    "name": "Saxagliptina",
+    "status": "success",
+    "file": "saxagliptina.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Onglyza",
+    "full_name": "Onglyza 2,5 mg Comprimido Revestido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-onglyza-25-mg-comprimido-revestido-com-28-astrazeneca-do-brasil-ltda-5000456028493/5000456028493/pdf"
+  },
+  "Linagliptina": {
+    "name": "Linagliptina",
+    "status": "success",
+    "file": "linagliptina.pdf",
+    "manufacturer": "Sara (Germed)",
+    "brand_used": "Glunac",
+    "full_name": "Glunac duo 2,5 + 850mg com 20 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-glunac-duo-25-850mg-com-20-comprimidos-revestidos-brace-pharma-7896004821795/7896004821795/pdf"
+  },
+  "Canagliflozina": {
+    "name": "Canagliflozina",
+    "status": "success",
+    "file": "canagliflozina.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Invokana",
+    "full_name": "Invokana 100 mg Comprimido Revestido Oral com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-invokana-100-mg-comprimido-revestido-oral-com-30-janssen-cilag-farmaceutica-ltda-7896212425037/7896212425037/pdf"
+  },
+  "Liraglutida": {
+    "name": "Liraglutida",
+    "status": "success",
+    "file": "liraglutida.pdf",
+    "manufacturer": "Novo Nordisk",
+    "brand_used": "Victoza",
+    "full_name": "Victoza®",
+    "source_url": "https://www.novonordisk.com.br/content/dam/nncorp/br/pt/pdfs/bulas/patient/Victoza_Bula_Paciente-05-01.pdf"
+  },
+  "Semaglutida": {
+    "name": "Semaglutida",
+    "status": "success",
+    "file": "semaglutida.pdf",
+    "manufacturer": "Novo Nordisk",
+    "brand_used": "Ozempic",
+    "full_name": "Ozempic® 1,5ml",
+    "source_url": "https://www.novonordisk.com.br/content/dam/nncorp/br/pt/pdfs/bulas/patient/Ozempic_1-5mL_0-25mg_0-5mg_Bula_Paciente.pdf"
+  },
+  "Dulaglutida": {
+    "name": "Dulaglutida",
+    "status": "success",
+    "file": "dulaglutida.pdf",
+    "manufacturer": "Sara (ELI LILLY DO BRASIL LTDA)",
+    "brand_used": "Trulicity",
+    "full_name": "Trulicity 1,5 mg Solução Injetável com 0,5 ml + 2 CAN Aplicador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-trulicity-15-mg-solucao-injetavel-com-05-ml-2-can-aplicador-eli-lilly-do-brasil-ltda-7896382707742/7896382707742/pdf"
+  },
+  "Insulina Detemir": {
+    "name": "Insulina Detemir",
+    "status": "success",
+    "file": "insulina-detemir.pdf",
+    "manufacturer": "Novo Nordisk",
+    "brand_used": "Levemir",
+    "full_name": "Levemir® Flexpen®",
+    "source_url": "https://www.novonordisk.com.br/content/dam/nncorp/br/pt/pdfs/bulas/patient/Levemir%20FlexPen%20-%20Bula%20do%20Paciente,%2012.01.pdf"
+  },
+  "Insulina Degludeca": {
+    "name": "Insulina Degludeca",
+    "status": "success",
+    "file": "insulina-degludeca.pdf",
+    "manufacturer": "Novo Nordisk",
+    "brand_used": "Tresiba",
+    "full_name": "Tresiba® FlexTouch® 100U/mL",
+    "source_url": "https://www.novonordisk.com.br/content/dam/nncorp/br/pt/pdfs/bulas/patient/Tresiba_Flex_Touch_100U_Bula_Paciente.pdf"
+  },
+  "Losartana + Hidroclorotiazida": {
+    "name": "Losartana + Hidroclorotiazida",
+    "status": "success",
+    "file": "hidroclorotiazida-losartana.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "Aradois H",
+    "full_name": "Aradois H (50,0 + 12,5) mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aradois-h-500-125-mg-comprimido-revestido-com-30-biolab-sanus-farma-7896112435778/7896112435778/pdf"
+  },
+  "Olmesartana + Hidroclorotiazida": {
+    "name": "Olmesartana + Hidroclorotiazida",
+    "status": "success",
+    "file": "hidroclorotiazida-olmesartana.pdf",
+    "manufacturer": "Sara (DAIICHI SANKYO)",
+    "brand_used": "Benicar HCT",
+    "full_name": "Benicar Hct 20 mg + 12,5 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-benicar-hct-20-mg-125-mg-comprimido-revestido-com-30-daiichi-sankyo-7897411610668/7897411610668/pdf"
+  },
+  "Pitavastatina": {
+    "name": "Pitavastatina",
+    "status": "success",
+    "file": "pitavastatina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Pivast",
+    "full_name": "Pivast 2 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-pivast-2-mg-comprimido-revestido-com-10-eurofarma-momenta-7891317015398/7891317015398/pdf"
+  },
+  "Ezetimiba": {
+    "name": "Ezetimiba",
+    "status": "success",
+    "file": "ezetimiba.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Zetia",
+    "full_name": "Zetia 10 mg Comprimido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zetia-10-mg-comprimido-com-10-organon-7897337716826/7897337716826/pdf"
+  },
+  "Sinvastatina + Ezetimiba": {
+    "name": "Sinvastatina + Ezetimiba",
+    "status": "success",
+    "file": "ezetimiba-sinvastatina.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Vytorin",
+    "full_name": "Vytorin (10+ 20) mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vytorin-10-20-mg-comprimido-com-30-organon-7897337714488/7897337714488/pdf"
+  },
+  "Genfibrozila": {
+    "name": "Genfibrozila",
+    "status": "success",
+    "file": "genfibrozila.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Lopid",
+    "full_name": "Genfibrozila 600mg com 24 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-genfibrozila-600mg-com-24-comprimidos-revestidos-ems-7896004709710/7896004709710/pdf"
+  },
+  "Eritromicina": {
+    "name": "Eritromicina",
+    "status": "success",
+    "file": "eritromicina.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "Eritrofar Pediatrico",
+    "full_name": "Eritromax 4000 UI/ml Solução Injetável com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-eritromax-4000-ui-ml-solucao-injetavel-com-1-ml-blau-7896014661800/7896014661800/pdf"
+  },
+  "Etoricoxibe": {
+    "name": "Etoricoxibe",
+    "status": "success",
+    "file": "etoricoxibe.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Hetori",
+    "full_name": "Hetori 60 mg Comprimido Revestido com 7",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-hetori-60-mg-comprimido-revestido-com-7-organon-7897337716451/7897337716451/pdf"
+  },
+  "AAS (Ácido Acetilsalicílico)": {
+    "name": "AAS (Ácido Acetilsalicílico)",
+    "status": "success",
+    "file": "aas-acido-acetilsalicilico.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "AAS",
+    "full_name": "Aas Protect 100 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aas-protect-100-mg-comprimido-revestido-com-30-mantecorp-farmasa-mantecorp-skincare-femevita-7896094928046/7896094928046/pdf"
+  },
+  "Prasugrel": {
+    "name": "Prasugrel",
+    "status": "success",
+    "file": "prasugrel.pdf",
+    "manufacturer": "Sara (DAIICHI SANKYO)",
+    "brand_used": "Effient",
+    "full_name": "Effient 5 mg Comprimido Revestido com 14",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-effient-5-mg-comprimido-revestido-com-14-daiichi-sankyo-7897411601451/7897411601451/pdf"
+  },
+  "Metilprednisolona": {
+    "name": "Metilprednisolona",
+    "status": "success",
+    "file": "metilprednisolona.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "Unimedrol",
+    "full_name": "Unimedrol 500 mg Pó LIOF Solução Injetável IM/IV com 8 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-unimedrol-500-mg-po-liof-solucao-injetavel-im-iv-com-8-ml-uniao-quimica-7896006275763/7896006275763/pdf"
+  },
+  "Formoterol + Budesonida": {
+    "name": "Formoterol + Budesonida",
+    "status": "success",
+    "file": "budesonida-formoterol.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Symbicort",
+    "full_name": "Symbicort Turbuhaler 12 MCG/INAL + 400 MCG/INAL Pó Inalatória Cartucho Tubo de plástico 60 DOSES",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-symbicort-turbuhaler-12-mcg-inal-400-mcg-inal-po-inalatoria-cartucho-tubo-de-plastico-60-doses-astrazeneca-do-brasil-ltda-7896206402433/7896206402433/pdf"
+  },
+  "Salmeterol + Fluticasona": {
+    "name": "Salmeterol + Fluticasona",
+    "status": "success",
+    "file": "fluticasona-salmeterol.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Seretide",
+    "full_name": "Seretide 25 MCG + 125 MCG Suspensão Aerossol Inalatória Oral com 120 ACIONAMENTOS + Válvula indicadora de dose",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-seretide-25-mcg-125-mcg-suspensao-aerossol-inalatoria-oral-com-120-acionamentos-valvula-indicadora-de-dose-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896269955204/7896269955204/pdf"
+  },
+  "Tansulosina": {
+    "name": "Tansulosina",
+    "status": "success",
+    "file": "tansulosina.pdf",
+    "manufacturer": "Sara (ASTELLAS FARMA BRASIL IMPORTACAO E DISTRIBUICAO DE MEDICAMENTOS LTDA.)",
+    "brand_used": "Omnic",
+    "full_name": "Omnic Ocas 0,4 mg Comprimido Revestido de Liberação Prolongada com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-omnic-ocas-04-mg-comprimido-revestido-de-liberacao-prolongada-com-10-astellas-farma-brasil-importacao-e-distribuicao-de-medicamentos-ltda-7899337000370/7899337000370/pdf"
+  },
+  "Fexofenadina": {
+    "name": "Fexofenadina",
+    "status": "success",
+    "file": "fexofenadina.pdf",
+    "manufacturer": "Sara (OPELLA HEALTHCARE BRAZIL LTDA)",
+    "brand_used": "Allegra",
+    "full_name": "Allegra D (60,0 + 120,0) mg Comprimido Revestido de Liberação Prolongada com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-allegra-d-600-1200-mg-comprimido-revestido-de-liberacao-prolongada-com-10-opella-healthcare-brazil-ltda-7891058006716/7891058006716/pdf"
+  },
+  "Loratadina": {
+    "name": "Loratadina",
+    "status": "success",
+    "file": "loratadina.pdf",
+    "manufacturer": "Sara (BAYER S.A.)",
+    "brand_used": "Claritin",
+    "full_name": "Claritin 10 mg Comprimido com 6",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-claritin-10-mg-comprimido-com-6-bayer-sa-7891106912785/7891106912785/pdf"
+  },
+  "Dexclorfeniramina": {
+    "name": "Dexclorfeniramina",
+    "status": "success",
+    "file": "dexclorfeniramina.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "Polaramine",
+    "full_name": "Polaramine 2 mg Comprimido Revestido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-polaramine-2-mg-comprimido-revestido-com-20-mantecorp-farmasa-mantecorp-skincare-femevita-7891142171719/7891142171719/pdf"
+  },
+  "Adalimumabe": {
+    "name": "Adalimumabe",
+    "status": "success",
+    "file": "adalimumabe.pdf",
+    "manufacturer": "Sara (ABBVIE)",
+    "brand_used": "Humira",
+    "full_name": "Humira 100 mg/ml Solução Injetável com Seringa preenchida de vidro transparente com 0,4 ml + Envelope Lenço ALCOOL",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-humira-100-mg-ml-solucao-injetavel-com-seringa-preenchida-de-vidro-transparente-com-04-ml-envelope-lenco-alcool-abbvie-8054083013923/8054083013923/pdf"
+  },
+  "Etanercepte": {
+    "name": "Etanercepte",
+    "status": "success",
+    "file": "etanercepte.pdf",
+    "manufacturer": "Sara (LABORATORIOS PFIZER LTDA)",
+    "brand_used": "Enbrel",
+    "full_name": "Enbrel 25 mg PÓ LIOF INJ com 1 FA VD INC + 1 Seringa PREENCH Diluente com 1 ml + 1 AGU+ 1 Adaptador + 2 LENÇOS",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-enbrel-25-mg-po-liof-inj-com-1-fa-vd-inc-1-seringa-preench-diluente-com-1-ml-1-agu-1-adaptador-2-lencos-laboratorios-pfizer-ltda-7891045008235/7891045008235/pdf"
+  },
+  "Infliximabe": {
+    "name": "Infliximabe",
+    "status": "success",
+    "file": "infliximabe.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Remicade",
+    "full_name": "Remicade 10 mg/ml Pó LIOF com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-remicade-10-mg-ml-po-liof-com-10-ml-janssen-cilag-farmaceutica-ltda-7896212424399/7896212424399/pdf"
+  },
+  "Levodopa + Carbidopa": {
+    "name": "Levodopa + Carbidopa",
+    "status": "success",
+    "file": "carbidopa-levodopa.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Sinemet",
+    "full_name": "Parkidopa 250 mg + 25 mg Comprimido Caixa BL AL PLAS INC com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-parkidopa-250-mg-25-mg-comprimido-caixa-bl-al-plas-inc-com-30-laboratorio-cristalia-7896676410877/7896676410877/pdf"
+  },
+  "Mirtazapina": {
+    "name": "Mirtazapina",
+    "status": "success",
+    "file": "mirtazapina.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Remeron",
+    "full_name": "Remeron 15 mg Comprimido Orodispersível com 6",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-remeron-15-mg-comprimido-orodispersivel-com-6-organon-7897337716604/7897337716604/pdf"
+  },
+  "Trazodona": {
+    "name": "Trazodona",
+    "status": "success",
+    "file": "trazodona.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Cloridrato de Trazodona",
+    "full_name": "Cloridrato de trazodona 50mg com 60 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-trazodona-50mg-com-60-comprimidos-revestidos-ems-7896004752211/7896004752211/pdf"
+  },
+  "Fluvoxamina": {
+    "name": "Fluvoxamina",
+    "status": "success",
+    "file": "fluvoxamina.pdf",
+    "manufacturer": "Sara (ABBOTT EPD)",
+    "brand_used": "Luvox",
+    "full_name": "Luvox 100 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-luvox-100-mg-comprimido-revestido-com-30-abbott-epd-7896255766715/7896255766715/pdf"
+  },
+  "Agomelatina": {
+    "name": "Agomelatina",
+    "status": "success",
+    "file": "agomelatina.pdf",
+    "manufacturer": "Sara (LABORATORIOS SERVIER DO BRASIL LTDA)",
+    "brand_used": "Valdoxan",
+    "full_name": "Valdoxan 25 mg Comprimido Revestido com 14",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-valdoxan-25-mg-comprimido-revestido-com-14-laboratorios-servier-do-brasil-ltda-7898029558564/7898029558564/pdf"
+  },
+  "Vortioxetina": {
+    "name": "Vortioxetina",
+    "status": "success",
+    "file": "vortioxetina.pdf",
+    "manufacturer": "Sara (LUNDBECK BRASIL LTDA)",
+    "brand_used": "Brintellix",
+    "full_name": "Brintellix 10MG Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-brintellix-10mg-comprimido-revestido-com-30-lundbeck-brasil-ltda-5702157141951/5702157141951/pdf"
+  },
+  "Vilazodona": {
+    "name": "Vilazodona",
+    "status": "success",
+    "file": "vilazodona.pdf",
+    "manufacturer": "Sara (LIBBS)",
+    "brand_used": "Viibryd",
+    "full_name": "Aymee 10 mg Comprimido Revestido com 7",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aymee-10-mg-comprimido-revestido-com-7-libbs-7896094211308/7896094211308/pdf"
+  },
+  "Ziprasidona": {
+    "name": "Ziprasidona",
+    "status": "success",
+    "file": "ziprasidona.pdf",
+    "manufacturer": "Sara (LABORATORIO FARMACEUTICO DA MARINHA)",
+    "brand_used": "Geodon",
+    "full_name": "Lfm Ziprasidona 40 mg Cápsula Dura com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-lfm-ziprasidona-40-mg-capsula-dura-com-30-laboratorio-farmaceutico-da-marinha-7898242771894/7898242771894/pdf"
+  },
+  "Paliperidona": {
+    "name": "Paliperidona",
+    "status": "success",
+    "file": "paliperidona.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Invega",
+    "full_name": "Invega 100 mg/ml Suspensão Injetável de Liberação Prolongada Intramuscular com 0,50 ml+ 2 Agulha",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-invega-100-mg-ml-suspensao-injetavel-de-liberacao-prolongada-intramuscular-com-050-ml-2-agulha-janssen-cilag-farmaceutica-ltda-7896212424092/7896212424092/pdf"
+  },
+  "Brexpiprazol": {
+    "name": "Brexpiprazol",
+    "status": "success",
+    "file": "brexpiprazol.pdf",
+    "manufacturer": "Sara (LUNDBECK BRASIL LTDA)",
+    "brand_used": "Rexulti",
+    "full_name": "Rexulti 0,5 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rexulti-05-mg-comprimido-revestido-com-10-lundbeck-brasil-ltda-5702150152138/5702150152138/pdf"
+  },
+  "Clorpromazina": {
+    "name": "Clorpromazina",
+    "status": "success",
+    "file": "clorpromazina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Longactil",
+    "full_name": "Longactil 25 mg Comprimido Revestido com 200",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-longactil-25-mg-comprimido-revestido-com-200-laboratorio-cristalia-7896676438437/7896676438437/pdf"
+  },
+  "Levomepromazina": {
+    "name": "Levomepromazina",
+    "status": "success",
+    "file": "levomepromazina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Neozine",
+    "full_name": "Levozine 25 mg Comprimido Revestido Caixa BL AL PLAS PVC TRANS com 200",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-levozine-25-mg-comprimido-revestido-caixa-bl-al-plas-pvc-trans-com-200-laboratorio-cristalia-7896676403381/7896676403381/pdf"
+  },
+  "Flufenazina": {
+    "name": "Flufenazina",
+    "status": "success",
+    "file": "flufenazina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Flufenan",
+    "full_name": "Flufenan 5 mg Comprimido Revestido Caixa Blíster de alumínio e plástico transparente com 200",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-flufenan-5-mg-comprimido-revestido-caixa-blister-de-aluminio-e-plastico-transparente-com-200-laboratorio-cristalia-7896676403305/7896676403305/pdf"
+  },
+  "Oxcarbazepina": {
+    "name": "Oxcarbazepina",
+    "status": "success",
+    "file": "oxcarbazepina.pdf",
+    "manufacturer": "Sara (TORRENT DO BRASIL LTDA)",
+    "brand_used": "Oleptal",
+    "full_name": "Oleptal 300 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-oleptal-300-mg-comprimido-revestido-com-10-torrent-do-brasil-ltda-8903855085616/8903855085616/pdf"
+  },
+  "Lacosamida": {
+    "name": "Lacosamida",
+    "status": "success",
+    "file": "lacosamida.pdf",
+    "manufacturer": "Sara (UCB BIOPHARMA)",
+    "brand_used": "Vimpat",
+    "full_name": "Vimpat 50 mg Comprimido Revestido com 14",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vimpat-50-mg-comprimido-revestido-com-14-ucb-biopharma-4030729003767/4030729003767/pdf"
+  },
+  "Perampanel": {
+    "name": "Perampanel",
+    "status": "success",
+    "file": "perampanel.pdf",
+    "manufacturer": "Sara (UNITED MEDICAL)",
+    "brand_used": "Fycompa",
+    "full_name": "Fycompa 8 mg Comprimido Revestido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fycompa-8-mg-comprimido-revestido-com-28-united-medical-7898054580165/7898054580165/pdf"
+  },
+  "Primidona": {
+    "name": "Primidona",
+    "status": "success",
+    "file": "primidona.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Primidon",
+    "full_name": "Primid 100 mg Comprimido com 100",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-primid-100-mg-comprimido-com-100-apsen-farmaceutica-s-a-7896637025225/7896637025225/pdf"
+  },
+  "Etossuximida": {
+    "name": "Etossuximida",
+    "status": "success",
+    "file": "etossuximida.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Etoxin",
+    "full_name": "Etoxin 50 mg/ml Xarope com 120 ml + Colher-medida",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-etoxin-50-mg-ml-xarope-com-120-ml-colher-medida-apsen-farmaceutica-s-a-7896637022583/7896637022583/pdf"
+  },
+  "Nitrazepam": {
+    "name": "Nitrazepam",
+    "status": "success",
+    "file": "nitrazepam.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Sonebon",
+    "full_name": "Sonebon 5mg com 20 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sonebon-5mg-com-20-comprimidos-multilab-7896004754826/7896004754826/pdf"
+  },
+  "Rufinamida": {
+    "name": "Rufinamida",
+    "status": "success",
+    "file": "rufinamida.pdf",
+    "manufacturer": "Sara (UNITED MEDICAL)",
+    "brand_used": "Inovelon",
+    "full_name": "Inovelon 200 mg Comprimido Revestido com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-inovelon-200-mg-comprimido-revestido-com-60-united-medical-7898054580172/7898054580172/pdf"
+  },
+  "Canabidiol": {
+    "name": "Canabidiol",
+    "status": "success",
+    "file": "canabidiol.pdf",
+    "manufacturer": "Sara (BIOPAS)",
+    "brand_used": "Canabidiol",
+    "full_name": "Mevatyl 27 mg/ml + 25 mg/ml Solução Spray BUC com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mevatyl-27-mg-ml-25-mg-ml-solucao-spray-buc-com-10-ml-biopas-5055813900141/5055813900141/pdf"
+  },
+  "Baclofeno": {
+    "name": "Baclofeno",
+    "status": "success",
+    "file": "baclofeno.pdf",
+    "manufacturer": "Sara (TEUTO BRASILEIRO)",
+    "brand_used": "Lioresal",
+    "full_name": "Baclofeno 10 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-baclofeno-10-mg-comprimido-com-20-teuto-brasileiro-7896112175858/7896112175858/pdf"
+  },
+  "Tizanidina": {
+    "name": "Tizanidina",
+    "status": "success",
+    "file": "tizanidina.pdf",
+    "manufacturer": "Sara (SANDOZ DO BRASIL INDUSTRIA FARMACEUTICA LTDA.)",
+    "brand_used": "Sirdalud",
+    "full_name": "Sirdalud 2 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sirdalud-2-mg-comprimido-com-30-sandoz-do-brasil-industria-farmaceutica-ltda-7897595635013/7897595635013/pdf"
+  },
+  "Orfenadrina": {
+    "name": "Orfenadrina",
+    "status": "success",
+    "file": "orfenadrina.pdf",
+    "manufacturer": "Sara (PHARLAB)",
+    "brand_used": "Fenaflex - Odc",
+    "full_name": "Fenaflex - Odc 35 mg + 300 mg + 50 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fenaflex-odc-35-mg-300-mg-50-mg-comprimido-com-20-pharlab-7898216366033/7898216366033/pdf"
+  },
+  "Pramipexol": {
+    "name": "Pramipexol",
+    "status": "success",
+    "file": "pramipexol.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Dicloridrato de Pramipexol",
+    "full_name": "Dicloridrato de Pramipexol 0,25mg com 30 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dicloridrato-de-pramipexol-025mg-com-30-comprimidos-ems-7896004743042/7896004743042/pdf"
+  },
+  "Rasagilina": {
+    "name": "Rasagilina",
+    "status": "success",
+    "file": "rasagilina.pdf",
+    "manufacturer": "Sara (TEVA FARMACEUTICA LTDA.)",
+    "brand_used": "Azilect",
+    "full_name": "Azilect 1 mg Comprimido Cartucho Blíster de alumínio e alumínio x 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-azilect-1-mg-comprimido-cartucho-blister-de-aluminio-e-aluminio-x-10-teva-farmaceutica-ltda-7898919602377/7898919602377/pdf"
+  },
+  "Entacapona": {
+    "name": "Entacapona",
+    "status": "success",
+    "file": "entacapona.pdf",
+    "manufacturer": "Sara (SANDOZ DO BRASIL INDUSTRIA FARMACEUTICA LTDA.)",
+    "brand_used": "Comtan",
+    "full_name": "Comtan 200 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-comtan-200-mg-comprimido-revestido-com-30-sandoz-do-brasil-industria-farmaceutica-ltda-7897595639288/7897595639288/pdf"
+  },
+  "Levodopa + Carbidopa + Entacapona": {
+    "name": "Levodopa + Carbidopa + Entacapona",
+    "status": "success",
+    "file": "carbidopa-entacapona-levodopa.pdf",
+    "manufacturer": "Sara (SANDOZ DO BRASIL INDUSTRIA FARMACEUTICA LTDA.)",
+    "brand_used": "Stalevo",
+    "full_name": "Stalevo 50 mg+12,5 mg+200MG Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-stalevo-50-mg125-mg200mg-comprimido-revestido-com-30-sandoz-do-brasil-industria-farmaceutica-ltda-7897595639332/7897595639332/pdf"
+  },
+  "Amantadina": {
+    "name": "Amantadina",
+    "status": "success",
+    "file": "amantadina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Mantidan",
+    "full_name": "Mantidan 100 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mantidan-100-mg-comprimido-com-20-eurofarma-momenta-7891317015107/7891317015107/pdf"
+  },
+  "Biperideno": {
+    "name": "Biperideno",
+    "status": "success",
+    "file": "biperideno.pdf",
+    "manufacturer": "Sara (LABORATORIOS BAGO DO BRASIL S.A.)",
+    "brand_used": "Akineton",
+    "full_name": "Akineton 2 mg Comprimido com 80",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-akineton-2-mg-comprimido-com-80-laboratorios-bago-do-brasil-sa-7898940448128/7898940448128/pdf"
+  },
+  "Rotigotina": {
+    "name": "Rotigotina",
+    "status": "success",
+    "file": "rotigotina.pdf",
+    "manufacturer": "Sara (UCB BIOPHARMA)",
+    "brand_used": "Neupro",
+    "full_name": "Neupro 4,5 mg Adesivo Transdérmica com 7 (2 mg / 24 H)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-neupro-45-mg-adesivo-transdermica-com-7-2-mg-24-h-ucb-biopharma-4030729003507/4030729003507/pdf"
+  },
+  "Indacaterol": {
+    "name": "Indacaterol",
+    "status": "success",
+    "file": "indacaterol.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Onbrize Breezhaler",
+    "full_name": "Onbrize 150 MCG Cápsula Dura Inalatória Oral com 10 + 1 Inalatória",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-onbrize-150-mcg-capsula-dura-inalatoria-oral-com-10-1-inalatoria-novartis-7896261016392/7896261016392/pdf"
+  },
+  "Umeclidínio": {
+    "name": "Umeclidínio",
+    "status": "success",
+    "file": "umeclidinio.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Umeclidínio",
+    "full_name": "Trelegy 100 MCG Pó Inalatória Oral com 14 + (62,5+25,0) MCG Pó Inalatória Oral Strip de alumínio com 14 + DISP Inalatória",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-trelegy-100-mcg-po-inalatoria-oral-com-14-625250-mcg-po-inalatoria-oral-strip-de-aluminio-com-14-disp-inalatoria-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015591205/7896015591205/pdf"
+  },
+  "Glicopirrônio": {
+    "name": "Glicopirrônio",
+    "status": "success",
+    "file": "glicopirronio.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Seebri Breezhaler",
+    "full_name": "Seebri 50 MCG CAP C/ PÓ Inalatória com 30 + 1 INALADOR",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-seebri-50-mcg-cap-c-po-inalatoria-com-30-1-inalador-novartis-7896261020184/7896261020184/pdf"
+  },
+  "Terbutalina": {
+    "name": "Terbutalina",
+    "status": "success",
+    "file": "terbutalina.pdf",
+    "manufacturer": "Sara (GREENPHARMA)",
+    "brand_used": "Bricanyl",
+    "full_name": "Sulfato De Terbutalina 0,5 mg/ml Solução Injetável Caixa 50 AMP VD INC com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sulfato-de-terbutalina-05-mg-ml-solucao-injetavel-caixa-50-amp-vd-inc-com-1-ml-greenpharma-0742832304894/0742832304894/pdf"
+  },
+  "Indacaterol + Glicopirrônio": {
+    "name": "Indacaterol + Glicopirrônio",
+    "status": "success",
+    "file": "glicopirronio-indacaterol.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Ultibro Breezhaler",
+    "full_name": "Ultibro (110 + 50) MCG Cápsula Dura Inalatória Oral com 12 + 1 Inalatória",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ultibro-110-50-mcg-capsula-dura-inalatoria-oral-com-12-1-inalatoria-novartis-7896261019218/7896261019218/pdf"
+  },
+  "Umeclidínio + Vilanterol": {
+    "name": "Umeclidínio + Vilanterol",
+    "status": "success",
+    "file": "umeclidinio-vilanterol.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Anoro Ellipta",
+    "full_name": "Anoro Ellipta 62,5 MCG/DOSE Pó Inalatória Oral + 25 MCG/DOSE Pó Inalatória Oral com 7 + 7",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-anoro-ellipta-625-mcg-dose-po-inalatoria-oral-25-mcg-dose-po-inalatoria-oral-com-7-7-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015529079/7896015529079/pdf"
+  },
+  "Fluticasona + Vilanterol": {
+    "name": "Fluticasona + Vilanterol",
+    "status": "success",
+    "file": "fluticasona-vilanterol.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Relvar Ellipta",
+    "full_name": "Relvar Ellipta 100 MCG + 25 MCG PÓ Inalatória Oral com 14 DOSES + BAND",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-relvar-ellipta-100-mcg-25-mcg-po-inalatoria-oral-com-14-doses-band-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015528812/7896015528812/pdf"
+  },
+  "Fluticasona + Umeclidínio + Vilanterol": {
+    "name": "Fluticasona + Umeclidínio + Vilanterol",
+    "status": "success",
+    "file": "fluticasona-umeclidinio-vilanterol.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Trelegy Ellipta",
+    "full_name": "Trelegy 100 MCG Pó Inalatória Oral com 14 + (62,5+25,0) MCG Pó Inalatória Oral Strip de alumínio com 14 + DISP Inalatória",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-trelegy-100-mcg-po-inalatoria-oral-com-14-625250-mcg-po-inalatoria-oral-strip-de-aluminio-com-14-disp-inalatoria-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015591205/7896015591205/pdf"
+  },
+  "Teofilina": {
+    "name": "Teofilina",
+    "status": "success",
+    "file": "teofilina.pdf",
+    "manufacturer": "Sara (TEUTO BRASILEIRO)",
+    "brand_used": "Aminofilina",
+    "full_name": "Aminofilina 200 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aminofilina-200-mg-comprimido-com-20-teuto-brasileiro-7896112110354/7896112110354/pdf"
+  },
+  "Omalizumabe": {
+    "name": "Omalizumabe",
+    "status": "success",
+    "file": "omalizumabe.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Xolair",
+    "full_name": "Xolair 150 mg Pó LIOF INJ com 2 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-xolair-150-mg-po-liof-inj-com-2-ml-novartis-7896261005365/7896261005365/pdf"
+  },
+  "Mepolizumabe": {
+    "name": "Mepolizumabe",
+    "status": "success",
+    "file": "mepolizumabe.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Nucala",
+    "full_name": "Nucala 100 mg Pó LIOF Solução Injetável Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nucala-100-mg-po-liof-solucao-injetavel-cartucho-frasco-ampola-de-vidro-transparente-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015530341/7896015530341/pdf"
+  },
+  "Benralizumabe": {
+    "name": "Benralizumabe",
+    "status": "success",
+    "file": "benralizumabe.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Fasenra",
+    "full_name": "Fasenra 30 mg/ml Solução Injetável com 1ML",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fasenra-30-mg-ml-solucao-injetavel-com-1ml-astrazeneca-do-brasil-ltda-5000456027786/5000456027786/pdf"
+  },
+  "Levocetirizina": {
+    "name": "Levocetirizina",
+    "status": "success",
+    "file": "levocetirizina.pdf",
+    "manufacturer": "Sara (UCB BIOPHARMA)",
+    "brand_used": "Zyxem",
+    "full_name": "Zyxem 5,0 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zyxem-50-mg-comprimido-revestido-com-10-ucb-biopharma-5413787041794/5413787041794/pdf"
+  },
+  "Bilastina": {
+    "name": "Bilastina",
+    "status": "success",
+    "file": "bilastina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Bilastina",
+    "full_name": "Bilastina 20mg com 15 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bilastina-20mg-com-15-comprimidos-ems-7896004784076/7896004784076/pdf"
+  },
+  "Rupatadina": {
+    "name": "Rupatadina",
+    "status": "success",
+    "file": "rupatadina.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "Rupafin",
+    "full_name": "Rupafin 10 mg Comprimido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rupafin-10-mg-comprimido-com-10-biosintetica-ache-7896181907336/7896181907336/pdf"
+  },
+  "Ebastina": {
+    "name": "Ebastina",
+    "status": "success",
+    "file": "ebastina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Ebastel",
+    "full_name": "Ebastel 10 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ebastel-10-mg-comprimido-revestido-com-10-eurofarma-momenta-7891317005351/7891317005351/pdf"
+  },
+  "Hidroxizina": {
+    "name": "Hidroxizina",
+    "status": "success",
+    "file": "hidroxizina.pdf",
+    "manufacturer": "Sara (THERASKIN FARMACEUTICA LTDA.)",
+    "brand_used": "Hixizine",
+    "full_name": "Hixizine 2 mg/ml Solução Oral com 120 ml + Seringa dosadora",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-hixizine-2-mg-ml-solucao-oral-com-120-ml-seringa-dosadora-theraskin-farmaceutica-ltda-7897129301506/7897129301506/pdf"
+  },
+  "Prometazina": {
+    "name": "Prometazina",
+    "status": "success",
+    "file": "prometazina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Pamergan",
+    "full_name": "Pamergan 25 mg/ml Solução Injetável Intramuscular Caixa 50 Ampola de vidro âmbar com 2 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-pamergan-25-mg-ml-solucao-injetavel-intramuscular-caixa-50-ampola-de-vidro-ambar-com-2-ml-laboratorio-cristalia-7896676403503/7896676403503/pdf"
+  },
+  "Difenidramina": {
+    "name": "Difenidramina",
+    "status": "success",
+    "file": "difenidramina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Difenidrin",
+    "full_name": "Difenidrin 50 mg/ml Solução Injetável Caixa 25 Ampola de vidro âmbar com 1 ml (EMB HOSP)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-difenidrin-50-mg-ml-solucao-injetavel-caixa-25-ampola-de-vidro-ambar-com-1-ml-emb-hosp-laboratorio-cristalia-7896676405927/7896676405927/pdf"
+  },
+  "Ambroxol": {
+    "name": "Ambroxol",
+    "status": "success",
+    "file": "ambroxol.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Cloridrato de Ambroxol",
+    "full_name": "Cloridrato de ambroxol 6mg/mL xarope com 120mL + copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-ambroxol-6mg-ml-xarope-com-120ml-copo-dosador-ems-7896004706290/7896004706290/pdf"
+  },
+  "Carbocisteína": {
+    "name": "Carbocisteína",
+    "status": "success",
+    "file": "carbocisteina.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "Mucofan",
+    "full_name": "Mucofan 50 mg/ml Xarope com 100 ml + Copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mucofan-50-mg-ml-xarope-com-100-ml-copo-dosador-uniao-quimica-7896006240457/7896006240457/pdf"
+  },
+  "Dextran": {
+    "name": "Dextran",
+    "status": "success",
+    "file": "dextran.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Dextran",
+    "full_name": "Lacribell (1,0 + 3,0) mg/ml Solução Oftálmica com 15 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-lacribell-10-30-mg-ml-solucao-oftalmica-com-15-ml-laboratorio-cristalia-7896676432855/7896676432855/pdf"
+  },
+  "Dextrometorfano": {
+    "name": "Dextrometorfano",
+    "status": "success",
+    "file": "dextrometorfano.pdf",
+    "manufacturer": "Sara (PROCTER & GAMBLE DO BRASIL LTDA.)",
+    "brand_used": "SILENCIUM XAROPE",
+    "full_name": "Xarope 44 E 1,30 mg/ml + 13,30 mg/ml Xarope Frasco de plástico transparente com 120 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-xarope-44-e-130-mg-ml-1330-mg-ml-xarope-frasco-de-plastico-transparente-com-120-ml-procter-gamble-do-brasil-ltda-7590002023228/7590002023228/pdf"
+  },
+  "Levodropropizina": {
+    "name": "Levodropropizina",
+    "status": "success",
+    "file": "levodropropizina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Percof",
+    "full_name": "Percof 6 mg/ml Xarope com 120 ml + COPO MED",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-percof-6-mg-ml-xarope-com-120-ml-copo-med-eurofarma-momenta-7891317411909/7891317411909/pdf"
+  },
+  "Granisetrona": {
+    "name": "Granisetrona",
+    "status": "success",
+    "file": "granisetrona.pdf",
+    "manufacturer": "Sara (LABORATORIOS BAGO DO BRASIL S.A.)",
+    "brand_used": "Kytril",
+    "full_name": "Kytril 1 mg/ml Solução Injetável com 3 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-kytril-1-mg-ml-solucao-injetavel-com-3-ml-laboratorios-bago-do-brasil-sa-7898605330300/7898605330300/pdf"
+  },
+  "Palonosetrona": {
+    "name": "Palonosetrona",
+    "status": "success",
+    "file": "palonosetrona.pdf",
+    "manufacturer": "Sara (ACCORD FARMACEUTIC)",
+    "brand_used": "Palocyt",
+    "full_name": "Palocyt 0,05 mg/ml Solução Injetável com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-palocyt-005-mg-ml-solucao-injetavel-com-5-ml-accord-farmaceutic-7898565581880/7898565581880/pdf"
+  },
+  "Metoclopramida": {
+    "name": "Metoclopramida",
+    "status": "success",
+    "file": "metoclopramida.pdf",
+    "manufacturer": "Sara (BELFAR LTDA)",
+    "brand_used": "Cloridrato de Metoclopramida",
+    "full_name": "Cloridrato De Metoclopramida 10 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-metoclopramida-10-mg-comprimido-com-20-belfar-ltda-7897917005708/7897917005708/pdf"
+  },
+  "Domperidona": {
+    "name": "Domperidona",
+    "status": "success",
+    "file": "domperidona.pdf",
+    "manufacturer": "Sara (JOHNSON)",
+    "brand_used": "Motilium",
+    "full_name": "Motilium 10 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-motilium-10-mg-comprimido-com-30-johnson-7891010256388/7891010256388/pdf"
+  },
+  "Bromoprida": {
+    "name": "Bromoprida",
+    "status": "success",
+    "file": "bromoprida.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Bromoprida EMS",
+    "full_name": "Bromoprida 10mg com 20 cápsulas duras",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bromoprida-10mg-com-20-capsulas-duras-ems-7896004727882/7896004727882/pdf"
+  },
+  "Escopolamina": {
+    "name": "Escopolamina",
+    "status": "success",
+    "file": "escopolamina.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "Buscopan",
+    "full_name": "Buscopan Composto (10,0 + 250,0) mg Comprimido Revestido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-buscopan-composto-100-2500-mg-comprimido-revestido-com-20-mantecorp-farmasa-mantecorp-skincare-femevita-7896094921399/7896094921399/pdf"
+  },
+  "Aprepitanto": {
+    "name": "Aprepitanto",
+    "status": "success",
+    "file": "aprepitanto.pdf",
+    "manufacturer": "Sara (MSD)",
+    "brand_used": "Emend",
+    "full_name": "Emend Injetável 150 mg Pó LIOF Solução para Infusão Intravenosa com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-emend-injetavel-150-mg-po-liof-solucao-para-infusao-intravenosa-com-10-ml-msd-7897572020054/7897572020054/pdf"
+  },
+  "Netupitanto + Palonosetrona": {
+    "name": "Netupitanto + Palonosetrona",
+    "status": "success",
+    "file": "netupitanto-palonosetrona.pdf",
+    "manufacturer": "Sara (UNITED MEDICAL)",
+    "brand_used": "Akynzeo",
+    "full_name": "Akynzeo 0,56 mg + 300 mg Cápsula Dura com 1",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-akynzeo-056-mg-300-mg-capsula-dura-com-1-united-medical-7898054580462/7898054580462/pdf"
+  },
+  "Mebeverina": {
+    "name": "Mebeverina",
+    "status": "success",
+    "file": "mebeverina.pdf",
+    "manufacturer": "Sara (ABBOTT EPD)",
+    "brand_used": "Duspatalin",
+    "full_name": "Duspatalin 200 mg Cápsula Dura de Liberação Prolongada com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-duspatalin-200-mg-capsula-dura-de-liberacao-prolongada-com-30-abbott-epd-7896255766852/7896255766852/pdf"
+  },
+  "Pinavério": {
+    "name": "Pinavério",
+    "status": "success",
+    "file": "pinaverio.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Dicetel",
+    "full_name": "Siilif 50 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-siilif-50-mg-comprimido-revestido-com-30-takeda-pharma-7896641806360/7896641806360/pdf"
+  },
+  "Trimebutina": {
+    "name": "Trimebutina",
+    "status": "success",
+    "file": "trimebutina.pdf",
+    "manufacturer": "Sara (ALTHAIA S/A)",
+    "brand_used": "Irritratil",
+    "full_name": "Irritratil 200 mg CAP Gel MOLE com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-irritratil-200-mg-cap-gel-mole-com-30-althaia-s-a-7898945030304/7898945030304/pdf"
+  },
+  "Mesalazina": {
+    "name": "Mesalazina",
+    "status": "success",
+    "file": "mesalazina.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Mesacol",
+    "full_name": "Mesacol 250 mg Supositório Retal com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mesacol-250-mg-supositorio-retal-com-10-takeda-pharma-7896641803062/7896641803062/pdf"
+  },
+  "Sulfassalazina": {
+    "name": "Sulfassalazina",
+    "status": "success",
+    "file": "sulfassalazina.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Azulfin",
+    "full_name": "Azulfin 500 mg Comprimido Revestido de Liberação Retardada com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-azulfin-500-mg-comprimido-revestido-de-liberacao-retardada-com-30-apsen-farmaceutica-s-a-7896637022736/7896637022736/pdf"
+  },
+  "Budesonida Oral": {
+    "name": "Budesonida Oral",
+    "status": "success",
+    "file": "budesonida-oral.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "Entocort",
+    "full_name": "Entocort 3 mg CAP Gel MICROG com 45",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-entocort-3-mg-cap-gel-microg-com-45-biolab-sanus-farma-7896112400646/7896112400646/pdf"
+  },
+  "Infliximabe (Crohn)": {
+    "name": "Infliximabe (Crohn)",
+    "status": "success",
+    "file": "infliximabe-crohn.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Remicade",
+    "full_name": "Remicade 10 mg/ml Pó LIOF com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-remicade-10-mg-ml-po-liof-com-10-ml-janssen-cilag-farmaceutica-ltda-7896212424399/7896212424399/pdf"
+  },
+  "Vedolizumabe": {
+    "name": "Vedolizumabe",
+    "status": "success",
+    "file": "vedolizumabe.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Entyvio",
+    "full_name": "Entyvio 300 mg Pó LIOF INJ Cartucho 1 Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-entyvio-300-mg-po-liof-inj-cartucho-1-frasco-ampola-de-vidro-transparente-takeda-pharma-7896641811425/7896641811425/pdf"
+  },
+  "Lactulose": {
+    "name": "Lactulose",
+    "status": "success",
+    "file": "lactulose.pdf",
+    "manufacturer": "Sara (ABBOTT EPD)",
+    "brand_used": "Duphalac",
+    "full_name": "Duphalac 667 mg/ml Xarope com 120ML + Copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-duphalac-667-mg-ml-xarope-com-120ml-copo-dosador-abbott-epd-7891158104787/7891158104787/pdf"
+  },
+  "Picossulfato de Sódio": {
+    "name": "Picossulfato de Sódio",
+    "status": "success",
+    "file": "picossulfato-de-sodio.pdf",
+    "manufacturer": "Sara (HERTZ FARMACEUTICA)",
+    "brand_used": "Rapilax",
+    "full_name": "Rapilax 7,5 mg/ml Solução ORAL com 30 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rapilax-75-mg-ml-solucao-oral-com-30-ml-hertz-farmaceutica-7896331704808/7896331704808/pdf"
+  },
+  "Plantago Ovata": {
+    "name": "Plantago Ovata",
+    "status": "success",
+    "file": "plantago-ovata.pdf",
+    "manufacturer": "Sara (MYLAN LABORATORIOS LTDA.)",
+    "brand_used": "Plantago Ovata",
+    "full_name": "Plantaben 3,5 g Pó Efervescente com 5 g (SABOR LARANJA)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-plantaben-35-g-po-efervescente-com-5-g-sabor-laranja-mylan-laboratorios-ltda-7898560664250/7898560664250/pdf"
+  },
+  "Loperamida": {
+    "name": "Loperamida",
+    "status": "success",
+    "file": "loperamida.pdf",
+    "manufacturer": "Sara (JOHNSON)",
+    "brand_used": "Imosec",
+    "full_name": "Imosec 2 mg Comprimido com 12",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imosec-2-mg-comprimido-com-12-johnson-7891010256364/7891010256364/pdf"
+  },
+  "Rifaximina": {
+    "name": "Rifaximina",
+    "status": "success",
+    "file": "rifaximina.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "Xifaxan",
+    "full_name": "Xifaxan 550 mg Comprimido Revestido com 14",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-xifaxan-550-mg-comprimido-revestido-com-14-biolab-sanus-farma-7896112401681/7896112401681/pdf"
+  },
+  "Famotidina": {
+    "name": "Famotidina",
+    "status": "success",
+    "file": "famotidina.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "Famox",
+    "full_name": "Famox 8 mg/ml Pó Suspensão Oral com 53 ml + Seringa dosadora + Copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-famox-8-mg-ml-po-suspensao-oral-com-53-ml-seringa-dosadora-copo-dosador-biosintetica-ache-7896658048258/7896658048258/pdf"
+  },
+  "Sucralfato": {
+    "name": "Sucralfato",
+    "status": "success",
+    "file": "sucralfato.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Sucrafilm",
+    "full_name": "Sucrafilm 200mg/mL suspensão oral com 10mL",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sucrafilm-200mg-ml-suspensao-oral-com-10ml-ems-7894916500746/7894916500746/pdf"
+  },
+  "Vonoprazana": {
+    "name": "Vonoprazana",
+    "status": "success",
+    "file": "vonoprazana.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Vonoprazana",
+    "full_name": "Inzelm 10 mg Comprimido Revestido com 15",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-inzelm-10-mg-comprimido-revestido-com-15-takeda-pharma-7896641812750/7896641812750/pdf"
+  },
+  "Minociclina": {
+    "name": "Minociclina",
+    "status": "success",
+    "file": "minociclina.pdf",
+    "manufacturer": "Sara (RANBAXY FARMACEUTICA LTDA)",
+    "brand_used": "Cloridrato de Minociclina",
+    "full_name": "Cloridrato De Minociclina 100 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-minociclina-100-mg-comprimido-revestido-com-30-ranbaxy-farmaceutica-ltda-7897076909121/7897076909121/pdf"
+  },
+  "Sulfametoxazol + Trimetoprima": {
+    "name": "Sulfametoxazol + Trimetoprima",
+    "status": "success",
+    "file": "sulfametoxazol-trimetoprima.pdf",
+    "manufacturer": "Sara (FQM)",
+    "brand_used": "Bactrim",
+    "full_name": "Bactrim 400 mg + 80 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bactrim-400-mg-80-mg-comprimido-com-20-fqm-7898040328597/7898040328597/pdf"
+  },
+  "Nitrofurantoína": {
+    "name": "Nitrofurantoína",
+    "status": "success",
+    "file": "nitrofurantoina.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "Macrodantina",
+    "full_name": "Macrodantina 100 mg CAP Gel DURA com 144",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-macrodantina-100-mg-cap-gel-dura-com-144-mantecorp-farmasa-mantecorp-skincare-femevita-7891142165794/7891142165794/pdf"
+  },
+  "Vancomicina": {
+    "name": "Vancomicina",
+    "status": "success",
+    "file": "vancomicina.pdf",
+    "manufacturer": "Sara (ANTIBIOTICOS DO BRASIL LTDA.)",
+    "brand_used": "Vancocin",
+    "full_name": "Vancocina Cp 500 mg Pó Solução Injetável INFUS Intravenosa com 100 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vancocina-cp-500-mg-po-solucao-injetavel-infus-intravenosa-com-100-ml-antibioticos-do-brasil-ltda-7898911244551/7898911244551/pdf"
+  },
+  "Linezolida": {
+    "name": "Linezolida",
+    "status": "success",
+    "file": "linezolida.pdf",
+    "manufacturer": "Sara (FARMACE )",
+    "brand_used": "Linezolida EMS",
+    "full_name": "Linezolida 2 mg/ml Solução para Infusão Intravenosa com 300 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-linezolida-2-mg-ml-solucao-para-infusao-intravenosa-com-300-ml-farmace-7898166043152/7898166043152/pdf"
+  },
+  "Cefepima": {
+    "name": "Cefepima",
+    "status": "success",
+    "file": "cefepima.pdf",
+    "manufacturer": "Sara (TEUTO BRASILEIRO)",
+    "brand_used": "Maxcef",
+    "full_name": "Clocef 1 g Pó Solução Injetável Caixa 50 FA Ampola de vidro âmbar",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-clocef-1-g-po-solucao-injetavel-caixa-50-fa-ampola-de-vidro-ambar-teuto-brasileiro-7896112132264/7896112132264/pdf"
+  },
+  "Ceftazidima": {
+    "name": "Ceftazidima",
+    "status": "success",
+    "file": "ceftazidima.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "Ceftazidima EMS",
+    "full_name": "Ceftazidon 1000 mg Pó INJ Caixa 20 Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ceftazidon-1000-mg-po-inj-caixa-20-frasco-ampola-de-vidro-transparente-blau-7896014685035/7896014685035/pdf"
+  },
+  "Ceftarolina": {
+    "name": "Ceftarolina",
+    "status": "success",
+    "file": "ceftarolina.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Zinforo",
+    "full_name": "Zinforo 600 mg Pó Solução para Infusão Cartucho 10 Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zinforo-600-mg-po-solucao-para-infusao-cartucho-10-frasco-ampola-de-vidro-transparente-pfizer-7891045164801/7891045164801/pdf"
+  },
+  "Imipeném + Cilastatina": {
+    "name": "Imipeném + Cilastatina",
+    "status": "success",
+    "file": "cilastatina-imipenem.pdf",
+    "manufacturer": "Sara (MIDFARMA PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "Tienam",
+    "full_name": "Imipenem + Cilastatina Sódica (500 + 500) mg Pó Solução para Infusão Intravenosa Cartucho 10 Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imipenem-cilastatina-sodica-500-500-mg-po-solucao-para-infusao-intravenosa-cartucho-10-frasco-ampola-de-vidro-transparente-midfarma-produtos-farmaceuticos-ltda-7898651660130/7898651660130/pdf"
+  },
+  "Ertapeném": {
+    "name": "Ertapeném",
+    "status": "success",
+    "file": "ertapenem.pdf",
+    "manufacturer": "Sara (MSD)",
+    "brand_used": "Invanz",
+    "full_name": "Invanz 1 g Pó LIOF Solução Injetável IM/IV Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-invanz-1-g-po-liof-solucao-injetavel-im-iv-cartucho-frasco-ampola-de-vidro-transparente-msd-7897572020160/7897572020160/pdf"
+  },
+  "Rifampicina": {
+    "name": "Rifampicina",
+    "status": "success",
+    "file": "rifampicina.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Rifamp",
+    "full_name": "Farmanguinhos Rifampicina+Isoniazida+Pirazinamida+Etambutol (150,0 + 75,0 + 400,0 + 275,0) mg Comprimido Revestido com 90",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-farmanguinhos-rifampicinaisoniazidapirazinamidaetambutol-1500-750-4000-2750-mg-comprimido-revestido-com-90-fundacao-oswaldo-cruz-7898164513985/7898164513985/pdf"
+  },
+  "Isoniazida": {
+    "name": "Isoniazida",
+    "status": "success",
+    "file": "isoniazida.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Isoniazida EMS",
+    "full_name": "Farmanguinhos - Isoniazida 300 mg Comprimido com 500",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-farmanguinhos-isoniazida-300-mg-comprimido-com-500-fundacao-oswaldo-cruz-7898164512995/7898164512995/pdf"
+  },
+  "Etambutol": {
+    "name": "Etambutol",
+    "status": "success",
+    "file": "etambutol.pdf",
+    "manufacturer": "Sara (FURP)",
+    "brand_used": "Etambutol EMS",
+    "full_name": "Furp - Etambutol 400 mg Comprimido Revestido Caixa Envelope de alumínio POLIET com 500",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-furp-etambutol-400-mg-comprimido-revestido-caixa-envelope-de-aluminio-poliet-com-500-furp-7895005800488/7895005800488/pdf"
+  },
+  "Pirazinamida": {
+    "name": "Pirazinamida",
+    "status": "success",
+    "file": "pirazinamida.pdf",
+    "manufacturer": "Sara (FURP)",
+    "brand_used": "Pirazinamida EMS",
+    "full_name": "Furp- Pirazinamida 500 mg Comprimido Caixa Blíster de alumínio e plástico âmbar com 500",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-furp-pirazinamida-500-mg-comprimido-caixa-blister-de-aluminio-e-plastico-ambar-com-500-furp-7895005807586/7895005807586/pdf"
+  },
+  "Teicoplanina": {
+    "name": "Teicoplanina",
+    "status": "success",
+    "file": "teicoplanina.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "Targocid",
+    "full_name": "Targocid 200 mg Pó LIOF Solução INJ/INFUS IM/IV Caixa Frasco-ampola de vidro transparente + Diluente Ampola de vidro transparente com 3 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-targocid-200-mg-po-liof-solucao-inj-infus-im-iv-caixa-frasco-ampola-de-vidro-transparente-diluente-ampola-de-vidro-transparente-com-3-ml-medley-farmaceutica-ltda-7891058077419/7891058077419/pdf"
+  },
+  "Daptomicina": {
+    "name": "Daptomicina",
+    "status": "success",
+    "file": "daptomicina.pdf",
+    "manufacturer": "Sara (MSD)",
+    "brand_used": "Cubicin",
+    "full_name": "Cubicin 500 mg PÓ LIOF INJ Cartucho FR Ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cubicin-500-mg-po-liof-inj-cartucho-fr-ampola-de-vidro-transparente-msd-7897572020146/7897572020146/pdf"
+  },
+  "Cetoconazol": {
+    "name": "Cetoconazol",
+    "status": "success",
+    "file": "cetoconazol.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Cetoconazol EMS",
+    "full_name": "Cetoconazol 200mg com 10 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cetoconazol-200mg-com-10-comprimidos-ems-7896004700250/7896004700250/pdf"
+  },
+  "Caspofungina": {
+    "name": "Caspofungina",
+    "status": "success",
+    "file": "caspofungina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Berk",
+    "full_name": "Berk 70 mg Pó LIOF Solução para Infusão Intravenosa Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-berk-70-mg-po-liof-solucao-para-infusao-intravenosa-cartucho-frasco-ampola-de-vidro-transparente-eurofarma-momenta-7891317170967/7891317170967/pdf"
+  },
+  "Anidulafungina": {
+    "name": "Anidulafungina",
+    "status": "success",
+    "file": "anidulafungina.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Ecalta",
+    "full_name": "Ecalta 100 mg Pó LIOF Solução Injetável Cartucho 1 Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ecalta-100-mg-po-liof-solucao-injetavel-cartucho-1-frasco-ampola-de-vidro-transparente-pfizer-7891268111798/7891268111798/pdf"
+  },
+  "Nistatina": {
+    "name": "Nistatina",
+    "status": "success",
+    "file": "nistatina.pdf",
+    "manufacturer": "Sara (Multilab)",
+    "brand_used": "Micostal",
+    "full_name": "Micostalab 100.000UI/mL suspensão oral com 50mL + conta-gotas sabor framboesa",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-micostalab-100000ui-ml-suspensao-oral-com-50ml-conta-gotas-sabor-framboesa-multilab-7896004782867/7896004782867/pdf"
+  },
+  "Fanciclovir": {
+    "name": "Fanciclovir",
+    "status": "success",
+    "file": "fanciclovir.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "Famvir",
+    "full_name": "Fanclomax 250 mg Comprimido com 21",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fanclomax-250-mg-comprimido-com-21-blau-7896014675401/7896014675401/pdf"
+  },
+  "Ganciclovir": {
+    "name": "Ganciclovir",
+    "status": "success",
+    "file": "ganciclovir.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "Cymevene",
+    "full_name": "Ganciclotrat 500 mg Pó LIOF Solução Injetável com 10ML",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ganciclotrat-500-mg-po-liof-solucao-injetavel-com-10ml-uniao-quimica-7896006206569/7896006206569/pdf"
+  },
+  "Oseltamivir": {
+    "name": "Oseltamivir",
+    "status": "success",
+    "file": "oseltamivir.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Farmanguinhos Oseltamivir",
+    "full_name": "Farmanguinhos Oseltamivir 75 mg Cápsula Dura com 500",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-farmanguinhos-oseltamivir-75-mg-capsula-dura-com-500-fundacao-oswaldo-cruz-7898164512933/7898164512933/pdf"
+  },
+  "Zanamivir": {
+    "name": "Zanamivir",
+    "status": "success",
+    "file": "zanamivir.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Relenza",
+    "full_name": "Relenza 5 mg Pó Inalatória com 20 DOSES + APLICADOR",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-relenza-5-mg-po-inalatoria-com-20-doses-aplicador-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896269901485/7896269901485/pdf"
+  },
+  "Sofosbuvir": {
+    "name": "Sofosbuvir",
+    "status": "success",
+    "file": "sofosbuvir.pdf",
+    "manufacturer": "Sara (GILEAD SCIENCES FARMACEUTICA DO BRASIL LTDA)",
+    "brand_used": "Sovaldi",
+    "full_name": "Sovaldi 400 mg Comprimido Revestido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sovaldi-400-mg-comprimido-revestido-com-28-gilead-sciences-farmaceutica-do-brasil-ltda-7898994399124/7898994399124/pdf"
+  },
+  "Glecaprevir + Pibrentasvir": {
+    "name": "Glecaprevir + Pibrentasvir",
+    "status": "success",
+    "file": "glecaprevir-pibrentasvir.pdf",
+    "manufacturer": "Sara (ABBVIE)",
+    "brand_used": "Maviret",
+    "full_name": "Maviret (100,0 + 40,0) mg Comprimido Revestido com 84",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-maviret-1000-400-mg-comprimido-revestido-com-84-abbvie-8054083015101/8054083015101/pdf"
+  },
+  "Ledipasvir + Sofosbuvir": {
+    "name": "Ledipasvir + Sofosbuvir",
+    "status": "success",
+    "file": "ledipasvir-sofosbuvir.pdf",
+    "manufacturer": "Sara (GILEAD SCIENCES FARMACEUTICA DO BRASIL LTDA)",
+    "brand_used": "Harvoni",
+    "full_name": "Harvoni 90 mg + 400 mg Comprimido Revestido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-harvoni-90-mg-400-mg-comprimido-revestido-com-28-gilead-sciences-farmaceutica-do-brasil-ltda-7898994399131/7898994399131/pdf"
+  },
+  "Tenofovir": {
+    "name": "Tenofovir",
+    "status": "success",
+    "file": "tenofovir.pdf",
+    "manufacturer": "Sara (BLANVER S.A.)",
+    "brand_used": "Viread",
+    "full_name": "Fumarato De Tenofovir Desoproxila 300 mg Comprimido Revestido Caixa 60 FR PLAS PEAD OPC com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fumarato-de-tenofovir-desoproxila-300-mg-comprimido-revestido-caixa-60-fr-plas-pead-opc-com-30-blanver-sa-7898994056515/7898994056515/pdf"
+  },
+  "Raltegravir": {
+    "name": "Raltegravir",
+    "status": "success",
+    "file": "raltegravir.pdf",
+    "manufacturer": "Sara (MSD)",
+    "brand_used": "Isentress",
+    "full_name": "Isentress 400 mg Comprimido Revestido com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-isentress-400-mg-comprimido-revestido-com-60-msd-7897572020603/7897572020603/pdf"
+  },
+  "Lopinavir + Ritonavir": {
+    "name": "Lopinavir + Ritonavir",
+    "status": "success",
+    "file": "lopinavir-ritonavir.pdf",
+    "manufacturer": "Sara (ABBVIE)",
+    "brand_used": "Kaletra",
+    "full_name": "Kaletra (80,0 + 20,0) mg/ml Solução Oral com 160 ml + Copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-kaletra-800-200-mg-ml-solucao-oral-com-160-ml-copo-dosador-abbvie-8054083003641/8054083003641/pdf"
+  },
+  "Darunavir": {
+    "name": "Darunavir",
+    "status": "success",
+    "file": "darunavir.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Prezista",
+    "full_name": "Prezista 75 mg Comprimido Revestido com 480",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-prezista-75-mg-comprimido-revestido-com-480-janssen-cilag-farmaceutica-ltda-7896212423996/7896212423996/pdf"
+  },
+  "Ritonavir": {
+    "name": "Ritonavir",
+    "status": "success",
+    "file": "ritonavir.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Norvir",
+    "full_name": "Ritonavir 100 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ritonavir-100-mg-comprimido-revestido-com-30-laboratorio-cristalia-7896676425710/7896676425710/pdf"
+  },
+  "Efavirenz": {
+    "name": "Efavirenz",
+    "status": "success",
+    "file": "efavirenz.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Evir",
+    "full_name": "Evir 30 mg/ml Solução Oral com 180 ml + Seringa dosadora",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-evir-30-mg-ml-solucao-oral-com-180-ml-seringa-dosadora-laboratorio-cristalia-7896676414820/7896676414820/pdf"
+  },
+  "Nevirapina": {
+    "name": "Nevirapina",
+    "status": "success",
+    "file": "nevirapina.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Viramune",
+    "full_name": "Farmanguinhos - Nevirapina 200 mg Comprimido Caixa 35 Frasco de plástico opaco com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-farmanguinhos-nevirapina-200-mg-comprimido-caixa-35-frasco-de-plastico-opaco-com-60-fundacao-oswaldo-cruz-7898164511837/7898164511837/pdf"
+  },
+  "Lamivudina": {
+    "name": "Lamivudina",
+    "status": "success",
+    "file": "lamivudina.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Epivir",
+    "full_name": "Epivir 150 mg Comprimido Revestido com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-epivir-150-mg-comprimido-revestido-com-60-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896269900891/7896269900891/pdf"
+  },
+  "Zidovudina": {
+    "name": "Zidovudina",
+    "status": "success",
+    "file": "zidovudina.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Zidovudina EMS",
+    "full_name": "Far-Manguinhos Zidovudina 100 mg CAP Gel DURA Caixa 35 Frasco de plástico opaco com 100",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-far-manguinhos-zidovudina-100-mg-cap-gel-dura-caixa-35-frasco-de-plastico-opaco-com-100-fundacao-oswaldo-cruz-7898164511387/7898164511387/pdf"
+  },
+  "Lamivudina + Zidovudina": {
+    "name": "Lamivudina + Zidovudina",
+    "status": "success",
+    "file": "lamivudina-zidovudina.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Biovir",
+    "full_name": "Biovir (150,00+300,00) mg Comprimido Revestido com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-biovir-1500030000-mg-comprimido-revestido-com-60-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015591120/7896015591120/pdf"
+  },
+  "Abacavir": {
+    "name": "Abacavir",
+    "status": "success",
+    "file": "abacavir.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Ziagen",
+    "full_name": "Ziagenavir 20 mg/ml Solução Oral com 240 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ziagenavir-20-mg-ml-solucao-oral-com-240-ml-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896269901546/7896269901546/pdf"
+  },
+  "Mebendazol": {
+    "name": "Mebendazol",
+    "status": "success",
+    "file": "mebendazol.pdf",
+    "manufacturer": "Sara (NATULAB MEDICAMENTOS)",
+    "brand_used": "Pantelmin",
+    "full_name": "Helmilab 20 mg/ml Suspensão Oral com 30 ml + Copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-helmilab-20-mg-ml-suspensao-oral-com-30-ml-copo-dosador-natulab-medicamentos-7898133131400/7898133131400/pdf"
+  },
+  "Praziquantel": {
+    "name": "Praziquantel",
+    "status": "success",
+    "file": "praziquantel.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Far-manguinhos Praziquantel",
+    "full_name": "Far-Manguinhos Praziquantel 600 mg Comprimido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-far-manguinhos-praziquantel-600-mg-comprimido-com-10-fundacao-oswaldo-cruz-7898164510960/7898164510960/pdf"
+  },
+  "Nitazoxanida": {
+    "name": "Nitazoxanida",
+    "status": "success",
+    "file": "nitazoxanida.pdf",
+    "manufacturer": "Sara (FQM)",
+    "brand_used": "Annita",
+    "full_name": "Annita 500 mg Comprimido Revestido com 6",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-annita-500-mg-comprimido-revestido-com-6-fqm-7898040321512/7898040321512/pdf"
+  },
+  "Cloroquina": {
+    "name": "Cloroquina",
+    "status": "success",
+    "file": "cloroquina.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Reuquinol",
+    "full_name": "Reuquinol 400 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-reuquinol-400-mg-comprimido-revestido-com-30-apsen-farmaceutica-s-a-7896637023047/7896637023047/pdf"
+  },
+  "Pirimetamina": {
+    "name": "Pirimetamina",
+    "status": "success",
+    "file": "pirimetamina.pdf",
+    "manufacturer": "Sara (FQM)",
+    "brand_used": "Daraprim",
+    "full_name": "Daraprim 25 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-daraprim-25-mg-comprimido-com-30-fqm-7898040323288/7898040323288/pdf"
+  },
+  "Latanoprost": {
+    "name": "Latanoprost",
+    "status": "success",
+    "file": "latanoprost.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Xalatan",
+    "full_name": "Latanoprosta 0,05mg/mL com 2,5mL de solução oftálmica",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-latanoprosta-005mg-ml-com-25ml-de-solucao-oftalmica-ems-7896004724508/7896004724508/pdf"
+  },
+  "Bimatoprost": {
+    "name": "Bimatoprost",
+    "status": "success",
+    "file": "bimatoprost.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "Lumigan",
+    "full_name": "Lumigan 0,3 mg/ml Solução Oftálmica com 3 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-lumigan-03-mg-ml-solucao-oftalmica-com-3-ml-allergan-produtos-farmaceuticos-ltda-7897316804179/7897316804179/pdf"
+  },
+  "Travoprost": {
+    "name": "Travoprost",
+    "status": "success",
+    "file": "travoprost.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Travatan",
+    "full_name": "Travatan 0,04 mg/ml Solução Oftálmica com 2,5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-travatan-004-mg-ml-solucao-oftalmica-com-25-ml-novartis-7896548198636/7896548198636/pdf"
+  },
+  "Tafluprost": {
+    "name": "Tafluprost",
+    "status": "success",
+    "file": "tafluprost.pdf",
+    "manufacturer": "Sara (MUNDIPHARMA BRASIL PRODUTOS MEDICOS E FARMACEUTICOS LTDA.)",
+    "brand_used": "Saflutan",
+    "full_name": "Saflutan 15 MCG/ml Solução Oftálmica com 0,3 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-saflutan-15-mcg-ml-solucao-oftalmica-com-03-ml-mundipharma-brasil-produtos-medicos-e-farmaceuticos-ltda-7898586631366/7898586631366/pdf"
+  },
+  "Dorzolamida": {
+    "name": "Dorzolamida",
+    "status": "success",
+    "file": "dorzolamida.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Trusopt",
+    "full_name": "Cloridrato de dorzolamida 20mg/mL com 1 frasco gotejador de 5mL de solução oftálmica",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-dorzolamida-20mg-ml-com-1-frasco-gotejador-de-5ml-de-solucao-oftalmica-ems-7896004726069/7896004726069/pdf"
+  },
+  "Dorzolamida + Timolol": {
+    "name": "Dorzolamida + Timolol",
+    "status": "success",
+    "file": "dorzolamida-timolol.pdf",
+    "manufacturer": "Sara (MUNDIPHARMA BRASIL PRODUTOS MEDICOS E FARMACEUTICOS LTDA.)",
+    "brand_used": "Cosopt",
+    "full_name": "Cosopt 20 mg/ml + 5 mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cosopt-20-mg-ml-5-mg-ml-solucao-oftalmica-com-5-ml-mundipharma-brasil-produtos-medicos-e-farmaceuticos-ltda-7898586631342/7898586631342/pdf"
+  },
+  "Bimatoprost + Timolol": {
+    "name": "Bimatoprost + Timolol",
+    "status": "success",
+    "file": "bimatoprost-timolol.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "Ganfort",
+    "full_name": "Ganfort 0,3 mg/ml + 5,0 mg/ml Solução Oftálmica com 3,0 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ganfort-03-mg-ml-50-mg-ml-solucao-oftalmica-com-30-ml-allergan-produtos-farmaceuticos-ltda-7897316805053/7897316805053/pdf"
+  },
+  "Latanoprost + Timolol": {
+    "name": "Latanoprost + Timolol",
+    "status": "success",
+    "file": "latanoprost-timolol.pdf",
+    "manufacturer": "Sara (Germed)",
+    "brand_used": "Xalacom",
+    "full_name": "Latanoprosta + maleato de timolol 0,05mg/mL + 5mg/mL com 2,5mL de solução oftálmica",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-latanoprosta-maleato-de-timolol-005mg-ml-5mg-ml-com-25ml-de-solucao-oftalmica-germed-7896004724515/7896004724515/pdf"
+  },
+  "Nepafenaco": {
+    "name": "Nepafenaco",
+    "status": "success",
+    "file": "nepafenaco.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Nevanac",
+    "full_name": "Nevanac 1 mg/ml Suspensão Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nevanac-1-mg-ml-suspensao-oftalmica-com-5-ml-novartis-7896548197585/7896548197585/pdf"
+  },
+  "Cetorolaco Ocular": {
+    "name": "Cetorolaco Ocular",
+    "status": "success",
+    "file": "cetorolaco-ocular.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "Acular",
+    "full_name": "Acular 4 mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-acular-4-mg-ml-solucao-oftalmica-com-5-ml-allergan-produtos-farmaceuticos-ltda-7897316804735/7897316804735/pdf"
+  },
+  "Prednisolona Ocular": {
+    "name": "Prednisolona Ocular",
+    "status": "success",
+    "file": "prednisolona-ocular.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "Pred Forte",
+    "full_name": "Pred 10 mg/ml Suspensão OC Frasco de plástico opaco GOT com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-pred-10-mg-ml-suspensao-oc-frasco-de-plastico-opaco-got-com-5-ml-allergan-produtos-farmaceuticos-ltda-7897316800300/7897316800300/pdf"
+  },
+  "Dexametasona Ocular": {
+    "name": "Dexametasona Ocular",
+    "status": "success",
+    "file": "dexametasona-ocular.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Maxidex",
+    "full_name": "Maxidex 1,0 mg/g Pomada Oftálmica com 3,5 g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-maxidex-10-mg-g-pomada-oftalmica-com-35-g-novartis-7896548198292/7896548198292/pdf"
+  },
+  "Ciprofloxacino Ocular": {
+    "name": "Ciprofloxacino Ocular",
+    "status": "success",
+    "file": "ciprofloxacino-ocular.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Ciloxan",
+    "full_name": "Ciloxan 3MG/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ciloxan-3mg-ml-solucao-oftalmica-com-5-ml-novartis-7896548112793/7896548112793/pdf"
+  },
+  "Moxifloxacino Ocular": {
+    "name": "Moxifloxacino Ocular",
+    "status": "success",
+    "file": "moxifloxacino-ocular.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Vigamox",
+    "full_name": "Vigamox 5 mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vigamox-5-mg-ml-solucao-oftalmica-com-5-ml-novartis-7896548139585/7896548139585/pdf"
+  },
+  "Ranibizumabe": {
+    "name": "Ranibizumabe",
+    "status": "success",
+    "file": "ranibizumabe.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Lucentis",
+    "full_name": "Lucentis 10 mg/ml Solução Injetável com 0,165 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-lucentis-10-mg-ml-solucao-injetavel-com-0165-ml-novartis-7896261020085/7896261020085/pdf"
+  },
+  "Bevacizumabe": {
+    "name": "Bevacizumabe",
+    "status": "success",
+    "file": "bevacizumabe.pdf",
+    "manufacturer": "Sara (PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A)",
+    "brand_used": "Avastin",
+    "full_name": "Avastin 25 mg/ml Solução para Diluição para Infusão Intravenosa com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-avastin-25-mg-ml-solucao-para-diluicao-para-infusao-intravenosa-com-4-ml-produtos-roche-quimicos-e-farmaceuticos-s-a-7896226505015/7896226505015/pdf"
+  },
+  "Aflibercept": {
+    "name": "Aflibercept",
+    "status": "success",
+    "file": "aflibercept.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "Zaltrap",
+    "full_name": "Zaltrap 25 mg/ml Solução para Diluição para Infusão Intravenosa com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zaltrap-25-mg-ml-solucao-para-diluicao-para-infusao-intravenosa-com-4-ml-medley-farmaceutica-ltda-7891058017026/7891058017026/pdf"
+  },
+  "Solifenacina": {
+    "name": "Solifenacina",
+    "status": "success",
+    "file": "solifenacina.pdf",
+    "manufacturer": "Sara (ASTELLAS FARMA BRASIL IMPORTACAO E DISTRIBUICAO DE MEDICAMENTOS LTDA.)",
+    "brand_used": "Vesicare",
+    "full_name": "Vesicare 5MG Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vesicare-5mg-comprimido-revestido-com-10-astellas-farma-brasil-importacao-e-distribuicao-de-medicamentos-ltda-7899337000059/7899337000059/pdf"
+  },
+  "Oxibutinina": {
+    "name": "Oxibutinina",
+    "status": "success",
+    "file": "oxibutinina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Oxibutinina EMS",
+    "full_name": "Dry 5 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dry-5-mg-comprimido-com-30-laboratorio-cristalia-7896676433999/7896676433999/pdf"
+  },
+  "Doxazosina": {
+    "name": "Doxazosina",
+    "status": "success",
+    "file": "doxazosina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Cardura",
+    "full_name": "Mesilato de doxazosina 2mg com 30 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mesilato-de-doxazosina-2mg-com-30-comprimidos-ems-7896004795942/7896004795942/pdf"
+  },
+  "Desmopressina": {
+    "name": "Desmopressina",
+    "status": "success",
+    "file": "desmopressina.pdf",
+    "manufacturer": "Sara (LABORATORIOS FERRING LTDA)",
+    "brand_used": "DDAVP",
+    "full_name": "Ddavp 0,1 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ddavp-01-mg-comprimido-com-30-laboratorios-ferring-ltda-7896165600048/7896165600048/pdf"
+  },
+  "Tibolona": {
+    "name": "Tibolona",
+    "status": "success",
+    "file": "tibolona.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Livial",
+    "full_name": "Livial 2,5 mg Comprimido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-livial-25-mg-comprimido-com-28-organon-7897337716253/7897337716253/pdf"
+  },
+  "Noretisterona": {
+    "name": "Noretisterona",
+    "status": "success",
+    "file": "noretisterona.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "Primolut-Nor",
+    "full_name": "Primolut-Nor 10 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-primolut-nor-10-mg-comprimido-com-30-uniao-quimica-7896006201717/7896006201717/pdf"
+  },
+  "Levonorgestrel": {
+    "name": "Levonorgestrel",
+    "status": "success",
+    "file": "levonorgestrel.pdf",
+    "manufacturer": "Sara (NEO QUIMICA)",
+    "brand_used": "Postinor",
+    "full_name": "Levonorgestrel 1,5 mg Comprimido com 1",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-levonorgestrel-15-mg-comprimido-com-1-neo-quimica-7896714213255/7896714213255/pdf"
+  },
+  "Desogestrel": {
+    "name": "Desogestrel",
+    "status": "success",
+    "file": "desogestrel.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Cerazette",
+    "full_name": "Cerazette 0,075 mg Comprimido Revestido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cerazette-0075-mg-comprimido-revestido-com-28-organon-7897337716215/7897337716215/pdf"
+  },
+  "Gestodeno + Etinilestradiol": {
+    "name": "Gestodeno + Etinilestradiol",
+    "status": "success",
+    "file": "etinilestradiol-gestodeno.pdf"
+  },
+  "Levonorgestrel + Etinilestradiol": {
+    "name": "Levonorgestrel + Etinilestradiol",
+    "status": "success",
+    "file": "etinilestradiol-levonorgestrel.pdf"
+  },
+  "Desogestrel + Etinilestradiol": {
+    "name": "Desogestrel + Etinilestradiol",
+    "status": "success",
+    "file": "desogestrel-etinilestradiol.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Mercilon",
+    "full_name": "Mercilon 0,15 mg + 0,02 mg Comprimido com 21",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mercilon-015-mg-002-mg-comprimido-com-21-organon-7897337716307/7897337716307/pdf"
+  },
+  "Etonogestrel + Etinilestradiol": {
+    "name": "Etonogestrel + Etinilestradiol",
+    "status": "success",
+    "file": "etinilestradiol-etonogestrel.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "NuvaRing",
+    "full_name": "Nuvaring 11,7 mg/2,7 mg Anel Vaginal com 1 + 1 Aplicador PLAS OPC",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nuvaring-117-mg-27-mg-anel-vaginal-com-1-1-aplicador-plas-opc-organon-7897337716567/7897337716567/pdf"
+  },
+  "Testosterona": {
+    "name": "Testosterona",
+    "status": "success",
+    "file": "testosterona.pdf",
+    "manufacturer": "Sara (GRUNENTHAL)",
+    "brand_used": "Nebido",
+    "full_name": "Nebido 250 mg/ml Solução Injetável com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nebido-250-mg-ml-solucao-injetavel-com-4-ml-grunenthal-7898582382408/7898582382408/pdf"
+  },
+  "Somatropina (GH)": {
+    "name": "Somatropina (GH)",
+    "status": "success",
+    "file": "somatropina-gh.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Genotropin",
+    "full_name": "Genotropin 5,3 mg (16UI) Pó LIOF Solução Injetável com 1 Frasco-ampola de vidro transparente DUPLO COMP +DIL com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-genotropin-53-mg-16ui-po-liof-solucao-injetavel-com-1-frasco-ampola-de-vidro-transparente-duplo-comp-dil-com-1-ml-pfizer-7891268103403/7891268103403/pdf"
+  },
+  "Zoledronato": {
+    "name": "Zoledronato",
+    "status": "success",
+    "file": "zoledronato.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Zoledrônico",
+    "full_name": "Ácido Zoledrônico 0,8 mg/ml Solução para Diluição para Infusão Intravenosa com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-acido-zoledronico-08-mg-ml-solucao-para-diluicao-para-infusao-intravenosa-com-5-ml-eurofarma-momenta-7891317459222/7891317459222/pdf"
+  },
+  "Abiraterona": {
+    "name": "Abiraterona",
+    "status": "success",
+    "file": "abiraterona.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Zytiga",
+    "full_name": "Zytiga 250 mg Comprimido com 120",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zytiga-250-mg-comprimido-com-120-janssen-cilag-farmaceutica-ltda-7896212424351/7896212424351/pdf"
+  },
+  "Ácido Tranexâmico": {
+    "name": "Ácido Tranexâmico",
+    "status": "success",
+    "file": "acido-tranexamico.pdf",
+    "manufacturer": "Sara (ZYDUS BRASIL)",
+    "brand_used": "Transamin",
+    "full_name": "Transamin 50 mg/ml Solução Injetável Caixa 100 Ampola de vidro transparente com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-transamin-50-mg-ml-solucao-injetavel-caixa-100-ampola-de-vidro-transparente-com-5-ml-zydus-brasil-7897460402191/7897460402191/pdf"
+  },
+  "Teriparatida": {
+    "name": "Teriparatida",
+    "status": "success",
+    "file": "teriparatida.pdf",
+    "manufacturer": "Sara (ELI LILLY DO BRASIL LTDA)",
+    "brand_used": "Forteo",
+    "full_name": "Forteo 250 MCG /ml Solução Injetável com 2,4 ml com SIST Aplicador PLAS",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-forteo-250-mcg-ml-solucao-injetavel-com-24-ml-com-sist-aplicador-plas-eli-lilly-do-brasil-ltda-7896382706769/7896382706769/pdf"
+  },
+  "Raloxifeno": {
+    "name": "Raloxifeno",
+    "status": "success",
+    "file": "raloxifeno.pdf",
+    "manufacturer": "Sara (ELI LILLY DO BRASIL LTDA)",
+    "brand_used": "Evista",
+    "full_name": "Evista 60 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-evista-60-mg-comprimido-revestido-com-30-eli-lilly-do-brasil-ltda-7896382706660/7896382706660/pdf"
+  },
+  "Romosozumabe": {
+    "name": "Romosozumabe",
+    "status": "success",
+    "file": "romosozumabe.pdf",
+    "manufacturer": "Sara (AMGEN BERGAMO)",
+    "brand_used": "Evenity",
+    "full_name": "Evenity 90 mg/ml Solução Injetável com 1,17ML",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-evenity-90-mg-ml-solucao-injetavel-com-117ml-amgen-bergamo-7898609960893/7898609960893/pdf"
+  },
+  "Carbonato de Cálcio": {
+    "name": "Carbonato de Cálcio",
+    "status": "success",
+    "file": "carbonato-de-calcio.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Lfm-carbonato de Cálcio",
+    "full_name": "Magnesia Bisurada (63,7 + 521 + 67 + 3,3) mg PAS com 40",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-magnesia-bisurada-637-521-67-33-mg-pas-com-40-aspen-pharma-industria-farmaceutica-ltda-7895858017293/7895858017293/pdf"
+  },
+  "Azatioprina": {
+    "name": "Azatioprina",
+    "status": "success",
+    "file": "azatioprina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Imunen",
+    "full_name": "Imunen 50 mg Comprimido Revestido Caixa Blíster de alumínio e plástico transparente com 200",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imunen-50-mg-comprimido-revestido-caixa-blister-de-aluminio-e-plastico-transparente-com-200-laboratorio-cristalia-7896676415544/7896676415544/pdf"
+  },
+  "Micofenolato de Mofetila": {
+    "name": "Micofenolato de Mofetila",
+    "status": "success",
+    "file": "micofenolato-de-mofetila.pdf",
+    "manufacturer": "Sara (PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A)",
+    "brand_used": "CellCept",
+    "full_name": "Cellcept 500 mg Comprimido Revestido com 50",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cellcept-500-mg-comprimido-revestido-com-50-produtos-roche-quimicos-e-farmaceuticos-s-a-7896226501284/7896226501284/pdf"
+  },
+  "Micofenolato de Sódio": {
+    "name": "Micofenolato de Sódio",
+    "status": "success",
+    "file": "micofenolato-de-sodio.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Myfortic",
+    "full_name": "Myfortic 180 mg Comprimido Revestido de Liberação Retardada com 120",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-myfortic-180-mg-comprimido-revestido-de-liberacao-retardada-com-120-novartis-7896261007802/7896261007802/pdf"
+  },
+  "Sirolimo": {
+    "name": "Sirolimo",
+    "status": "success",
+    "file": "sirolimo.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Rapamune",
+    "full_name": "Rapamune 1 mg DRG com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rapamune-1-mg-drg-com-60-pfizer-7891045009683/7891045009683/pdf"
+  },
+  "Leflunomida": {
+    "name": "Leflunomida",
+    "status": "success",
+    "file": "leflunomida.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "Arava",
+    "full_name": "Arava 20 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-arava-20-mg-comprimido-revestido-com-30-medley-farmaceutica-ltda-7891058008116/7891058008116/pdf"
+  },
+  "Rituximabe": {
+    "name": "Rituximabe",
+    "status": "success",
+    "file": "rituximabe.pdf",
+    "manufacturer": "Sara (PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A)",
+    "brand_used": "MabThera",
+    "full_name": "Mabthera 10 mg/ml Solução para Diluição para Infusão Intravenosa com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mabthera-10-mg-ml-solucao-para-diluicao-para-infusao-intravenosa-com-10-ml-produtos-roche-quimicos-e-farmaceuticos-s-a-7896226501710/7896226501710/pdf"
+  },
+  "Abatacepte": {
+    "name": "Abatacepte",
+    "status": "success",
+    "file": "abatacepte.pdf",
+    "manufacturer": "Sara (BRISTOL-MYERS SQUIBB FARMACEUTICA LTDA.)",
+    "brand_used": "Orencia",
+    "full_name": "Orencia 250 mg Pó LIOF Solução Injetável Cartucho 1 FA + Seringa DESCARTÁVEL",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-orencia-250-mg-po-liof-solucao-injetavel-cartucho-1-fa-seringa-descartavel-bristol-myers-squibb-farmaceutica-ltda-7896016806469/7896016806469/pdf"
+  },
+  "Tocilizumabe": {
+    "name": "Tocilizumabe",
+    "status": "success",
+    "file": "tocilizumabe.pdf",
+    "manufacturer": "Sara (PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A)",
+    "brand_used": "Actemra",
+    "full_name": "Actemra 20 mg/ml Solução para Diluição para Infusão Intravenosa com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-actemra-20-mg-ml-solucao-para-diluicao-para-infusao-intravenosa-com-4-ml-produtos-roche-quimicos-e-farmaceuticos-s-a-7896226505855/7896226505855/pdf"
+  },
+  "Ixequizumabe": {
+    "name": "Ixequizumabe",
+    "status": "success",
+    "file": "ixequizumabe.pdf",
+    "manufacturer": "Sara (ELI LILLY DO BRASIL LTDA)",
+    "brand_used": "Taltz",
+    "full_name": "Taltz 80MG/ml Solução Injetável com 1ML + 1 CAN Aplicador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-taltz-80mg-ml-solucao-injetavel-com-1ml-1-can-aplicador-eli-lilly-do-brasil-ltda-7896382708060/7896382708060/pdf"
+  },
+  "Golimumabe": {
+    "name": "Golimumabe",
+    "status": "success",
+    "file": "golimumabe.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Simponi",
+    "full_name": "Simponi 50 mg Solução Injetável com 0,5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-simponi-50-mg-solucao-injetavel-com-05-ml-janssen-cilag-farmaceutica-ltda-7896212424474/7896212424474/pdf"
+  },
+  "Belimumabe": {
+    "name": "Belimumabe",
+    "status": "success",
+    "file": "belimumabe.pdf",
+    "manufacturer": "Sara (GLAXOSMITHKLINE - GSK - LABORATORIOS STIEFEL - STIEFEL)",
+    "brand_used": "Benlysta",
+    "full_name": "Benlysta 120 mg Pó LIOF INJ IN Cartucho FA VD INC",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-benlysta-120-mg-po-liof-inj-in-cartucho-fa-vd-inc-glaxosmithkline-gsk-laboratorios-stiefel-stiefel-7896015523954/7896015523954/pdf"
+  },
+  "Colchicina (gota)": {
+    "name": "Colchicina (gota)",
+    "status": "success",
+    "file": "colchicina-gota.pdf",
+    "manufacturer": "Sara (Multilab)",
+    "brand_used": "Colchicina",
+    "full_name": "Colchicina 0,5mg com 30 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-colchicina-05mg-com-30-comprimidos-nova-quimica-7895296449076/7895296449076/pdf"
+  },
+  "Capecitabina": {
+    "name": "Capecitabina",
+    "status": "success",
+    "file": "capecitabina.pdf",
+    "manufacturer": "Sara (BIOPAS)",
+    "brand_used": "Xeloda",
+    "full_name": "Xeloda 500 mg Comprimido Revestido com 120",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-xeloda-500-mg-comprimido-revestido-com-120-biopas-4260747722771/4260747722771/pdf"
+  },
+  "Imatinibe": {
+    "name": "Imatinibe",
+    "status": "success",
+    "file": "imatinibe.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Imatinibe EMS",
+    "full_name": "Mesilato de imatinibe 100mg com 60 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mesilato-de-imatinibe-100mg-com-60-comprimidos-revestidos-ems-7896004746081/7896004746081/pdf"
+  },
+  "Erlotinibe": {
+    "name": "Erlotinibe",
+    "status": "success",
+    "file": "erlotinibe.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Tarceva",
+    "full_name": "Rocab 100mg com 30 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rocab-100mg-com-30-comprimidos-revestidos-ems-7896004785899/7896004785899/pdf"
+  },
+  "Gefitinibe": {
+    "name": "Gefitinibe",
+    "status": "success",
+    "file": "gefitinibe.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Iressa",
+    "full_name": "Iressa 250 mg Comprimido Revestido com BL AL/PLAS TRANSP com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-iressa-250-mg-comprimido-revestido-com-bl-al-plas-transp-com-30-astrazeneca-do-brasil-ltda-7896206402457/7896206402457/pdf"
+  },
+  "Osimertinibe": {
+    "name": "Osimertinibe",
+    "status": "success",
+    "file": "osimertinibe.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Tagrisso",
+    "full_name": "Tagrisso 40 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tagrisso-40-mg-comprimido-revestido-com-30-astrazeneca-do-brasil-ltda-5000456011624/5000456011624/pdf"
+  },
+  "Sunitinibe": {
+    "name": "Sunitinibe",
+    "status": "success",
+    "file": "sunitinibe.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Sutent",
+    "full_name": "Sutent 12,5 mg Cápsula Dura com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sutent-125-mg-capsula-dura-com-28-pfizer-7891268100631/7891268100631/pdf"
+  },
+  "Lenalidomida": {
+    "name": "Lenalidomida",
+    "status": "success",
+    "file": "lenalidomida.pdf",
+    "manufacturer": "Sara (BRISTOL-MYERS SQUIBB FARMACEUTICA LTDA.)",
+    "brand_used": "Revlimid",
+    "full_name": "Revlimid 5 mg Cápsula Dura com 14",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-revlimid-5-mg-capsula-dura-com-14-bristol-myers-squibb-farmaceutica-ltda-7896016808708/7896016808708/pdf"
+  },
+  "Talidomida": {
+    "name": "Talidomida",
+    "status": "success",
+    "file": "talidomida.pdf",
+    "manufacturer": "Sara (FUNED)",
+    "brand_used": "Talidomida Celgene",
+    "full_name": "Funed - Talidomida 100 mg Comprimido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-funed-talidomida-100-mg-comprimido-com-10-funed-7898287820496/7898287820496/pdf"
+  },
+  "Bortezomibe": {
+    "name": "Bortezomibe",
+    "status": "success",
+    "file": "bortezomibe.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Velcade",
+    "full_name": "Velcade 3,5 mg Pó LIOF Solução Injetável Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-velcade-35-mg-po-liof-solucao-injetavel-cartucho-frasco-ampola-de-vidro-transparente-janssen-cilag-farmaceutica-ltda-7896212424504/7896212424504/pdf"
+  },
+  "Carboplatina": {
+    "name": "Carboplatina",
+    "status": "success",
+    "file": "carboplatina.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "Paraplatin",
+    "full_name": "B -Platin 10 mg / ml    Solução Injetável com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-b-platin-10-mg-ml-solucao-injetavel-com-5-ml-blau-7896014665303/7896014665303/pdf"
+  },
+  "Cisplatina": {
+    "name": "Cisplatina",
+    "status": "success",
+    "file": "cisplatina.pdf",
+    "manufacturer": "Sara (ACCORD FARMACEUTIC)",
+    "brand_used": "Cisplatina EMS",
+    "full_name": "Cisplatina 1 mg/ml Solução Injetável Intravenosa com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cisplatina-1-mg-ml-solucao-injetavel-intravenosa-com-10-ml-accord-farmaceutic-7898902274291/7898902274291/pdf"
+  },
+  "Paclitaxel": {
+    "name": "Paclitaxel",
+    "status": "success",
+    "file": "paclitaxel.pdf",
+    "manufacturer": "Sara (BIOPAS)",
+    "brand_used": "Taxol",
+    "full_name": "Taxol 6 mg/ml Solução Injetável Intravenosa com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-taxol-6-mg-ml-solucao-injetavel-intravenosa-com-5-ml-biopas-4260747723068/4260747723068/pdf"
+  },
+  "Docetaxel": {
+    "name": "Docetaxel",
+    "status": "success",
+    "file": "docetaxel.pdf",
+    "manufacturer": "Sara (GLENMARK)",
+    "brand_used": "Docetaxel EMS",
+    "full_name": "Docetaxel 20 mg/ml Solução Injetável Intravenosa com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-docetaxel-20-mg-ml-solucao-injetavel-intravenosa-com-1-ml-glenmark-7897473207127/7897473207127/pdf"
+  },
+  "Doxorrubicina": {
+    "name": "Doxorrubicina",
+    "status": "success",
+    "file": "doxorrubicina.pdf",
+    "manufacturer": "Sara (ADIUM S.A.)",
+    "brand_used": "Caelyx",
+    "full_name": "Doxopeg 2 mg/ml Suspensão Injetável com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-doxopeg-2-mg-ml-suspensao-injetavel-com-10-ml-adium-sa-7892953000717/7892953000717/pdf"
+  },
+  "Trastuzumabe": {
+    "name": "Trastuzumabe",
+    "status": "success",
+    "file": "trastuzumabe.pdf",
+    "manufacturer": "Sara (PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A)",
+    "brand_used": "Herceptin",
+    "full_name": "Herceptin 440 mg Pó LIOF Solução Injetável Intravenosa com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-herceptin-440-mg-po-liof-solucao-injetavel-intravenosa-com-20-ml-produtos-roche-quimicos-e-farmaceuticos-s-a-7896226502090/7896226502090/pdf"
+  },
+  "Bevacizumabe (oncológico)": {
+    "name": "Bevacizumabe (oncológico)",
+    "status": "success",
+    "file": "bevacizumabe-oncologico.pdf",
+    "manufacturer": "Sara (PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A)",
+    "brand_used": "Avastin",
+    "full_name": "Avastin 25 mg/ml Solução para Diluição para Infusão Intravenosa com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-avastin-25-mg-ml-solucao-para-diluicao-para-infusao-intravenosa-com-4-ml-produtos-roche-quimicos-e-farmaceuticos-s-a-7896226505015/7896226505015/pdf"
+  },
+  "Cetuximabe": {
+    "name": "Cetuximabe",
+    "status": "success",
+    "file": "cetuximabe.pdf",
+    "manufacturer": "Sara (MERCK S/A)",
+    "brand_used": "Erbitux",
+    "full_name": "Erbitux 5 mg/ml Solução Injetável com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-erbitux-5-mg-ml-solucao-injetavel-com-20-ml-merck-s-a-7891721021220/7891721021220/pdf"
+  },
+  "Nimesulida": {
+    "name": "Nimesulida",
+    "status": "success",
+    "file": "nimesulida.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "Nisulid",
+    "full_name": "Nisulid 100 mg Comprimido com 12",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nisulid-100-mg-comprimido-com-12-biosintetica-ache-7896658005121/7896658005121/pdf"
+  },
+  "Indometacina": {
+    "name": "Indometacina",
+    "status": "success",
+    "file": "indometacina.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Indocid",
+    "full_name": "Indocid 25 mg Cápsula Dura com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-indocid-25-mg-capsula-dura-com-30-aspen-pharma-industria-farmaceutica-ltda-7895858005955/7895858005955/pdf"
+  },
+  "Tenoxicam": {
+    "name": "Tenoxicam",
+    "status": "success",
+    "file": "tenoxicam.pdf",
+    "manufacturer": "Sara (MYLAN LABORATORIOS LTDA.)",
+    "brand_used": "Tilatil",
+    "full_name": "Tilatil 20 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tilatil-20-mg-comprimido-revestido-com-10-mylan-laboratorios-ltda-7898560664113/7898560664113/pdf"
+  },
+  "Lornoxicam": {
+    "name": "Lornoxicam",
+    "status": "success",
+    "file": "lornoxicam.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "Xefo",
+    "full_name": "Xefo 8 mg Comprimido Revestido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-xefo-8-mg-comprimido-revestido-com-20-biolab-sanus-farma-7896112480709/7896112480709/pdf"
+  },
+  "Fentanila": {
+    "name": "Fentanila",
+    "status": "success",
+    "file": "fentanila.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Fentanest",
+    "full_name": "Fentanest 0,05 mg/ml Solução Injetável IM/IV Caixa 25 Frasco-ampola de vidro âmbar com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fentanest-005-mg-ml-solucao-injetavel-im-iv-caixa-25-frasco-ampola-de-vidro-ambar-com-10-ml-laboratorio-cristalia-7896676428841/7896676428841/pdf"
+  },
+  "Buprenorfina": {
+    "name": "Buprenorfina",
+    "status": "success",
+    "file": "buprenorfina.pdf",
+    "manufacturer": "Sara (MUNDIPHARMA BRASIL PRODUTOS MEDICOS E FARMACEUTICOS LTDA.)",
+    "brand_used": "Restiva",
+    "full_name": "Restiva 5 mg Adesivo Transdérmica com 2",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-restiva-5-mg-adesivo-transdermica-com-2-mundipharma-brasil-produtos-medicos-e-farmaceuticos-ltda-7898586630314/7898586630314/pdf"
+  },
+  "Metadona": {
+    "name": "Metadona",
+    "status": "success",
+    "file": "metadona.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Metadona EMS",
+    "full_name": "Mytedom 5 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mytedom-5-mg-comprimido-com-20-laboratorio-cristalia-7896676413762/7896676413762/pdf"
+  },
+  "Nalbufina": {
+    "name": "Nalbufina",
+    "status": "success",
+    "file": "nalbufina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Nubain",
+    "full_name": "Nubain 10 mg/ml Solução Injetável IM/SC/IV Caixa 25 Ampola de vidro âmbar com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nubain-10-mg-ml-solucao-injetavel-im-sc-iv-caixa-25-ampola-de-vidro-ambar-com-1-ml-laboratorio-cristalia-7896676431230/7896676431230/pdf"
+  },
+  "Naloxona": {
+    "name": "Naloxona",
+    "status": "success",
+    "file": "naloxona.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Narcan",
+    "full_name": "Narcan 0,4 mg/ml Solução Injetável IM/SC/IV  Caixa 25 Ampola de vidro transparente com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-narcan-04-mg-ml-solucao-injetavel-im-sc-iv-caixa-25-ampola-de-vidro-transparente-com-1-ml-laboratorio-cristalia-7896676431216/7896676431216/pdf"
+  },
+  "Naltrexona": {
+    "name": "Naltrexona",
+    "status": "success",
+    "file": "naltrexona.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Revia",
+    "full_name": "Revia 50 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-revia-50-mg-comprimido-revestido-com-30-laboratorio-cristalia-7896676403923/7896676403923/pdf"
+  },
+  "Propafenona": {
+    "name": "Propafenona",
+    "status": "success",
+    "file": "propafenona.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Cloridrato de Propafenona",
+    "full_name": "Cloridrato De Propafenona 300 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-propafenona-300-mg-comprimido-revestido-com-30-eurofarma-momenta-7891317143046/7891317143046/pdf"
+  },
+  "Sotalol": {
+    "name": "Sotalol",
+    "status": "success",
+    "file": "sotalol.pdf",
+    "manufacturer": "Sara (MERCK S/A)",
+    "brand_used": "Sotacor",
+    "full_name": "Cloridrato De Sotalol 160 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-sotalol-160-mg-comprimido-com-30-merck-s-a-7891721023521/7891721023521/pdf"
+  },
+  "Sildenafila (HP)": {
+    "name": "Sildenafila (HP)",
+    "status": "success",
+    "file": "sildenafila-hp.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Sildenafila",
+    "full_name": "Citrato de sildenafila 20mg com 90 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-citrato-de-sildenafila-20mg-com-90-comprimidos-revestidos-ems-7896004759524/7896004759524/pdf"
+  },
+  "Tadalafila (HP)": {
+    "name": "Tadalafila (HP)",
+    "status": "success",
+    "file": "tadalafila-hp.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Tadalafila",
+    "full_name": "Tadalafila 5mg com 30 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tadalafila-5mg-com-30-comprimidos-revestidos-ems-7896004749624/7896004749624/pdf"
+  },
+  "Riociguate": {
+    "name": "Riociguate",
+    "status": "success",
+    "file": "riociguate.pdf",
+    "manufacturer": "Sara (BAYER S.A.)",
+    "brand_used": "Adempas",
+    "full_name": "Adempas® 0,5 mg Comprimido Revestido com 42",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-adempas-05-mg-comprimido-revestido-com-42-bayer-sa-7891106909266/7891106909266/pdf"
+  },
+  "Metoprolol Succinato": {
+    "name": "Metoprolol Succinato",
+    "status": "success",
+    "file": "metoprolol-succinato.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Selozok",
+    "full_name": "Selozok 25 mg Comprimido Revestido de Liberação Prolongada com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-selozok-25-mg-comprimido-revestido-de-liberacao-prolongada-com-30-astrazeneca-do-brasil-ltda-7896206402853/7896206402853/pdf"
+  },
+  "Cilostazol": {
+    "name": "Cilostazol",
+    "status": "success",
+    "file": "cilostazol.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "Vasogard",
+    "full_name": "Vasogard 50 mg Comprimido com 60",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vasogard-50-mg-comprimido-com-60-biosintetica-ache-7896181907626/7896181907626/pdf"
+  },
+  "Ticlopidina": {
+    "name": "Ticlopidina",
+    "status": "success",
+    "file": "ticlopidina.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "Ticlid",
+    "full_name": "Plaketar 250 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-plaketar-250-mg-comprimido-revestido-com-30-biolab-sanus-farma-7896241245712/7896241245712/pdf"
+  },
+  "Fondaparinux": {
+    "name": "Fondaparinux",
+    "status": "success",
+    "file": "fondaparinux.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Arixtra",
+    "full_name": "Arixtra 2,5 mg Solução Injetável IV/SC com 2",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-arixtra-25-mg-solucao-injetavel-iv-sc-com-2-aspen-pharma-industria-farmaceutica-ltda-7895858016364/7895858016364/pdf"
+  },
+  "Dinitrato de Isossorbida": {
+    "name": "Dinitrato de Isossorbida",
+    "status": "success",
+    "file": "dinitrato-de-isossorbida.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Isordil",
+    "full_name": "Isordil 10mg com 30 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-isordil-10mg-com-30-comprimidos-ems-7894916550086/7894916550086/pdf"
+  },
+  "Hidralazina": {
+    "name": "Hidralazina",
+    "status": "success",
+    "file": "hidralazina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Nepresol",
+    "full_name": "Nepresol 20 mg/ml Solução Injetável IM/IV Caixa 50 Ampola de vidro transparente com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nepresol-20-mg-ml-solucao-injetavel-im-iv-caixa-50-ampola-de-vidro-transparente-com-1-ml-laboratorio-cristalia-7896676401592/7896676401592/pdf"
+  },
+  "Metildopa": {
+    "name": "Metildopa",
+    "status": "success",
+    "file": "metildopa.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Aldomet",
+    "full_name": "Aldomet 250 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aldomet-250-mg-comprimido-revestido-com-30-aspen-pharma-industria-farmaceutica-ltda-7895858005917/7895858005917/pdf"
+  },
+  "Minoxidil": {
+    "name": "Minoxidil",
+    "status": "success",
+    "file": "minoxidil.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "Pielus Mx",
+    "full_name": "Pielus Mx 50 mg/ml Solução Spray Capilar com 30 ml + Válvula indicadora de dose SPR",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-pielus-mx-50-mg-ml-solucao-spray-capilar-com-30-ml-valvula-indicadora-de-dose-spr-mantecorp-farmasa-mantecorp-skincare-femevita-7896094920231/7896094920231/pdf"
+  },
+  "Indapamida": {
+    "name": "Indapamida",
+    "status": "success",
+    "file": "indapamida.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Indapamida EMS",
+    "full_name": "Indapamida 1,5mg com 30 comprimido revestido de liberação prolongada",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-indapamida-15mg-com-30-comprimido-revestido-de-liberacao-prolongada-ems-7896004728827/7896004728827/pdf"
+  },
+  "Acetazolamida": {
+    "name": "Acetazolamida",
+    "status": "success",
+    "file": "acetazolamida.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "Diamox",
+    "full_name": "Diamox 250 mg Comprimido com 25",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-diamox-250-mg-comprimido-com-25-uniao-quimica-7896006245322/7896006245322/pdf"
+  },
+  "Vitamina C (Ácido Ascórbico)": {
+    "name": "Vitamina C (Ácido Ascórbico)",
+    "status": "success",
+    "file": "vitamina-c-acido-ascorbico.pdf",
+    "manufacturer": "Sara (SANTISA LABORATORIO FARMACEUTICO)",
+    "brand_used": "Vitasantisa c",
+    "full_name": "Vitasantisa C 100 mg/ml Solução Injetável Caixa 100 Ampola de vidro âmbar com 5 ml (EMB HOSP)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vitasantisa-c-100-mg-ml-solucao-injetavel-caixa-100-ampola-de-vidro-ambar-com-5-ml-emb-hosp-santisa-laboratorio-farmaceutico-7898404221175/7898404221175/pdf"
+  },
+  "Vitamina K (Fitomenadiona)": {
+    "name": "Vitamina K (Fitomenadiona)",
+    "status": "success",
+    "file": "vitamina-k-fitomenadiona.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Fitomenadiona",
+    "full_name": "Kavit 10 mg/ml Solução Injetável Caixa 50 Ampola de vidro âmbar com 1 ml (EMB HOSP)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-kavit-10-mg-ml-solucao-injetavel-caixa-50-ampola-de-vidro-ambar-com-1-ml-emb-hosp-laboratorio-cristalia-7896676405781/7896676405781/pdf"
+  },
+  "Vitamina D3 (Colecalciferol)": {
+    "name": "Vitamina D3 (Colecalciferol)",
+    "status": "success",
+    "file": "vitamina-d3-colecalciferol.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Colecalciferol",
+    "full_name": "Koli D3 7.000UI com 2 cápsulas moles",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-koli-d3-7000ui-com-2-capsulas-moles-ems-7894916517331/7894916517331/pdf"
+  },
+  "Ferro Polimaltosado": {
+    "name": "Ferro Polimaltosado",
+    "status": "success",
+    "file": "ferro-polimaltosado.pdf",
+    "manufacturer": "Sara (BLANVER S.A.)",
+    "brand_used": "Noripurum",
+    "full_name": "Noripurum Fólico 100 mg + 0,35 mg Comprimido Mastigável com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-noripurum-folico-100-mg-035-mg-comprimido-mastigavel-com-30-blanver-sa-7898581710608/7898581710608/pdf"
+  },
+  "Sacarato de Hidróxido Férrico": {
+    "name": "Sacarato de Hidróxido Férrico",
+    "status": "success",
+    "file": "sacarato-de-hidroxido-ferrico.pdf",
+    "manufacturer": "Sara (BLANVER S.A.)",
+    "brand_used": "Noripurum EV",
+    "full_name": "Noripurum 100 mg Comprimido Mastigável com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-noripurum-100-mg-comprimido-mastigavel-com-30-blanver-sa-7898581710547/7898581710547/pdf"
+  },
+  "Isotretinoína": {
+    "name": "Isotretinoína",
+    "status": "success",
+    "file": "isotretinoina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Roacutan",
+    "full_name": "Isotretinoína 20mg com 30 cápsulas moles",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-isotretinoina-20mg-com-30-capsulas-moles-ems-7896004724102/7896004724102/pdf"
+  },
+  "Acitretina": {
+    "name": "Acitretina",
+    "status": "success",
+    "file": "acitretina.pdf",
+    "manufacturer": "Sara (TEVA FARMACEUTICA LTDA.)",
+    "brand_used": "Neotigason",
+    "full_name": "Neotigason 10 mg Cápsula Dura com 100",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-neotigason-10-mg-capsula-dura-com-100-teva-farmaceutica-ltda-7898587901291/7898587901291/pdf"
+  },
+  "Espironolactona (acne)": {
+    "name": "Espironolactona (acne)",
+    "status": "success",
+    "file": "espironolactona-acne.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Aldactone",
+    "full_name": "Aldactone 25 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-aldactone-25-mg-comprimido-com-30-pfizer-7891268100211/7891268100211/pdf"
+  },
+  "Doxiciclina (acne)": {
+    "name": "Doxiciclina (acne)",
+    "status": "success",
+    "file": "doxiciclina-acne.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Vibramicina",
+    "full_name": "Vibramicina 100 mg Comprimido Solução com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vibramicina-100-mg-comprimido-solucao-com-20-pfizer-7891268113013/7891268113013/pdf"
+  },
+  "Zolpidem": {
+    "name": "Zolpidem",
+    "status": "success",
+    "file": "zolpidem.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Zolpidem EMS",
+    "full_name": "Hemitartarato de zolpidem 10mg com 20 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-hemitartarato-de-zolpidem-10mg-com-20-comprimidos-revestidos-ems-7896004725000/7896004725000/pdf"
+  },
+  "Zopiclona": {
+    "name": "Zopiclona",
+    "status": "success",
+    "file": "zopiclona.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "Imovane",
+    "full_name": "Imovane 7,5 mg Comprimido Revestido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imovane-75-mg-comprimido-revestido-com-20-medley-farmaceutica-ltda-7896070602403/7896070602403/pdf"
+  },
+  "Eszopiclona": {
+    "name": "Eszopiclona",
+    "status": "success",
+    "file": "eszopiclona.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Prysma",
+    "full_name": "Prysma 1 mg Comprimido Revestido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-prysma-1-mg-comprimido-revestido-com-20-eurofarma-momenta-7891317125646/7891317125646/pdf"
+  },
+  "Bromazepam": {
+    "name": "Bromazepam",
+    "status": "success",
+    "file": "bromazepam.pdf",
+    "manufacturer": "Sara (BLANVER S.A.)",
+    "brand_used": "Lexotan",
+    "full_name": "Lexotan 3,0 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-lexotan-30-mg-comprimido-com-30-blanver-sa-7898581710370/7898581710370/pdf"
+  },
+  "Buspirona": {
+    "name": "Buspirona",
+    "status": "success",
+    "file": "buspirona.pdf",
+    "manufacturer": "Sara (LIBBS)",
+    "brand_used": "Ansitec",
+    "full_name": "Ansitec 5 mg Comprimido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ansitec-5-mg-comprimido-com-20-libbs-7896094200227/7896094200227/pdf"
+  },
+  "Naratriptano": {
+    "name": "Naratriptano",
+    "status": "success",
+    "file": "naratriptano.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Naratriptano EMS",
+    "full_name": "Cloridrato de naratriptana 2,5mg com 10 comprimidos revestidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-naratriptana-25mg-com-10-comprimidos-revestidos-ems-7896004792316/7896004792316/pdf"
+  },
+  "Fremanezumabe": {
+    "name": "Fremanezumabe",
+    "status": "success",
+    "file": "fremanezumabe.pdf",
+    "manufacturer": "Sara (TEVA FARMACEUTICA LTDA.)",
+    "brand_used": "Ajovy",
+    "full_name": "Ajovy 150 mg/ml Solução Injetável com 1,5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ajovy-150-mg-ml-solucao-injetavel-com-15-ml-teva-farmaceutica-ltda-7898587901376/7898587901376/pdf"
+  },
+  "Galcanezumabe": {
+    "name": "Galcanezumabe",
+    "status": "success",
+    "file": "galcanezumabe.pdf",
+    "manufacturer": "Sara (LIBBS)",
+    "brand_used": "Emgality",
+    "full_name": "Emgality 120 mg/ml Solução Injetável com 1 ml + 1 CAN Aplicador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-emgality-120-mg-ml-solucao-injetavel-com-1-ml-1-can-aplicador-libbs-7896094211704/7896094211704/pdf"
+  },
+  "Vareniclina": {
+    "name": "Vareniclina",
+    "status": "success",
+    "file": "vareniclina.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Champix",
+    "full_name": "Champix 1,0 mg Comprimido Revestido CART Blíster de alumínio e plástico transparente com 56",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-champix-10-mg-comprimido-revestido-cart-blister-de-aluminio-e-plastico-transparente-com-56-pfizer-7891268110821/7891268110821/pdf"
+  },
+  "Nicotina (adesivo/pastilha)": {
+    "name": "Nicotina (adesivo/pastilha)",
+    "status": "success",
+    "file": "nicotina-adesivo.pdf",
+    "manufacturer": "Sara (JOHNSON)",
+    "brand_used": "Nicorette",
+    "full_name": "Nicorette 4 mg Goma de Mascar com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nicorette-4-mg-goma-de-mascar-com-30-johnson-7891010970888/7891010970888/pdf"
+  },
+  "Propofol": {
+    "name": "Propofol",
+    "status": "success",
+    "file": "propofol.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Diprivan",
+    "full_name": "Diprivan 10 mg/ml Emulsão Injetável Intravenosa com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-diprivan-10-mg-ml-emulsao-injetavel-intravenosa-com-20-ml-aspen-pharma-industria-farmaceutica-ltda-7895858016845/7895858016845/pdf"
+  },
+  "Cetamina": {
+    "name": "Cetamina",
+    "status": "success",
+    "file": "cetamina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Ketamin",
+    "full_name": "Ketamin 50 mg/ml Solução Injetável IM/IV Caixa 25 Ampola de vidro âmbar com 2 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ketamin-50-mg-ml-solucao-injetavel-im-iv-caixa-25-ampola-de-vidro-ambar-com-2-ml-laboratorio-cristalia-7896676429329/7896676429329/pdf"
+  },
+  "Dexmedetomidina": {
+    "name": "Dexmedetomidina",
+    "status": "success",
+    "file": "dexmedetomidina.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Precedex",
+    "full_name": "Precedex 100 MCG/ml Solução Injetável com 2 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-precedex-100-mcg-ml-solucao-injetavel-com-2-ml-pfizer-7891045163835/7891045163835/pdf"
+  },
+  "Clotrimazol": {
+    "name": "Clotrimazol",
+    "status": "success",
+    "file": "clotrimazol.pdf",
+    "manufacturer": "Sara (CIFARMA)",
+    "brand_used": "Clomazol",
+    "full_name": "Clomazol 10MG/g Creme DER com 50 g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-clomazol-10mg-g-creme-der-com-50-g-cifarma-7898158690692/7898158690692/pdf"
+  },
+  "Sulfametoxazol-trimetoprima": {
+    "name": "Sulfametoxazol-trimetoprima",
+    "status": "success",
+    "file": "sulfametoxazol-trimetoprima.pdf"
+  },
+  "Penicilina benzatina": {
+    "name": "Penicilina benzatina",
+    "status": "success",
+    "file": "penicilina-benzatina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Benzetacil",
+    "full_name": "Benzetacil 300.000 U/ml Suspensão Injetável Intramuscular Caixa 50 Frasco-ampola de vidro transparente com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-benzetacil-300000-u-ml-suspensao-injetavel-intramuscular-caixa-50-frasco-ampola-de-vidro-transparente-com-4-ml-eurofarma-momenta-7891317496104/7891317496104/pdf"
+  },
+  "Toxina botulínica": {
+    "name": "Toxina botulínica",
+    "status": "success",
+    "file": "toxina-botulinica.pdf",
+    "manufacturer": "Sara (ABBVIE)",
+    "brand_used": "Botox",
+    "full_name": "Botox 100 U Pó LIOF INJ Cartucho FA VD INC",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-botox-100-u-po-liof-inj-cartucho-fa-vd-inc-abbvie-7897316802939/7897316802939/pdf"
+  },
+  "Invokana": {
+    "name": "Invokana",
+    "status": "success",
+    "file": "invokana.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Canagliflozina",
+    "full_name": "Invokana 100 mg Comprimido Revestido Oral com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-invokana-100-mg-comprimido-revestido-oral-com-30-janssen-cilag-farmaceutica-ltda-7896212425037/7896212425037/pdf"
+  },
+  "Clomifeno": {
+    "name": "Clomifeno",
+    "status": "success",
+    "file": "clomifeno.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Indux",
+    "full_name": "Indux 50mg com 10 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-indux-50mg-com-10-comprimidos-ems-7894916501408/7894916501408/pdf"
+  },
+  "Orlistat": {
+    "name": "Orlistat",
+    "status": "success",
+    "file": "orlistat.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Orlistat",
+    "full_name": "Orlistate 120mg com 42 cápsulas gelatinosas duras",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-orlistate-120mg-com-42-capsulas-gelatinosas-duras-ems-7896004737218/7896004737218/pdf"
+  },
+  "Sibutramina": {
+    "name": "Sibutramina",
+    "status": "success",
+    "file": "sibutramina.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Vazy",
+    "full_name": "Vazy 15mg com 30 cápsulas gelatinosas duras",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vazy-15mg-com-30-capsulas-gelatinosas-duras-ems-7894916503143/7894916503143/pdf"
+  },
+  "Carisoprodol + Diclofenaco + Cafeína + Paracetamol": {
+    "name": "Carisoprodol + Diclofenaco + Cafeína + Paracetamol",
+    "status": "success",
+    "file": "cafeina-carisoprodol-diclofenaco-paracetamol.pdf",
+    "manufacturer": "Sara (NEO QUIMICA)",
+    "brand_used": "Torsilax",
+    "full_name": "Torsilax (125 + 50 + 300 + 30) mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-torsilax-125-50-300-30-mg-comprimido-com-30-neo-quimica-7896714200804/7896714200804/pdf"
+  },
+  "Ivermectina": {
+    "name": "Ivermectina",
+    "status": "success",
+    "file": "ivermectina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Leverctin",
+    "full_name": "Leverctin 6mg com 2 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-leverctin-6mg-com-2-comprimidos-ems-7894916503266/7894916503266/pdf"
+  },
+  "Insulina humana": {
+    "name": "Insulina humana",
+    "status": "success",
+    "file": "insulina-humana.pdf",
+    "manufacturer": "Sara (BIOMM)",
+    "brand_used": "Afrezza",
+    "full_name": "Afrezza 8 U (0,70 mg) Pó Inalatória Oral com 90 + 2 Inalatória",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-afrezza-8-u-070-mg-po-inalatoria-oral-com-90-2-inalatoria-biomm-7898616360150/7898616360150/pdf"
+  },
+  "Ranitidina": {
+    "name": "Ranitidina",
+    "status": "success",
+    "file": "ranitidina.pdf",
+    "manufacturer": "Sara (IQUEGO)",
+    "brand_used": "Antak",
+    "full_name": "Iquego - Ranitidina 150 mg Comprimido Revestido Caixa Envelope de alumínio POLIET com 500 (EMB. HOSP.)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-iquego-ranitidina-150-mg-comprimido-revestido-caixa-envelope-de-aluminio-poliet-com-500-emb-hosp-iquego-7898093851363/7898093851363/pdf"
+  },
+  "Insulina glulisina": {
+    "name": "Insulina glulisina",
+    "status": "success",
+    "file": "insulina-glulisina.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "Apidra Solostar",
+    "full_name": "Apidra 100 UI/ml Solução Injetável com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-apidra-100-ui-ml-solucao-injetavel-com-10-ml-medley-farmaceutica-ltda-7891058027117/7891058027117/pdf"
+  },
+  "Triexifenidil": {
+    "name": "Triexifenidil",
+    "status": "success",
+    "file": "triexifenidil.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Artane",
+    "full_name": "Artane 2 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-artane-2-mg-comprimido-com-30-apsen-farmaceutica-s-a-7896637018012/7896637018012/pdf"
+  },
+  "Artesunato + Mefloquina": {
+    "name": "Artesunato + Mefloquina",
+    "status": "success",
+    "file": "artesunato-mefloquina.pdf",
+    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
+    "brand_used": "Artesunato + Mefloquina Farmanguinhos",
+    "full_name": "Artesunato +  Mefloquina Farmanguinhos (25+55) mg Comprimido Revestido com 3",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-artesunato-mefloquina-farmanguinhos-2555-mg-comprimido-revestido-com-3-fundacao-oswaldo-cruz-7898164512896/7898164512896/pdf"
+  },
+  "Articaína": {
+    "name": "Articaína",
+    "status": "success",
+    "file": "articaina.pdf",
+    "manufacturer": "Sara (NOVA DFL INDUSTRIA E COMERCIO S.A.)",
+    "brand_used": "Articaine",
+    "full_name": "Articaine 40 mg/ml+ 10 MCG/ml Solução Injetável com 1,8 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-articaine-40-mg-ml-10-mcg-ml-solucao-injetavel-com-18-ml-nova-dfl-industria-e-comercio-sa-7894590502050/7894590502050/pdf"
+  },
+  "Interferon beta-1a": {
+    "name": "Interferon beta-1a",
+    "status": "success",
+    "file": "interferon-beta-1a.pdf",
+    "manufacturer": "Sara (BIOGEN BRASIL PRODUTOS FARMACEUTICOS LTDA)",
+    "brand_used": "Avonex",
+    "full_name": "Avonex 60 MCG/ml Solução Injetável com 0,5 ml EM Aplicador + Agulha + CAPA PROTETORA P/ DESCARTE",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-avonex-60-mcg-ml-solucao-injetavel-com-05-ml-em-aplicador-agulha-capa-protetora-p-descarte-biogen-brasil-produtos-farmaceuticos-ltda-7898926573035/7898926573035/pdf"
+  },
+  "Bleomicina": {
+    "name": "Bleomicina",
+    "status": "success",
+    "file": "bleomicina.pdf",
+    "manufacturer": "Sara (CIPLA BRASIL)",
+    "brand_used": "BLENOXANE",
+    "full_name": "Cinaleo 15 U PÓ LIOF Solução Injetável IM/IV/IP/SC Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cinaleo-15-u-po-liof-solucao-injetavel-im-iv-ip-sc-cartucho-frasco-ampola-de-vidro-transparente-cipla-brasil-8901117242241/8901117242241/pdf"
+  },
+  "Complexo Protrombínico": {
+    "name": "Complexo Protrombínico",
+    "status": "success",
+    "file": "complexo-protrombinico.pdf",
+    "manufacturer": "Sara (CSL BEHRING COMERCIO DE PRODUTOS FARMACEUTICOS LTDA)",
+    "brand_used": "Beriplex P/N",
+    "full_name": "Beriplex P/N 500 UI Pó LIOF Solução Injetável com 20 ml + DISP. TRANSF. C/ FILTRO",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-beriplex-p-n-500-ui-po-liof-solucao-injetavel-com-20-ml-disp-transfc-filtro-csl-behring-comercio-de-produtos-farmaceuticos-ltda-7897499450323/7897499450323/pdf"
+  },
+  "Inotuzumabe ozogamicina": {
+    "name": "Inotuzumabe ozogamicina",
+    "status": "success",
+    "file": "inotuzumabe-ozogamicina.pdf",
+    "manufacturer": "Sara (PFIZER)",
+    "brand_used": "Besponsa",
+    "full_name": "Besponsa 1 mg Pó LIOF Solução Injetável Cartucho Frasco-ampola de vidro âmbar",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-besponsa-1-mg-po-liof-solucao-injetavel-cartucho-frasco-ampola-de-vidro-ambar-pfizer-7891045032285/7891045032285/pdf"
+  },
+  "Interferon beta-1b": {
+    "name": "Interferon beta-1b",
+    "status": "success",
+    "file": "interferon-beta-1b.pdf",
+    "manufacturer": "Sara (BAYER S.A.)",
+    "brand_used": "Betaferon",
+    "full_name": "Betaferon 9,6 MUI Pó LIOF INJ com 1,2 ml + ADAP Comprimido AGULHA +  2 Envelope LENÇO",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-betaferon-96-mui-po-liof-inj-com-12-ml-adap-comprimido-agulha-2-envelope-lenco-bayer-sa-7891106903974/7891106903974/pdf"
+  },
+  "Betametasona + Gentamicina": {
+    "name": "Betametasona + Gentamicina",
+    "status": "success",
+    "file": "betametasona-gentamicina.pdf",
+    "manufacturer": "Sara (GEOLAB)",
+    "brand_used": "Betogenta",
+    "full_name": "Betogenta 0,5 mg/g + 1,0 mg/g Pomada Dermatológica com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-betogenta-05-mg-g-10-mg-g-pomada-dermatologica-com-30-geolab-7899095204430/7899095204430/pdf"
+  },
+  "Ciclopentolato": {
+    "name": "Ciclopentolato",
+    "status": "success",
+    "file": "ciclopentolato.pdf",
+    "manufacturer": "Sara (ALLERGAN PRODUTOS FARMACEUTICOS LTDA.)",
+    "brand_used": "CICLOPLEGICO Oculum",
+    "full_name": "Cicloplégico 10 mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cicloplegico-10-mg-ml-solucao-oftalmica-com-5-ml-allergan-produtos-farmaceuticos-ltda-7897316801277/7897316801277/pdf"
+  },
+  "Calcitriol": {
+    "name": "Calcitriol",
+    "status": "success",
+    "file": "calcitriol.pdf",
+    "manufacturer": "Sara (BELFAR LTDA)",
+    "brand_used": "Rocaltrol",
+    "full_name": "Rocaltrol 0,25 MCG CAP Gel MOLE com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rocaltrol-025-mcg-cap-gel-mole-com-30-belfar-ltda-7897917004671/7897917004671/pdf"
+  },
+  "Felipressina + Prilocaína": {
+    "name": "Felipressina + Prilocaína",
+    "status": "success",
+    "file": "felipressina-prilocaina.pdf",
+    "manufacturer": "Sara (NOVA DFL INDUSTRIA E COMERCIO S.A.)",
+    "brand_used": "Citanest 3% com Octapressin",
+    "full_name": "Prilonest 30 mg/ml + 0,03 UI/ml Solução Injetável 50 CARPULES VD INC com 1,8 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-prilonest-30-mg-ml-003-ui-ml-solucao-injetavel-50-carpules-vd-inc-com-18-ml-nova-dfl-industria-e-comercio-sa-7894590592129/7894590592129/pdf"
+  },
+  "Burosumabe": {
+    "name": "Burosumabe",
+    "status": "success",
+    "file": "burosumabe.pdf",
+    "manufacturer": "Sara (ULTRAGENYX BRASIL FARMACEUTICA LTDA.)",
+    "brand_used": "Crysvita",
+    "full_name": "Crysvita 10 mg Solução Injetável com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-crysvita-10-mg-solucao-injetavel-com-1-ml-ultragenyx-brasil-farmaceutica-ltda-7898968840010/7898968840010/pdf"
+  },
+  "Daunorrubicina": {
+    "name": "Daunorrubicina",
+    "status": "success",
+    "file": "daunorrubicina.pdf",
+    "manufacturer": "Sara (FARMARIN INDUSTRIA E COMERCIO LTDA)",
+    "brand_used": "Daunoblastina",
+    "full_name": "Evoclass 20 mg Pó LIOF Solução Injetável com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-evoclass-20-mg-po-liof-solucao-injetavel-com-10-ml-farmarin-industria-e-comercio-ltda-7898179364565/7898179364565/pdf"
+  },
+  "Dicloridrato de quinina": {
+    "name": "Dicloridrato de quinina",
+    "status": "success",
+    "file": "dicloridrato-de-quinina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "DICLORIDRATO DE QUININA",
+    "full_name": "Dicloridrato de hidroxizina 25mg com 30 comprimidos",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dicloridrato-de-hidroxizina-25mg-com-30-comprimidos-ems-7896004729688/7896004729688/pdf"
+  },
+  "Droperidol": {
+    "name": "Droperidol",
+    "status": "success",
+    "file": "droperidol.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "DROPERDAL 2,5MG/ML 50AP. 1ML",
+    "full_name": "Droperdal 2,5 mg/ml Solução Injetável IM/IV Caixa 50 Ampola de vidro âmbar com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-droperdal-25-mg-ml-solucao-injetavel-im-iv-caixa-50-ampola-de-vidro-ambar-com-1-ml-laboratorio-cristalia-7896676420333/7896676420333/pdf"
+  },
+  "Daclatasvir": {
+    "name": "Daclatasvir",
+    "status": "success",
+    "file": "daclatasvir.pdf",
+    "manufacturer": "Sara (BLANVER S.A.)",
+    "brand_used": "Daklinza",
+    "full_name": "Dicloridrato De Daclatasvir 60 mg Comprimido Revestido com 28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dicloridrato-de-daclatasvir-60-mg-comprimido-revestido-com-28-blanver-sa-7898581710684/7898581710684/pdf"
+  },
+  "Flurazepam": {
+    "name": "Flurazepam",
+    "status": "success",
+    "file": "flurazepam.pdf",
+    "manufacturer": "Sara (MEDQUIMICA)",
+    "brand_used": "Dalmadorm",
+    "full_name": "Dalmadorm 30 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dalmadorm-30-mg-comprimido-revestido-com-30-medquimica-7896862993009/7896862993009/pdf"
+  },
+  "Roflumilaste": {
+    "name": "Roflumilaste",
+    "status": "success",
+    "file": "roflumilaste.pdf",
+    "manufacturer": "Sara (ASTRAZENECA DO BRASIL LTDA.)",
+    "brand_used": "Daxas",
+    "full_name": "Daxas 500 MCG Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-daxas-500-mcg-comprimido-revestido-com-30-astrazeneca-do-brasil-ltda-5000456028462/5000456028462/pdf"
+  },
+  "Epirrubicina": {
+    "name": "Epirrubicina",
+    "status": "success",
+    "file": "epirrubicina.pdf",
+    "manufacturer": "Sara (ACCORD FARMACEUTIC)",
+    "brand_used": "EPIRRUBICINA BIOSINTÉTICA",
+    "full_name": "Cloridrato De Epirrubicina 2 mg/ml Solução Injetável Intravenosa com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-epirrubicina-2-mg-ml-solucao-injetavel-intravenosa-com-5-ml-accord-farmaceutic-7898932797012/7898932797012/pdf"
+  },
+  "Leuprorrelina": {
+    "name": "Leuprorrelina",
+    "status": "success",
+    "file": "leuprorrelina.pdf",
+    "manufacturer": "Sara (ADIUM S.A.)",
+    "brand_used": "Eligard",
+    "full_name": "Eligard 45 mg Pó LIOF Suspensão Injetável Subcutânea LIB PROL Cartucho Blíster de alumínio e plástico transparente Seringa B + Agulha DISP SEGUR + Blíster de alumínio e plástico transparente Diluente Seringa A + EMB + 2 DESSEC",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-eligard-45-mg-po-liof-suspensao-injetavel-subcutanea-lib-prol-cartucho-blister-de-aluminio-e-plastico-transparente-seringa-b-agulha-disp-segur-blister-de-aluminio-e-plastico-transparente-diluente-seringa-a-emb-2-dessec-adium-sa-7892953000823/7892953000823/pdf"
+  },
+  "Fenilbutazona": {
+    "name": "Fenilbutazona",
+    "status": "success",
+    "file": "fenilbutazona.pdf",
+    "manufacturer": "Sara (VITAMEDIC INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Butazona Cálcica",
+    "full_name": "Butacid 200 mg Comprimido Revestido com 20",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-butacid-200-mg-comprimido-revestido-com-20-vitamedic-industria-farmaceutica-ltda-7898049794683/7898049794683/pdf"
+  },
+  "Fludarabina": {
+    "name": "Fludarabina",
+    "status": "success",
+    "file": "fludarabina.pdf",
+    "manufacturer": "Sara (LIBBS)",
+    "brand_used": "FLUDARA",
+    "full_name": "Fludalibbs 50 mg Pó LIOF INJ Cartucho 5 FA VD TRANS",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fludalibbs-50-mg-po-liof-inj-cartucho-5-fa-vd-trans-libbs-7896094207318/7896094207318/pdf"
+  },
+  "Sulfadiazina": {
+    "name": "Sulfadiazina",
+    "status": "success",
+    "file": "sulfadiazina.pdf",
+    "manufacturer": "Sara (FURP)",
+    "brand_used": "FURP-Sulfadiazina",
+    "full_name": "Furp - Sulfadiazina 500 mg Comprimido Caixa Blíster de alumínio e plástico âmbar com 500 (EMB HOSP)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-furp-sulfadiazina-500-mg-comprimido-caixa-blister-de-aluminio-e-plastico-ambar-com-500-emb-hosp-furp-7895005802598/7895005802598/pdf"
+  },
+  "Saccharomyces boulardii": {
+    "name": "Saccharomyces boulardii",
+    "status": "success",
+    "file": "saccharomyces-boulardii.pdf",
+    "manufacturer": "Sara (FQM)",
+    "brand_used": "Floratil",
+    "full_name": "Floratil 200 mg/g Pó Oral com 1G",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-floratil-200-mg-g-po-oral-com-1g-fqm-7898040329587/7898040329587/pdf"
+  },
+  "Cetotifeno": {
+    "name": "Cetotifeno",
+    "status": "success",
+    "file": "cetotifeno.pdf",
+    "manufacturer": "Sara (PRATI DONADUZZI)",
+    "brand_used": "Fumarato de Cetotifeno",
+    "full_name": "Fumarato De Cetotifeno 0,2 mg/ml Xarope com 120 ml + Copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-fumarato-de-cetotifeno-02-mg-ml-xarope-com-120-ml-copo-dosador-prati-donaduzzi-7899547508086/7899547508086/pdf"
+  },
+  "Benzilpenicilina potássica + Benzilpenicilina procaína": {
+    "name": "Benzilpenicilina potássica + Benzilpenicilina procaína",
+    "status": "success",
+    "file": "benzilpenicilina-potassica-benzilpenicilina-procaina.pdf",
+    "manufacturer": "Sara (FURP)",
+    "brand_used": "Furp-Benzilpenicilina Procaína + Benzilpenicilina Potássica",
+    "full_name": "Furp-Benzilpenicilina Benzatina 600000 UI Pó INJ Caixa 50 Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-furp-benzilpenicilina-benzatina-600000-ui-po-inj-caixa-50-frasco-ampola-de-vidro-transparente-furp-7895005805094/7895005805094/pdf"
+  },
+  "Glibenclamida + Metformina": {
+    "name": "Glibenclamida + Metformina",
+    "status": "success",
+    "file": "glibenclamida-metformina.pdf",
+    "manufacturer": "Sara (MERCK S/A)",
+    "brand_used": "GLUCOVANCE",
+    "full_name": "Glucovance 500 mg + 2,5 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-glucovance-500-mg-25-mg-comprimido-revestido-com-30-merck-s-a-7891721026614/7891721026614/pdf"
+  },
+  "Guaifenesina": {
+    "name": "Guaifenesina",
+    "status": "success",
+    "file": "guaifenesina.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Guaifenesina",
+    "full_name": "Cloridrato de oxomemazina + iodeto de potássio + benzoato de sódio + guaifenesina 2mg/5mL + 100mg/5mL + 20mg/5mL + 30mg/5mL com 120mL de xarope",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-oxomemazina-iodeto-de-potassio-benzoato-de-sodio-guaifenesina-2mg-5ml-100mg-5ml-20mg-5ml-30mg-5ml-com-120ml-de-xarope-ems-7896004796352/7896004796352/pdf"
+  },
+  "Hidroclorotiazida + Losartana": {
+    "name": "Hidroclorotiazida + Losartana",
+    "status": "success",
+    "file": "hidroclorotiazida-losartana.pdf"
+  },
+  "Interferon Alfa-2b": {
+    "name": "Interferon Alfa-2b",
+    "status": "success",
+    "file": "interferon-alfa-2b.pdf",
+    "manufacturer": "Sara (BIOSINTETICA (ACHE))",
+    "brand_used": "INTERFERON Alfa-2b Humano Recombinante",
+    "full_name": "Alfainterferona 2b (Recombinante) 10 000 000 UI Pó LIOF Solução Injetável com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-alfainterferona-2b-recombinante-10-000-000-ui-po-liof-solucao-injetavel-com-1-ml-biosintetica-ache-7896181901235/7896181901235/pdf"
+  },
+  "Imiquimode": {
+    "name": "Imiquimode",
+    "status": "success",
+    "file": "imiquimode.pdf",
+    "manufacturer": "Sara (Germed)",
+    "brand_used": "Imiquimode",
+    "full_name": "Modik 50mg/g creme dermatológica com 6 sachês de 250mg",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-modik-50mg-g-creme-dermatologica-com-6-saches-de-250mg-medical-doctor-7896004734552/7896004734552/pdf"
+  },
+  "Lincomicina": {
+    "name": "Lincomicina",
+    "status": "success",
+    "file": "lincomicina.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "LINCOMICINA",
+    "full_name": "Linatron 300 mg/ml Solução Injetável Caixa 50 Ampola de vidro transparente com 2 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-linatron-300-mg-ml-solucao-injetavel-caixa-50-ampola-de-vidro-transparente-com-2-ml-blau-7896014686551/7896014686551/pdf"
+  },
+  "Óleo de soja + Triglicerídeos de cadeia média": {
+    "name": "Óleo de soja + Triglicerídeos de cadeia média",
+    "status": "success",
+    "file": "oleo-de-soja-triglicerideos-de-cadeia-media.pdf",
+    "manufacturer": "Sara (LABORATORIOS B BRAUN SA)",
+    "brand_used": "Lipofundin MCT/LCT 20%",
+    "full_name": "Lipofundin 100 mg/ml + 100 mg/ml Emulsão Injetável Intravenosa Caixa 10 Frasco de vidro transparente com 100 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-lipofundin-100-mg-ml-100-mg-ml-emulsao-injetavel-intravenosa-caixa-10-frasco-de-vidro-transparente-com-100-ml-laboratorios-b-braun-sa-4030539004312/4030539004312/pdf"
+  },
+  "Calcitonina": {
+    "name": "Calcitonina",
+    "status": "success",
+    "file": "calcitonina.pdf",
+    "manufacturer": "Sara (LABORATORIO QUIMICO FARMACEUTICO BERGAMO LTDA)",
+    "brand_used": "MIACALCIC",
+    "full_name": "Seacalcit 200 UI/DOSE Solução Nasal com 2 ml + NEB",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-seacalcit-200-ui-dose-solucao-nasal-com-2-ml-neb-laboratorio-quimico-farmaceutico-bergamo-ltda-7898149935344/7898149935344/pdf"
+  },
+  "Mitoxantrona": {
+    "name": "Mitoxantrona",
+    "status": "success",
+    "file": "mitoxantrona.pdf",
+    "manufacturer": "Sara (FARMARIN INDUSTRIA E COMERCIO LTDA)",
+    "brand_used": "MITOXANTRONA",
+    "full_name": "Evomixan 2 mg/ml Solução Injetável com 10 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-evomixan-2-mg-ml-solucao-injetavel-com-10-ml-farmarin-industria-e-comercio-ltda-7898179364558/7898179364558/pdf"
+  },
+  "Rizatriptana": {
+    "name": "Rizatriptana",
+    "status": "success",
+    "file": "rizatriptana.pdf",
+    "manufacturer": "Sara (ORGANON)",
+    "brand_used": "Maxalt",
+    "full_name": "Maxalt 10 mg Comprimido com 2",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-maxalt-10-mg-comprimido-com-2-organon-7897337702089/7897337702089/pdf"
+  },
+  "Mifamurtida": {
+    "name": "Mifamurtida",
+    "status": "success",
+    "file": "mifamurtida.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Mepact",
+    "full_name": "Mepact 4 mg Pó LIOF Suspensão Injetável Caixa Frasco-ampola de vidro transparente com 50 ml + 1 FILTRO ESTERIL",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-mepact-4-mg-po-liof-suspensao-injetavel-caixa-frasco-ampola-de-vidro-transparente-com-50-ml-1-filtro-esteril-takeda-pharma-7896641809842/7896641809842/pdf"
+  },
+  "Neomicina": {
+    "name": "Neomicina",
+    "status": "success",
+    "file": "neomicina.pdf",
+    "manufacturer": "Sara (CELLERA FARMA)",
+    "brand_used": "NEOMICINA PASTILHA",
+    "full_name": "Nemicina 5.0 mg/g Pomada Dermatológica com 20 g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nemicina-50-mg-g-pomada-dermatologica-com-20-g-cellera-farma-7893454100692/7893454100692/pdf"
+  },
+  "Ropivacaína": {
+    "name": "Ropivacaína",
+    "status": "success",
+    "file": "ropivacaina.pdf",
+    "manufacturer": "Sara (ASPEN PHARMA INDUSTRIA FARMACEUTICA LTDA)",
+    "brand_used": "Naropin",
+    "full_name": "Naropin 2 mg/ml Solução Injetável Intra-articular com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-naropin-2-mg-ml-solucao-injetavel-intra-articular-com-20-ml-aspen-pharma-industria-farmaceutica-ltda-7895858016883/7895858016883/pdf"
+  },
+  "Ixazomibe": {
+    "name": "Ixazomibe",
+    "status": "success",
+    "file": "ixazomibe.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Ninlaro",
+    "full_name": "Ninlaro 3 mg Cápsula Dura com 3",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ninlaro-3-mg-capsula-dura-com-3-takeda-pharma-7896641812255/7896641812255/pdf"
+  },
+  "Nitroprussiato de Sódio": {
+    "name": "Nitroprussiato de Sódio",
+    "status": "success",
+    "file": "nitroprussiato-de-sodio.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Nitroprus",
+    "full_name": "Nitroprus 50 mg Pó LIOF Solução Injetável Caixa 5 ENVOL 5 Frasco-ampola de vidro âmbar + 5 AMP Diluente com 2ML",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nitroprus-50-mg-po-liof-solucao-injetavel-caixa-5-envol-5-frasco-ampola-de-vidro-ambar-5-amp-diluente-com-2ml-laboratorio-cristalia-7896676403688/7896676403688/pdf"
+  },
+  "Bupivacaína": {
+    "name": "Bupivacaína",
+    "status": "success",
+    "file": "bupivacaina.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Novabupi",
+    "full_name": "Novabupi (Sem Vasoconstritor) 2,5 mg/ml Solução Injetável Epidural Caixa 10 EST Frasco-ampola de vidro transparente com 20 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-novabupi-sem-vasoconstritor-25-mg-ml-solucao-injetavel-epidural-caixa-10-est-frasco-ampola-de-vidro-transparente-com-20-ml-laboratorio-cristalia-7896676410846/7896676410846/pdf"
+  },
+  "Romiplostim": {
+    "name": "Romiplostim",
+    "status": "success",
+    "file": "romiplostim.pdf",
+    "manufacturer": "Sara (AMGEN BERGAMO)",
+    "brand_used": "Nplate",
+    "full_name": "Nplate 250 MCG Pó LIOF Solução Injetável Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-nplate-250-mcg-po-liof-solucao-injetavel-cartucho-frasco-ampola-de-vidro-transparente-amgen-bergamo-7898609960046/7898609960046/pdf"
+  },
+  "Vincristina": {
+    "name": "Vincristina",
+    "status": "success",
+    "file": "vincristina.pdf",
+    "manufacturer": "Sara (LABORATORIO QUIMICO FARMACEUTICO BERGAMO LTDA)",
+    "brand_used": "VINCRISTINA 1 mg",
+    "full_name": "Sulfato De Vincristina 1 mg/ml Solução Injetável com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sulfato-de-vincristina-1-mg-ml-solucao-injetavel-com-1-ml-laboratorio-quimico-farmaceutico-bergamo-ltda-7898943602237/7898943602237/pdf"
+  },
+  "Hidroclorotiazida + Olmesartana medoxomila": {
+    "name": "Hidroclorotiazida + Olmesartana medoxomila",
+    "status": "success",
+    "file": "hidroclorotiazida-olmesartana-medoxomila.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Olsar H",
+    "full_name": "Olsar H 20 mg + 12,5 mg Comprimido Revestido com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-olsar-h-20-mg-125-mg-comprimido-revestido-com-10-eurofarma-momenta-7891317019112/7891317019112/pdf"
+  },
+  "Repaglinida": {
+    "name": "Repaglinida",
+    "status": "success",
+    "file": "repaglinida.pdf",
+    "manufacturer": "Sara (GLENMARK)",
+    "brand_used": "Posprand",
+    "full_name": "Posprand 0,5 mg Comprimido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-posprand-05-mg-comprimido-com-30-glenmark-7897473203846/7897473203846/pdf"
+  },
+  "Fenoximetilpenicilina": {
+    "name": "Fenoximetilpenicilina",
+    "status": "success",
+    "file": "fenoximetilpenicilina.pdf",
+    "manufacturer": "Sara (EUROFARMA - MOMENTA)",
+    "brand_used": "Pen-Ve-Oral",
+    "full_name": "Pen-Ve-Oral 500.000 UI Comprimido com 12",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-pen-ve-oral-500000-ui-comprimido-com-12-eurofarma-momenta-7891317007621/7891317007621/pdf"
+  },
+  "Riluzol": {
+    "name": "Riluzol",
+    "status": "success",
+    "file": "riluzol.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "RILUTEK",
+    "full_name": "Riluzol 50 mg Comprimido Revestido com 56",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-riluzol-50-mg-comprimido-revestido-com-56-laboratorio-cristalia-7896676421569/7896676421569/pdf"
+  },
+  "Bendamustina": {
+    "name": "Bendamustina",
+    "status": "success",
+    "file": "bendamustina.pdf",
+    "manufacturer": "Sara (JANSSEN-CILAG FARMACEUTICA LTDA)",
+    "brand_used": "Ribomustin",
+    "full_name": "Ribomustin 25 mg Pó LIOF Solução para Infusão Intravenosa Cartucho FA VD AMB",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ribomustin-25-mg-po-liof-solucao-para-infusao-intravenosa-cartucho-fa-vd-amb-janssen-cilag-farmaceutica-ltda-7896212424528/7896212424528/pdf"
+  },
+  "Sevoflurano": {
+    "name": "Sevoflurano",
+    "status": "success",
+    "file": "sevoflurano.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "SEVORANE",
+    "full_name": "Sevocris 1 ml/ml Solução Inalatória com 250 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sevocris-1-ml-ml-solucao-inalatoria-com-250-ml-laboratorio-cristalia-7896676408324/7896676408324/pdf"
+  },
+  "Levosimendana": {
+    "name": "Levosimendana",
+    "status": "success",
+    "file": "levosimendana.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "Simdax",
+    "full_name": "Simdax 2,5 mg/ml Solução Injetável com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-simdax-25-mg-ml-solucao-injetavel-com-5-ml-biolab-sanus-farma-7896112400615/7896112400615/pdf"
+  },
+  "Sugamadex Sódico": {
+    "name": "Sugamadex Sódico",
+    "status": "success",
+    "file": "sugamadex-sodico.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "Sugamadex Sódico",
+    "full_name": "Sugamadex Sódico 100 mg/ml Solução INJ/DIL INFUS Intravenosa com 2 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sugamadex-sodico-100-mg-ml-solucao-inj-dil-infus-intravenosa-com-2-ml-blau-7896014689170/7896014689170/pdf"
+  },
+  "Sulfato de Glicosamina": {
+    "name": "Sulfato de Glicosamina",
+    "status": "success",
+    "file": "sulfato-de-glicosamina.pdf",
+    "manufacturer": "Sara (SIGMA)",
+    "brand_used": "Sulfato de Glicosamina",
+    "full_name": "Sulfato de glicosamina 1,5g pó solução oral com 3,95g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sulfato-de-glicosamina-15g-po-solucao-oral-com-395g-nova-quimica-7895296250016/7895296250016/pdf"
+  },
+  "Sulfato de Neomicina": {
+    "name": "Sulfato de Neomicina",
+    "status": "success",
+    "file": "sulfato-de-neomicina.pdf",
+    "manufacturer": "Sara (PRATI DONADUZZI)",
+    "brand_used": "Sulfato de Neomicina",
+    "full_name": "Sulfato De Neomicina 3,5 mg/g Creme Dermatológica com 20 g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sulfato-de-neomicina-35-mg-g-creme-dermatologica-com-20-g-prati-donaduzzi-7898148292806/7898148292806/pdf"
+  },
+  "Ivacaftor + Tezacaftor": {
+    "name": "Ivacaftor + Tezacaftor",
+    "status": "success",
+    "file": "ivacaftor-tezacaftor.pdf",
+    "manufacturer": "Sara (VERTEX FARMACEUTICA DO BRASIL LTDA.)",
+    "brand_used": "Symdeko",
+    "full_name": "Symdeko (100 + 150) mg Comprimido Revestido + 150 mg Comprimido Revestido com 28+28",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-symdeko-100-150-mg-comprimido-revestido-150-mg-comprimido-revestido-com-2828-vertex-farmaceutica-do-brasil-ltda-7898962101049/7898962101049/pdf"
+  },
+  "Imunoglobulina humana antitetânica": {
+    "name": "Imunoglobulina humana antitetânica",
+    "status": "success",
+    "file": "imunoglobulina-humana-antitetanica.pdf",
+    "manufacturer": "Sara (CSL BEHRING COMERCIO DE PRODUTOS FARMACEUTICOS LTDA)",
+    "brand_used": "TETANOGAMMA",
+    "full_name": "Tetanogamma 250 UI/ml Solução Injetável com 1 ml + AGULHA",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tetanogamma-250-ui-ml-solucao-injetavel-com-1-ml-agulha-csl-behring-comercio-de-produtos-farmaceuticos-ltda-7897499450262/7897499450262/pdf"
+  },
+  "Tetraciclina": {
+    "name": "Tetraciclina",
+    "status": "success",
+    "file": "tetraciclina.pdf",
+    "manufacturer": "Sara (MEDQUIMICA)",
+    "brand_used": "Tetramed",
+    "full_name": "Tetramed 500 mg CAP Caixa BL AL PLAS INC com 100",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tetramed-500-mg-cap-caixa-bl-al-plas-inc-com-100-medquimica-7896862970031/7896862970031/pdf"
+  },
+  "Toxóide Diftérico": {
+    "name": "Toxóide Diftérico",
+    "status": "success",
+    "file": "toxoide-difterico.pdf",
+    "manufacturer": "Sara (INSTITUTO BUTANTAN)",
+    "brand_used": "TOXOIDE DIFTERICO IVB",
+    "full_name": "Vacina Adsorvida Difteria, Tétano E Pertussis (Acelular) Suspensão Injetável Intramuscular com 0,5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vacina-adsorvida-difteria-tetano-e-pertussis-acelular-suspensao-injetavel-intramuscular-com-05-ml-instituto-butantan-7897965401965/7897965401965/pdf"
+  },
+  "Toxóide Diftérico + Toxóide Tetânico": {
+    "name": "Toxóide Diftérico + Toxóide Tetânico",
+    "status": "success",
+    "file": "toxoide-difterico-toxoide-tetanico.pdf",
+    "manufacturer": "Sara (INSTITUTO BUTANTAN)",
+    "brand_used": "TOXOIDE DIFTERICO-TETANICO",
+    "full_name": "Vacina Adsorvida Difteria, Tétano E Pertussis (Acelular) Suspensão Injetável Intramuscular com 0,5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-vacina-adsorvida-difteria-tetano-e-pertussis-acelular-suspensao-injetavel-intramuscular-com-05-ml-instituto-butantan-7897965401965/7897965401965/pdf"
+  },
+  "Toxóide Tetânico": {
+    "name": "Toxóide Tetânico",
+    "status": "success",
+    "file": "toxoide-tetanico.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "TOXOIDE TETANICO ADSORVIDO",
+    "full_name": "Menquadfi Solução Injetável com 0,5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-menquadfi-solucao-injetavel-com-05-ml-medley-farmaceutica-ltda-7891058999650/7891058999650/pdf"
+  },
+  "Lapatinibe": {
+    "name": "Lapatinibe",
+    "status": "success",
+    "file": "lapatinibe.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Tykerb",
+    "full_name": "Tykerb 250 mg Comprimido Revestido com 70",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tykerb-250-mg-comprimido-revestido-com-70-novartis-7896261020764/7896261020764/pdf"
+  },
+  "Ampicilina + Sulbactam": {
+    "name": "Ampicilina + Sulbactam",
+    "status": "success",
+    "file": "ampicilina-sulbactam.pdf",
+    "manufacturer": "Sara (ANTIBIOTICOS DO BRASIL LTDA.)",
+    "brand_used": "Unasyn",
+    "full_name": "Ampicilina Sódica + Sulbactam Sódica 1 g + 0,5 g Pó Solução Injetável Caixa 10 FA VD INC com 30 ml (EMB HOSP)",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ampicilina-sodica-sulbactam-sodica-1-g-05-g-po-solucao-injetavel-caixa-10-fa-vd-inc-com-30-ml-emb-hosp-antibioticos-do-brasil-ltda-7898924600689/7898924600689/pdf"
+  },
+  "Insulina degludeca + Liraglutida": {
+    "name": "Insulina degludeca + Liraglutida",
+    "status": "success",
+    "file": "insulina-degludeca-liraglutida.pdf",
+    "manufacturer": "Novo Nordisk",
+    "brand_used": "Xultophy",
+    "full_name": "Xultophy®",
+    "source_url": "https://www.novonordisk.com.br/content/dam/nncorp/br/pt/pdfs/bulas/patient/Xultophy%20Bula%20Paciente%20-%20Site.pdf"
+  },
+  "Lercanidipino": {
+    "name": "Lercanidipino",
+    "status": "success",
+    "file": "lercanidipino.pdf",
+    "manufacturer": "Sara (APSEN FARMACEUTICA S/A)",
+    "brand_used": "Zanidip",
+    "full_name": "Zanidip 10 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-zanidip-10-mg-comprimido-revestido-com-30-apsen-farmaceutica-s-a-7896637033831/7896637033831/pdf"
+  },
+  "Eucaliptol": {
+    "name": "Eucaliptol",
+    "status": "success",
+    "file": "eucaliptol.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "EUCALIPTOL",
+    "full_name": "Bromil 0,123mg/mL + 0,160mg/mL + 0,00016mL/mL com 150mL xarope + copo dosador",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bromil-0123mg-ml-0160mg-ml-000016ml-ml-com-150ml-xarope-copo-dosador-ems-7896004817521/7896004817521/pdf"
+  },
+  "Glicose": {
+    "name": "Glicose",
+    "status": "success",
+    "file": "glicose.pdf",
+    "manufacturer": "Sara (BAXTER)",
+    "brand_used": "Baxter Glicose",
+    "full_name": "Baxter Glicose 50 mg/ml Solução Injetável Intravenosa Caixa BOLS PLAS PVC TRANS SIST FECH com 500 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-baxter-glicose-50-mg-ml-solucao-injetavel-intravenosa-caixa-bols-plas-pvc-trans-sist-fech-com-500-ml-baxter-7898008410029/7898008410029/pdf"
+  },
+  "Tiamina": {
+    "name": "Tiamina",
+    "status": "success",
+    "file": "tiamina.pdf",
+    "manufacturer": "Sara (CELLERA FARMA)",
+    "brand_used": "Benerva",
+    "full_name": "Benerva 300 mg Comprimido Revestido com 8",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-benerva-300-mg-comprimido-revestido-com-8-cellera-farma-7893454714318/7893454714318/pdf"
+  },
+  "Betaxolol": {
+    "name": "Betaxolol",
+    "status": "success",
+    "file": "betaxolol.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Betoptic",
+    "full_name": "Betoptic 5,0 mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-betoptic-50-mg-ml-solucao-oftalmica-com-5-ml-novartis-7896548114612/7896548114612/pdf"
+  },
+  "Benzocaína + Cloreto de Cetilpiridínio": {
+    "name": "Benzocaína + Cloreto de Cetilpiridínio",
+    "status": "success",
+    "file": "benzocaina-cloreto-de-cetilpiridinio.pdf",
+    "manufacturer": "Sara (NEO QUIMICA)",
+    "brand_used": "Cepacaína",
+    "full_name": "Neopiridin 1,466 mg + 10 mg Pastilha Dura com 12",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-neopiridin-1466-mg-10-mg-pastilha-dura-com-12-neo-quimica-7896714283005/7896714283005/pdf"
+  },
+  "Imiglucerase": {
+    "name": "Imiglucerase",
+    "status": "success",
+    "file": "imiglucerase.pdf",
+    "manufacturer": "Sara (MEDLEY FARMACEUTICA LTDA.)",
+    "brand_used": "Cerezyme",
+    "full_name": "Cerezyme 400 U PÓ LIOF INJ Cartucho Frasco-ampola de vidro transparente",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cerezyme-400-u-po-liof-inj-cartucho-frasco-ampola-de-vidro-transparente-medley-farmaceutica-ltda-7898328480092/7898328480092/pdf"
+  },
+  "Cianocobalamina + Piridoxina + Tiamina": {
+    "name": "Cianocobalamina + Piridoxina + Tiamina",
+    "status": "success",
+    "file": "cianocobalamina-piridoxina-tiamina.pdf",
+    "manufacturer": "Sara (PROCTER & GAMBLE DO BRASIL LTDA.)",
+    "brand_used": "Citoneurin 5000",
+    "full_name": "Citoneurin (100 + 100)mg/ml Solução Injetável Intramuscular Caixa CAMA Ampola de vidro âmbar com 1 ml + 5000 MCG/ml AMP com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-citoneurin-100-100mg-ml-solucao-injetavel-intramuscular-caixa-cama-ampola-de-vidro-ambar-com-1-ml-5000-mcg-ml-amp-com-1-ml-procter-gamble-do-brasil-ltda-7891721028939/7891721028939/pdf"
+  },
+  "Cloridrato de Cinacalcete": {
+    "name": "Cloridrato de Cinacalcete",
+    "status": "success",
+    "file": "cloridrato-de-cinacalcete.pdf",
+    "manufacturer": "Sara (DR.REDDY'S FARMACEUTICA DO BRASIL LTDA)",
+    "brand_used": "Cloridrato de Cinacalcete",
+    "full_name": "Cloridrato De Cinacalcete 30 mg Comprimido Revestido com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-cloridrato-de-cinacalcete-30-mg-comprimido-revestido-com-30-drreddys-farmaceutica-do-brasil-ltda-8901148237049/8901148237049/pdf"
+  },
+  "Dantroleno": {
+    "name": "Dantroleno",
+    "status": "success",
+    "file": "dantroleno.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "DANTROLEN IV",
+    "full_name": "Dantrolen 20 mg Pó LIOF Solução Injetável Intravenosa Caixa 12 Frasco-ampola de vidro transparente + Diluente Frasco-ampola de vidro transparente com 60ML",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-dantrolen-20-mg-po-liof-solucao-injetavel-intravenosa-caixa-12-frasco-ampola-de-vidro-transparente-diluente-frasco-ampola-de-vidro-transparente-com-60ml-laboratorio-cristalia-7896676405538/7896676405538/pdf"
+  },
+  "Idursulfase": {
+    "name": "Idursulfase",
+    "status": "success",
+    "file": "idursulfase.pdf",
+    "manufacturer": "Sara (TAKEDA PHARMA)",
+    "brand_used": "Elaprase",
+    "full_name": "Elaprase 2 mg/ml Solução Injetável com 3 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-elaprase-2-mg-ml-solucao-injetavel-com-3-ml-takeda-pharma-7896641816376/7896641816376/pdf"
+  },
+  "Rocurônio": {
+    "name": "Rocurônio",
+    "status": "success",
+    "file": "rocuronio.pdf",
+    "manufacturer": "Sara (LABORATORIO CRISTALIA)",
+    "brand_used": "Rocuron",
+    "full_name": "Rocuron 10 mg/ml Solução Injetável com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rocuron-10-mg-ml-solucao-injetavel-com-5-ml-laboratorio-cristalia-7896676413632/7896676413632/pdf"
+  },
+  "Sulfato ferroso": {
+    "name": "Sulfato ferroso",
+    "status": "success",
+    "file": "sulfato-ferroso.pdf",
+    "manufacturer": "Sara (FURP)",
+    "brand_used": "FURP - Sulfato Ferroso",
+    "full_name": "Furp-Sulfato Ferroso 40 mg Comprimido Revestido Caixa Frasco de plástico opaco com 1000",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-furp-sulfato-ferroso-40-mg-comprimido-revestido-caixa-frasco-de-plastico-opaco-com-1000-furp-7895005801232/7895005801232/pdf"
+  },
+  "Sulfato Ferroso + Ácido Fólico": {
+    "name": "Sulfato Ferroso + Ácido Fólico",
+    "status": "success",
+    "file": "acido-folico-sulfato-ferroso.pdf",
+    "manufacturer": "Sara (FURP)",
+    "brand_used": "Folifer Ferro",
+    "full_name": "Furp-Sulfato Ferroso 40 mg Comprimido Revestido Caixa Frasco de plástico opaco com 1000",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-furp-sulfato-ferroso-40-mg-comprimido-revestido-caixa-frasco-de-plastico-opaco-com-1000-furp-7895005801232/7895005801232/pdf"
+  },
+  "Glucagon": {
+    "name": "Glucagon",
+    "status": "success",
+    "file": "glucagon.pdf",
+    "manufacturer": "Novo Nordisk",
+    "brand_used": "Glucagen",
+    "full_name": "Glucagen® Hypokit",
+    "source_url": "https://www.novonordisk.com.br/content/dam/nncorp/br/pt/pdfs/bulas/patient/Glucagen_HypoKit_Bula_do_Paciente.pdf"
+  },
+  "Topotecana": {
+    "name": "Topotecana",
+    "status": "success",
+    "file": "topotecana.pdf",
+    "manufacturer": "Sara (ACCORD FARMACEUTIC)",
+    "brand_used": "Hycamtin",
+    "full_name": "Topotacx 4 mg Pó LIOF Solução Injetável com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-topotacx-4-mg-po-liof-solucao-injetavel-com-4-ml-accord-farmaceutic-7898577810015/7898577810015/pdf"
+  },
+  "Imunoglobulina Antitetânica": {
+    "name": "Imunoglobulina Antitetânica",
+    "status": "success",
+    "file": "imunoglobulina-antitetanica.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "IMUNOGLOBULINA ANTITETÂNICA",
+    "full_name": "Imunoglobulin 50 mg/ml Solução Injetável com 100 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imunoglobulin-50-mg-ml-solucao-injetavel-com-100-ml-blau-7896014653270/7896014653270/pdf"
+  },
+  "IMUNOGLOBULINA HUMANA ENDOVENOSA": {
+    "name": "IMUNOGLOBULINA HUMANA ENDOVENOSA",
+    "status": "success",
+    "file": "imunoglobulina-humana-endovenosa.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "IMUNOGLOBULINA HUMANA ENDOVENOSA",
+    "full_name": "Imunoglobulin 50 mg/ml Solução Injetável com 100 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imunoglobulin-50-mg-ml-solucao-injetavel-com-100-ml-blau-7896014653270/7896014653270/pdf"
+  },
+  "IMUNOGLOBULINA HUMANA ESPECÍFICA ANTI-D": {
+    "name": "IMUNOGLOBULINA HUMANA ESPECÍFICA ANTI-D",
+    "status": "success",
+    "file": "imunoglobulina-humana-especifica-anti-d.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "IMUNOGLOBULINA HUMANA ESPECÍFICA ANTI-D",
+    "full_name": "Imunoglobulin 50 mg/ml Solução Injetável com 100 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imunoglobulin-50-mg-ml-solucao-injetavel-com-100-ml-blau-7896014653270/7896014653270/pdf"
+  },
+  "IMUNOGLOBULINA HUMANA NORMAL": {
+    "name": "IMUNOGLOBULINA HUMANA NORMAL",
+    "status": "success",
+    "file": "imunoglobulina-humana-normal.pdf",
+    "manufacturer": "Sara (BLAU)",
+    "brand_used": "IMUNOGLOBULINA HUMANA NORMAL",
+    "full_name": "Imunoglobulin 50 mg/ml Solução Injetável com 100 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-imunoglobulin-50-mg-ml-solucao-injetavel-com-100-ml-blau-7896014653270/7896014653270/pdf"
+  },
+  "Iodeto de potássio": {
+    "name": "Iodeto de potássio",
+    "status": "success",
+    "file": "iodeto-de-potassio.pdf",
+    "manufacturer": "Sara (LAQFA)",
+    "brand_used": "IODETO DE POTÁSSIO",
+    "full_name": "Laqfa - Iodeto De Potássio 130 mg Comprimido Caixa 50 Envelope de alumínio com 10",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-laqfa-iodeto-de-potassio-130-mg-comprimido-caixa-50-envelope-de-aluminio-com-10-laqfa-7898223501519/7898223501519/pdf"
+  },
+  "Isetionato de Hexamidina + Cloridrato de Tetracaína": {
+    "name": "Isetionato de Hexamidina + Cloridrato de Tetracaína",
+    "status": "success",
+    "file": "cloridrato-de-tetracaina-isetionato-de-hexamidina.pdf",
+    "manufacturer": "Sara (MANTECORP FARMASA / MANTECORP SKINCARE / FEMEVITA)",
+    "brand_used": "Isetionato de Hexamidina + Cloridrato de Tetracaína",
+    "full_name": "Hexomedine 1,0 mg/ml + 0,5 mg/ml Colutório com 50 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-hexomedine-10-mg-ml-05-mg-ml-colutorio-com-50-ml-mantecorp-farmasa-mantecorp-skincare-femevita-7896094928053/7896094928053/pdf"
+  },
+  "Benazepril": {
+    "name": "Benazepril",
+    "status": "success",
+    "file": "benazepril.pdf",
+    "manufacturer": "Sara (BIOLAB-SANUS FARMA)",
+    "brand_used": "LOTENSIN",
+    "full_name": "Bhena 5 mg Comprimido Revestido Blíster de alumínio e alumínio com 30",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bhena-5-mg-comprimido-revestido-blister-de-aluminio-e-aluminio-com-30-biolab-sanus-farma-7896112402480/7896112402480/pdf"
+  },
+  "Metilergometrina": {
+    "name": "Metilergometrina",
+    "status": "success",
+    "file": "metilergometrina.pdf",
+    "manufacturer": "Sara (União Química)",
+    "brand_used": "METILERGOMETRINA",
+    "full_name": "Ergometrin 0,2 mg/ml Solução Injetável SC/IM/IV Caixa 50 Ampola de vidro âmbar com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-ergometrin-02-mg-ml-solucao-injetavel-sc-im-iv-caixa-50-ampola-de-vidro-ambar-com-1-ml-uniao-quimica-7896006270218/7896006270218/pdf"
+  },
+  "Nafazolina": {
+    "name": "Nafazolina",
+    "status": "success",
+    "file": "nafazolina.pdf",
+    "manufacturer": "Sara (CELLERA FARMA)",
+    "brand_used": "Novo Rino",
+    "full_name": "Novo Rino 0,5 mg/ml Solução Nasal com 15 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-novo-rino-05-mg-ml-solucao-nasal-com-15-ml-cellera-farma-7893454100579/7893454100579/pdf"
+  },
+  "Penicilina G Benzatina": {
+    "name": "Penicilina G Benzatina",
+    "status": "success",
+    "file": "penicilina-g-benzatina.pdf",
+    "manufacturer": "Sara (TEUTO BRASILEIRO)",
+    "brand_used": "PENICILINA G BENZATINA",
+    "full_name": "Bepeben 1.200.000 UI Pó Suspensão Injetável com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bepeben-1200000-ui-po-suspensao-injetavel-com-4-ml-teuto-brasileiro-7896112144151/7896112144151/pdf"
+  },
+  "Penicilina G Potássica": {
+    "name": "Penicilina G Potássica",
+    "status": "success",
+    "file": "penicilina-g-potassica.pdf",
+    "manufacturer": "Sara (TEUTO BRASILEIRO)",
+    "brand_used": "PENICILINA G POTÁSSICA ARISTON",
+    "full_name": "Bepeben 1.200.000 UI Pó Suspensão Injetável com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bepeben-1200000-ui-po-suspensao-injetavel-com-4-ml-teuto-brasileiro-7896112144151/7896112144151/pdf"
+  },
+  "Penicilina G Procaína + Penicilina G Potássica": {
+    "name": "Penicilina G Procaína + Penicilina G Potássica",
+    "status": "success",
+    "file": "penicilina-g-potassica-penicilina-g-procaina.pdf",
+    "manufacturer": "Sara (TEUTO BRASILEIRO)",
+    "brand_used": "PENICILINA G PROCAÍNA + PENICILINA G POTÁSSICA",
+    "full_name": "Bepeben 1.200.000 UI Pó Suspensão Injetável com 4 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-bepeben-1200000-ui-po-suspensao-injetavel-com-4-ml-teuto-brasileiro-7896112144151/7896112144151/pdf"
+  },
+  "OLOPATADINA": {
+    "name": "OLOPATADINA",
+    "status": "success",
+    "file": "olopatadina.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Patanol",
+    "full_name": "Patanol 1 mg/ml Solução Oftálmica com 5 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-patanol-1-mg-ml-solucao-oftalmica-com-5-ml-novartis-7896548115251/7896548115251/pdf"
+  },
+  "Rifamicina SV Sódica": {
+    "name": "Rifamicina SV Sódica",
+    "status": "success",
+    "file": "rifamicina-sv-sodica.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Rifamicina SV Sódica",
+    "full_name": "Rifamicina SV sódica 10mg/mL solução tópica spray com 20mL",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-rifamicina-sv-sodica-10mg-ml-solucao-topica-spray-com-20ml-ems-7896004710419/7896004710419/pdf"
+  },
+  "Cloreto de Cálcio + Cloreto de Potássio + Cloreto de Sódio + Lactato de Sódio": {
+    "name": "Cloreto de Cálcio + Cloreto de Potássio + Cloreto de Sódio + Lactato de Sódio",
+    "status": "success",
+    "file": "cloreto-de-calcio-cloreto-de-potassio-cloreto-de-sodio-lactato-de-sodio.pdf",
+    "manufacturer": "Sara (LABORATORIOS B BRAUN SA)",
+    "brand_used": "SOLUÇÃO DE RINGER COM LACTATO - FRASCO",
+    "full_name": "Solução De Ringer Com Lactato Solução Injetável Intravenosa Caixa 20 Frasco-ampola de plástico transparente (sistema fechado) com 500 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-solucao-de-ringer-com-lactato-solucao-injetavel-intravenosa-caixa-20-frasco-ampola-de-plastico-transparente-sistema-fechado-com-500-ml-laboratorios-b-braun-sa-7891543000182/7891543000182/pdf"
+  },
+  "Sufentanila": {
+    "name": "Sufentanila",
+    "status": "success",
+    "file": "sufentanila.pdf",
+    "manufacturer": "Sara (ANTIBIOTICOS DO BRASIL LTDA.)",
+    "brand_used": "Sufenta",
+    "full_name": "Sufenta 50 MCG/ml Solução Injetável Caixa 5 Ampola de vidro transparente com 1 ml",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sufenta-50-mcg-ml-solucao-injetavel-caixa-5-ampola-de-vidro-transparente-com-1-ml-antibioticos-do-brasil-ltda-7898564761375/7898564761375/pdf"
+  },
+  "Sulfadiazina de Prata": {
+    "name": "Sulfadiazina de Prata",
+    "status": "success",
+    "file": "sulfadiazina-de-prata.pdf",
+    "manufacturer": "Sara (NATIVITA FARMACEUTICA)",
+    "brand_used": "Sulfadiazina de Prata",
+    "full_name": "Sulfadiazina De Prata 10 mg / g Creme Dermatológica com 30 g",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-sulfadiazina-de-prata-10-mg-g-creme-dermatologica-com-30-g-nativita-farmaceutica-7897848502406/7897848502406/pdf"
+  },
+  "Capmatinib": {
+    "name": "Capmatinib",
+    "status": "success",
+    "file": "capmatinib.pdf",
+    "manufacturer": "Sara (NOVARTIS)",
+    "brand_used": "Tabrecta",
+    "full_name": "Tabrecta 150 mg Comprimido Revestido com 120",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-tabrecta-150-mg-comprimido-revestido-com-120-novartis-7896261022157/7896261022157/pdf"
+  },
+  "Lactobacillus rhamnosus": {
+    "name": "Lactobacillus rhamnosus",
+    "status": "success",
+    "file": "lactobacillus-rhamnosus.pdf",
+    "manufacturer": "Sara (EMS)",
+    "brand_used": "Culturelle Junior Sachê",
+    "full_name": "Culturelle probiótico junior com 2 sachês sem sabor",
+    "source_url": "https://www.sara.com.br/bula-do-paciente-culturelle-probiotico-junior-com-2-saches-sem-sabor-ems-7896004795898/7896004795898/pdf"
   }
 }
