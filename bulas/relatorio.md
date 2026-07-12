@@ -298,3 +298,7 @@ Não resolvido (entrada removida):
 ## Zinpass Eze (Rosuvastatina + Ezetimiba) — publicado (2026-07-11)
 
 Usuário forneceu a bula oficial (Medley/Sanofi, ZINPASS® EZE, rosuvastatina cálcica + ezetimiba, 10/20/40mg + 10mg) — publicada em `ezetimiba-rosuvastatina.pdf` (slug calculado por `toComboSlug`). Esse era o caso original que revelou o bug do slug de composto sempre cair no primeiro ingrediente (buscar "Zinpass + Ezetimiba" mostrava só a bula da Rosuvastatina).
+
+## Truvada (Tenofovir + Emtricitabina) — publicado (2026-07-11)
+
+Usuário forneceu a bula oficial ao profissional de saúde (Gilead, TRUVADA®, entricitabina 200mg + fumarato de tenofovir desoproxila 300mg) — publicada em `emtricitabina-tenofovir.pdf` (slug calculado por `toComboSlug`). Essa composição foi mencionada na auditoria de marcas como possível origem do erro da entrada "Tenofovir + Emtricitabina + Dolutegravir" (já removida).

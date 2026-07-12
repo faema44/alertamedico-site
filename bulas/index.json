@@ -4705,5 +4705,14 @@
     "full_name": "rosuvastatina cálcica + ezetimiba (ZINPASS® EZE)",
     "brand_used": "Zinpass Eze",
     "bula_type": "paciente"
+  },
+  "Tenofovir + Emtricitabina": {
+    "name": "Tenofovir + Emtricitabina",
+    "status": "success",
+    "file": "emtricitabina-tenofovir.pdf",
+    "date": "11/07/2026",
+    "full_name": "entricitabina + fumarato de tenofovir desoproxila (TRUVADA®)",
+    "brand_used": "Truvada",
+    "bula_type": "profissional"
   }
 }
