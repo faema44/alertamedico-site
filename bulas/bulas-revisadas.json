@@ -92,6 +92,9 @@
       "Ao consertar uma pendência, remova a entrada daqui."
     ],
 
+    "atracurio+besilato-de-atracurio": "mesmo fármaco: o banco tem 'Atracúrio' e 'Besilato de Atracúrio'. O besilato é o SAL, não outro fármaco — a bula do genérico serve para os dois",
+    "timolol+timolol-ocular":          "mesmo fármaco: no Brasil o timolol é essencialmente colírio. O banco separa por engano",
+
     "amoxicilina-clavulanato+amoxicilina-clavulanato-de-potassio": "mesmo composto, o banco tem os dois nomes",
     "bevacizumabe+bevacizumabe-oncologico":                        "mesmo fármaco, entrada duplicada no banco",
     "cefalotina+cefalotina-sodica":                                "base e sal sódico do mesmo antibiótico",

@@ -1,10 +1,10 @@
 # Relatório de Download de Bulas ANVISA
 
-**Data:** 13/07/2026 01:16
-**Total:** 4 medicamentos
+**Data:** 13/07/2026 14:33
+**Total:** 18 medicamentos
 **Baixados:** 996
-**Não encontrados:** 4
-**Erros:** 0
+**Não encontrados:** 0
+**Erros:** 18
 
 ## Bulas Baixadas (996)
 
@@ -1005,9 +1005,27 @@
 - **Ácido zoledrônico** → `acido-zoledronico.pdf` | busca: _Ácido zoledrônico_ | pub: 07/08/2024
 - **Óleo de soja + Triglicerídeos de cadeia média** → `oleo-de-soja-triglicerideos-de-cadeia-media.pdf` | busca: _Lipofundin MCT/LCT 20%_ | pub: ?
 
-## Não Encontrados na ANVISA (4)
+## Não Encontrados na ANVISA (0)
 
-- Imunoglobulina Antitetânica
-- Sulfato Ferroso + Ácido Fólico
-- Toxóide Diftérico + Toxóide Tetânico
-- Umeclidínio
+_Nenhum_
+
+## Erros (18)
+
+- **Almotriptano**: error
+- **Fenelzina**: error
+- **Selegilina**: error
+- **Amisulprida**: error
+- **Asenapina**: error
+- **Pimozida**: error
+- **Doxepina**: error
+- **Ergotamina**: error
+- **Sacubitril + Valsartana**: error
+- **Mequitazina**: error
+- **Perfenazina**: error
+- **Reboxetina**: error
+- **Sulpirida**: error
+- **Tofacitinibe**: error
+- **Moclobemida**: error
+- **Nelfinavir**: error
+- **Cloxazolam**: error
+- **Maprotilina**: error
