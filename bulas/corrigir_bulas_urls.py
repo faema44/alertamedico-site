@@ -36,6 +36,31 @@ FONTES: dict[str, tuple[str, str]] = {
         "https://img.drogasil.com.br/raiadrogasil_bula/Aprovel.pdf",
         "Aprovel (Sanofi) — irbesartana pura",
     ),
+    # ── achados pela checagem de HASH (PDFs idênticos em slugs diferentes) ────────
+    # A validação de conteúdo só procura intruso nas 3 primeiras linhas e não viu nenhum
+    # destes: a capa trazia só o nome comercial, ou o produto errado tinha o mesmo nome-raiz.
+    "Sacarato de Hidróxido Férrico": (
+        "https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Noripurum-EV-Paciente-Consulta-Remedios.pdf",
+        "Noripurum EV — sacarato de hidróxido férrico (EV). Estava com o Noripurum ORAL, "
+        "que é ferripolimaltose: outro produto, outra via.",
+    ),
+    "Sulfato Ferroso + Ácido Fólico": (
+        "https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Neutrofer-Folico-Paciente-Consulta-Remedios.pdf",
+        "Neutrofer Fólico — sulfato ferroso + ácido fólico. O slug do COMPOSTO estava com a "
+        "bula do FURP-Sulfato Ferroso puro, sem ácido fólico nenhum.",
+    ),
+    "IMUNOGLOBULINA HUMANA ESPECÍFICA ANTI-D": (
+        "https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Rhophylac-Paciente-Consulta-Remedios.pdf",
+        "Rhophylac — imunoglobulina anti-D (Rh). Estava com a bula da imunoglobulina humana "
+        "NORMAL (Imunoglobulin® Blau): indicação completamente diferente.",
+    ),
+    "Umeclidínio": (
+        "https://br.gsk.com/media/6688/incruse-ellipta.pdf",
+        "Incruse Ellipta (GSK, site oficial) — umeclidínio PURO. O slug estava com o Trelegy, "
+        "que é TRIPLA (fluticasona + umeclidínio + vilanterol). A capa do Trelegy só traz o nome "
+        "comercial e '100mcg + 62,5mcg + 25mcg', sem citar ativo — por isso a validação de "
+        "conteúdo (que só lê as 3 primeiras linhas) não viu o intruso. Quem pegou foi o hash.",
+    ),
     # NÃO PÔR O QUINACRIS AQUI. Ele parece a bula da quinina pelo nome ("Quinacris",
     # "difosfato de..."), mas é CLOROQUINA — difosfato de cloroquina 150mg, Cristália.
     # Antimalárico DIFERENTE, com toxicidade cardíaca e retiniana própria. A validação de

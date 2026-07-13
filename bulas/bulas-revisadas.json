@@ -63,11 +63,47 @@
       "é o que não existe; o Sara é catálogo de genérico, não o mercado inteiro."
     ],
 
+    "umeclidinio":             "estava com o TRELEGY, que é TRIPLA (fluticasona + umeclidínio + vilanterol). O Incruse Ellipta (puro) existe no Brasil mas não achamos o PDF: ANVISA não devolve, consultaremedios não tem, e br.gsk.com/media/6688/incruse-ellipta.pdf faz 302 para o 404 (o 200 é da página de erro). Se achar, é só baixar",
+    "imunoglobulina-antitetanica": "estava com o Imunoglobulin® (Blau), que é imunoglobulina humana NORMAL. A antitetânica é hiperimune específica — outra indicação",
+    "toxoide-difterico":       "estava com a vacina TRÍPLICE (difteria + tétano + pertussis acelular). Toxoide diftérico isolado não existe como produto",
+    "toxoide-difterico-toxoide-tetanico": "estava com a mesma TRÍPLICE — a dupla adulto (dT) não tem pertussis",
+    "acido-folico-sulfato-ferroso": "estava com o FURP-Sulfato Ferroso PURO (sem ácido fólico). Os compostos que achamos usam outro sal de ferro (Neutrofer Fólico = glicinato férrico, Folifer = bisglicinato) — sal diferente é produto diferente, mesma régua da penicilina benzatina × potássica",
+
     "dicloridrato-de-quinina": "estava com a bula de HIDROXIZINA. Quinina não tem registro no Brasil (bula só em Portugal). CUIDADO: o Quinacris parece ser dela mas é CLOROQUINA",
     "azelastina":              "estava com o Dymista (+ fluticasona). Allergodil puro só tem bula em Portugal",
     "pseudoefedrina":          "só existe com anti-histamínico (triprolidina/loratadina)",
     "etinilestradiol":         "só existe com progestágeno (drospirenona/levonorgestrel)",
     "carisoprodol":            "só existe em associação analgésica",
     "amilorida":               "só existe com hidroclorotiazida — o 'Amilorid' também é a associação (conferido lendo o PDF)"
+  },
+
+  "pdf_duplicado_ok": {
+    "_motivo": [
+      "Dois slugs com o MESMO arquivo (mesmo sha256). Em geral isso é BUG: foi assim que se",
+      "descobriu que umeclidinio.pdf era o Trelegy (tripla) e que a imunoglobulina anti-D",
+      "estava com a bula da normal — coisas que a validação de conteúdo NÃO pega, porque ela",
+      "só procura intruso nas 3 primeiras linhas e a capa do Trelegy traz só o nome comercial.",
+      "",
+      "Os de baixo são ALIAS legítimo: o mesmo fármaco entrou no medications-db com dois nomes",
+      "(com e sem o sal, marca e genérico, grafia alternativa), então os dois slugs apontam",
+      "para o mesmo produto e a mesma bula. Chave = os slugs do grupo unidos por '+'.",
+      "",
+      "Ao consertar uma pendência, remova a entrada daqui."
+    ],
+
+    "amoxicilina-clavulanato+amoxicilina-clavulanato-de-potassio": "mesmo composto, o banco tem os dois nomes",
+    "bevacizumabe+bevacizumabe-oncologico":                        "mesmo fármaco, entrada duplicada no banco",
+    "cefalotina+cefalotina-sodica":                                "base e sal sódico do mesmo antibiótico",
+    "fator-viii+fator-viii-de-coagulacao":                         "mesmo fator, dois nomes no banco",
+    "ferro-sulfato+sulfato-ferroso":                               "mesmo sal de ferro, ordem invertida no nome",
+    "imunoglobulina-humana-endovenosa+imunoglobulina-humana-normal": "são a mesma coisa: IgG humana normal EV (Imunoglobulin® Blau)",
+    "infliximabe+infliximabe-crohn":                               "mesmo biológico, o banco separou por indicação",
+    "oxacilina+oxacilina-sodica":                                  "base e sal sódico",
+    "pravastatina+pravastatina-sodica":                            "base e sal sódico",
+    "ramelteon+ramelteona":                                        "mesma substância, duas grafias",
+
+    "canagliflozina+invokana": "a BULA está certa nos dois (é o Invokana da Janssen). Errado é o BANCO: 'Invokana' está cadastrado como genericName, sendo MARCA de canagliflozina. Some quando a entrada invertida sair do medications-db — o que exige release na Play Store, porque o guard do dbSync não deixa a base ENCOLHER por OTA",
+
+    "penicilina-g-benzatina+penicilina-g-potassica-penicilina-g-procaina": "PENDÊNCIA CONHECIDA, não é alias: o slug do composto está com a bula da benzatina (um sal só). Ver pendente_bula_errada"
   }
 }

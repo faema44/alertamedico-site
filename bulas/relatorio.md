@@ -1,9 +1,9 @@
 # Relatório de Download de Bulas ANVISA
 
-**Data:** 12/07/2026 22:55
-**Total:** 11 medicamentos
+**Data:** 13/07/2026 01:16
+**Total:** 4 medicamentos
 **Baixados:** 996
-**Não encontrados:** 9
+**Não encontrados:** 4
 **Erros:** 0
 
 ## Bulas Baixadas (996)
@@ -1005,14 +1005,9 @@
 - **Ácido zoledrônico** → `acido-zoledronico.pdf` | busca: _Ácido zoledrônico_ | pub: 07/08/2024
 - **Óleo de soja + Triglicerídeos de cadeia média** → `oleo-de-soja-triglicerideos-de-cadeia-media.pdf` | busca: _Lipofundin MCT/LCT 20%_ | pub: ?
 
-## Não Encontrados na ANVISA (9)
+## Não Encontrados na ANVISA (4)
 
-- Amilorida
-- Azelastina
-- Carisoprodol
-- Dextrometorfano
-- Dicloridrato de quinina
-- Empagliflozina
-- Etinilestradiol
-- Irbesartana
-- Pseudoefedrina
+- Imunoglobulina Antitetânica
+- Sulfato Ferroso + Ácido Fólico
+- Toxóide Diftérico + Toxóide Tetânico
+- Umeclidínio
