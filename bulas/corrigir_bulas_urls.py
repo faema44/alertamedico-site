@@ -54,6 +54,31 @@ FONTES: dict[str, tuple[str, str]] = {
         "Rhophylac — imunoglobulina anti-D (Rh). Estava com a bula da imunoglobulina humana "
         "NORMAL (Imunoglobulin® Blau): indicação completamente diferente.",
     ),
+    # ── bulas que FALTAVAM (medicamento sem PDF nenhum publicado) ────────────────
+    # Estes 12 aparecem nas interações CRÍTICAS sem fonte, e não tinham bula: o app abria link
+    # quebrado E a interação ficava órfã. A ANVISA está fora do ar e os resolvedores de
+    # fabricante que temos (Sanofi, União Química, Novo Nordisk, Sara/EMS, Hypera) não cobrem
+    # Novartis, Pfizer, Janssen nem Roche — que é de quem são quase todos.
+    "Sulpirida":     ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Equilid-Paciente-Consulta-Remedios.pdf", "Equilid (Sanofi) — sulpirida"),
+    "Amisulprida":   ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Socian-Paciente-Consulta-Remedios.pdf", "Socian (Sanofi) — amisulprida"),
+    "Selegilina":    ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Niar-Paciente-Consulta-Remedios.pdf", "Niar — selegilina"),
+    "Maprotilina":   ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Ludiomil-Paciente-Consulta-Remedios.pdf", "Ludiomil (Novartis) — maprotilina"),
+    "Moclobemida":   ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Aurorix-Paciente-Consulta-Remedios.pdf", "Aurorix (Roche) — moclobemida"),
+    "Cloxazolam":    ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Olcadil-Paciente-Consulta-Remedios.pdf", "Olcadil — cloxazolam"),
+    "Pimozida":      ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Orap-Paciente-Consulta-Remedios.pdf", "Orap (Janssen) — pimozida"),
+    "Reboxetina":    ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Prolift-Paciente-Consulta-Remedios.pdf", "Prolift (Pfizer) — reboxetina"),
+    "Tofacitinibe":  ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Xeljanz-Paciente-Consulta-Remedios.pdf", "Xeljanz (Pfizer) — tofacitinibe"),
+    "Asenapina":     ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Saphris-Paciente-Consulta-Remedios.pdf", "Saphris — asenapina"),
+    "Sacubitril + Valsartana": (
+        "https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Entresto-Paciente-Consulta-Remedios.pdf",
+        "Entresto (Novartis) — sacubitril + valsartana",
+    ),
+    # SUSPEITO, e é o validador que decide: o Migraliv parece ser COMPOSTO (dipirona +
+    # diidroergotamina + cafeína), e o slug aqui é do ingrediente PURO. Se for, é exatamente o
+    # bug do Bupropiona/Contrave — a detecção de intruso do validar_bula() reprova e o PDF não
+    # é gravado. Deixado aqui de propósito: a hipótese fica testada, não esquecida.
+    "Ergotamina":    ("https://uploads.consultaremedios.com.br/drug_leaflet/Bula-Migraliv-Paciente-Consulta-Remedios.pdf", "Migraliv — ERGOTAMINA? conferir se é composto"),
+
     "Umeclidínio": (
         "https://br.gsk.com/media/6688/incruse-ellipta.pdf",
         "Incruse Ellipta (GSK, site oficial) — umeclidínio PURO. O slug estava com o Trelegy, "

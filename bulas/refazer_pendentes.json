@@ -1,46 +1,20 @@
 {
-  "Rifampicina": [
-    "Rifaldin",
-    "Rifampicina"
-  ],
-  "Dicloridrato de quinina": [
-    "Quinina",
-    "Sulfato de Quinina"
-  ],
-  "Empagliflozina": [
-    "Jardiance",
-    "Empagliflozina"
-  ],
-  "Linagliptina": [
-    "Trayenta",
-    "Linagliptina"
-  ],
-  "Irbesartana": [
-    "Aprovel",
-    "Avapro",
-    "Irbesartana"
-  ],
-  "Azelastina": [
-    "Allergodil",
-    "Rinolast",
-    "Azelastina"
-  ],
-  "Amilorida": [
-    "Amilorid",
-    "Cloridrato de Amilorida"
-  ],
-  "Pseudoefedrina": [
-    "Pseudoefedrina",
-    "Cloridrato de Pseudoefedrina"
-  ],
-  "Etinilestradiol": [
-    "Etinilestradiol"
-  ],
-  "Carisoprodol": [
-    "Carisoprodol"
-  ],
-  "Dextrometorfano": [
-    "Bisoltussin",
-    "Bromidrato de Dextrometorfano"
-  ]
+  "Sulpirida":               ["Equilid", "Dogmatil", "Sulpirida"],
+  "Amisulprida":             ["Socian", "Amisulprida"],
+  "Selegilina":              ["Niar", "Jumexil", "Selegilina"],
+  "Maprotilina":             ["Ludiomil", "Maprotilina"],
+  "Moclobemida":             ["Aurorix", "Moclobemida"],
+  "Cloxazolam":              ["Olcadil", "Cloxazolam"],
+  "Pimozida":                ["Orap", "Pimozida"],
+  "Mequitazina":             ["Primalan", "Mequitazina"],
+  "Reboxetina":              ["Prolift", "Reboxetina"],
+  "Tofacitinibe":            ["Xeljanz", "Tofacitinibe"],
+  "Sacubitril + Valsartana": ["Entresto"],
+  "Nelfinavir":              ["Viracept", "Nelfinavir"],
+  "Doxepina":                ["Doxepina"],
+  "Ergotamina":              ["Tartarato de Ergotamina", "Ergotamina"],
+  "Perfenazina":             ["Perfenazina"],
+  "Almotriptano":            ["Almotriptano"],
+  "Fenelzina":               ["Fenelzina"],
+  "Asenapina":               ["Saphris", "Asenapina"]
 }

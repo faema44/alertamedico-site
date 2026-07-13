@@ -9,6 +9,7 @@
   "bula_correta_alarme_falso": {
     "_motivo": "A bula está CERTA. A auditoria marca por diferença de NOME, não de conteúdo.",
 
+    "amisulprida":            "bula escreve 'amissulprida' (grafia brasileira, dois esses) — SOCIAN® da Sanofi, mesmo fármaco",
     "alemtuzumabe":            "bula escreve 'alentuzumabe'",
     "canacinumabe":            "bula escreve 'canaquinumabe'",
     "remdesivir":              "bula escreve 'rendesivir'",

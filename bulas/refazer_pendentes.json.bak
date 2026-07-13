@@ -1,0 +1,46 @@
+{
+  "Rifampicina": [
+    "Rifaldin",
+    "Rifampicina"
+  ],
+  "Dicloridrato de quinina": [
+    "Quinina",
+    "Sulfato de Quinina"
+  ],
+  "Empagliflozina": [
+    "Jardiance",
+    "Empagliflozina"
+  ],
+  "Linagliptina": [
+    "Trayenta",
+    "Linagliptina"
+  ],
+  "Irbesartana": [
+    "Aprovel",
+    "Avapro",
+    "Irbesartana"
+  ],
+  "Azelastina": [
+    "Allergodil",
+    "Rinolast",
+    "Azelastina"
+  ],
+  "Amilorida": [
+    "Amilorid",
+    "Cloridrato de Amilorida"
+  ],
+  "Pseudoefedrina": [
+    "Pseudoefedrina",
+    "Cloridrato de Pseudoefedrina"
+  ],
+  "Etinilestradiol": [
+    "Etinilestradiol"
+  ],
+  "Carisoprodol": [
+    "Carisoprodol"
+  ],
+  "Dextrometorfano": [
+    "Bisoltussin",
+    "Bromidrato de Dextrometorfano"
+  ]
+}
