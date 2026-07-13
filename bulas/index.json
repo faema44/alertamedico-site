@@ -4960,10 +4960,11 @@
     "name": "Linagliptina",
     "status": "success",
     "file": "linagliptina.pdf",
-    "manufacturer": "Sara (Germed)",
-    "brand_used": "Glunac",
-    "full_name": "Glunac duo 2,5 + 850mg com 20 comprimidos revestidos",
-    "source_url": "https://www.sara.com.br/bula-do-paciente-glunac-duo-25-850mg-com-20-comprimidos-revestidos-brace-pharma-7896004821795/7896004821795/pdf"
+    "date": "17/06/2026",
+    "full_name": "linagliptina",
+    "brand_used": "Linagliptina",
+    "bula_type": "paciente",
+    "rejeitadas": []
   },
   "Canagliflozina": {
     "name": "Canagliflozina",
@@ -6004,10 +6005,11 @@
     "name": "Rifampicina",
     "status": "success",
     "file": "rifampicina.pdf",
-    "manufacturer": "Sara (FUNDACAO OSWALDO CRUZ)",
-    "brand_used": "Rifamp",
-    "full_name": "Farmanguinhos Rifampicina+Isoniazida+Pirazinamida+Etambutol (150,0 + 75,0 + 400,0 + 275,0) mg Comprimido Revestido com 90",
-    "source_url": "https://www.sara.com.br/bula-do-paciente-farmanguinhos-rifampicinaisoniazidapirazinamidaetambutol-1500-750-4000-2750-mg-comprimido-revestido-com-90-fundacao-oswaldo-cruz-7898164513985/7898164513985/pdf"
+    "date": "19/03/2026",
+    "full_name": "RIFALDIN",
+    "brand_used": "Rifaldin",
+    "bula_type": "paciente",
+    "rejeitadas": []
   },
   "Isoniazida": {
     "name": "Isoniazida",

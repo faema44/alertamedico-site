@@ -1,0 +1,227 @@
+{
+  "Paracetamol": {
+    "status": "corrigida",
+    "produto": "Paracetamol",
+    "termo": "Tylenol",
+    "arquivo": "paracetamol.pdf"
+  },
+  "Amoxicilina": {
+    "status": "corrigida",
+    "produto": "Amoxil",
+    "termo": "Amoxil",
+    "arquivo": "amoxicilina.pdf"
+  },
+  "Lidocaína": {
+    "status": "corrigida",
+    "produto": "Lidopass",
+    "termo": "Xylocaína",
+    "arquivo": "lidocaina.pdf"
+  },
+  "Tramadol": {
+    "status": "corrigida",
+    "produto": "Tramal",
+    "termo": "Tramal",
+    "arquivo": "tramadol.pdf"
+  },
+  "Bupropiona": {
+    "status": "corrigida",
+    "produto": "Wellbutrin",
+    "termo": "Wellbutrin",
+    "arquivo": "bupropiona.pdf"
+  },
+  "Escopolamina": {
+    "status": "corrigida",
+    "produto": "Buscopan",
+    "termo": "Buscopan",
+    "arquivo": "escopolamina.pdf"
+  },
+  "Eritromicina": {
+    "status": "corrigida",
+    "produto": "Rubromicin",
+    "termo": "Eritromicina",
+    "arquivo": "eritromicina.pdf"
+  },
+  "Rifampicina": {
+    "status": "sem_bula_valida"
+  },
+  "Teofilina": {
+    "status": "corrigida",
+    "produto": "Teolong",
+    "termo": "Teolong",
+    "arquivo": "teofilina.pdf"
+  },
+  "Dicloridrato de quinina": {
+    "status": "sem_bula_valida"
+  },
+  "Dimenidrinato": {
+    "status": "corrigida",
+    "produto": "Dramin",
+    "termo": "Dramin",
+    "arquivo": "dimenidrinato.pdf"
+  },
+  "Ferro Sulfato": {
+    "status": "corrigida",
+    "produto": "Furp-Sulfato Ferroso",
+    "termo": "Sulfato Ferroso",
+    "arquivo": "ferro-sulfato.pdf"
+  },
+  "Ferro Polimaltosado": {
+    "status": "corrigida",
+    "produto": "Noripurum",
+    "termo": "Noripurum",
+    "arquivo": "ferro-polimaltosado.pdf"
+  },
+  "Penicilina G Potássica": {
+    "status": "corrigida",
+    "produto": "Penkaron",
+    "termo": "Benzilpenicilina Potássica",
+    "arquivo": "penicilina-g-potassica.pdf"
+  },
+  "Vildagliptina": {
+    "status": "corrigida",
+    "produto": "Galvus",
+    "termo": "Galvus",
+    "arquivo": "vildagliptina.pdf"
+  },
+  "Empagliflozina": {
+    "status": "sem_bula_valida"
+  },
+  "Dapagliflozina": {
+    "status": "corrigida",
+    "produto": "Forxiga",
+    "termo": "Forxiga",
+    "arquivo": "dapagliflozina.pdf"
+  },
+  "Linagliptina": {
+    "status": "sem_bula_valida"
+  },
+  "Olmesartana": {
+    "status": "corrigida",
+    "produto": "Benicar",
+    "termo": "Benicar",
+    "arquivo": "olmesartana.pdf"
+  },
+  "Irbesartana": {
+    "status": "sem_bula_valida"
+  },
+  "Perindopril": {
+    "status": "corrigida",
+    "produto": "Perindopril Erbumina",
+    "termo": "Coversyl",
+    "arquivo": "perindopril.pdf"
+  },
+  "Ampicilina": {
+    "status": "corrigida",
+    "produto": "Ampicilina",
+    "termo": "Binotal",
+    "arquivo": "ampicilina.pdf"
+  },
+  "Tinidazol": {
+    "status": "corrigida",
+    "produto": "Crevagin",
+    "termo": "Pletil",
+    "arquivo": "tinidazol.pdf"
+  },
+  "Oxicodona": {
+    "status": "corrigida",
+    "produto": "Oxycontin",
+    "termo": "Oxycontin",
+    "arquivo": "oxicodona.pdf"
+  },
+  "Formoterol": {
+    "status": "corrigida",
+    "produto": "Fluir",
+    "termo": "Foradil",
+    "arquivo": "formoterol.pdf"
+  },
+  "Dutasterida": {
+    "status": "corrigida",
+    "produto": "Dastene",
+    "termo": "Avodart",
+    "arquivo": "dutasterida.pdf"
+  },
+  "Fexofenadina": {
+    "status": "corrigida",
+    "produto": "Allegra",
+    "termo": "Allegra",
+    "arquivo": "fexofenadina.pdf"
+  },
+  "Brimonidina": {
+    "status": "corrigida",
+    "produto": "Alphagan",
+    "termo": "Alphagan",
+    "arquivo": "brimonidina.pdf"
+  },
+  "Adapaleno": {
+    "status": "corrigida",
+    "produto": "Belpele",
+    "termo": "Differin",
+    "arquivo": "adapaleno.pdf"
+  },
+  "Azelastina": {
+    "status": "sem_bula_valida"
+  },
+  "Gatifloxacino": {
+    "status": "corrigida",
+    "produto": "Zymar",
+    "termo": "Zymar",
+    "arquivo": "gatifloxacino.pdf"
+  },
+  "Hialuronidase": {
+    "status": "corrigida",
+    "produto": "Oto - Xilodase",
+    "termo": "Hialuronidase",
+    "arquivo": "hialuronidase.pdf"
+  },
+  "Acetato de medroxiprogesterona": {
+    "status": "corrigida",
+    "produto": "Depo-Provera",
+    "termo": "Depo-Provera",
+    "arquivo": "acetato-de-medroxiprogesterona.pdf"
+  },
+  "Hypericum perforatum (Erva de São João)": {
+    "status": "corrigida",
+    "produto": "Hipérico Herbarium",
+    "termo": "Hipérico",
+    "arquivo": "erva-de-sao-joao.pdf"
+  },
+  "Valeriana officinalis (Valeriana)": {
+    "status": "corrigida",
+    "produto": "Sonotabs",
+    "termo": "Valeriana",
+    "arquivo": "valeriana.pdf"
+  },
+  "Matricaria recutita (Camomila)": {
+    "status": "corrigida",
+    "produto": "Ad-Muc",
+    "termo": "Ad-Til",
+    "arquivo": "camomila.pdf"
+  },
+  "Amilorida": {
+    "status": "sem_bula_valida"
+  },
+  "Pseudoefedrina": {
+    "status": "sem_bula_valida"
+  },
+  "Etinilestradiol": {
+    "status": "sem_bula_valida"
+  },
+  "Carisoprodol": {
+    "status": "sem_bula_valida"
+  },
+  "Guaifenesina": {
+    "status": "corrigida",
+    "produto": "Guaifenesina",
+    "termo": "Guaifenesina",
+    "arquivo": "guaifenesina.pdf"
+  },
+  "Fenilefrina": {
+    "status": "corrigida",
+    "produto": "Fenilefrin",
+    "termo": "Fenilefrin",
+    "arquivo": "fenilefrina.pdf"
+  },
+  "Dextrometorfano": {
+    "status": "sem_bula_valida"
+  }
+}

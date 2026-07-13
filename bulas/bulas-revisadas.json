@@ -1,0 +1,73 @@
+{
+  "_leia-me": [
+    "Slugs que a auditoria (tools/audit-bulas.js) marca mas que JÁ FORAM OLHADOS NA MÃO.",
+    "O gate (npm run test:bulas) falha se aparecer um slug marcado que NÃO esteja aqui —",
+    "ou seja, ele só reclama de bula errada NOVA. Ao consertar uma pendência, remova a",
+    "entrada daqui; ao aceitar um falso positivo novo, adicione com o motivo."
+  ],
+
+  "bula_correta_alarme_falso": {
+    "_motivo": "A bula está CERTA. A auditoria marca por diferença de NOME, não de conteúdo.",
+
+    "alemtuzumabe":            "bula escreve 'alentuzumabe'",
+    "canacinumabe":            "bula escreve 'canaquinumabe'",
+    "remdesivir":              "bula escreve 'rendesivir'",
+    "dimetilfumarato":         "bula escreve 'fumarato de dimetila'",
+    "alglucosidase-alfa":      "biológico inverte o nome: 'alfa-alglicosidase'",
+    "eritropoietina":          "biológico inverte o nome: 'alfaepoetina'",
+
+    "vitamina-d":              "colecalciferol É vitamina D",
+    "vitamina-d3-colecalciferol": "idem — o nome do banco já traz os dois",
+    "vitamina-k-fitomenadiona":   "fitomenadiona É vitamina K",
+    "vitaminas-do-complexo-b":    "tiamina/piridoxina SÃO do complexo B",
+    "silimarina":              "silybum marianum é a planta de onde vem a silimarina",
+
+    "gengibre":                "monografia de fitoterápico cita outras plantas na sinonímia",
+    "guarana":                 "idem",
+    "hortela-pimenta":         "idem",
+
+    "invokana":                "'Invokana' está no banco como genericName (é MARCA de canagliflozina) — corrigir o BANCO, a bula está certa",
+    "canagliflozina":          "mesmo par acima: um acusa o outro de intruso",
+
+    "articaina":               "articaína odontológica é sempre com epinefrina — produto padrão, não é bula trocada",
+    "dutasterida-tansulosina": "PDF escaneado (texto é lixo de OCR) — conteúdo confere na leitura visual"
+  },
+
+  "pendente_bula_errada": {
+    "_motivo": [
+      "AINDA ERRADAS e SEM FONTE BRASILEIRA. As duas primeiras só têm bula em Portugal — não",
+      "há produto registrado no Brasil. O PDF que está publicado hoje nelas é de OUTRO",
+      "medicamento, o que é pior que não ter bula: DECIDIR se remove (link quebrado, honesto).",
+      "",
+      "ARMADILHA REGISTRADA: o Quinacris PARECE a bula da quinina (nome 'Quinacris', bula de",
+      "'difosfato de...'), mas é CLOROQUINA — antimalárico diferente, com toxicidade cardíaca",
+      "e retiniana própria. Quem pegou foi a validação de conteúdo, não o olho. Não publicar."
+    ],
+
+    "benzilpenicilina-potassica-benzilpenicilina-procaina": "slug de composto com bula de um sal só",
+    "penicilina-g-potassica-penicilina-g-procaina":         "idem"
+  },
+
+  "pdf_removido_sem_versao_pura": {
+    "_motivo": [
+      "REMOVIDOS do site. Estes ativos não têm produto PURO registrado no Brasil, e o PDF que",
+      "estava publicado era de outro medicamento — o app afirmava algo falso com cara de",
+      "verdade (quem buscava 'quinina' recebia a bula de HIDROXIZINA). Sem bula é melhor que",
+      "com a bula errada: agora o app cai no link quebrado / fallback de busca.",
+      "",
+      "Se algum dia aparecer registro brasileiro do puro, é só baixar e o gate volta a cobrir.",
+      "",
+      "CONFERIR SEMPRE em consultaremedios.com.br ou bulas.med.br antes de dar um ativo como",
+      "'sem versão pura' — errei nisso: dei fenilefrina e dextrometorfano como só-associação,",
+      "e existem puros (Fenilefrin injetável, Bisoltussin xarope). O que não acha no Sara não",
+      "é o que não existe; o Sara é catálogo de genérico, não o mercado inteiro."
+    ],
+
+    "dicloridrato-de-quinina": "estava com a bula de HIDROXIZINA. Quinina não tem registro no Brasil (bula só em Portugal). CUIDADO: o Quinacris parece ser dela mas é CLOROQUINA",
+    "azelastina":              "estava com o Dymista (+ fluticasona). Allergodil puro só tem bula em Portugal",
+    "pseudoefedrina":          "só existe com anti-histamínico (triprolidina/loratadina)",
+    "etinilestradiol":         "só existe com progestágeno (drospirenona/levonorgestrel)",
+    "carisoprodol":            "só existe em associação analgésica",
+    "amilorida":               "só existe com hidroclorotiazida — o 'Amilorid' também é a associação (conferido lendo o PDF)"
+  }
+}

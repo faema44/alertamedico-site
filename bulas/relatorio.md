@@ -1,316 +1,1018 @@
 # Relatório de Download de Bulas ANVISA
 
-**Data:** 04/07/2026 21:22
+**Data:** 12/07/2026 22:55
 **Total:** 11 medicamentos
-**Baixados:** 209
-**Não encontrados:** 7
+**Baixados:** 996
+**Não encontrados:** 9
 **Erros:** 0
 
-## Bulas Baixadas (209)
+## Bulas Baixadas (996)
 
-- **AAS** → `aas.pdf` | busca: _AAS_ | pub: 03/06/2026 | ✓ monit.
-- **Alcachofra** → `alcachofra.pdf` | busca: _Alcachofra_ | pub: 30/12/2025 | ✓ monit.
-- **Alcaçuz** → `alcacuz.pdf` | busca: _?_ | pub: ? | —
-- **Alendronato** → `alendronato.pdf` | busca: _?_ | pub: ? | —
-- **Alho** → `alho.pdf` | busca: _?_ | pub: ? | —
-- **Alopurinol** → `alopurinol.pdf` | busca: _?_ | pub: ? | —
-- **Alprazolam** → `alprazolam.pdf` | busca: _?_ | pub: ? | —
-- **Amiodarona** → `amiodarona.pdf` | busca: _?_ | pub: ? | —
-- **Amitriptilina** → `amitriptilina.pdf` | busca: _?_ | pub: ? | —
-- **Amoxicilina** → `amoxicilina.pdf` | busca: _?_ | pub: ? | —
-- **Amoxicilina + Clavulanato** → `amoxicilina.pdf` | busca: _?_ | pub: ? | —
-- **Ampicilina** → `ampicilina.pdf` | busca: _?_ | pub: ? | —
-- **Anastrozol** → `anastrozol.pdf` | busca: _?_ | pub: ? | —
-- **Anlodipina** → `anlodipina.pdf` | busca: _?_ | pub: ? | —
-- **Apixabana** → `apixabana.pdf` | busca: _?_ | pub: ? | —
-- **Aripiprazol** → `aripiprazol.pdf` | busca: _?_ | pub: ? | —
-- **Arnica** → `arnica.pdf` | busca: _?_ | pub: ? | —
-- **Aspirina** → `aspirina.pdf` | busca: _?_ | pub: ? | —
-- **Atenolol** → `atenolol.pdf` | busca: _?_ | pub: ? | —
-- **Atorvastatina** → `atorvastatina.pdf` | busca: _?_ | pub: ? | —
-- **Azitromicina** → `azitromicina.pdf` | busca: _?_ | pub: ? | —
-- **Beclometasona** → `beclometasona.pdf` | busca: _?_ | pub: ? | —
-- **Betametasona** → `betametasona.pdf` | busca: _?_ | pub: ? | —
-- **Bisoprolol** → `bisoprolol.pdf` | busca: _?_ | pub: ? | —
-- **Boldo** → `boldo.pdf` | busca: _Boldo_ | pub: 23/12/2025 | ✓ monit.
-- **Brometo de Ipratrópio** → `brometo-de-ipratropio.pdf` | busca: _?_ | pub: ? | —
-- **Budesonida** → `budesonida.pdf` | busca: _?_ | pub: ? | —
-- **Camomila** → `camomila.pdf` | busca: _Camomila_ | pub: 10/06/2025 | ✓ monit.
-- **Candesartana** → `candesartana.pdf` | busca: _?_ | pub: ? | —
-- **Captopril** → `captopril.pdf` | busca: _?_ | pub: ? | —
-- **Carbamazepina** → `carbamazepina.pdf` | busca: _?_ | pub: ? | —
-- **Carvedilol** → `carvedilol.pdf` | busca: _?_ | pub: ? | —
-- **Castanha da Índia** → `castanha-da-india.pdf` | busca: _?_ | pub: ? | —
-- **Cefalexina** → `cefalexina.pdf` | busca: _?_ | pub: ? | —
-- **Cefazolina** → `cefazolina.pdf` | busca: _?_ | pub: ? | —
-- **Ceftriaxona** → `ceftriaxona.pdf` | busca: _?_ | pub: ? | —
-- **Cefuroxima** → `cefuroxima.pdf` | busca: _?_ | pub: ? | —
-- **Celecoxibe** → `celecoxibe.pdf` | busca: _?_ | pub: ? | —
-- **Centella Asiática** → `centella-asiatica.pdf` | busca: _?_ | pub: ? | —
-- **Cetoprofeno** → `cetoprofeno.pdf` | busca: _?_ | pub: ? | —
-- **Chá Verde** → `cha-verde.pdf` | busca: _?_ | pub: ? | —
-- **Ciclosporina** → `ciclosporina.pdf` | busca: _?_ | pub: ? | —
-- **Cimicífuga** → `cimicifuga.pdf` | busca: _?_ | pub: ? | —
-- **Ciprofloxacino** → `ciprofloxacino.pdf` | busca: _?_ | pub: ? | —
-- **Citalopram** → `citalopram.pdf` | busca: _?_ | pub: ? | —
-- **Claritromicina** → `claritromicina.pdf` | busca: _?_ | pub: ? | —
-- **Clomipramina** → `clomipramina.pdf` | busca: _?_ | pub: ? | —
-- **Clonazepam** → `clonazepam.pdf` | busca: _?_ | pub: ? | —
-- **Clopidogrel** → `clopidogrel.pdf` | busca: _?_ | pub: ? | —
-- **Clortalidona** → `clortalidona.pdf` | busca: _?_ | pub: ? | —
-- **Clozapina** → `clozapina.pdf` | busca: _?_ | pub: ? | —
-- **Codeína** → `codeina.pdf` | busca: _?_ | pub: ? | —
-- **Colchicina** → `colchicina.pdf` | busca: _?_ | pub: ? | —
-- **Contraste Iodado** → `contraste-iodado.pdf` | busca: _?_ | pub: ? | —
-- **Cáscara Sagrada** → `cascara-sagrada.pdf` | busca: _?_ | pub: ? | —
-- **Cúrcuma** → `curcuma.pdf` | busca: _?_ | pub: ? | —
-- **Dabigatrana** → `dabigatrana.pdf` | busca: _?_ | pub: ? | —
-- **Danshen** → `salvia-milthiorrizae.pdf` | busca: _?_ | pub: ? | —
-- **Desvenlafaxina** → `desvenlafaxina.pdf` | busca: _?_ | pub: ? | —
-- **Dexametasona** → `dexametasona.pdf` | busca: _?_ | pub: ? | —
-- **Diazepam** → `diazepam.pdf` | busca: _?_ | pub: ? | —
-- **Diclofenaco** → `diclofenaco.pdf` | busca: _?_ | pub: ? | —
-- **Digoxina** → `digoxina.pdf` | busca: _?_ | pub: ? | —
-- **Diltiazem** → `diltiazem.pdf` | busca: _?_ | pub: ? | —
-- **Dipirona** → `dipirona.pdf` | busca: _?_ | pub: ? | —
-- **Donepezila** → `donepezila.pdf` | busca: _?_ | pub: ? | —
-- **Duloxetina** → `duloxetina.pdf` | busca: _?_ | pub: ? | —
-- **Dutasterida** → `dutasterida.pdf` | busca: _?_ | pub: ? | —
-- **Edoxabana** → `edoxabana.pdf` | busca: _?_ | pub: ? | —
-- **Efedrina** → `efedrina.pdf` | busca: _?_ | pub: ? | —
-- **Enalapril** → `enalapril.pdf` | busca: _?_ | pub: ? | —
-- **Enoxaparina** → `enoxaparina.pdf` | busca: _?_ | pub: ? | —
-- **Equinácea** → `equinacea.pdf` | busca: _?_ | pub: ? | —
-- **Erva Cidreira** → `melissa.pdf` | busca: _?_ | pub: ? | —
-- **Erva de São João** → `erva-de-sao-joao.pdf` | busca: _?_ | pub: ? | —
-- **Erva-doce** → `erva-doce.pdf` | busca: _?_ | pub: ? | —
-- **Escitalopram** → `escitalopram.pdf` | busca: _Lexapro_ | pub: 05/12/2024 | ✓ monit.
-- **Esomeprazol** → `esomeprazol.pdf` | busca: _?_ | pub: ? | —
-- **Espinheira Santa** → `espinheira-santa.pdf` | busca: _?_ | pub: ? | —
-- **Espironolactona** → `espironolactona.pdf` | busca: _?_ | pub: ? | —
-- **Etinilestradiol** → `etinilestradiol.pdf` | busca: _?_ | pub: ? | —
-- **Eucalipto** → `eucalipto.pdf` | busca: _?_ | pub: ? | —
-- **Fenitoína** → `fenitoina.pdf` | busca: _?_ | pub: ? | —
-- **Fenobarbital** → `fenobarbital.pdf` | busca: _?_ | pub: ? | —
-- **Fenoterol** → `fenoterol.pdf` | busca: _?_ | pub: ? | —
-- **Ferro Sulfato** → `ferro-sulfato.pdf` | busca: _?_ | pub: ? | —
-- **Finasterida** → `finasterida.pdf` | busca: _?_ | pub: ? | —
-- **Fluconazol** → `fluconazol.pdf` | busca: _?_ | pub: ? | —
-- **Fluoxetina** → `fluoxetina.pdf` | busca: _?_ | pub: ? | —
-- **Fluticasona** → `fluticasona.pdf` | busca: _?_ | pub: ? | —
-- **Formoterol** → `formoterol.pdf` | busca: _?_ | pub: ? | —
-- **Furosemida** → `furosemida.pdf` | busca: _?_ | pub: ? | —
-- **Gabapentina** → `gabapentina.pdf` | busca: _?_ | pub: ? | —
-- **Galantamina** → `galantamina.pdf` | busca: _?_ | pub: ? | —
-- **Gengibre** → `gengibre.pdf` | busca: _?_ | pub: ? | —
-- **Gentamicina** → `gentamicina.pdf` | busca: _Gentamisan_ | pub: 23/06/2026 | ✓ monit.
-- **Ginkgo Biloba** → `ginkgo-biloba.pdf` | busca: _Ginkgo_ | pub: 23/01/2026 | ✓ monit.
-- **Ginseng** → `ginseng.pdf` | busca: _?_ | pub: ? | —
-- **Glibenclamida** → `glibenclamida.pdf` | busca: _?_ | pub: ? | —
-- **Gliclazida** → `gliclazida.pdf` | busca: _?_ | pub: ? | —
-- **Gliclazida MR** → `gliclazida-mr.pdf` | busca: _Clazi XR_ | pub: 10/03/2026 | ✓ monit.
-- **Glimepirida** → `glimepirida.pdf` | busca: _?_ | pub: ? | —
-- **Guaco** → `guaco.pdf` | busca: _?_ | pub: ? | —
-- **Guaraná** → `guarana.pdf` | busca: _?_ | pub: ? | —
-- **Haloperidol** → `haloperidol.pdf` | busca: _?_ | pub: ? | —
-- **Hidroclorotiazida** → `hidroclorotiazida.pdf` | busca: _?_ | pub: ? | —
-- **Hidrocortisona** → `hidrocortisona.pdf` | busca: _?_ | pub: ? | —
-- **Hortelã-pimenta** → `hortela-pimenta.pdf` | busca: _?_ | pub: ? | —
-- **Ibandronato** → `ibandronato.pdf` | busca: _?_ | pub: ? | —
-- **Ibuprofeno** → `ibuprofeno.pdf` | busca: _?_ | pub: ? | —
-- **Imipramina** → `imipramina.pdf` | busca: _Imipra_ | pub: 11/06/2026 | ✓ monit.
-- **Insulina Aspart** → `insulina-aspart.pdf` | busca: _?_ | pub: ? | —
-- **Insulina Glargina** → `insulina-glargina.pdf` | busca: _?_ | pub: ? | —
-- **Insulina Lispro** → `insulina-lispro.pdf` | busca: _?_ | pub: ? | —
-- **Insulina NPH** → `insulina-nph.pdf` | busca: _?_ | pub: ? | —
-- **Insulina Regular** → `insulina-regular.pdf` | busca: _?_ | pub: ? | —
-- **Irbesartana** → `irbesartana.pdf` | busca: _?_ | pub: ? | —
-- **Isossorbida** → `isossorbida.pdf` | busca: _?_ | pub: ? | —
-- **Itraconazol** → `itraconazol.pdf` | busca: _?_ | pub: ? | —
-- **Kava Kava** → `kava-kava.pdf` | busca: _?_ | pub: ? | —
-- **Lamotrigina** → `lamotrigina.pdf` | busca: _?_ | pub: ? | —
-- **Lansoprazol** → `lansoprazol.pdf` | busca: _?_ | pub: ? | —
-- **Letrozol** → `letrozol.pdf` | busca: _?_ | pub: ? | —
-- **Levetiracetam** → `levetiracetam.pdf` | busca: _?_ | pub: ? | —
-- **Levofloxacino** → `levofloxacino.pdf` | busca: _?_ | pub: ? | —
-- **Levotiroxina** → `levotiroxina.pdf` | busca: _?_ | pub: ? | —
-- **Lisinopril** → `lisinopril.pdf` | busca: _?_ | pub: ? | —
-- **Lorazepam** → `lorazepam.pdf` | busca: _?_ | pub: ? | —
-- **Losartana** → `losartana.pdf` | busca: _?_ | pub: ? | —
-- **Lítio** → `litio.pdf` | busca: _?_ | pub: ? | —
-- **Maracuja** → `maracuja.pdf` | busca: _Passiflora_ | pub: 03/02/2026 | ✓ monit.
-- **Meloxicam** → `meloxicam.pdf` | busca: _?_ | pub: ? | —
-- **Memantina** → `memantina.pdf` | busca: _?_ | pub: ? | —
-- **Metformina** → `metformina.pdf` | busca: _?_ | pub: ? | —
-- **Metformina XR** → `metformina-xr.pdf` | busca: _Glifage XR_ | pub: 31/07/2025 | ✓ monit.
-- **Metimazol** → `metimazol.pdf` | busca: _?_ | pub: ? | —
-- **Metoprolol** → `metoprolol.pdf` | busca: _?_ | pub: ? | —
-- **Metotrexato** → `metotrexato.pdf` | busca: _?_ | pub: ? | —
-- **Metronidazol** → `metronidazol.pdf` | busca: _?_ | pub: ? | —
-- **Midazolam** → `midazolam.pdf` | busca: _?_ | pub: ? | —
-- **Mononitrato de Isossorbida** → `mononitrato-de-isossorbida.pdf` | busca: _?_ | pub: ? | —
-- **Morfina** → `morfina.pdf` | busca: _Dimorf_ | pub: 24/06/2026 | ✓ monit.
-- **Moxifloxacino** → `moxifloxacino.pdf` | busca: _?_ | pub: ? | —
-- **Naproxeno** → `naproxeno.pdf` | busca: _?_ | pub: ? | —
-- **Nebivolol** → `nebivolol.pdf` | busca: _?_ | pub: ? | —
-- **Nifedipina** → `nifedipina.pdf` | busca: _Neo Fedipina_ | pub: 22/06/2026 | ✓ monit.
-- **Nitroglicerina** → `nitroglicerina.pdf` | busca: _Tridil_ | pub: 17/04/2026 | ✓ monit.
-- **Norfloxacino** → `norfloxacino.pdf` | busca: _?_ | pub: ? | —
-- **Nortriptilina** → `nortriptilina.pdf` | busca: _?_ | pub: ? | —
-- **Olanzapina** → `olanzapina.pdf` | busca: _?_ | pub: ? | —
-- **Olmesartana** → `olmesartana.pdf` | busca: _?_ | pub: ? | —
-- **Omeprazol** → `omeprazol.pdf` | busca: _?_ | pub: ? | —
-- **Oxicodona** → `oxicodona.pdf` | busca: _?_ | pub: ? | —
-- **Pantoprazol** → `pantoprazol.pdf` | busca: _?_ | pub: ? | —
-- **Paracetamol** → `paracetamol.pdf` | busca: _?_ | pub: ? | —
-- **Paroxetina** → `paroxetina.pdf` | busca: _Roxetin_ | pub: 30/06/2026 | ✓ monit.
-- **Perindopril** → `perindopril.pdf` | busca: _?_ | pub: ? | —
-- **Piperacilina + Tazobactam** → `piperacilina.pdf` | busca: _?_ | pub: ? | —
-- **Pravastatina** → `pravastatina.pdf` | busca: _?_ | pub: ? | —
-- **Prednisolona** → `prednisolona.pdf` | busca: _?_ | pub: ? | —
-- **Prednisona** → `prednisona.pdf` | busca: _?_ | pub: ? | —
-- **Pregabalina** → `pregabalina.pdf` | busca: _?_ | pub: ? | —
-- **Propranolol** → `propranolol.pdf` | busca: _?_ | pub: ? | —
-- **Quetiapina** → `quetiapina.pdf` | busca: _?_ | pub: ? | —
-- **Quetiapina XR** → `quetiapina-xr.pdf` | busca: _Atip XR_ | pub: 19/09/2025 | ✓ monit.
-- **Rabeprazol** → `rabeprazol.pdf` | busca: _?_ | pub: ? | —
-- **Ramipril** → `ramipril.pdf` | busca: _?_ | pub: ? | —
-- **Risedronato** → `risedronato.pdf` | busca: _?_ | pub: ? | —
-- **Risperidona** → `risperidona.pdf` | busca: _?_ | pub: ? | —
-- **Rivaroxabana** → `rivaroxabana.pdf` | busca: _?_ | pub: ? | —
-- **Rivastigmina** → `rivastigmina.pdf` | busca: _?_ | pub: ? | —
-- **Rizatriptano** → `rizatriptano.pdf` | busca: _?_ | pub: ? | —
-- **Rosuvastatina** → `rosuvastatina.pdf` | busca: _?_ | pub: ? | —
-- **Salbutamol** → `salbutamol.pdf` | busca: _?_ | pub: ? | —
-- **Salgueiro** → `salgueiro.pdf` | busca: _?_ | pub: ? | —
-- **Saw Palmetto** → `saw-palmetto.pdf` | busca: _?_ | pub: ? | —
-- **Sene** → `sene.pdf` | busca: _?_ | pub: ? | —
-- **Sertralina** → `sertralina.pdf` | busca: _?_ | pub: ? | —
-- **Sildenafila** → `sildenafila.pdf` | busca: _?_ | pub: ? | —
-- **Silimarina** → `silimarina.pdf` | busca: _?_ | pub: ? | —
-- **Sinvastatina** → `sinvastatina.pdf` | busca: _?_ | pub: ? | —
-- **Soja** → `soja-isoflavona.pdf` | busca: _?_ | pub: ? | —
-- **Sumatriptano** → `sumatriptano.pdf` | busca: _?_ | pub: ? | —
-- **Sálvia** → `salvia.pdf` | busca: _?_ | pub: ? | —
-- **Tacrolimo** → `tacrolimo.pdf` | busca: _?_ | pub: ? | —
-- **Tadalafila** → `tadalafila.pdf` | busca: _?_ | pub: ? | —
-- **Tamoxifeno** → `tamoxifeno.pdf` | busca: _?_ | pub: ? | —
-- **Tanaceto** → `tanaceto.pdf` | busca: _?_ | pub: ? | —
-- **Ticagrelor** → `ticagrelor.pdf` | busca: _?_ | pub: ? | —
-- **Tinidazol** → `tinidazol.pdf` | busca: _?_ | pub: ? | —
-- **Tiotrópio** → `tiotropio.pdf` | busca: _?_ | pub: ? | —
-- **Tobramicina** → `tobramicina.pdf` | busca: _?_ | pub: ? | —
-- **Topiramato** → `topiramato.pdf` | busca: _?_ | pub: ? | —
-- **Tramadol** → `tramadol.pdf` | busca: _?_ | pub: ? | —
-- **Tramadol + Paracetamol** → `tramadol.pdf` | busca: _?_ | pub: ? | —
-- **Tranilcipromina** → `tranilcipromina.pdf` | busca: _?_ | pub: ? | —
-- **Unha de Gato** → `unha-de-gato.pdf` | busca: _?_ | pub: ? | —
-- **Valeriana** → `valeriana.pdf` | busca: _?_ | pub: ? | —
-- **Valproato de Sódio** → `valproato-de-sodio.pdf` | busca: _?_ | pub: ? | —
-- **Valsartana** → `valsartana.pdf` | busca: _?_ | pub: ? | —
-- **Varfarina** → `varfarina.pdf` | busca: _?_ | pub: ? | —
-- **Venlafaxina** → `venlafaxina.pdf` | busca: _?_ | pub: ? | —
-- **Venlafaxina XR** → `venlafaxina-xr.pdf` | busca: _Alenthus XR_ | pub: 21/10/2025 | ✓ monit.
-- **Verapamil** → `verapamil.pdf` | busca: _?_ | pub: ? | —
-- **Vitamina B12** → `vitamina-b12.pdf` | busca: _Vitamina B12_ | pub: 01/10/2025 | ✓ monit.
-- **Vitamina D** → `vitamina-d.pdf` | busca: _?_ | pub: ? | —
-- **Voriconazol** → `voriconazol.pdf` | busca: _?_ | pub: ? | —
-- **Zolmitriptano** → `zolmitriptano.pdf` | busca: _?_ | pub: ? | —
-- **Ácido Valpróico** → `acido-valproico.pdf` | busca: _?_ | pub: ? | —
+- **AAS** → `aas.pdf` | busca: _AAS_ | pub: 03/06/2026
+- **AAS (Ácido Acetilsalicílico)** → `aas-acido-acetilsalicilico.pdf` | busca: _AAS_ | pub: ?
+- **Abacavir** → `abacavir.pdf` | busca: _Ziagen_ | pub: ?
+- **Abatacepte** → `abatacepte.pdf` | busca: _Orencia_ | pub: ?
+- **Abemaciclibe** → `abemaciclibe.pdf` | busca: _Verzenios_ | pub: 01/06/2026
+- **Abiraterona** → `abiraterona.pdf` | busca: _Zytiga_ | pub: ?
+- **Acalabrutinibe** → `acalabrutinibe.pdf` | busca: _Calquence_ | pub: 19/06/2026
+- **Acarbose** → `acarbose.pdf` | busca: _Aglucose_ | pub: ?
+- **Acebrofilina** → `acebrofilina.pdf` | busca: _Acebrofilina_ | pub: 25/06/2026
+- **Aceclofenaco** → `aceclofenaco.pdf` | busca: _Aceclofenaco_ | pub: 26/01/2026
+- **Aceponato de metilprednisolona** → `aceponato-de-metilprednisolona.pdf` | busca: _Advantan_ | pub: 13/04/2026
+- **Acetato de Medroxiprogesterona** → `acetato-de-medroxiprogesterona.pdf` | busca: _?_ | pub: ?
+- **Acetato de medroxiprogesterona** → `acetato-de-medroxiprogesterona.pdf` | busca: _Depo-Provera_ | pub: 24/06/2026
+- **Acetato de medroxiprogesterona + Cipionato de estradiol** → `acetato-de-medroxiprogesterona-cipionato-de-estradiol.pdf` | busca: _Cyclofemina_ | pub: ?
+- **Acetato de medroxiprogesterona + Estrogênios conjugados** → `acetato-de-medroxiprogesterona.pdf` | busca: _?_ | pub: ?
+- **Acetazolamida** → `acetazolamida.pdf` | busca: _Diamox_ | pub: ?
+- **Acetilcisteína** → `acetilcisteina.pdf` | busca: _Fluimucil_ | pub: 08/07/2026
+- **Aciclovir** → `aciclovir.pdf` | busca: _?_ | pub: ?
+- **Acitretina** → `acitretina.pdf` | busca: _Neotigason_ | pub: ?
+- **Adalimumabe** → `adalimumabe.pdf` | busca: _Humira_ | pub: ?
+- **Adapaleno** → `adapaleno.pdf` | busca: _DIFFERIN_ | pub: 02/02/2026
+- **Adapaleno + Peróxido de benzoíla** → `adapaleno.pdf` | busca: _Epiduo_ | pub: 16/06/2026
+- **Aesculus hippocastanum** → `aesculus-hippocastanum.pdf` | busca: _Castanha da Índia Herbarium_ | pub: 10/10/2025
+- **Afatinibe** → `afatinibe.pdf` | busca: _Giotrif_ | pub: 30/12/2025
+- **Aflibercept** → `aflibercept.pdf` | busca: _Zaltrap_ | pub: ?
+- **Agalsidase alfa** → `agalsidase-alfa.pdf` | busca: _Replagal_ | pub: 08/06/2026
+- **Agalsidase beta** → `agalsidase-beta.pdf` | busca: _Fabrazyme_ | pub: 02/04/2026
+- **Agomelatina** → `agomelatina.pdf` | busca: _Valdoxan_ | pub: ?
+- **Albendazol** → `albendazol.pdf` | busca: _Albendazol_ | pub: 15/12/2025
+- **Alcachofra** → `alcachofra.pdf` | busca: _Alcachofra_ | pub: 30/12/2025
+- **Alcaftadina** → `alcaftadina.pdf` | busca: _Lastacaft_ | pub: 18/12/2025
+- **Alcaçuz** → `alcacuz.pdf` | busca: _?_ | pub: ?
+- **Alectinibe** → `alectinibe.pdf` | busca: _Alecensa_ | pub: 23/02/2026
+- **Alemtuzumabe** → `alemtuzumabe.pdf` | busca: _Lemtrada_ | pub: 23/02/2026
+- **Alendronato** → `alendronato.pdf` | busca: _?_ | pub: ?
+- **Alendronato de Sódio** → `alendronato-de-sodio.pdf` | busca: _Alendronato de Sódio_ | pub: 18/05/2026
+- **Alendronato de sódio + Colecalciferol** → `alendronato-de-sodio.pdf` | busca: _?_ | pub: ?
+- **Alfaepoetina** → `alfaepoetina.pdf` | busca: _Alfaepoetina_ | pub: 05/11/2025
+- **Alglucosidase alfa** → `alglucosidase-alfa.pdf` | busca: _Myozyme_ | pub: 26/05/2025
+- **Alho** → `alho.pdf` | busca: _?_ | pub: ?
+- **Alogliptina + Metformina** → `alogliptina-metformina.pdf` | busca: _Nesina Met_ | pub: ?
+- **Alogliptina + Pioglitazona** → `alogliptina-pioglitazona.pdf` | busca: _Nesina Pio_ | pub: ?
+- **Alopurinol** → `alopurinol.pdf` | busca: _?_ | pub: ?
+- **Alpelisibe** → `alpelisibe.pdf` | busca: _Piqray_ | pub: 26/05/2026
+- **Alprazolam** → `alprazolam.pdf` | busca: _?_ | pub: ?
+- **Alprostadil** → `alprostadil.pdf` | busca: _Caverject_ | pub: ?
+- **Alteplase** → `alteplase.pdf` | busca: _Actilyse_ | pub: 13/08/2025
+- **Amantadina** → `amantadina.pdf` | busca: _Mantidan_ | pub: ?
+- **Ambrisentana** → `ambrisentana.pdf` | busca: _Volibris_ | pub: 26/08/2025
+- **Ambroxol** → `ambroxol.pdf` | busca: _Cloridrato de Ambroxol_ | pub: ?
+- **Aminofilina** → `aminofilina.pdf` | busca: _Aminofilina_ | pub: 07/04/2025
+- **Aminoácidos** → `aminoacidos.pdf` | busca: _Aminoven 10% Infant_ | pub: 01/07/2026
+- **Amiodarona** → `amiodarona.pdf` | busca: _?_ | pub: ?
+- **Amitriptilina** → `amitriptilina.pdf` | busca: _?_ | pub: ?
+- **Amitriptilina + Clordiazepóxido** → `amitriptilina-clordiazepoxido.pdf` | busca: _Limbitrol_ | pub: ?
+- **Amivantamabe** → `amivantamabe.pdf` | busca: _Rybrevant_ | pub: 30/06/2026
+- **Amoxicilina** → `amoxicilina.pdf` | busca: _?_ | pub: ?
+- **Amoxicilina + Clavulanato** → `amoxicilina-clavulanato.pdf` | busca: _Policlavumoxil_ | pub: ?
+- **Amoxicilina + Clavulanato de potássio** → `amoxicilina-clavulanato-de-potassio.pdf` | busca: _Policlavumoxil_ | pub: ?
+- **Ampicilina** → `ampicilina.pdf` | busca: _?_ | pub: ?
+- **Ampicilina + Sulbactam** → `ampicilina-sulbactam.pdf` | busca: _Unasyn_ | pub: ?
+- **Anagrelida** → `anagrelida.pdf` | busca: _Agrylin_ | pub: 18/12/2025
+- **Anastrozol** → `anastrozol.pdf` | busca: _?_ | pub: ?
+- **Anfotericina B** → `anfotericina-b.pdf` | busca: _Anforicin b_ | pub: ?
+- **Anidulafungina** → `anidulafungina.pdf` | busca: _Ecalta_ | pub: ?
+- **Anlodipina** → `anlodipina.pdf` | busca: _?_ | pub: ?
+- **Anlodipino** → `anlodipino.pdf` | busca: _Amlovasc_ | pub: 16/05/2025
+- **Apalutamida** → `apalutamida.pdf` | busca: _Erleada_ | pub: 06/02/2026
+- **Apixabana** → `apixabana.pdf` | busca: _?_ | pub: ?
+- **Aprepitanto** → `aprepitanto.pdf` | busca: _Emend_ | pub: ?
+- **Aripiprazol** → `aripiprazol.pdf` | busca: _?_ | pub: ?
+- **Arnica** → `arnica.pdf` | busca: _?_ | pub: ?
+- **Artesunato + Mefloquina** → `artesunato-mefloquina.pdf` | busca: _Artesunato + Mefloquina Farmanguinhos_ | pub: ?
+- **Articaína** → `articaina.pdf` | busca: _Articaine_ | pub: ?
+- **Asfotase Alfa** → `asfotase-alfa.pdf` | busca: _Strensiq_ | pub: 08/10/2025
+- **Aspirina** → `aspirina.pdf` | busca: _?_ | pub: ?
+- **Atenolol** → `atenolol.pdf` | busca: _?_ | pub: ?
+- **Atenolol + Clortalidona** → `atenolol-clortalidona.pdf` | busca: _Atenolol + Clortalidona_ | pub: ?
+- **Atomoxetina** → `atomoxetina.pdf` | busca: _Atentah_ | pub: 08/12/2025
+- **Atorvastatina** → `atorvastatina.pdf` | busca: _?_ | pub: ?
+- **Atracúrio** → `atracurio.pdf` | busca: _Tracrium_ | pub: 23/08/2022
+- **Atropina** → `atropina.pdf` | busca: _Atropina_ | pub: 28/11/2025
+- **Atropina + Difenoxilato** → `atropina.pdf` | busca: _?_ | pub: ?
+- **Axitinibe** → `axitinibe.pdf` | busca: _Inlyta_ | pub: 14/11/2025
+- **Azacitidina** → `azacitidina.pdf` | busca: _Azacitidina_ | pub: 27/06/2026
+- **Azatioprina** → `azatioprina.pdf` | busca: _Imunen_ | pub: ?
+- **Azelastina + Fluticasona** → `azelastina-fluticasona.pdf` | busca: _Dymista_ | pub: ?
+- **Azitromicina** → `azitromicina.pdf` | busca: _?_ | pub: ?
+- **Aztreonam** → `aztreonam.pdf` | busca: _Aztreonam_ | pub: 24/06/2026
+- **Bacitracina + Neomicina** → `bacitracina-neomicina.pdf` | busca: _Neotricin_ | pub: ?
+- **Bacitracina + Sulfato de Neomicina** → `bacitracina.pdf` | busca: _Sulfato de Neomicina + Bacitracina_ | pub: 10/06/2026
+- **Baclofeno** → `baclofeno.pdf` | busca: _Lioresal_ | pub: ?
+- **Baricitinibe** → `baricitinibe.pdf` | busca: _Olumiant_ | pub: 02/07/2026
+- **Basiliximabe** → `basiliximabe.pdf` | busca: _Simulect_ | pub: 17/11/2025
+- **Beclometasona** → `beclometasona.pdf` | busca: _?_ | pub: ?
+- **Beclometasona + Formoterol + Glicopirrônio** → `beclometasona-formoterol-glicopirronio.pdf` | busca: _Trimbow_ | pub: ?
+- **Belimumabe** → `belimumabe.pdf` | busca: _Benlysta_ | pub: ?
+- **Benazepril** → `benazepril.pdf` | busca: _LOTENSIN_ | pub: ?
+- **Bendamustina** → `bendamustina.pdf` | busca: _Ribomustin_ | pub: ?
+- **Benralizumabe** → `benralizumabe.pdf` | busca: _Fasenra_ | pub: ?
+- **Benserazida + Levodopa** → `benserazida-levodopa.pdf` | busca: _Levodopa + Cloridrato de Benserazida_ | pub: ?
+- **Benzilpenicilina benzatina** → `benzilpenicilina-benzatina.pdf` | busca: _Benzilpenicilina benzatina_ | pub: 03/07/2025
+- **Benzilpenicilina potássica + Benzilpenicilina procaína** → `benzilpenicilina-potassica-benzilpenicilina-procaina.pdf` | busca: _Furp-Benzilpenicilina Procaína + Benzilpenicilina Potássica_ | pub: ?
+- **Benzocaína + Cloreto de Cetilpiridínio** → `benzocaina-cloreto-de-cetilpiridinio.pdf` | busca: _Cepacaína_ | pub: ?
+- **Beractanto** → `beractanto.pdf` | busca: _Survanta_ | pub: 19/11/2025
+- **Besilato de Atracúrio** → `besilato-de-atracurio.pdf` | busca: _Besilato de Atracúrio_ | pub: 15/03/2023
+- **Besilato de Cisatracúrio** → `besilato-de-cisatracurio.pdf` | busca: _Besilato de Cisatracúrio_ | pub: 25/05/2026
+- **Betacaroteno** → `betacaroteno.pdf` | busca: _FDC Betacaroteno_ | pub: 03/06/2014
+- **Betaistina** → `betaistina.pdf` | busca: _Betaserc_ | pub: 15/05/2025
+- **Betametasona** → `betametasona.pdf` | busca: _?_ | pub: ?
+- **Betametasona + Dexclorfeniramina** → `betametasona-dexclorfeniramina.pdf` | busca: _Celestamine_ | pub: ?
+- **Betametasona + Gentamicina** → `betametasona-gentamicina.pdf` | busca: _Betogenta_ | pub: ?
+- **Betaxolol** → `betaxolol.pdf` | busca: _Betoptic_ | pub: ?
+- **Bevacizumabe** → `bevacizumabe.pdf` | busca: _Avastin_ | pub: ?
+- **Bevacizumabe (oncológico)** → `bevacizumabe-oncologico.pdf` | busca: _Avastin_ | pub: ?
+- **Bezafibrato** → `bezafibrato.pdf` | busca: _Bezafibrato_ | pub: 04/12/2025
+- **Bicalutamida** → `bicalutamida.pdf` | busca: _Casodex_ | pub: 17/06/2026
+- **Bilastina** → `bilastina.pdf` | busca: _Bilastina_ | pub: ?
+- **Bimatoprost** → `bimatoprost.pdf` | busca: _Lumigan_ | pub: ?
+- **Bimatoprost + Timolol** → `bimatoprost-timolol.pdf` | busca: _Ganfort_ | pub: ?
+- **Bimatoprosta** → `bimatoprosta.pdf` | busca: _Bimagan_ | pub: 26/02/2026
+- **Binimetinibe** → `binimetinibe.pdf` | busca: _Mektovi_ | pub: 16/12/2025
+- **Biperideno** → `biperideno.pdf` | busca: _Akineton_ | pub: ?
+- **Bisacodil** → `bisacodil.pdf` | busca: _Bisacodil_ | pub: ?
+- **Bisoprolol** → `bisoprolol.pdf` | busca: _?_ | pub: ?
+- **Bleomicina** → `bleomicina.pdf` | busca: _BLENOXANE_ | pub: ?
+- **Blinatumomabe** → `blinatumomabe.pdf` | busca: _Blincyto_ | pub: 05/02/2026
+- **Boldo** → `boldo.pdf` | busca: _Boldo_ | pub: 23/12/2025
+- **Bortezomibe** → `bortezomibe.pdf` | busca: _Velcade_ | pub: ?
+- **Brexpiprazol** → `brexpiprazol.pdf` | busca: _Rexulti_ | pub: ?
+- **Brigatinibe** → `brigatinibe.pdf` | busca: _Evobrig_ | pub: 18/12/2025
+- **Brimonidina + Brinzolamida** → `brimonidina-brinzolamida.pdf` | busca: _Simbrinza_ | pub: ?
+- **Brimonidina + Timolol** → `brimonidina-timolol.pdf` | busca: _Combigan_ | pub: ?
+- **Bromazepam** → `bromazepam.pdf` | busca: _Lexotan_ | pub: ?
+- **Brometo de Ipratrópio** → `brometo-de-ipratropio.pdf` | busca: _?_ | pub: ?
+- **Brometo de Pancurônio** → `brometo-de-pancuronio.pdf` | busca: _Pancuron_ | pub: 26/06/2026
+- **Brometo de Rocurônio** → `brometo-de-rocuronio.pdf` | busca: _Brometo de Rocurônio_ | pub: 05/08/2024
+- **Brometo de ipratrópio** → `brometo-de-ipratropio.pdf` | busca: _Brometo de ipratrópio_ | pub: 11/06/2026
+- **Brometo de piridostigmina** → `brometo-de-piridostigmina.pdf` | busca: _Mestinon_ | pub: 18/12/2025
+- **Brometo de vecurônio** → `brometo-de-vecuronio.pdf` | busca: _Vecuron_ | pub: 28/05/2026
+- **Bromexina** → `bromexina.pdf` | busca: _Bisolvon_ | pub: ?
+- **Bromoprida** → `bromoprida.pdf` | busca: _Bromoprida EMS_ | pub: ?
+- **Budesonida** → `budesonida.pdf` | busca: _?_ | pub: ?
+- **Budesonida Oral** → `budesonida-oral.pdf` | busca: _Entocort_ | pub: ?
+- **Bupivacaína** → `bupivacaina.pdf` | busca: _Novabupi_ | pub: ?
+- **Buprenorfina** → `buprenorfina.pdf` | busca: _Restiva_ | pub: ?
+- **Bupropiona + Naltrexona** → `bupropiona.pdf` | busca: _Contrave_ | pub: 19/06/2026
+- **Burosumabe** → `burosumabe.pdf` | busca: _Crysvita_ | pub: ?
+- **Buspirona** → `buspirona.pdf` | busca: _Ansitec_ | pub: ?
+- **Bussulfano** → `bussulfano.pdf` | busca: _Bussulfano_ | pub: 10/11/2025
+- **Butilbrometo de escopolamina + Dipirona** → `butilbrometo-de-escopolamina-dipirona.pdf` | busca: _Buscoplex Composto_ | pub: ?
+- **CANACINUMABE** → `canacinumabe.pdf` | busca: _Ilaris_ | pub: 26/11/2025
+- **Cabazitaxel** → `cabazitaxel.pdf` | busca: _Cabazitaxel_ | pub: 11/06/2026
+- **Cabozantinibe** → `cabozantinibe.pdf` | busca: _Cabometyx_ | pub: 16/03/2026
+- **Cafeína + Dipirona** → `cafeina-dipirona.pdf` | busca: _Doril DC 500_ | pub: ?
+- **Cafeína + Dipirona + Isometepteno** → `cafeina.pdf` | busca: _?_ | pub: ?
+- **Cafeína + Paracetamol + Propifenazona** → `cafeina.pdf` | busca: _?_ | pub: ?
+- **Calcipotriol** → `calcipotriol.pdf` | busca: _Daivonex_ | pub: 18/07/2025
+- **Calcitonina** → `calcitonina.pdf` | busca: _MIACALCIC_ | pub: ?
+- **Calcitriol** → `calcitriol.pdf` | busca: _Rocaltrol_ | pub: ?
+- **Camomila** → `camomila.pdf` | busca: _Camomila_ | pub: 10/06/2025
+- **Canabidiol** → `canabidiol.pdf` | busca: _Canabidiol_ | pub: ?
+- **Canagliflozina** → `canagliflozina.pdf` | busca: _Invokana_ | pub: ?
+- **Candesartana** → `candesartana.pdf` | busca: _?_ | pub: ?
+- **Capecitabina** → `capecitabina.pdf` | busca: _Xeloda_ | pub: ?
+- **Capmatinib** → `capmatinib.pdf` | busca: _Tabrecta_ | pub: ?
+- **Captopril** → `captopril.pdf` | busca: _?_ | pub: ?
+- **Carbamazepina** → `carbamazepina.pdf` | busca: _?_ | pub: ?
+- **Carbidopa + Levodopa** → `carbidopa-levodopa.pdf` | busca: _?_ | pub: ?
+- **Carbocisteína** → `carbocisteina.pdf` | busca: _Mucofan_ | pub: ?
+- **Carbonato de Cálcio** → `carbonato-de-calcio.pdf` | busca: _Lfm-carbonato de Cálcio_ | pub: ?
+- **Carboplatina** → `carboplatina.pdf` | busca: _Paraplatin_ | pub: ?
+- **Carbômero** → `carbomero.pdf` | busca: _Liposic_ | pub: 27/02/2025
+- **Carfilzomibe** → `carfilzomibe.pdf` | busca: _Kyprolis_ | pub: 19/05/2025
+- **Carisoprodol** → `carisoprodol.pdf` | busca: _Beserol_ | pub: ?
+- **Carisoprodol + Diclofenaco + Cafeína + Paracetamol** → `cafeina-carisoprodol-diclofenaco-paracetamol.pdf` | busca: _Torsilax_ | pub: ?
+- **Carvedilol** → `carvedilol.pdf` | busca: _?_ | pub: ?
+- **Caspofungina** → `caspofungina.pdf` | busca: _Berk_ | pub: ?
+- **Castanha da Índia** → `castanha-da-india.pdf` | busca: _?_ | pub: ?
+- **Cefaclor** → `cefaclor.pdf` | busca: _Cefaclor_ | pub: 26/04/2021
+- **Cefadroxil** → `cefadroxil.pdf` | busca: _Cefadroxil EMS_ | pub: ?
+- **Cefalexina** → `cefalexina.pdf` | busca: _?_ | pub: ?
+- **Cefalotina** → `cefalotina.pdf` | busca: _Cefalotina_ | pub: 12/03/2026
+- **Cefalotina Sódica** → `cefalotina-sodica.pdf` | busca: _Cefalotina Sódica_ | pub: 12/03/2026
+- **Cefazolina** → `cefazolina.pdf` | busca: _?_ | pub: ?
+- **Cefepima** → `cefepima.pdf` | busca: _Maxcef_ | pub: ?
+- **Cefotaxima** → `cefotaxima.pdf` | busca: _Cefotaxima_ | pub: 16/06/2026
+- **Cefoxitina Sódica** → `cefoxitina-sodica.pdf` | busca: _Cefoxitina Sódica_ | pub: 24/03/2017
+- **Ceftarolina** → `ceftarolina.pdf` | busca: _Zinforo_ | pub: ?
+- **Ceftazidima** → `ceftazidima.pdf` | busca: _Ceftazidima EMS_ | pub: ?
+- **Ceftolozana + Tazobactam** → `ceftolozana.pdf` | busca: _Zerbaxa_ | pub: 25/06/2025
+- **Ceftriaxona** → `ceftriaxona.pdf` | busca: _?_ | pub: ?
+- **Cefuroxima** → `cefuroxima.pdf` | busca: _?_ | pub: ?
+- **Celecoxibe** → `celecoxibe.pdf` | busca: _?_ | pub: ?
+- **Cemiplimabe** → `cemiplimabe.pdf` | busca: _Libtayo_ | pub: 17/06/2026
+- **Centella Asiática** → `centella-asiatica.pdf` | busca: _?_ | pub: ?
+- **Cetamina** → `cetamina.pdf` | busca: _Ketamin_ | pub: ?
+- **Cetoconazol** → `cetoconazol.pdf` | busca: _Cetoconazol EMS_ | pub: ?
+- **Cetoprofeno** → `cetoprofeno.pdf` | busca: _?_ | pub: ?
+- **Cetorolaco** → `cetorolaco.pdf` | busca: _Terolac_ | pub: 19/06/2026
+- **Cetorolaco Ocular** → `cetorolaco-ocular.pdf` | busca: _Acular_ | pub: ?
+- **Cetotifeno** → `cetotifeno.pdf` | busca: _Fumarato de Cetotifeno_ | pub: ?
+- **Cetrorrelix** → `cetrorrelix.pdf` | busca: _Cetrotide_ | pub: 30/04/2026
+- **Cetuximabe** → `cetuximabe.pdf` | busca: _Erbitux_ | pub: ?
+- **Chá Verde** → `cha-verde.pdf` | busca: _?_ | pub: ?
+- **Cianocobalamina + Piridoxina + Tiamina** → `cianocobalamina-piridoxina-tiamina.pdf` | busca: _Citoneurin 5000_ | pub: ?
+- **Ciclobenzaprina** → `ciclobenzaprina.pdf` | busca: _Miosan_ | pub: ?
+- **Ciclofosfamida** → `ciclofosfamida.pdf` | busca: _Genuxal_ | pub: ?
+- **Ciclopentolato** → `ciclopentolato.pdf` | busca: _CICLOPLEGICO Oculum_ | pub: ?
+- **Ciclopirox olamina** → `ciclopirox-olamina.pdf` | busca: _Ciclopirox olamina_ | pub: 24/04/2026
+- **Ciclosporina** → `ciclosporina.pdf` | busca: _?_ | pub: ?
+- **Cilostazol** → `cilostazol.pdf` | busca: _Vasogard_ | pub: ?
+- **Cimetidina** → `cimetidina.pdf` | busca: _Cimetidina_ | pub: 23/06/2026
+- **Cimicífuga** → `cimicifuga.pdf` | busca: _?_ | pub: ?
+- **Cinarizina** → `cinarizina.pdf` | busca: _Cinarizina_ | pub: 27/09/2024
+- **Ciprofibrato** → `ciprofibrato.pdf` | busca: _Ciprofibrato_ | pub: 12/06/2026
+- **Ciprofloxacino Ocular** → `ciprofloxacino-ocular.pdf` | busca: _Ciloxan_ | pub: ?
+- **Cisplatina** → `cisplatina.pdf` | busca: _Cisplatina EMS_ | pub: ?
+- **Citalopram** → `citalopram.pdf` | busca: _?_ | pub: ?
+- **Citarabina** → `citarabina.pdf` | busca: _Citarabina_ | pub: 18/06/2026
+- **Citrato de Tamoxifeno** → `citrato-de-tamoxifeno.pdf` | busca: _Citrato de Tamoxifeno_ | pub: 04/12/2025
+- **Citrato de potássio** → `citrato-de-potassio.pdf` | busca: _Litocit_ | pub: 08/12/2025
+- **Cladribina** → `cladribina.pdf` | busca: _Mavenclad_ | pub: 18/05/2026
+- **Claritromicina** → `claritromicina.pdf` | busca: _?_ | pub: ?
+- **Clindamicina** → `clindamicina.pdf` | busca: _?_ | pub: ?
+- **Clindamicina + Peróxido de Benzoíla** → `clindamicina.pdf` | busca: _Clindoxyl_ | pub: 26/08/2025
+- **Clomifeno** → `clomifeno.pdf` | busca: _Indux_ | pub: ?
+- **Clomipramina** → `clomipramina.pdf` | busca: _?_ | pub: ?
+- **Clonazepam** → `clonazepam.pdf` | busca: _?_ | pub: ?
+- **Clonixinato de Lisina** → `clonixinato-de-lisina.pdf` | busca: _Clonixinato de Lisina_ | pub: 11/07/2026
+- **Clonixinato de Lisina + Cloridrato de Ciclobenzaprina** → `clonixinato-de-lisina-cloridrato-de-ciclobenzaprina.pdf` | busca: _Clonixinato de Lisina_ | pub: 18/12/2025
+- **Clopidogrel** → `clopidogrel.pdf` | busca: _?_ | pub: ?
+- **Clorambucila** → `clorambucila.pdf` | busca: _Leukeran_ | pub: 03/10/2025
+- **Cloranfenicol** → `cloranfenicol.pdf` | busca: _Arifenicol_ | pub: 17/10/2025
+- **Cloranfenicol + Dexametasona** → `cloranfenicol.pdf` | busca: _?_ | pub: ?
+- **Cloreto de Cálcio + Cloreto de Potássio + Cloreto de Sódio + Lactato de Sódio** → `cloreto-de-calcio-cloreto-de-potassio-cloreto-de-sodio-lactato-de-sodio.pdf` | busca: _SOLUÇÃO DE RINGER COM LACTATO - FRASCO_ | pub: ?
+- **Cloreto de potássio** → `cloreto-de-potassio.pdf` | busca: _Cloreto de potássio_ | pub: 02/02/2021
+- **Cloreto de sódio** → `cloreto-de-sodio.pdf` | busca: _Cloreto de sódio_ | pub: 03/07/2026
+- **Cloreto de tróspio** → `cloreto-de-trospio.pdf` | busca: _Spasmex_ | pub: 17/12/2025
+- **Clorfeniramina + Fenilefrina + Paracetamol** → `clorfeniramina.pdf` | busca: _Fluviral Noite_ | pub: 23/06/2026
+- **Cloridrato de Benazepril** → `cloridrato-de-benazepril.pdf` | busca: _Cloridrato de Benazepril_ | pub: 20/04/2021
+- **Cloridrato de Bupivacaína** → `cloridrato-de-bupivacaina.pdf` | busca: _Cloridrato de Bupivacaína_ | pub: 14/04/2026
+- **Cloridrato de Cefepime** → `cloridrato-de-cefepime.pdf` | busca: _Cloridrato de Cefepime_ | pub: 20/05/2026
+- **Cloridrato de Cinacalcete** → `cloridrato-de-cinacalcete.pdf` | busca: _Cloridrato de Cinacalcete_ | pub: ?
+- **Cloridrato de Clobutinol + Succinato de Doxilamina** → `cloridrato-de-clobutinol-succinato-de-doxilamina.pdf` | busca: _?_ | pub: ?
+- **Cloridrato de Dobutamina** → `cloridrato-de-dobutamina.pdf` | busca: _Cloridrato de Dobutamina_ | pub: 16/03/2026
+- **Cloridrato de Dopamina** → `cloridrato-de-dopamina.pdf` | busca: _Cloridrato de Dopamina_ | pub: 09/06/2026
+- **Cloridrato de Epirrubicina** → `cloridrato-de-epirrubicina.pdf` | busca: _Cloridrato de Epirrubicina_ | pub: 18/06/2026
+- **Cloridrato de Fingolimode** → `cloridrato-de-fingolimode.pdf` | busca: _Cloridrato de Fingolimode_ | pub: 25/06/2026
+- **Cloridrato de Gencitabina** → `cloridrato-de-gencitabina.pdf` | busca: _Cloridrato de Gencitabina_ | pub: 22/05/2026
+- **Cloridrato de Irinotecano** → `cloridrato-de-irinotecano.pdf` | busca: _Cloridrato de Irinotecano_ | pub: 23/06/2026
+- **Cloridrato de Lercanidipino** → `cloridrato-de-lercanidipino.pdf` | busca: _Cloridrato de Lercanidipino_ | pub: 16/03/2026
+- **Cloridrato de Lidocaína** → `cloridrato-de-lidocaina.pdf` | busca: _Cloridrato de Lidocaína_ | pub: 16/12/2025
+- **Cloridrato de Lincomicina** → `cloridrato-de-lincomicina.pdf` | busca: _Cloridrato de Lincomicina_ | pub: 27/04/2021
+- **Cloridrato de Mepivacaína** → `cloridrato-de-mepivacaina.pdf` | busca: _Cloridrato de Mepivacaína_ | pub: 07/04/2017
+- **Cloridrato de Naratriptana** → `cloridrato-de-naratriptana.pdf` | busca: _Cloridrato de Naratriptana_ | pub: 11/12/2025
+- **Cloridrato de Pioglitazona** → `cloridrato-de-pioglitazona.pdf` | busca: _Cloridrato de Pioglitazona_ | pub: 25/06/2026
+- **Cloridrato de Ranitidina** → `cloridrato-de-ranitidina.pdf` | busca: _Cloridrato de Ranitidina_ | pub: 19/05/2021
+- **Cloridrato de Ropivacaína** → `cloridrato-de-ropivacaina.pdf` | busca: _Cloridrato de Ropivacaína_ | pub: 20/08/2025
+- **Cloridrato de Tetraciclina** → `cloridrato-de-tetraciclina.pdf` | busca: _Cloridrato de Tetraciclina_ | pub: 27/03/2026
+- **Cloridrato de Tiamina** → `cloridrato-de-tiamina.pdf` | busca: _Cloridrato de Tiamina_ | pub: 10/10/2024
+- **Cloridrato de xilometazolina** → `cloridrato-de-xilometazolina.pdf` | busca: _Otrivina_ | pub: 10/08/2023
+- **Cloroquina** → `cloroquina.pdf` | busca: _Reuquinol_ | pub: ?
+- **Clorpromazina** → `clorpromazina.pdf` | busca: _Longactil_ | pub: ?
+- **Clortalidona** → `clortalidona.pdf` | busca: _?_ | pub: ?
+- **Clotrimazol** → `clotrimazol.pdf` | busca: _Clomazol_ | pub: ?
+- **Clozapina** → `clozapina.pdf` | busca: _?_ | pub: ?
+- **Cobimetinibe** → `cobimetinibe.pdf` | busca: _Cotellic_ | pub: 16/12/2025
+- **Codeína** → `codeina.pdf` | busca: _?_ | pub: ?
+- **Codeína + Paracetamol** → `codeina-paracetamol.pdf` | busca: _Algicod_ | pub: ?
+- **Colagenase** → `colagenase.pdf` | busca: _Iruxol Mono_ | pub: 17/12/2024
+- **Colchicina** → `colchicina.pdf` | busca: _?_ | pub: ?
+- **Colchicina (gota)** → `colchicina-gota.pdf` | busca: _Colchicina_ | pub: ?
+- **Colecalciferol** → `colecalciferol.pdf` | busca: _Koli D3_ | pub: ?
+- **Colestiramina** → `colestiramina.pdf` | busca: _QUESTRAN LIGHT_ | pub: 30/09/2025
+- **Colistimetato de Sódio** → `colistimetato-de-sodio.pdf` | busca: _Colistimetato de Sódio_ | pub: 30/03/2026
+- **Complexo Protrombínico** → `complexo-protrombinico.pdf` | busca: _Beriplex P/N_ | pub: ?
+- **Contraste Iodado** → `contraste-iodado.pdf` | busca: _?_ | pub: ?
+- **Cordia verbenacea** → `cordia-verbenacea.pdf` | busca: _Acheflan_ | pub: 07/11/2025
+- **Crizotinibe** → `crizotinibe.pdf` | busca: _Xalkori_ | pub: 12/11/2025
+- **Cáscara Sagrada** → `cascara-sagrada.pdf` | busca: _?_ | pub: ?
+- **Cúrcuma** → `curcuma.pdf` | busca: _?_ | pub: ?
+- **DIPIRONA + ISOMETEPTENO + CAFEÍNA** → `dipirona.pdf` | busca: _Neosaldina Dip_ | pub: 20/02/2026
+- **Dabigatrana** → `dabigatrana.pdf` | busca: _?_ | pub: ?
+- **Dabrafenibe** → `dabrafenibe.pdf` | busca: _Tafinlar_ | pub: 29/09/2025
+- **Dacarbazina** → `dacarbazina.pdf` | busca: _Dacarbazina_ | pub: 23/02/2026
+- **Daclatasvir** → `daclatasvir.pdf` | busca: _Daklinza_ | pub: ?
+- **Danshen** → `salvia-milthiorrizae.pdf` | busca: _?_ | pub: ?
+- **Dantroleno** → `dantroleno.pdf` | busca: _DANTROLEN IV_ | pub: ?
+- **Dapagliflozina + Saxagliptina** → `dapagliflozina-saxagliptina.pdf` | busca: _Qtern_ | pub: ?
+- **Daptomicina** → `daptomicina.pdf` | busca: _Cubicin_ | pub: ?
+- **Darifenacina** → `darifenacina.pdf` | busca: _Bromidrato De Darifenacina_ | pub: 23/06/2026
+- **Darunavir** → `darunavir.pdf` | busca: _Prezista_ | pub: ?
+- **Dasatinibe** → `dasatinibe.pdf` | busca: _Dasatinibe_ | pub: 11/05/2026
+- **Daunorrubicina** → `daunorrubicina.pdf` | busca: _Daunoblastina_ | pub: ?
+- **Deferasirox** → `deferasirox.pdf` | busca: _Exjade_ | pub: 13/02/2026
+- **Deferiprona** → `deferiprona.pdf` | busca: _Ferriprox_ | pub: 12/02/2026
+- **Deflazacorte** → `deflazacorte.pdf` | busca: _Deflazacorte_ | pub: 28/03/2024
+- **Degarelix** → `degarelix.pdf` | busca: _Firmagon_ | pub: 30/08/2024
+- **Desloratadina** → `desloratadina.pdf` | busca: _Desloratadina_ | pub: 22/06/2026
+- **Desmopressina** → `desmopressina.pdf` | busca: _DDAVP_ | pub: ?
+- **Desogestrel** → `desogestrel.pdf` | busca: _Cerazette_ | pub: ?
+- **Desogestrel + Etinilestradiol** → `desogestrel-etinilestradiol.pdf` | busca: _Mercilon_ | pub: ?
+- **Desvenlafaxina** → `desvenlafaxina.pdf` | busca: _?_ | pub: ?
+- **Dexametasona** → `dexametasona.pdf` | busca: _?_ | pub: ?
+- **Dexametasona + Tobramicina** → `dexametasona-tobramicina.pdf` | busca: _Tobracort_ | pub: ?
+- **Dexametasona Ocular** → `dexametasona-ocular.pdf` | busca: _Maxidex_ | pub: ?
+- **Dexclorfeniramina** → `dexclorfeniramina.pdf` | busca: _Polaramine_ | pub: ?
+- **Dexlansoprazol** → `dexlansoprazol.pdf` | busca: _Dexlansoprazol_ | pub: 18/05/2026
+- **Dexmedetomidina** → `dexmedetomidina.pdf` | busca: _Precedex_ | pub: ?
+- **Dextran** → `dextran.pdf` | busca: _Dextran_ | pub: ?
+- **Dextrometorfano** → `dextrometorfano.pdf` | busca: _SILENCIUM XAROPE_ | pub: ?
+- **Diacereína** → `diacereina.pdf` | busca: _Artrodar_ | pub: 17/12/2025
+- **Diazepam** → `diazepam.pdf` | busca: _?_ | pub: ?
+- **Diclofenaco** → `diclofenaco.pdf` | busca: _?_ | pub: ?
+- **Dicloridrato de quinina** → `dicloridrato-de-quinina.pdf` | busca: _DICLORIDRATO DE QUININA_ | pub: ?
+- **Didrogesterona** → `didrogesterona.pdf` | busca: _Duphaston_ | pub: 01/12/2025
+- **Didrogesterona + Estradiol** → `didrogesterona.pdf` | busca: _?_ | pub: ?
+- **Dienogeste** → `dienogeste.pdf` | busca: _Dienogeste_ | pub: 03/06/2026
+- **Dietilcarbamazina** → `dietilcarbamazina.pdf` | busca: _Dietilcarbamazina Citrato_ | pub: 12/12/2025
+- **Difenidramina** → `difenidramina.pdf` | busca: _Difenidrin_ | pub: ?
+- **Digoxina** → `digoxina.pdf` | busca: _?_ | pub: ?
+- **Diltiazem** → `diltiazem.pdf` | busca: _?_ | pub: ?
+- **Dimenidrinato + Piridoxina** → `dimenidrinato-piridoxina.pdf` | busca: _Nausicalm B6_ | pub: ?
+- **Dimetilfumarato** → `dimetilfumarato.pdf` | busca: _Tecfidera_ | pub: 24/06/2025
+- **Dinitrato de Isossorbida** → `dinitrato-de-isossorbida.pdf` | busca: _Isordil_ | pub: ?
+- **Diosmina** → `diosmina.pdf` | busca: _Flebodia_ | pub: 23/12/2025
+- **Diosmina + Hesperidina** → `diosmina-hesperidina.pdf` | busca: _Daflon_ | pub: ?
+- **Dipirona** → `dipirona.pdf` | busca: _?_ | pub: ?
+- **Dipropionato de beclometasona** → `dipropionato-de-beclometasona.pdf` | busca: _Dipropionato de beclometasona_ | pub: 19/12/2025
+- **Dobutamina** → `dobutamina.pdf` | busca: _Dobutrex_ | pub: 02/07/2026
+- **Docetaxel** → `docetaxel.pdf` | busca: _Docetaxel EMS_ | pub: ?
+- **Dolutegravir + Lamivudina** → `dolutegravir.pdf` | busca: _Dovato_ | pub: 16/10/2025
+- **Domperidona** → `domperidona.pdf` | busca: _Motilium_ | pub: ?
+- **Donepezila** → `donepezila.pdf` | busca: _?_ | pub: ?
+- **Dopamina** → `dopamina.pdf` | busca: _Dopacris_ | pub: 23/06/2026
+- **Dornase alfa** → `dornase-alfa.pdf` | busca: _Pulmozyme_ | pub: 23/06/2025
+- **Dorzolamida** → `dorzolamida.pdf` | busca: _Trusopt_ | pub: ?
+- **Dorzolamida + Timolol** → `dorzolamida-timolol.pdf` | busca: _Cosopt_ | pub: ?
+- **Doxazosina** → `doxazosina.pdf` | busca: _Cardura_ | pub: ?
+- **Doxiciclina (acne)** → `doxiciclina-acne.pdf` | busca: _Vibramicina_ | pub: ?
+- **Doxorrubicina** → `doxorrubicina.pdf` | busca: _Caelyx_ | pub: ?
+- **Droperidol** → `droperidol.pdf` | busca: _DROPERDAL 2,5MG/ML 50AP. 1ML_ | pub: ?
+- **Dropropizina** → `dropropizina.pdf` | busca: _Dropropizina_ | pub: 23/06/2026
+- **Drospirenona** → `drospirenona.pdf` | busca: _Slinda_ | pub: 11/07/2026
+- **Drospirenona + Estradiol** → `drospirenona-estradiol.pdf` | busca: _?_ | pub: ?
+- **Drospirenona + Etinilestradiol** → `drospirenona-etinilestradiol.pdf` | busca: _?_ | pub: ?
+- **Dulaglutida** → `dulaglutida.pdf` | busca: _Trulicity_ | pub: ?
+- **Duloxetina** → `duloxetina.pdf` | busca: _?_ | pub: ?
+- **Durvalumabe** → `durvalumabe.pdf` | busca: _Imfinzi_ | pub: 04/05/2026
+- **Dutasterida** → `dutasterida.pdf` | busca: _?_ | pub: ?
+- **Dutasterida + Tansulosina** → `dutasterida-tansulosina.pdf` | busca: _Combodart_ | pub: ?
+- **Ebastina** → `ebastina.pdf` | busca: _Ebastel_ | pub: ?
+- **Edoxabana** → `edoxabana.pdf` | busca: _?_ | pub: ?
+- **Efavirenz** → `efavirenz.pdf` | busca: _Evir_ | pub: ?
+- **Efedrina** → `efedrina.pdf` | busca: _?_ | pub: ?
+- **Elotuzumabe** → `elotuzumabe.pdf` | busca: _Empliciti_ | pub: 26/02/2026
+- **Eltrombopague** → `eltrombopague.pdf` | busca: _Eltrombopague_ | pub: 11/03/2026
+- **Empagliflozina + Linagliptina** → `empagliflozina.pdf` | busca: _Glyxambi_ | pub: 17/11/2025
+- **Enalapril** → `enalapril.pdf` | busca: _?_ | pub: ?
+- **Enflurano** → `enflurano.pdf` | busca: _Enfluran_ | pub: 23/08/2016
+- **Enfuvirtida** → `enfuvirtida.pdf` | busca: _Fuzeon_ | pub: 29/04/2022
+- **Enoxaparina** → `enoxaparina.pdf` | busca: _?_ | pub: ?
+- **Entacapona** → `entacapona.pdf` | busca: _Comtan_ | pub: ?
+- **Enzalutamida** → `enzalutamida.pdf` | busca: _Xtandi_ | pub: 31/03/2026
+- **Epinastina** → `epinastina.pdf` | busca: _Relestat_ | pub: 28/11/2025
+- **Epinefrina** → `epinefrina.pdf` | busca: _Epinefrina_ | pub: 15/01/2025
+- **Epinefrina + Lidocaína** → `epinefrina-lidocaina.pdf` | busca: _Hypocaína com vasoconstritor_ | pub: ?
+- **Epinefrina + Mepivacaína** → `epinefrina-mepivacaina.pdf` | busca: _Mepivalem Ad_ | pub: ?
+- **Epirrubicina** → `epirrubicina.pdf` | busca: _EPIRRUBICINA BIOSINTÉTICA_ | pub: ?
+- **Eplerenona** → `eplerenona.pdf` | busca: _Inspra_ | pub: 11/12/2025
+- **Epoetina alfa** → `epoetina-alfa.pdf` | busca: _Eprex_ | pub: 05/11/2025
+- **Equinácea** → `equinacea.pdf` | busca: _?_ | pub: ?
+- **Eribulina** → `eribulina.pdf` | busca: _Halaven_ | pub: 17/12/2025
+- **Eritromicina** → `eritromicina.pdf` | busca: _Eritrofar Pediatrico_ | pub: ?
+- **Eritropoietina** → `eritropoietina.pdf` | busca: _Eritropoietina_ | pub: 17/12/2025
+- **Erlotinibe** → `erlotinibe.pdf` | busca: _Tarceva_ | pub: ?
+- **Ertapeném** → `ertapenem.pdf` | busca: _Invanz_ | pub: ?
+- **Erva Cidreira** → `melissa.pdf` | busca: _?_ | pub: ?
+- **Erva de São João** → `erva-de-sao-joao.pdf` | busca: _?_ | pub: ?
+- **Erva-doce** → `erva-doce.pdf` | busca: _?_ | pub: ?
+- **Escetamina** → `escetamina.pdf` | busca: _Spravato_ | pub: 02/04/2026
+- **Escitalopram** → `escitalopram.pdf` | busca: _Lexapro_ | pub: 05/12/2024
+- **Escopolamina** → `escopolamina.pdf` | busca: _Buscopan_ | pub: ?
+- **Esmolol** → `esmolol.pdf` | busca: _Brevibloc_ | pub: 14/05/2026
+- **Esomeprazol** → `esomeprazol.pdf` | busca: _?_ | pub: ?
+- **Esomeprazol + Naproxeno** → `esomeprazol-naproxeno.pdf` | busca: _Vimovo_ | pub: ?
+- **Espinheira Santa** → `espinheira-santa.pdf` | busca: _?_ | pub: ?
+- **Espiramicina** → `espiramicina.pdf` | busca: _Rovamicina_ | pub: 18/12/2025
+- **Espironolactona** → `espironolactona.pdf` | busca: _?_ | pub: ?
+- **Espironolactona (acne)** → `espironolactona-acne.pdf` | busca: _Aldactone_ | pub: ?
+- **Estradiol** → `estradiol.pdf` | busca: _Estradot_ | pub: 11/07/2026
+- **Estreptomicina** → `estreptomicina.pdf` | busca: _FURP-estreptomicina_ | pub: 28/05/2025
+- **Estriol** → `estriol.pdf` | busca: _Estriol_ | pub: 30/01/2026
+- **Eszopiclona** → `eszopiclona.pdf` | busca: _Prysma_ | pub: ?
+- **Etambutol** → `etambutol.pdf` | busca: _Etambutol EMS_ | pub: ?
+- **Etanercepte** → `etanercepte.pdf` | busca: _Enbrel_ | pub: ?
+- **Etilefrina** → `etilefrina.pdf` | busca: _Etilefril_ | pub: 19/06/2026
+- **Etinilestradiol** → `etinilestradiol.pdf` | busca: _?_ | pub: ?
+- **Etinilestradiol + Gestodeno** → `etinilestradiol-gestodeno.pdf` | busca: _MINESSE_ | pub: ?
+- **Etinilestradiol + Levonorgestrel** → `etinilestradiol-levonorgestrel.pdf` | busca: _NEOVLAR_ | pub: ?
+- **Etodolaco** → `etodolaco.pdf` | busca: _Etodolaco_ | pub: 17/06/2026
+- **Etomidato** → `etomidato.pdf` | busca: _Hypnomidate_ | pub: 03/07/2026
+- **Etonogestrel** → `etonogestrel.pdf` | busca: _Implanon_ | pub: ?
+- **Etonogestrel + Etinilestradiol** → `etinilestradiol-etonogestrel.pdf` | busca: _NuvaRing_ | pub: ?
+- **Etoposídeo** → `etoposideo.pdf` | busca: _Evoposdo_ | pub: 21/05/2026
+- **Etoricoxibe** → `etoricoxibe.pdf` | busca: _Hetori_ | pub: ?
+- **Etossuximida** → `etossuximida.pdf` | busca: _Etoxin_ | pub: ?
+- **Etravirina** → `etravirina.pdf` | busca: _Intelence_ | pub: 04/11/2025
+- **Eucalipto** → `eucalipto.pdf` | busca: _?_ | pub: ?
+- **Eucaliptol** → `eucaliptol.pdf` | busca: _EUCALIPTOL_ | pub: ?
+- **Everolimo** → `everolimo.pdf` | busca: _Afinitor_ | pub: ?
+- **Evolocumabe** → `evolocumabe.pdf` | busca: _Repatha_ | pub: 16/12/2025
+- **Exemestano** → `exemestano.pdf` | busca: _Exemestano_ | pub: 05/02/2026
+- **Ezetimiba** → `ezetimiba.pdf` | busca: _Zetia_ | pub: ?
+- **Famotidina** → `famotidina.pdf` | busca: _Famox_ | pub: ?
+- **Fampridina** → `fampridina.pdf` | busca: _Fampridina_ | pub: 10/12/2025
+- **Fanciclovir** → `fanciclovir.pdf` | busca: _Famvir_ | pub: ?
+- **Fator IX de coagulação** → `fator-ix-de-coagulacao.pdf` | busca: _Fator IX de coagulação_ | pub: 05/07/2024
+- **Fator VIII** → `fator-viii.pdf` | busca: _Fator VIII_ | pub: 30/08/2024
+- **Fator VIII de coagulação** → `fator-viii-de-coagulacao.pdf` | busca: _Fator VIII de coagulação_ | pub: 30/08/2024
+- **Felipressina + Prilocaína** → `felipressina-prilocaina.pdf` | busca: _Citanest 3% com Octapressin_ | pub: ?
+- **Fenazopiridina** → `fenazopiridina.pdf` | busca: _Pyridium_ | pub: 18/12/2025
+- **Fenilbutazona** → `fenilbutazona.pdf` | busca: _Butazona Cálcica_ | pub: ?
+- **Fenilefrina + Paracetamol** → `fenilefrina-paracetamol.pdf` | busca: _Fluviral Dia_ | pub: ?
+- **Fenitoína** → `fenitoina.pdf` | busca: _?_ | pub: ?
+- **Fenobarbital** → `fenobarbital.pdf` | busca: _?_ | pub: ?
+- **Fenofibrato** → `fenofibrato.pdf` | busca: _Fenofibrato_ | pub: 26/06/2026
+- **Fenoterol** → `fenoterol.pdf` | busca: _?_ | pub: ?
+- **Fenoximetilpenicilina** → `fenoximetilpenicilina.pdf` | busca: _Pen-Ve-Oral_ | pub: ?
+- **Fentanila** → `fentanila.pdf` | busca: _Fentanest_ | pub: ?
+- **Ferro** → `ferro.pdf` | busca: _Ferro_ | pub: 10/12/2025
+- **Ferro Polimaltosado** → `ferro-polimaltosado.pdf` | busca: _Noripurum_ | pub: ?
+- **Ferro Sulfato** → `ferro-sulfato.pdf` | busca: _?_ | pub: ?
+- **Fexofenadina** → `fexofenadina.pdf` | busca: _Allegra_ | pub: ?
+- **Filgrastim** → `filgrastim.pdf` | busca: _Filgrastim_ | pub: 05/05/2026
+- **Filgrastima** → `filgrastima.pdf` | busca: _Granulokine_ | pub: 03/11/2025
+- **Finasterida** → `finasterida.pdf` | busca: _?_ | pub: ?
+- **Fingolimode** → `fingolimode.pdf` | busca: _Gilenya_ | pub: 16/04/2026
+- **Fitomenadiona** → `fitomenadiona.pdf` | busca: _Hyvit K_ | pub: 17/03/2021
+- **Fluconazol** → `fluconazol.pdf` | busca: _?_ | pub: ?
+- **Fludarabina** → `fludarabina.pdf` | busca: _FLUDARA_ | pub: ?
+- **Fludrocortisona** → `fludrocortisona.pdf` | busca: _Florinefe_ | pub: 09/12/2025
+- **Flufenazina** → `flufenazina.pdf` | busca: _Flufenan_ | pub: ?
+- **Flumazenil** → `flumazenil.pdf` | busca: _Flumazil_ | pub: 25/06/2026
+- **Flunarizina** → `flunarizina.pdf` | busca: _Flunarin_ | pub: ?
+- **Flunitrazepam** → `flunitrazepam.pdf` | busca: _Rohydorm_ | pub: 01/04/2026
+- **Fluocinolona Acetonida + Hidroquinona + Tretinoína** → `fluocinolona-acetonida-hidroquinona-tretinoina.pdf` | busca: _Hidroquinona_ | pub: 12/05/2026
+- **Fluoruracila** → `fluoruracila.pdf` | busca: _Fluoruracila_ | pub: 28/06/2026
+- **Fluoxetina** → `fluoxetina.pdf` | busca: _?_ | pub: ?
+- **Flurazepam** → `flurazepam.pdf` | busca: _Dalmadorm_ | pub: ?
+- **Flutamida** → `flutamida.pdf` | busca: _Flutamida_ | pub: 17/10/2025
+- **Fluticasona** → `fluticasona.pdf` | busca: _?_ | pub: ?
+- **Fluticasona + Umeclidínio + Vilanterol** → `fluticasona-umeclidinio-vilanterol.pdf` | busca: _Trelegy Ellipta_ | pub: ?
+- **Fluticasona + Vilanterol** → `fluticasona-vilanterol.pdf` | busca: _Relvar Ellipta_ | pub: ?
+- **Fluvoxamina** → `fluvoxamina.pdf` | busca: _Luvox_ | pub: ?
+- **Fondaparinux** → `fondaparinux.pdf` | busca: _Arixtra_ | pub: ?
+- **Formoterol** → `formoterol.pdf` | busca: _?_ | pub: ?
+- **Formoterol + Budesonida** → `budesonida-formoterol.pdf` | busca: _Symbicort_ | pub: ?
+- **Fosfato de potássio** → `fosfato-de-potassio.pdf` | busca: _Fosfato de Potássio_ | pub: 01/07/2026
+- **Fosfomicina** → `fosfomicina.pdf` | busca: _Fosfomicina_ | pub: 22/05/2026
+- **Fremanezumabe** → `fremanezumabe.pdf` | busca: _Ajovy_ | pub: ?
+- **Fulvestranto** → `fulvestranto.pdf` | busca: _Fulvestranto_ | pub: 02/04/2026
+- **Furosemida** → `furosemida.pdf` | busca: _?_ | pub: ?
+- **Gabapentina** → `gabapentina.pdf` | busca: _?_ | pub: ?
+- **Galantamina** → `galantamina.pdf` | busca: _?_ | pub: ?
+- **Galcanezumabe** → `galcanezumabe.pdf` | busca: _Emgality_ | pub: ?
+- **Ganciclovir** → `ganciclovir.pdf` | busca: _Cymevene_ | pub: ?
+- **Gatifloxacino + Prednisolona** → `gatifloxacino-prednisolona.pdf` | busca: _Zypred_ | pub: ?
+- **Gefitinibe** → `gefitinibe.pdf` | busca: _Iressa_ | pub: ?
+- **Genfibrozila** → `genfibrozila.pdf` | busca: _Lopid_ | pub: ?
+- **Gengibre** → `gengibre.pdf` | busca: _?_ | pub: ?
+- **Gentamicina** → `gentamicina.pdf` | busca: _Gentamisan_ | pub: 23/06/2026
+- **Gestodeno + Etinilestradiol** → `etinilestradiol-gestodeno.pdf` | busca: _?_ | pub: ?
+- **Ginkgo Biloba** → `ginkgo-biloba.pdf` | busca: _Ginkgo_ | pub: 23/01/2026
+- **Ginkgo biloba** → `ginkgo-biloba.pdf` | busca: _Ginkgo biloba_ | pub: 23/01/2026
+- **Ginseng** → `ginseng.pdf` | busca: _?_ | pub: ?
+- **Glecaprevir + Pibrentasvir** → `glecaprevir-pibrentasvir.pdf` | busca: _Maviret_ | pub: ?
+- **Glibenclamida** → `glibenclamida.pdf` | busca: _Gliben_ | pub: 26/06/2026
+- **Glibenclamida + Metformina** → `glibenclamida-metformina.pdf` | busca: _GLUCOVANCE_ | pub: ?
+- **Gliclazida** → `gliclazida.pdf` | busca: _Gliclazida_ | pub: 10/06/2026
+- **Gliclazida MR** → `gliclazida-mr.pdf` | busca: _Clazi XR_ | pub: 10/03/2026
+- **Glicopirrônio** → `glicopirronio.pdf` | busca: _Seebri Breezhaler_ | pub: ?
+- **Glicose** → `glicose.pdf` | busca: _Baxter Glicose_ | pub: ?
+- **Glimepirida** → `glimepirida.pdf` | busca: _?_ | pub: ?
+- **Glucagon** → `glucagon.pdf` | busca: _Glucagen_ | pub: ?
+- **Golimumabe** → `golimumabe.pdf` | busca: _Simponi_ | pub: ?
+- **Granisetrona** → `granisetrona.pdf` | busca: _Kytril_ | pub: ?
+- **Guaco** → `guaco.pdf` | busca: _?_ | pub: ?
+- **Guaifenesina** → `guaifenesina.pdf` | busca: _Guaifenesina_ | pub: ?
+- **Guaraná** → `guarana.pdf` | busca: _?_ | pub: ?
+- **Haloperidol** → `haloperidol.pdf` | busca: _?_ | pub: ?
+- **Hialuronato de sódio** → `hialuronato-de-sodio.pdf` | busca: _Euflexxa_ | pub: 19/12/2025
+- **Hialuronidase + Imunoglobulina humana** → `hialuronidase-imunoglobulina-humana.pdf` | busca: _Hyqvia_ | pub: ?
+- **Hidralazina** → `hidralazina.pdf` | busca: _Nepresol_ | pub: ?
+- **Hidroclorotiazida** → `hidroclorotiazida.pdf` | busca: _?_ | pub: ?
+- **Hidroclorotiazida + Losartana** → `hidroclorotiazida-losartana.pdf` | busca: _?_ | pub: ?
+- **Hidroclorotiazida + Olmesartana medoxomila** → `hidroclorotiazida-olmesartana-medoxomila.pdf` | busca: _Olsar H_ | pub: ?
+- **Hidrocortisona** → `hidrocortisona.pdf` | busca: _?_ | pub: ?
+- **Hidroquinona** → `hidroquinona.pdf` | busca: _Solaquin_ | pub: 11/07/2026
+- **Hidroxicloroquina** → `hidroxicloroquina.pdf` | busca: _Sulfato de Hidroxicloroquina_ | pub: ?
+- **Hidroxiureia** → `hidroxiureia.pdf` | busca: _Hidroxiureia_ | pub: 02/02/2026
+- **Hidroxizina** → `hidroxizina.pdf` | busca: _Hixizine_ | pub: ?
+- **Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona** → `hidroxido-de-aluminio-hidroxido-de-magnesio-simeticona.pdf` | busca: _Mylanta Plus_ | pub: ?
+- **Hortelã-pimenta** → `hortela-pimenta.pdf` | busca: _?_ | pub: ?
+- **IMUNOGLOBULINA HUMANA ENDOVENOSA** → `imunoglobulina-humana-endovenosa.pdf` | busca: _IMUNOGLOBULINA HUMANA ENDOVENOSA_ | pub: ?
+- **IMUNOGLOBULINA HUMANA ESPECÍFICA ANTI-D** → `imunoglobulina-humana-especifica-anti-d.pdf` | busca: _IMUNOGLOBULINA HUMANA ESPECÍFICA ANTI-D_ | pub: ?
+- **IMUNOGLOBULINA HUMANA NORMAL** → `imunoglobulina-humana-normal.pdf` | busca: _IMUNOGLOBULINA HUMANA NORMAL_ | pub: ?
+- **Ibandronato** → `ibandronato.pdf` | busca: _?_ | pub: ?
+- **Ibrutinibe** → `ibrutinibe.pdf` | busca: _Imbruvica_ | pub: 30/06/2026
+- **Ibuprofeno** → `ibuprofeno.pdf` | busca: _?_ | pub: ?
+- **Ibuprofeno + Paracetamol** → `ibuprofeno-paracetamol.pdf` | busca: _Nuromol_ | pub: ?
+- **Icatibanto** → `icatibanto.pdf` | busca: _Firazyr_ | pub: 30/11/2023
+- **Idursulfase** → `idursulfase.pdf` | busca: _Elaprase_ | pub: ?
+- **Ifosfamida** → `ifosfamida.pdf` | busca: _Ifosfamida_ | pub: 28/01/2026
+- **Imatinibe** → `imatinibe.pdf` | busca: _Imatinibe EMS_ | pub: ?
+- **Imiglucerase** → `imiglucerase.pdf` | busca: _Cerezyme_ | pub: ?
+- **Imipeném + Cilastatina** → `cilastatina-imipenem.pdf` | busca: _Tienam_ | pub: ?
+- **Imipramina** → `imipramina.pdf` | busca: _Imipra_ | pub: 11/06/2026
+- **Imiquimode** → `imiquimode.pdf` | busca: _Imiquimode_ | pub: ?
+- **Imunoglobulina Antitetânica** → `imunoglobulina-antitetanica.pdf` | busca: _IMUNOGLOBULINA ANTITETÂNICA_ | pub: ?
+- **Imunoglobulina humana** → `imunoglobulina-humana.pdf` | busca: _Imunoglobulina humana_ | pub: 07/02/2025
+- **Imunoglobulina humana antitetânica** → `imunoglobulina-humana-antitetanica.pdf` | busca: _TETANOGAMMA_ | pub: ?
+- **Indacaterol** → `indacaterol.pdf` | busca: _Onbrize Breezhaler_ | pub: ?
+- **Indacaterol + Glicopirrônio** → `glicopirronio-indacaterol.pdf` | busca: _Ultibro Breezhaler_ | pub: ?
+- **Indapamida** → `indapamida.pdf` | busca: _Indapamida EMS_ | pub: ?
+- **Indometacina** → `indometacina.pdf` | busca: _Indocid_ | pub: ?
+- **Infliximabe** → `infliximabe.pdf` | busca: _Remicade_ | pub: ?
+- **Infliximabe (Crohn)** → `infliximabe-crohn.pdf` | busca: _Remicade_ | pub: ?
+- **Inibidor de C1 esterase** → `inibidor-de-c1-esterase.pdf` | busca: _Berinert_ | pub: 18/05/2026
+- **Inotuzumabe ozogamicina** → `inotuzumabe-ozogamicina.pdf` | busca: _Besponsa_ | pub: ?
+- **Insulina Aspart** → `insulina-aspart.pdf` | busca: _?_ | pub: ?
+- **Insulina Degludeca** → `insulina-degludeca.pdf` | busca: _Tresiba_ | pub: ?
+- **Insulina Detemir** → `insulina-detemir.pdf` | busca: _Levemir_ | pub: ?
+- **Insulina Glargina** → `insulina-glargina.pdf` | busca: _?_ | pub: ?
+- **Insulina Lispro** → `insulina-lispro.pdf` | busca: _?_ | pub: ?
+- **Insulina NPH** → `insulina-nph.pdf` | busca: _?_ | pub: ?
+- **Insulina Regular** → `insulina-regular.pdf` | busca: _?_ | pub: ?
+- **Insulina degludeca + Liraglutida** → `insulina-degludeca-liraglutida.pdf` | busca: _Xultophy_ | pub: ?
+- **Insulina glargina + Lixisenatida** → `insulina-glargina-lixisenatida.pdf` | busca: _Soliqua_ | pub: ?
+- **Insulina glulisina** → `insulina-glulisina.pdf` | busca: _Apidra Solostar_ | pub: ?
+- **Insulina humana** → `insulina-humana.pdf` | busca: _Afrezza_ | pub: ?
+- **Interferon Alfa-2b** → `interferon-alfa-2b.pdf` | busca: _INTERFERON Alfa-2b Humano Recombinante_ | pub: ?
+- **Interferon beta-1a** → `interferon-beta-1a.pdf` | busca: _Avonex_ | pub: ?
+- **Interferon beta-1b** → `interferon-beta-1b.pdf` | busca: _Betaferon_ | pub: ?
+- **Invokana** → `invokana.pdf` | busca: _Canagliflozina_ | pub: ?
+- **Iodeto de potássio** → `iodeto-de-potassio.pdf` | busca: _IODETO DE POTÁSSIO_ | pub: ?
+- **Iopamidol** → `iopamidol.pdf` | busca: _Iopamiron_ | pub: 27/06/2025
+- **Ioversol** → `ioversol.pdf` | busca: _Optiray_ | pub: 30/04/2026
+- **Irbesartana** → `irbesartana.pdf` | busca: _?_ | pub: ?
+- **Isatuximabe** → `isatuximabe.pdf` | busca: _Sarclisa_ | pub: 08/01/2026
+- **Isavuconazol** → `isavuconazol.pdf` | busca: _Cresemba_ | pub: 09/12/2025
+- **Isetionato de Hexamidina + Cloridrato de Tetracaína** → `cloridrato-de-tetracaina-isetionato-de-hexamidina.pdf` | busca: _Isetionato de Hexamidina + Cloridrato de Tetracaína_ | pub: ?
+- **Isoflavonas** → `isoflavonas.pdf` | busca: _Promensil_ | pub: 14/10/2025
+- **Isoflurano** → `isoflurano.pdf` | busca: _Isoflurano_ | pub: 23/12/2025
+- **Isoniazida** → `isoniazida.pdf` | busca: _Isoniazida EMS_ | pub: ?
+- **Isossorbida** → `isossorbida.pdf` | busca: _?_ | pub: ?
+- **Isotretinoína** → `isotretinoina.pdf` | busca: _Roacutan_ | pub: ?
+- **Itraconazol** → `itraconazol.pdf` | busca: _?_ | pub: ?
+- **Ivacaftor + Tezacaftor** → `ivacaftor-tezacaftor.pdf` | busca: _Symdeko_ | pub: ?
+- **Ivermectina** → `ivermectina.pdf` | busca: _Leverctin_ | pub: ?
+- **Ixazomibe** → `ixazomibe.pdf` | busca: _Ninlaro_ | pub: ?
+- **Ixequizumabe** → `ixequizumabe.pdf` | busca: _Taltz_ | pub: ?
+- **Kava Kava** → `kava-kava.pdf` | busca: _?_ | pub: ?
+- **L-ornitina L-aspartato** → `l-ornitina-l-aspartato.pdf` | busca: _Hepa-Merz_ | pub: 10/12/2025
+- **Lacosamida** → `lacosamida.pdf` | busca: _Vimpat_ | pub: ?
+- **Lactobacillus rhamnosus** → `lactobacillus-rhamnosus.pdf` | busca: _Culturelle Junior Sachê_ | pub: ?
+- **Lactulose** → `lactulose.pdf` | busca: _Duphalac_ | pub: ?
+- **Lamivudina** → `lamivudina.pdf` | busca: _Epivir_ | pub: ?
+- **Lamivudina + Zidovudina** → `lamivudina-zidovudina.pdf` | busca: _Biovir_ | pub: ?
+- **Lamotrigina** → `lamotrigina.pdf` | busca: _?_ | pub: ?
+- **Lansoprazol** → `lansoprazol.pdf` | busca: _?_ | pub: ?
+- **Lapatinibe** → `lapatinibe.pdf` | busca: _Tykerb_ | pub: ?
+- **Laronidase** → `laronidase.pdf` | busca: _Aldurazyme_ | pub: 25/07/2024
+- **Latanoprost** → `latanoprost.pdf` | busca: _Xalatan_ | pub: ?
+- **Latanoprost + Timolol** → `latanoprost-timolol.pdf` | busca: _Xalacom_ | pub: ?
+- **Latanoprosta** → `latanoprosta.pdf` | busca: _Arulatan_ | pub: 26/06/2026
+- **Ledipasvir + Sofosbuvir** → `ledipasvir-sofosbuvir.pdf` | busca: _Harvoni_ | pub: ?
+- **Leflunomida** → `leflunomida.pdf` | busca: _Arava_ | pub: ?
+- **Lenalidomida** → `lenalidomida.pdf` | busca: _Revlimid_ | pub: ?
+- **Lenvatinibe** → `lenvatinibe.pdf` | busca: _Lenvima_ | pub: 17/12/2025
+- **Lercanidipino** → `lercanidipino.pdf` | busca: _Zanidip_ | pub: ?
+- **Letrozol** → `letrozol.pdf` | busca: _?_ | pub: ?
+- **Leuprorrelina** → `leuprorrelina.pdf` | busca: _Eligard_ | pub: ?
+- **Levetiracetam** → `levetiracetam.pdf` | busca: _?_ | pub: ?
+- **Levocetirizina** → `levocetirizina.pdf` | busca: _Zyxem_ | pub: ?
+- **Levodopa + Carbidopa** → `carbidopa-levodopa.pdf` | busca: _Sinemet_ | pub: ?
+- **Levodopa + Carbidopa + Entacapona** → `carbidopa-entacapona-levodopa.pdf` | busca: _Stalevo_ | pub: ?
+- **Levodropropizina** → `levodropropizina.pdf` | busca: _Percof_ | pub: ?
+- **Levofloxacino** → `levofloxacino.pdf` | busca: _?_ | pub: ?
+- **Levomepromazina** → `levomepromazina.pdf` | busca: _Neozine_ | pub: ?
+- **Levonorgestrel** → `levonorgestrel.pdf` | busca: _Postinor_ | pub: ?
+- **Levonorgestrel + Etinilestradiol** → `etinilestradiol-levonorgestrel.pdf` | busca: _?_ | pub: ?
+- **Levosimendana** → `levosimendana.pdf` | busca: _Simdax_ | pub: ?
+- **Levotiroxina** → `levotiroxina.pdf` | busca: _?_ | pub: ?
+- **Lidocaína** → `lidocaina.pdf` | busca: _Medicaína_ | pub: 17/06/2026
+- **Lidocaína + Prilocaína** → `lidocaina-prilocaina.pdf` | busca: _EMLA Creme_ | pub: ?
+- **Lidocaína + Tetracaína** → `lidocaina.pdf` | busca: _?_ | pub: ?
+- **Limeciclina** → `limeciclina.pdf` | busca: _Limeciclina_ | pub: 06/03/2026
+- **Linagliptina** → `linagliptina.pdf` | busca: _Linagliptina_ | pub: 17/06/2026
+- **Lincomicina** → `lincomicina.pdf` | busca: _LINCOMICINA_ | pub: ?
+- **Linezolida** → `linezolida.pdf` | busca: _Linezolida EMS_ | pub: ?
+- **Liraglutida** → `liraglutida.pdf` | busca: _Victoza_ | pub: ?
+- **Lisado Bacteriano** → `lisado-bacteriano.pdf` | busca: _Broncho-Vaxom_ | pub: 24/01/2025
+- **Lisado bacteriano de Escherichia coli** → `lisado-bacteriano-de-escherichia-coli.pdf` | busca: _Uro-Vaxom_ | pub: 17/12/2025
+- **Lisdexanfetamina** → `lisdexanfetamina.pdf` | busca: _Venvanse_ | pub: 04/03/2026
+- **Lisinopril** → `lisinopril.pdf` | busca: _?_ | pub: ?
+- **Loperamida** → `loperamida.pdf` | busca: _Imosec_ | pub: ?
+- **Lopinavir + Ritonavir** → `lopinavir-ritonavir.pdf` | busca: _Kaletra_ | pub: ?
+- **Loratadina** → `loratadina.pdf` | busca: _Claritin_ | pub: ?
+- **Lorazepam** → `lorazepam.pdf` | busca: _?_ | pub: ?
+- **Lornoxicam** → `lornoxicam.pdf` | busca: _Xefo_ | pub: ?
+- **Losartana** → `losartana.pdf` | busca: _?_ | pub: ?
+- **Losartana + Hidroclorotiazida** → `hidroclorotiazida-losartana.pdf` | busca: _Aradois H_ | pub: ?
+- **Lumasiran** → `lumasiran.pdf` | busca: _Oxlumo_ | pub: 06/03/2026
+- **Luspatercepte** → `luspatercepte.pdf` | busca: _Reblozyl_ | pub: 13/08/2025
+- **Lítio** → `litio.pdf` | busca: _?_ | pub: ?
+- **Magaldrato** → `magaldrato.pdf` | busca: _Riopan_ | pub: 11/03/2021
+- **Magaldrato + Simeticona** → `magaldrato-simeticona.pdf` | busca: _RIOPAN PLUS_ | pub: ?
+- **Manitol** → `manitol.pdf` | busca: _Manitol_ | pub: 01/07/2026
+- **Maracuja** → `maracuja.pdf` | busca: _Passiflora_ | pub: 03/02/2026
+- **Mebendazol** → `mebendazol.pdf` | busca: _Pantelmin_ | pub: ?
+- **Mebeverina** → `mebeverina.pdf` | busca: _Duspatalin_ | pub: ?
+- **Meloxicam** → `meloxicam.pdf` | busca: _?_ | pub: ?
+- **Memantina** → `memantina.pdf` | busca: _?_ | pub: ?
+- **Menotropina** → `menotropina.pdf` | busca: _Menopur_ | pub: 03/07/2026
+- **Mepolizumabe** → `mepolizumabe.pdf` | busca: _Nucala_ | pub: ?
+- **Meropeném** → `meropenem.pdf` | busca: _Meropeném_ | pub: 02/07/2026
+- **Mesalazina** → `mesalazina.pdf` | busca: _Mesacol_ | pub: ?
+- **Mesilato de desferroxamina** → `mesilato-de-desferroxamina.pdf` | busca: _Mesilato de Desferroxamina_ | pub: 15/06/2026
+- **Metadona** → `metadona.pdf` | busca: _Metadona EMS_ | pub: ?
+- **Metadoxina** → `metadoxina.pdf` | busca: _Metadoxil_ | pub: 19/12/2025
+- **Metformina** → `metformina.pdf` | busca: _Cloridrato de Metformina_ | pub: 15/06/2026
+- **Metformina + Dapagliflozina** → `dapagliflozina-metformina.pdf` | busca: _Xigduo_ | pub: ?
+- **Metformina + Vildagliptina** → `metformina-vildagliptina.pdf` | busca: _Galvus Met_ | pub: ?
+- **Metformina XR** → `metformina-xr.pdf` | busca: _Glifage XR_ | pub: 31/07/2025
+- **Metildopa** → `metildopa.pdf` | busca: _Aldomet_ | pub: ?
+- **Metilergometrina** → `metilergometrina.pdf` | busca: _METILERGOMETRINA_ | pub: ?
+- **Metilfenidato** → `metilfenidato.pdf` | busca: _Concerta_ | pub: 15/12/2025
+- **Metilprednisolona** → `metilprednisolona.pdf` | busca: _Unimedrol_ | pub: ?
+- **Metilsulfato de neostigmina** → `metilsulfato-de-neostigmina.pdf` | busca: _Metilsulfato de Neostigmina_ | pub: 03/07/2026
+- **Metimazol** → `metimazol.pdf` | busca: _?_ | pub: ?
+- **Metoclopramida** → `metoclopramida.pdf` | busca: _Cloridrato de Metoclopramida_ | pub: ?
+- **Metoprolol** → `metoprolol.pdf` | busca: _?_ | pub: ?
+- **Metoprolol Succinato** → `metoprolol-succinato.pdf` | busca: _Selozok_ | pub: ?
+- **Metotrexato** → `metotrexato.pdf` | busca: _?_ | pub: ?
+- **Metreleptina** → `metreleptina.pdf` | busca: _Myalept_ | pub: 02/07/2025
+- **Metronidazol** → `metronidazol.pdf` | busca: _?_ | pub: ?
+- **Micafungina** → `micafungina.pdf` | busca: _Micafungina_ | pub: 08/07/2026
+- **Micofenolato de Mofetila** → `micofenolato-de-mofetila.pdf` | busca: _CellCept_ | pub: ?
+- **Micofenolato de Sódio** → `micofenolato-de-sodio.pdf` | busca: _Myfortic_ | pub: ?
+- **Midazolam** → `midazolam.pdf` | busca: _?_ | pub: ?
+- **Midostaurina** → `midostaurina.pdf` | busca: _Rydapt_ | pub: 15/09/2025
+- **Mifamurtida** → `mifamurtida.pdf` | busca: _Mepact_ | pub: ?
+- **Miglustate** → `miglustate.pdf` | busca: _Zavesca_ | pub: 02/10/2025
+- **Milrinona** → `milrinona.pdf` | busca: _Primacor_ | pub: 08/12/2025
+- **Minociclina** → `minociclina.pdf` | busca: _Cloridrato de Minociclina_ | pub: ?
+- **Minoxidil** → `minoxidil.pdf` | busca: _Pielus Mx_ | pub: ?
+- **Mirtazapina** → `mirtazapina.pdf` | busca: _Remeron_ | pub: ?
+- **Mitoxantrona** → `mitoxantrona.pdf` | busca: _MITOXANTRONA_ | pub: ?
+- **Mononitrato de Isossorbida** → `mononitrato-de-isossorbida.pdf` | busca: _?_ | pub: ?
+- **Montelucaste** → `montelucaste.pdf` | busca: _Montelucaste_ | pub: 26/06/2026
+- **Morfina** → `morfina.pdf` | busca: _Dimorf_ | pub: 24/06/2026
+- **Moxifloxacino** → `moxifloxacino.pdf` | busca: _?_ | pub: ?
+- **Moxifloxacino Ocular** → `moxifloxacino-ocular.pdf` | busca: _Vigamox_ | pub: ?
+- **Nafazolina** → `nafazolina.pdf` | busca: _Novo Rino_ | pub: ?
+- **Nalbufina** → `nalbufina.pdf` | busca: _Nubain_ | pub: ?
+- **Naloxona** → `naloxona.pdf` | busca: _Narcan_ | pub: ?
+- **Naltrexona** → `naltrexona.pdf` | busca: _Revia_ | pub: ?
+- **Nandrolona** → `nandrolona.pdf` | busca: _Deca-Durabolin_ | pub: 29/04/2026
+- **Naproxeno** → `naproxeno.pdf` | busca: _?_ | pub: ?
+- **Naratriptano** → `naratriptano.pdf` | busca: _Naratriptano EMS_ | pub: ?
+- **Natalizumabe** → `natalizumabe.pdf` | busca: _Tysabri_ | pub: 29/04/2026
+- **Nebivolol** → `nebivolol.pdf` | busca: _?_ | pub: ?
+- **Neomicina** → `neomicina.pdf` | busca: _NEOMICINA PASTILHA_ | pub: ?
+- **Neostigmina** → `neostigmina.pdf` | busca: _Normastig_ | pub: 06/04/2026
+- **Nepafenaco** → `nepafenaco.pdf` | busca: _Nevanac_ | pub: ?
+- **Netupitanto + Palonosetrona** → `netupitanto-palonosetrona.pdf` | busca: _Akynzeo_ | pub: ?
+- **Nevirapina** → `nevirapina.pdf` | busca: _Viramune_ | pub: ?
+- **Nicotina (adesivo/pastilha)** → `nicotina-adesivo.pdf` | busca: _Nicorette_ | pub: ?
+- **Nifedipina** → `nifedipina.pdf` | busca: _Neo Fedipina_ | pub: 22/06/2026
+- **Nilotinibe** → `nilotinibe.pdf` | busca: _Tasigna_ | pub: 08/01/2026
+- **Nimesulida** → `nimesulida.pdf` | busca: _Nisulid_ | pub: ?
+- **Nintedanibe** → `nintedanibe.pdf` | busca: _Ofev_ | pub: 02/12/2025
+- **Nirmatrelvir + Ritonavir** → `nirmatrelvir-ritonavir.pdf` | busca: _Paxlovid_ | pub: ?
+- **Nistatina** → `nistatina.pdf` | busca: _Micostal_ | pub: ?
+- **Nitazoxanida** → `nitazoxanida.pdf` | busca: _Annita_ | pub: ?
+- **Nitrazepam** → `nitrazepam.pdf` | busca: _Sonebon_ | pub: ?
+- **Nitrendipino** → `nitrendipino.pdf` | busca: _Nitrendipino_ | pub: 05/12/2024
+- **Nitrofurantoína** → `nitrofurantoina.pdf` | busca: _Macrodantina_ | pub: ?
+- **Nitroglicerina** → `nitroglicerina.pdf` | busca: _Tridil_ | pub: 17/04/2026
+- **Nitroprussiato de Sódio** → `nitroprussiato-de-sodio.pdf` | busca: _Nitroprus_ | pub: ?
+- **Norelgestromina + Etinilestradiol** → `etinilestradiol-norelgestromina.pdf` | busca: _Evra_ | pub: ?
+- **Norepinefrina** → `norepinefrina.pdf` | busca: _Hemitartarato de Norepinefrina_ | pub: 19/06/2026
+- **Noretisterona** → `noretisterona.pdf` | busca: _Primolut-Nor_ | pub: ?
+- **Norfloxacino** → `norfloxacino.pdf` | busca: _?_ | pub: ?
+- **Nortriptilina** → `nortriptilina.pdf` | busca: _?_ | pub: ?
+- **Nusinersena** → `nusinersena.pdf` | busca: _Spinraza_ | pub: 26/01/2026
+- **OLOPATADINA** → `olopatadina.pdf` | busca: _Patanol_ | pub: ?
+- **Ocitocina** → `ocitocina.pdf` | busca: _Ocitocina_ | pub: 18/12/2025
+- **Ocrelizumabe** → `ocrelizumabe.pdf` | busca: _Ocrevus_ | pub: 23/10/2025
+- **Octreotida** → `octreotida.pdf` | busca: _Octride_ | pub: 20/08/2025
+- **Olanzapina** → `olanzapina.pdf` | busca: _?_ | pub: ?
+- **Olaparibe** → `olaparibe.pdf` | busca: _Lynparza_ | pub: 26/09/2025
+- **Olmesartana** → `olmesartana.pdf` | busca: _?_ | pub: ?
+- **Olmesartana + Amlodipino** → `amlodipino-olmesartana.pdf` | busca: _Olmecor_ | pub: 18/06/2026
+- **Olmesartana + Hidroclorotiazida** → `hidroclorotiazida-olmesartana.pdf` | busca: _Benicar HCT_ | pub: ?
+- **Olmesartana medoxomila** → `olmesartana-medoxomila.pdf` | busca: _Olmesartana medoxomila_ | pub: 11/07/2026
+- **Omalizumabe** → `omalizumabe.pdf` | busca: _Xolair_ | pub: ?
+- **Omeprazol** → `omeprazol.pdf` | busca: _?_ | pub: ?
+- **Ondansetrona** → `ondansetrona.pdf` | busca: _Ondansetrona_ | pub: 15/06/2026
+- **Orfenadrina** → `orfenadrina.pdf` | busca: _Fenaflex - Odc_ | pub: ?
+- **Orlistat** → `orlistat.pdf` | busca: _Orlistat_ | pub: ?
+- **Orlistate** → `orlistate.pdf` | busca: _Orlistate_ | pub: 29/01/2026
+- **Oseltamivir** → `oseltamivir.pdf` | busca: _Farmanguinhos Oseltamivir_ | pub: ?
+- **Osimertinibe** → `osimertinibe.pdf` | busca: _Tagrisso_ | pub: ?
+- **Oxacilina** → `oxacilina.pdf` | busca: _Oxacilina_ | pub: 12/11/2025
+- **Oxacilina Sódica** → `oxacilina-sodica.pdf` | busca: _Oxacilina Sódica_ | pub: 12/11/2025
+- **Oxaliplatina** → `oxaliplatina.pdf` | busca: _Oxaliplatina_ | pub: 11/06/2026
+- **Oxcarbazepina** → `oxcarbazepina.pdf` | busca: _Oleptal_ | pub: ?
+- **Oxibutinina** → `oxibutinina.pdf` | busca: _Oxibutinina EMS_ | pub: ?
+- **Oxicodona** → `oxicodona.pdf` | busca: _?_ | pub: ?
+- **Paclitaxel** → `paclitaxel.pdf` | busca: _Taxol_ | pub: ?
+- **Palbociclibe** → `palbociclibe.pdf` | busca: _Palbociclibe_ | pub: 05/02/2026
+- **Paliperidona** → `paliperidona.pdf` | busca: _Invega_ | pub: ?
+- **Palivizumabe** → `palivizumabe.pdf` | busca: _SYNAGIS_ | pub: 06/06/2025
+- **Palonosetrona** → `palonosetrona.pdf` | busca: _Palocyt_ | pub: ?
+- **Pamidronato dissódico** → `pamidronato-dissodico.pdf` | busca: _Pamidronato dissódico_ | pub: 07/10/2025
+- **Pancreatina** → `pancreatina.pdf` | busca: _Creon_ | pub: 19/03/2025
+- **Panitumumabe** → `panitumumabe.pdf` | busca: _Vectibix_ | pub: 21/05/2025
+- **Pantoprazol** → `pantoprazol.pdf` | busca: _?_ | pub: ?
+- **Paracetamol** → `paracetamol.pdf` | busca: _?_ | pub: ?
+- **Paracetamol + Codeína** → `codeina-paracetamol.pdf` | busca: _Algicod_ | pub: ?
+- **Parecoxibe** → `parecoxibe.pdf` | busca: _Parecoxibe_ | pub: 11/11/2025
+- **Paricalcitol** → `paricalcitol.pdf` | busca: _Zemplar_ | pub: 28/11/2025
+- **Paroxetina** → `paroxetina.pdf` | busca: _Roxetin_ | pub: 30/06/2026
+- **Patisirana** → `patisirana.pdf` | busca: _Onpattro_ | pub: 05/11/2025
+- **Paullinia cupana + Ptychopetalum olacoides + Trichilia catigua + Zingiber officinale** → `paullinia-cupana.pdf` | busca: _Catuama_ | pub: 02/05/2022
+- **Pazopanibe** → `pazopanibe.pdf` | busca: _Votrient_ | pub: 16/09/2025
+- **Pegfilgrastim** → `pegfilgrastim.pdf` | busca: _Pelgraz_ | pub: 02/12/2022
+- **Pemetrexede** → `pemetrexede.pdf` | busca: _Pemetrexede_ | pub: 27/05/2026
+- **Penicilamina** → `penicilamina.pdf` | busca: _Cuprimine_ | pub: 18/12/2025
+- **Penicilina G Benzatina** → `penicilina-g-benzatina.pdf` | busca: _PENICILINA G BENZATINA_ | pub: ?
+- **Penicilina G Potássica** → `penicilina-g-potassica.pdf` | busca: _PENICILINA G POTÁSSICA ARISTON_ | pub: ?
+- **Penicilina G Procaína + Penicilina G Potássica** → `penicilina-g-potassica-penicilina-g-procaina.pdf` | busca: _PENICILINA G PROCAÍNA + PENICILINA G POTÁSSICA_ | pub: ?
+- **Penicilina benzatina** → `penicilina-benzatina.pdf` | busca: _Benzetacil_ | pub: ?
+- **Pentoxifilina** → `pentoxifilina.pdf` | busca: _Pentoxifilina_ | pub: 19/12/2025
+- **Perampanel** → `perampanel.pdf` | busca: _Fycompa_ | pub: ?
+- **Periciazina** → `periciazina.pdf` | busca: _Neuleptil_ | pub: 01/04/2025
+- **Perindopril** → `perindopril.pdf` | busca: _?_ | pub: ?
+- **Permetrina** → `permetrina.pdf` | busca: _Permetrina_ | pub: 12/06/2026
+- **Picossulfato de Sódio** → `picossulfato-de-sodio.pdf` | busca: _Rapilax_ | pub: ?
+- **Pilocarpina** → `pilocarpina.pdf` | busca: _Pilocarpina_ | pub: 28/06/2022
+- **Pinavério** → `pinaverio.pdf` | busca: _Dicetel_ | pub: ?
+- **Pioglitazona** → `pioglitazona.pdf` | busca: _Pioglit_ | pub: 12/11/2020
+- **Piperacilina + Tazobactam** → `piperacilina-tazobactam.pdf` | busca: _Tazocin_ | pub: ?
+- **Pirazinamida** → `pirazinamida.pdf` | busca: _Pirazinamida EMS_ | pub: ?
+- **Pirfenidona** → `pirfenidona.pdf` | busca: _Pirfenidona_ | pub: 18/07/2025
+- **Piridoxina** → `piridoxina.pdf` | busca: _Neuri - B6_ | pub: 12/12/2025
+- **Pirimetamina** → `pirimetamina.pdf` | busca: _Daraprim_ | pub: ?
+- **Piroxicam** → `piroxicam.pdf` | busca: _Piroxicam_ | pub: 20/06/2026
+- **Pitavastatina** → `pitavastatina.pdf` | busca: _Pivast_ | pub: ?
+- **Plantago Ovata** → `plantago-ovata.pdf` | busca: _Plantago Ovata_ | pub: ?
+- **Polimixina B** → `polimixina-b.pdf` | busca: _Polixil B_ | pub: 07/08/2024
+- **Ponatinibe** → `ponatinibe.pdf` | busca: _Iclusig_ | pub: 17/06/2026
+- **Poractanto alfa** → `poractanto-alfa.pdf` | busca: _Curosurf_ | pub: 17/06/2025
+- **Pramipexol** → `pramipexol.pdf` | busca: _Dicloridrato de Pramipexol_ | pub: ?
+- **Prasugrel** → `prasugrel.pdf` | busca: _Effient_ | pub: ?
+- **Pravastatina** → `pravastatina.pdf` | busca: _?_ | pub: ?
+- **Pravastatina Sódica** → `pravastatina-sodica.pdf` | busca: _Pravastatina Sódica_ | pub: 16/12/2025
+- **Praziquantel** → `praziquantel.pdf` | busca: _Far-manguinhos Praziquantel_ | pub: ?
+- **Prednisolona** → `prednisolona.pdf` | busca: _?_ | pub: ?
+- **Prednisolona Ocular** → `prednisolona-ocular.pdf` | busca: _Pred Forte_ | pub: ?
+- **Prednisona** → `prednisona.pdf` | busca: _?_ | pub: ?
+- **Pregabalina** → `pregabalina.pdf` | busca: _?_ | pub: ?
+- **Primidona** → `primidona.pdf` | busca: _Primidon_ | pub: ?
+- **Promestrieno** → `promestrieno.pdf` | busca: _Promestrieno_ | pub: 30/10/2025
+- **Prometazina** → `prometazina.pdf` | busca: _Pamergan_ | pub: ?
+- **Propafenona** → `propafenona.pdf` | busca: _Cloridrato de Propafenona_ | pub: ?
+- **Propiltiouracila** → `propiltiouracila.pdf` | busca: _Propilracil_ | pub: 10/12/2025
+- **Propionato de Clobetasol** → `propionato-de-clobetasol.pdf` | busca: _Propionato de Clobetasol_ | pub: 11/06/2026
+- **Propofol** → `propofol.pdf` | busca: _Diprivan_ | pub: ?
+- **Propranolol** → `propranolol.pdf` | busca: _?_ | pub: ?
+- **Protamina** → `protamina.pdf` | busca: _Protamina_ | pub: 27/02/2026
+- **Prucaloprida** → `prucaloprida.pdf` | busca: _Resolor_ | pub: 17/12/2025
+- **Quetiapina** → `quetiapina.pdf` | busca: _?_ | pub: ?
+- **Quetiapina XR** → `quetiapina-xr.pdf` | busca: _Atip XR_ | pub: 19/09/2025
+- **Rabeprazol** → `rabeprazol.pdf` | busca: _?_ | pub: ?
+- **Raloxifeno** → `raloxifeno.pdf` | busca: _Evista_ | pub: ?
+- **Raltegravir** → `raltegravir.pdf` | busca: _Isentress_ | pub: ?
+- **Ramelteon** → `ramelteon.pdf` | busca: _Ramelteon_ | pub: 03/06/2026
+- **Ramelteona** → `ramelteona.pdf` | busca: _Ramelteona_ | pub: 03/06/2026
+- **Ramipril** → `ramipril.pdf` | busca: _?_ | pub: ?
+- **Ranibizumabe** → `ranibizumabe.pdf` | busca: _Lucentis_ | pub: ?
+- **Ranitidina** → `ranitidina.pdf` | busca: _Antak_ | pub: ?
+- **Rasagilina** → `rasagilina.pdf` | busca: _Azilect_ | pub: ?
+- **Regorafenibe** → `regorafenibe.pdf` | busca: _Stivarga_ | pub: 22/12/2025
+- **Remdesivir** → `remdesivir.pdf` | busca: _Veklury_ | pub: 03/07/2024
+- **Remifentanila** → `remifentanila.pdf` | busca: _Ultiva_ | pub: 03/07/2026
+- **Repaglinida** → `repaglinida.pdf` | busca: _Posprand_ | pub: ?
+- **Ribavirina** → `ribavirina.pdf` | busca: _Ribavirina_ | pub: 12/12/2025
+- **Ribociclibe** → `ribociclibe.pdf` | busca: _Kisqali_ | pub: 16/09/2025
+- **Rifamicina SV Sódica** → `rifamicina-sv-sodica.pdf` | busca: _Rifamicina SV Sódica_ | pub: ?
+- **Rifampicina** → `rifampicina.pdf` | busca: _Rifaldin_ | pub: 19/03/2026
+- **Rifaximina** → `rifaximina.pdf` | busca: _Xifaxan_ | pub: ?
+- **Riluzol** → `riluzol.pdf` | busca: _RILUTEK_ | pub: ?
+- **Riociguate** → `riociguate.pdf` | busca: _Adempas_ | pub: ?
+- **Risedronato** → `risedronato.pdf` | busca: _?_ | pub: ?
+- **Risedronato sódico** → `risedronato-sodico.pdf` | busca: _Risedronato sódico_ | pub: 24/06/2026
+- **Risperidona** → `risperidona.pdf` | busca: _?_ | pub: ?
+- **Ritonavir** → `ritonavir.pdf` | busca: _Norvir_ | pub: ?
+- **Rituximabe** → `rituximabe.pdf` | busca: _MabThera_ | pub: ?
+- **Rivaroxabana** → `rivaroxabana.pdf` | busca: _?_ | pub: ?
+- **Rivastigmina** → `rivastigmina.pdf` | busca: _?_ | pub: ?
+- **Rizatriptana** → `rizatriptana.pdf` | busca: _Maxalt_ | pub: ?
+- **Rizatriptano** → `rizatriptano.pdf` | busca: _?_ | pub: ?
+- **Rocurônio** → `rocuronio.pdf` | busca: _Rocuron_ | pub: ?
+- **Roflumilaste** → `roflumilaste.pdf` | busca: _Daxas_ | pub: ?
+- **Romiplostim** → `romiplostim.pdf` | busca: _Nplate_ | pub: ?
+- **Romosozumabe** → `romosozumabe.pdf` | busca: _Evenity_ | pub: ?
+- **Ropivacaína** → `ropivacaina.pdf` | busca: _Naropin_ | pub: ?
+- **Rosuvastatina** → `rosuvastatina.pdf` | busca: _?_ | pub: ?
+- **Rosuvastatina + Ezetimiba** → `ezetimiba-rosuvastatina.pdf` | busca: _Zinpass Eze_ | pub: 11/07/2026
+- **Rotigotina** → `rotigotina.pdf` | busca: _Neupro_ | pub: ?
+- **Rufinamida** → `rufinamida.pdf` | busca: _Inovelon_ | pub: ?
+- **Rupatadina** → `rupatadina.pdf` | busca: _Rupafin_ | pub: ?
+- **Ruxolitinibe** → `ruxolitinibe.pdf` | busca: _Jakavi_ | pub: 26/09/2025
+- **Sacarato de Hidróxido Férrico** → `sacarato-de-hidroxido-ferrico.pdf` | busca: _Noripurum EV_ | pub: ?
+- **Saccharomyces boulardii** → `saccharomyces-boulardii.pdf` | busca: _Floratil_ | pub: ?
+- **Safinamida** → `safinamida.pdf` | busca: _Xadago_ | pub: 01/07/2026
+- **Salbutamol** → `salbutamol.pdf` | busca: _?_ | pub: ?
+- **Salgueiro** → `salgueiro.pdf` | busca: _?_ | pub: ?
+- **Salmeterol + Fluticasona** → `fluticasona-salmeterol.pdf` | busca: _Seretide_ | pub: ?
+- **Saw Palmetto** → `saw-palmetto.pdf` | busca: _?_ | pub: ?
+- **Saxagliptina** → `saxagliptina.pdf` | busca: _Onglyza_ | pub: ?
+- **Sebelipase alfa** → `sebelipase-alfa.pdf` | busca: _Kanuma_ | pub: 28/08/2025
+- **Secnidazol** → `secnidazol.pdf` | busca: _Secnidazol_ | pub: 03/07/2026
+- **Selexipague** → `selexipague.pdf` | busca: _Uptravi_ | pub: 18/09/2025
+- **Semaglutida** → `semaglutida.pdf` | busca: _Ozempic_ | pub: ?
+- **Sene** → `sene.pdf` | busca: _?_ | pub: ?
+- **Sertralina** → `sertralina.pdf` | busca: _?_ | pub: ?
+- **Sevoflurano** → `sevoflurano.pdf` | busca: _SEVORANE_ | pub: ?
+- **Sibutramina** → `sibutramina.pdf` | busca: _Vazy_ | pub: ?
+- **Sildenafila** → `sildenafila.pdf` | busca: _?_ | pub: ?
+- **Sildenafila (HP)** → `sildenafila-hp.pdf` | busca: _Sildenafila_ | pub: ?
+- **Silimarina** → `silimarina.pdf` | busca: _?_ | pub: ?
+- **Sinvastatina** → `sinvastatina.pdf` | busca: _?_ | pub: ?
+- **Sinvastatina + Ezetimiba** → `ezetimiba-sinvastatina.pdf` | busca: _Vytorin_ | pub: ?
+- **Sirolimo** → `sirolimo.pdf` | busca: _Rapamune_ | pub: ?
+- **Sofosbuvir** → `sofosbuvir.pdf` | busca: _Sovaldi_ | pub: ?
+- **Soja** → `soja-isoflavona.pdf` | busca: _?_ | pub: ?
+- **Solifenacina** → `solifenacina.pdf` | busca: _Vesicare_ | pub: ?
+- **Somatropina (GH)** → `somatropina-gh.pdf` | busca: _Genotropin_ | pub: ?
+- **Sotalol** → `sotalol.pdf` | busca: _Sotacor_ | pub: ?
+- **Succinato de Sumatriptana** → `succinato-de-sumatriptana.pdf` | busca: _Succinato de Sumatriptana_ | pub: 22/09/2025
+- **Sucralfato** → `sucralfato.pdf` | busca: _Sucrafilm_ | pub: ?
+- **Sufentanila** → `sufentanila.pdf` | busca: _Sufenta_ | pub: ?
+- **Sugamadex** → `sugamadex.pdf` | busca: _Bridion_ | pub: 17/11/2025
+- **Sugamadex Sódico** → `sugamadex-sodico.pdf` | busca: _Sugamadex Sódico_ | pub: ?
+- **Sulfadiazina** → `sulfadiazina.pdf` | busca: _FURP-Sulfadiazina_ | pub: ?
+- **Sulfadiazina de Prata** → `sulfadiazina-de-prata.pdf` | busca: _Sulfadiazina de Prata_ | pub: ?
+- **Sulfametoxazol + Trimetoprima** → `sulfametoxazol-trimetoprima.pdf` | busca: _Bactrim_ | pub: ?
+- **Sulfametoxazol-trimetoprima** → `sulfametoxazol-trimetoprima.pdf` | busca: _?_ | pub: ?
+- **Sulfassalazina** → `sulfassalazina.pdf` | busca: _Azulfin_ | pub: ?
+- **Sulfato Ferroso + Ácido Fólico** → `acido-folico-sulfato-ferroso.pdf` | busca: _Folifer Ferro_ | pub: ?
+- **Sulfato de Glicosamina** → `sulfato-de-glicosamina.pdf` | busca: _Sulfato de Glicosamina_ | pub: ?
+- **Sulfato de Neomicina** → `sulfato-de-neomicina.pdf` | busca: _Sulfato de Neomicina_ | pub: ?
+- **Sulfato de Polimixina B** → `sulfato-de-polimixina-b.pdf` | busca: _Sulfato de Polimixina B_ | pub: 26/06/2026
+- **Sulfato de Vincristina** → `sulfato-de-vincristina.pdf` | busca: _Sulfato de Vincristina_ | pub: 03/03/2026
+- **Sulfato ferroso** → `sulfato-ferroso.pdf` | busca: _FURP - Sulfato Ferroso_ | pub: ?
+- **Sumatriptana** → `sumatriptana.pdf` | busca: _Sutriptan_ | pub: 23/09/2025
+- **Sumatriptano** → `sumatriptano.pdf` | busca: _?_ | pub: ?
+- **Sunitinibe** → `sunitinibe.pdf` | busca: _Sutent_ | pub: ?
+- **Sálvia** → `salvia.pdf` | busca: _?_ | pub: ?
+- **TERLIPRESSINA** → `terlipressina.pdf` | busca: _Glypressin_ | pub: 02/07/2026
+- **Tacrolimo** → `tacrolimo.pdf` | busca: _?_ | pub: ?
+- **Tadalafila** → `tadalafila.pdf` | busca: _?_ | pub: ?
+- **Tadalafila (HP)** → `tadalafila-hp.pdf` | busca: _Tadalafila_ | pub: ?
+- **Tafluprost** → `tafluprost.pdf` | busca: _Saflutan_ | pub: ?
+- **Talidomida** → `talidomida.pdf` | busca: _Talidomida Celgene_ | pub: ?
+- **Tamoxifeno** → `tamoxifeno.pdf` | busca: _?_ | pub: ?
+- **Tanaceto** → `tanaceto.pdf` | busca: _?_ | pub: ?
+- **Tansulosina** → `tansulosina.pdf` | busca: _Omnic_ | pub: ?
+- **Teicoplanina** → `teicoplanina.pdf` | busca: _Targocid_ | pub: ?
+- **Temozolomida** → `temozolomida.pdf` | busca: _TEMODAL_ | pub: 21/05/2026
+- **Tenecteplase** → `tenecteplase.pdf` | busca: _Metalyse_ | pub: 13/02/2026
+- **Tenofovir** → `tenofovir.pdf` | busca: _Viread_ | pub: ?
+- **Tenofovir + Emtricitabina** → `emtricitabina-tenofovir.pdf` | busca: _Truvada_ | pub: 11/07/2026
+- **Tenoxicam** → `tenoxicam.pdf` | busca: _Tilatil_ | pub: ?
+- **Teofilina** → `teofilina.pdf` | busca: _Aminofilina_ | pub: ?
+- **Terbutalina** → `terbutalina.pdf` | busca: _Bricanyl_ | pub: ?
+- **Teriflunomida** → `teriflunomida.pdf` | busca: _Teriflunomida_ | pub: 25/06/2026
+- **Teriparatida** → `teriparatida.pdf` | busca: _Forteo_ | pub: ?
+- **Testosterona** → `testosterona.pdf` | busca: _Nebido_ | pub: ?
+- **Tetraciclina** → `tetraciclina.pdf` | busca: _Tetramed_ | pub: ?
+- **Tiamina** → `tiamina.pdf` | busca: _Benerva_ | pub: ?
+- **Tibolona** → `tibolona.pdf` | busca: _Livial_ | pub: ?
+- **Ticagrelor** → `ticagrelor.pdf` | busca: _?_ | pub: ?
+- **Ticlopidina** → `ticlopidina.pdf` | busca: _Ticlid_ | pub: ?
+- **Tigeciclina** → `tigeciclina.pdf` | busca: _Tigeciclina_ | pub: 10/06/2026
+- **Timolol** → `timolol.pdf` | busca: _Timoptol_ | pub: 30/09/2025
+- **Timolol Ocular** → `timolol-ocular.pdf` | busca: _Maleato de Timolol_ | pub: ?
+- **Tinidazol** → `tinidazol.pdf` | busca: _?_ | pub: ?
+- **Tiocolchicosídeo** → `tiocolchicosideo.pdf` | busca: _Tiocolchicosídeo_ | pub: 25/05/2026
+- **Tiopental** → `tiopental.pdf` | busca: _Thiopentax_ | pub: 08/03/2021
+- **Tioridazina** → `tioridazina.pdf` | busca: _Melleril_ | pub: 06/06/2023
+- **Tiotrópio** → `tiotropio.pdf` | busca: _?_ | pub: ?
+- **Tizanidina** → `tizanidina.pdf` | busca: _Sirdalud_ | pub: ?
+- **Tobramicina** → `tobramicina.pdf` | busca: _?_ | pub: ?
+- **Tobramicina + Dexametasona** → `dexametasona-tobramicina.pdf` | busca: _Tobracort_ | pub: ?
+- **Tocilizumabe** → `tocilizumabe.pdf` | busca: _Actemra_ | pub: ?
+- **Topiramato** → `topiramato.pdf` | busca: _?_ | pub: ?
+- **Topotecana** → `topotecana.pdf` | busca: _Hycamtin_ | pub: ?
+- **Toxina botulínica** → `toxina-botulinica.pdf` | busca: _Botox_ | pub: ?
+- **Toxóide Diftérico** → `toxoide-difterico.pdf` | busca: _TOXOIDE DIFTERICO IVB_ | pub: ?
+- **Toxóide Diftérico + Toxóide Tetânico** → `toxoide-difterico-toxoide-tetanico.pdf` | busca: _TOXOIDE DIFTERICO-TETANICO_ | pub: ?
+- **Toxóide Tetânico** → `toxoide-tetanico.pdf` | busca: _TOXOIDE TETANICO ADSORVIDO_ | pub: ?
+- **Tramadol** → `tramadol.pdf` | busca: _?_ | pub: ?
+- **Tramadol + Paracetamol** → `tramadol.pdf` | busca: _?_ | pub: ?
+- **Trametinibe** → `trametinibe.pdf` | busca: _Mekinist_ | pub: 02/04/2026
+- **Tranilcipromina** → `tranilcipromina.pdf` | busca: _?_ | pub: ?
+- **Trastuzumabe** → `trastuzumabe.pdf` | busca: _Herceptin_ | pub: ?
+- **Trastuzumabe entansina** → `trastuzumabe-entansina.pdf` | busca: _Kadcyla_ | pub: 14/04/2026
+- **Travoprost** → `travoprost.pdf` | busca: _Travatan_ | pub: ?
+- **Trazodona** → `trazodona.pdf` | busca: _Cloridrato de Trazodona_ | pub: ?
+- **Tretinoína** → `tretinoina.pdf` | busca: _Tretinoína_ | pub: 07/07/2026
+- **Triancinolona acetonida** → `triancinolona-acetonida.pdf` | busca: _Triancinolona acetonida_ | pub: 17/06/2025
+- **Triexifenidil** → `triexifenidil.pdf` | busca: _Artane_ | pub: ?
+- **Trimebutina** → `trimebutina.pdf` | busca: _Irritratil_ | pub: ?
+- **Trimetazidina** → `trimetazidina.pdf` | busca: _Dicloridrato de Trimetazidina_ | pub: 15/06/2026
+- **Trióxido de arsênio** → `trioxido-de-arsenio.pdf` | busca: _Trisenox_ | pub: 12/12/2025
+- **Tropicamida** → `tropicamida.pdf` | busca: _Mydriacyl_ | pub: 10/12/2025
+- **Udenafila** → `udenafila.pdf` | busca: _Zydena_ | pub: 31/08/2017
+- **Umeclidínio** → `umeclidinio.pdf` | busca: _Umeclidínio_ | pub: ?
+- **Umeclidínio + Vilanterol** → `umeclidinio-vilanterol.pdf` | busca: _Anoro Ellipta_ | pub: ?
+- **Unha de Gato** → `unha-de-gato.pdf` | busca: _?_ | pub: ?
+- **Upadacitinibe** → `upadacitinibe.pdf` | busca: _Rinvoq_ | pub: 20/05/2026
+- **Ureia** → `ureia.pdf` | busca: _Ureadin_ | pub: 22/07/2021
+- **Vacina contra dengue** → `vacina-contra-dengue.pdf` | busca: _Dengvaxia_ | pub: 22/12/2022
+- **Vacina meningocócica B** → `vacina-meningococica-b.pdf` | busca: _Bexsero_ | pub: 04/02/2026
+- **Valaciclovir** → `valaciclovir.pdf` | busca: _Valtrex_ | pub: 31/07/2025
+- **Valeriana** → `valeriana.pdf` | busca: _?_ | pub: ?
+- **Valganciclovir** → `valganciclovir.pdf` | busca: _Valcyte_ | pub: 12/12/2025
+- **Valproato de Sódio** → `valproato-de-sodio.pdf` | busca: _?_ | pub: ?
+- **Valsartana** → `valsartana.pdf` | busca: _?_ | pub: ?
+- **Vancomicina** → `vancomicina.pdf` | busca: _Vancocin_ | pub: ?
+- **Vandetanibe** → `vandetanibe.pdf` | busca: _Caprelsa_ | pub: 01/09/2025
+- **Vareniclina** → `vareniclina.pdf` | busca: _Champix_ | pub: ?
+- **Varfarina** → `varfarina.pdf` | busca: _?_ | pub: ?
+- **Vedolizumabe** → `vedolizumabe.pdf` | busca: _Entyvio_ | pub: ?
+- **Vemurafenibe** → `vemurafenibe.pdf` | busca: _Zelboraf_ | pub: 17/10/2025
+- **Venetoclax** → `venetoclax.pdf` | busca: _Venclexta_ | pub: 25/03/2026
+- **Venlafaxina** → `venlafaxina.pdf` | busca: _?_ | pub: ?
+- **Venlafaxina XR** → `venlafaxina-xr.pdf` | busca: _Alenthus XR_ | pub: 21/10/2025
+- **Verapamil** → `verapamil.pdf` | busca: _?_ | pub: ?
+- **Vestronidase alfa** → `vestronidase-alfa.pdf` | busca: _Mepsevii_ | pub: 02/12/2025
+- **Vilazodona** → `vilazodona.pdf` | busca: _Viibryd_ | pub: ?
+- **Vildagliptina** → `vildagliptina.pdf` | busca: _Galvus_ | pub: ?
+- **Vimblastina** → `vimblastina.pdf` | busca: _Velban_ | pub: 30/06/2014
+- **Vincristina** → `vincristina.pdf` | busca: _VINCRISTINA 1 mg_ | pub: ?
+- **Vinorelbina** → `vinorelbina.pdf` | busca: _NORELBIN_ | pub: 04/04/2022
+- **Vismodegibe** → `vismodegibe.pdf` | busca: _Erivedge_ | pub: 09/10/2025
+- **Vitamina B12** → `vitamina-b12.pdf` | busca: _Vitamina B12_ | pub: 01/10/2025
+- **Vitamina C (Ácido Ascórbico)** → `vitamina-c-acido-ascorbico.pdf` | busca: _Vitasantisa c_ | pub: ?
+- **Vitamina D** → `vitamina-d.pdf` | busca: _?_ | pub: ?
+- **Vitamina D3 (Colecalciferol)** → `vitamina-d3-colecalciferol.pdf` | busca: _Colecalciferol_ | pub: ?
+- **Vitamina E** → `vitamina-e.pdf` | busca: _Vitamina E_ | pub: 07/01/2015
+- **Vitamina K (Fitomenadiona)** → `vitamina-k-fitomenadiona.pdf` | busca: _Fitomenadiona_ | pub: ?
+- **Vitaminas do Complexo B** → `vitaminas-do-complexo-b.pdf` | busca: _Comple B_ | pub: 23/03/2022
+- **Vonoprazana** → `vonoprazana.pdf` | busca: _Vonoprazana_ | pub: ?
+- **Voriconazol** → `voriconazol.pdf` | busca: _?_ | pub: ?
+- **Vortioxetina** → `vortioxetina.pdf` | busca: _Brintellix_ | pub: ?
+- **Vosoritida** → `vosoritida.pdf` | busca: _Voxzogo_ | pub: 24/04/2026
+- **Vírus da Influenza inativado** → `virus-da-influenza-inativado.pdf` | busca: _Vacina Influenza Trivalente_ | pub: 23/03/2026
+- **Zanamivir** → `zanamivir.pdf` | busca: _Relenza_ | pub: ?
+- **Zanubrutinibe** → `zanubrutinibe.pdf` | busca: _Brukinsa_ | pub: 15/09/2025
+- **Zidovudina** → `zidovudina.pdf` | busca: _Zidovudina EMS_ | pub: ?
+- **Ziprasidona** → `ziprasidona.pdf` | busca: _Geodon_ | pub: ?
+- **Zoledronato** → `zoledronato.pdf` | busca: _Zoledrônico_ | pub: ?
+- **Zolmitriptano** → `zolmitriptano.pdf` | busca: _?_ | pub: ?
+- **Zolpidem** → `zolpidem.pdf` | busca: _Zolpidem EMS_ | pub: ?
+- **Zopiclona** → `zopiclona.pdf` | busca: _Imovane_ | pub: ?
+- **Zuclopentixol** → `zuclopentixol.pdf` | busca: _Clopixol_ | pub: 21/01/2026
+- **Ácido Acetilsalicílico** → `acido-acetilsalicilico.pdf` | busca: _Ácido Acetilsalicílico_ | pub: 09/11/2020
+- **Ácido Acetilsalicílico + Cafeína + Paracetamol** → `acido-acetilsalicilico-cafeina-paracetamol.pdf` | busca: _Excedrin_ | pub: ?
+- **Ácido Acetilsalicílico + Ácido Cítrico + Bicarbonato de Sódio** → `acido-acetilsalicilico.pdf` | busca: _?_ | pub: ?
+- **Ácido Ascórbico** → `acido-ascorbico.pdf` | busca: _Ácido Ascórbico_ | pub: 05/03/2021
+- **Ácido Fusídico** → `acido-fusidico.pdf` | busca: _Ácido Fusídico_ | pub: 11/07/2026
+- **Ácido Fusídico + Valerato de Betametasona** → `acido-fusidico-valerato-de-betametasona.pdf` | busca: _Ácido Fusídico_ | pub: 16/04/2026
+- **Ácido Mefenâmico** → `acido-mefenamico.pdf` | busca: _Ácido Mefenâmico_ | pub: 18/12/2025
+- **Ácido Tranexâmico** → `acido-tranexamico.pdf` | busca: _Transamin_ | pub: ?
+- **Ácido Ursodesoxicólico** → `acido-ursodesoxicolico.pdf` | busca: _Ursacol_ | pub: ?
+- **Ácido Valpróico** → `acido-valproico.pdf` | busca: _?_ | pub: ?
+- **Ácido gadotérico** → `acido-gadoterico.pdf` | busca: _Dotarem_ | pub: 13/05/2026
+- **Ácido zoledrônico** → `acido-zoledronico.pdf` | busca: _Ácido zoledrônico_ | pub: 07/08/2024
+- **Óleo de soja + Triglicerídeos de cadeia média** → `oleo-de-soja-triglicerideos-de-cadeia-media.pdf` | busca: _Lipofundin MCT/LCT 20%_ | pub: ?
 
-## Não Encontrados na ANVISA (7)
+## Não Encontrados na ANVISA (9)
 
-- Carbamazepina CR
-- Cetoprofeno Retard
-- Diclofenaco Retard
-- Diltiazem Retard
-- Metoprolol Succinato XR
-- Nifedipina Retard
-- Tramadol Retard
-
-## Round 2 (11/07/2026) — `novos_medicamentos.json`
-
-**Total:** 691 medicamentos (lista `novos_medicamentos.json`) | **Baixados:** 406 (352 arquivos únicos) | **Não encontrados:** 290
-
-352 PDFs novos publicados nesta rodada (sem conflito de nome de arquivo com bulas já existentes).
-
-**19 nomes de arquivo em conflito** revisados um a um comparando o conteúdo real dos PDFs (não só o nome do arquivo):
-
-- **6 atualizadas** (mesma substância pura, versão/marca mais nova, ou mesma substância em outra apresentação): `brometo-de-ipratropio`, `ginkgo-biloba`, `gliclazida`, `glibenclamida`, `metformina`, `dipirona` (gotas → comprimido, Neosaldina DIP).
-- **13 mantidas como estavam** (a bula nova era de medicamento COMBINADO — sobrescrever trocaria a bula do ingrediente isolado por uma de outro produto — ou, em 4 casos, a bula já publicada também era combo e trocar por outro combo não era claramente melhor): `amitriptilina`, `amoxicilina`, `atenolol`, `beclometasona`, `betametasona`, `codeina`, `dexametasona`, `dutasterida`, `esomeprazol`, `etinilestradiol`, `ibuprofeno`, `insulina-glargina`, `prednisolona`. As bulas de combo baixadas nesta rodada para esses 13 casos ficam registradas em `_combo_bulas_nao_publicadas.json` (arquivos originais em `C:\Users\Fabio\bulas1\`) caso um dia se queira publicá-las sob um slug próprio.
-
-## Auditoria de conteúdo (11/07/2026) — bulas erradas removidas
-
-Comparado o texto real (páginas 1–3) de cada PDF publicado contra o genérico que o slug representa. **9 PDFs eram de medicamento totalmente diferente do nome do arquivo** — removidos (o app volta a cair no fallback de busca no Google até uma bula correta ser publicada):
-
-- `adenosina.pdf` era Adenon® (produto antroposófico/homeopático, não a droga cardíaca)
-- `bisacodil.pdf` era Minilax® (sorbitol + laurilsulfato de sódio)
-- `bromexina.pdf` era Bromuc® (acetilcisteína)
-- `cianocobalamina.pdf` era Nervamin (tiamina, vitamina B1)
-- `ciclobenzaprina.pdf` era Musbeno® (bendamustina, quimioterápico)
-- `ciprofloxacino.pdf` era Ciprofibrato (hipolipemiante)
-- `pamoato-de-pirantel.pdf` era Pyverm® (pirvínio, outro anti-helmíntico)
-- `propionato-de-fluticasona.pdf` era Flutinol® (fluormetolona, corticoide oftálmico)
-- `triancinolona.pdf` era Biancort® (ciprofloxacino + dexametasona)
-
-4 outros casos flagados na varredura eram falso positivo (mesmo fármaco, grafia/sinônimo diferente — mantidos sem alteração): `alemtuzumabe` (bula usa "alentuzumabe"), `canacinumabe` (bula usa "canaquinumabe"), `metimazol` (bula usa "tiamazol", sinônimo oficial), `remdesivir` (bula usa "rendesivir", erro de digitação da própria ANVISA).
-
-## Bulas de medicamento composto (11/07/2026)
-
-`getBulaUrl()` do app foi corrigido pra gerar um slug próprio pra medicamento composto (ingredientes ordenados alfabeticamente e unidos por hífen, ex: `drospirenona-etinilestradiol.pdf`) em vez de sempre usar só o primeiro ingrediente — isso fazia o app mostrar a bula do ingrediente isolado (errada) pra qualquer composto.
-
-Das bulas de combo baixadas na Round 2 mas não publicadas antes (colidiam com o slug do ingrediente puro), **12 batiam exatamente com uma entrada composta do banco** e foram republicadas sob o novo slug:
-
-- `amitriptilina-clordiazepoxido.pdf` (Limbitrol)
-- `amoxicilina-clavulanato.pdf` e `amoxicilina-clavulanato-de-potassio.pdf` (Policlavumoxil — banco tem as duas grafias como entradas separadas)
-- `atenolol-clortalidona.pdf`
-- `codeina-paracetamol.pdf` (Algicod — cobre as duas ordens duplicadas no banco)
-- `dexametasona-tobramicina.pdf` (Tobracort — cobre as duas ordens duplicadas no banco)
-- `dutasterida-tansulosina.pdf` (Combodart)
-- `esomeprazol-naproxeno.pdf` (Vimovo)
-- `beclometasona-formoterol-glicopirronio.pdf` (Trimbow)
-- `betametasona-dexclorfeniramina.pdf` (Celestamine)
-- `ibuprofeno-paracetamol.pdf` (Nuromol)
-- `insulina-glargina-lixisenatida.pdf` (Soliqua)
-
-**4 continuam sem bula correta** (o PDF baixado não corresponde a nenhuma composição cadastrada no banco) — registrados em `_combo_bulas_nao_publicadas.json`:
-- `Etinilestradiol + Drospirenona` / `+ Gestodeno` / `+ Levonorgestrel`: o PDF baixado foi "Dunia 35" (Etinilestradiol + **Ciproterona**), combinação que não existe no banco.
-- `Prednisolona + Gentamicina`: o PDF baixado foi "Predmicin" (Prednisolona + polimixina B + benzocaína + clioquinol), composição diferente da cadastrada.
-
-Ficam pendentes pra busca no site dos fabricantes, junto com os 9 removidos na auditoria de conteúdo e os ~170 medicamentos compostos do banco que nunca tiveram bula baixada.
-## Auditoria de conteúdo — bula composta publicada sob slug de ingrediente puro (2026-07-11)
-
-Usuário relatou que buscar "Ácido Fusídico" no app mostrava a bula de "Ácido Fusídico + Valerato de Betametasona". Auditoria (cruzando `index.json` com `medications-db.json` e conferindo cada PDF via `pdftotext`) achou **7 casos do mesmo bug**: um PDF de combo publicado sob o slug do ingrediente isolado, mascarando o card do ingrediente puro (que já existe no app) com o conteúdo errado.
-
-Resolvido:
-- `acido-fusidico.pdf`, `clonixinato-de-lisina.pdf`, `drospirenona.pdf`, `estradiol.pdf`, `hidroquinona.pdf`, `olmesartana-medoxomila.pdf` → o conteúdo de combo foi copiado pro slug próprio (`toComboSlug`, ingredientes ordenados alfabeticamente) e o slug do puro foi **rebaixado com a bula do ingrediente isolado de verdade**, buscada de novo na ANVISA e conferida página a página (rejeitando qualquer candidato com "+" ou "TRIPLO" na capa/identificação):
-  - `acido-fusidico-valerato-de-betametasona.pdf` ← Multilab, creme 20mg/g + 1mg/g
-  - `clonixinato-de-lisina-cloridrato-de-ciclobenzaprina.pdf` ← EMS, comprimido 125mg + 5mg
-  - `drospirenona-etinilestradiol.pdf` ← Aché (cobre as 2 ordens duplicadas no banco)
-  - `drospirenona-estradiol.pdf` ← Aché (Angeliq)
-  - `fluocinolona-acetonida-hidroquinona-tretinoina.pdf` ← EMS
-  - `amlodipino-olmesartana.pdf` ← Brainfarma (Azor)
-- Duas entradas de combo **não existiam no banco** e foram criadas em `medications-db.json`: "Ácido Fusídico + Valerato de Betametasona" e "Clonixinato de Lisina + Cloridrato de Ciclobenzaprina".
-
-Não resolvido (entrada removida):
-- `Cloridrato de Clobutinol` (puro): a ANVISA só retornou 1 resultado pro termo, e é o próprio composto com doxilamina — não há bula de clobutinol isolado registrada (possivelmente o clobutinol isolado não é mais comercializado no Brasil). O arquivo `cloridrato-de-clobutinol.pdf` foi removido e o usuário optou por remover também a entrada "Cloridrato de Clobutinol" (pura) de `medications-db.json` — só a combinação com doxilamina permanece cadastrada.
-
-## Zinpass Eze (Rosuvastatina + Ezetimiba) — publicado (2026-07-11)
-
-Usuário forneceu a bula oficial (Medley/Sanofi, ZINPASS® EZE, rosuvastatina cálcica + ezetimiba, 10/20/40mg + 10mg) — publicada em `ezetimiba-rosuvastatina.pdf` (slug calculado por `toComboSlug`). Esse era o caso original que revelou o bug do slug de composto sempre cair no primeiro ingrediente (buscar "Zinpass + Ezetimiba" mostrava só a bula da Rosuvastatina).
-
-## Truvada (Tenofovir + Emtricitabina) — publicado (2026-07-11)
-
-Usuário forneceu a bula oficial ao profissional de saúde (Gilead, TRUVADA®, entricitabina 200mg + fumarato de tenofovir desoproxila 300mg) — publicada em `emtricitabina-tenofovir.pdf` (slug calculado por `toComboSlug`). Essa composição foi mencionada na auditoria de marcas como possível origem do erro da entrada "Tenofovir + Emtricitabina + Dolutegravir" (já removida).
-
-## Bulas via sites dos fabricantes (12/07/2026)
-
-Novo pipeline `download_bulas_fabricantes.py` (pasta `C:\Users\Fabio\bulas_fabricantes\`, sibling do `download_bulas.py` da ANVISA) — busca a bula direto no site do FABRICANTE usando o nome exato da marca (o "nome do card" no app), não o genérico. Fontes verificadas funcionando via HTTP puro (sem navegador): **Sara** (`sara.com.br` — descoberta importante: não é só EMS, hospeda bulas de vários fabricantes — Pfizer, Novartis, Baxter, Organon, Sandoz, União Química, Opella/Sanofi, Cristália apareceram nos resultados), **Sanofi**, **União Química**, **Novo Nordisk**, **Hypera** (melhor esforço). Aché (reCAPTCHA) e Eurofarma (bloqueio anti-bot tipo Cloudflare) não foram implementados — sem tentativa de contornar proteção ativa. Teuto/Cimed/Biolab sem bulário próprio viável.
-
-Todo PDF baixado passa por validação de conteúdo (`pdftotext -enc UTF-8`, princípio ativo tem que aparecer nas 3 primeiras páginas) antes de ser salvo — pego 2 casos reais de busca errada da Sara no teste (Nobratin Duo → Tobracin, tobramicina; FDC VIT B-12 → Bedfordpoly-B, polimixina B).
-
-**Rodada de 768 medicamentos sem bula: 437 achados (57%)** — auditados de novo (mesma técnica): **zero princípio ativo errado**. Achada uma categoria de risco não coberta pela validação de conteúdo: quando o genérico do banco é "puro" (sem indicar via), a busca às vezes retorna a versão tópica/oftálmica/vaginal do mesmo princípio ativo em vez da forma mais representativa — **8 casos mantidos de fora da publicação** por esse motivo (Ciprofloxacino→colírio em vez de comprimido, Terbinafina→creme em vez de comprimido oral, Zinco→colírio descongestionante em vez de suplemento oral, Progesterona→gel vaginal em vez de cápsula oral, Mometasona→spray nasal em vez de creme, Misoprostol→comprimido vaginal, Metronidazol (antiparasitário)→gel vaginal, Miconazol→gel oral — ambíguo). PDFs originais ficam em `bulas_fabricantes\` pra revisão futura.
-
-**419 publicados** (437 achados − 8 seguros de fora − 4 que já tinham bula equivalente correta de rodada anterior sob mesmo nome, ex: `drospirenona-etinilestradiol.pdf` já era o Aché correto).
-
-Lista completa de tentativas (achados e não encontrados) em `bulas_fabricantes\relatorio.md` e `bulas_fabricantes\index.json`.
+- Amilorida
+- Azelastina
+- Carisoprodol
+- Dextrometorfano
+- Dicloridrato de quinina
+- Empagliflozina
+- Etinilestradiol
+- Irbesartana
+- Pseudoefedrina
