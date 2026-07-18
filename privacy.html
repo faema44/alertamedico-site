@@ -5,203 +5,280 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Política de Privacidade — Alerta Médico</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root { --blue: #1C3F7A; --bg: #F2F4F8; --text: #1A1F2E; --muted: #6B7280; }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #F2F4F8;
+      color: #1A1F2E;
+      padding: 24px 16px 48px;
     }
-
-    header {
-      background: var(--blue);
-      padding: 14px 24px;
+    .card {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px 28px;
+      border: 0.5px solid rgba(0,0,0,0.08);
+    }
+    .logo {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
+      margin-bottom: 28px;
     }
     .logo-icon {
-      width: 32px; height: 32px; border-radius: 8px;
-      display: block; object-fit: cover;
+      width: 48px;
+      height: 48px;
+      background: #1C3F7A;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      color: #fff;
     }
-    header a { color: #fff; text-decoration: none; font-size: 17px; font-weight: 700; }
-
-    .container {
-      max-width: 740px;
-      margin: 48px auto;
-      padding: 0 24px 64px;
+    .logo-text h1 { font-size: 20px; font-weight: 700; color: #1C3F7A; }
+    .logo-text p  { font-size: 13px; color: #888; margin-top: 2px; }
+    .updated { font-size: 12px; color: #aaa; margin-bottom: 28px; }
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1C3F7A;
+      margin: 28px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1.5px solid #E8EDF5;
     }
-
-    h1 { font-size: 28px; font-weight: 800; color: var(--blue); margin-bottom: 6px; }
-    .updated { font-size: 13px; color: var(--muted); margin-bottom: 32px; }
-
-    .card {
-      background: #fff;
-      border-radius: 14px;
-      padding: 28px 28px;
-      margin-bottom: 16px;
-      border: 1px solid rgba(0,0,0,0.06);
-      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1A1F2E;
+      margin: 16px 0 6px;
     }
-
-    h2 { font-size: 17px; font-weight: 700; color: var(--blue); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
-    p  { font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 10px; }
-    p:last-child { margin-bottom: 0; }
-    ul { margin: 8px 0 10px 20px; }
-    li { font-size: 14px; color: #444; line-height: 1.7; margin-bottom: 4px; }
-    strong { color: var(--text); }
-
+    p, li { font-size: 14px; line-height: 1.75; color: #444; }
+    ul { padding-left: 20px; margin-top: 6px; }
+    li { margin-bottom: 4px; }
     .highlight {
-      background: #EEF3FF;
-      border-left: 4px solid var(--blue);
+      background: #EEF3FA;
+      border-left: 3px solid #1C3F7A;
       border-radius: 0 8px 8px 0;
-      padding: 14px 18px;
+      padding: 12px 16px;
       margin: 12px 0;
       font-size: 14px;
-      color: var(--blue);
-      font-weight: 600;
+      color: #1C3F7A;
     }
-
-    a { color: var(--blue); }
-
+    .badge {
+      display: inline-block;
+      background: #E8F5E9;
+      color: #2E7D32;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 6px;
+      padding: 2px 8px;
+      margin-bottom: 8px;
+    }
+    a { color: #1C3F7A; }
     footer {
+      max-width: 720px;
+      margin: 24px auto 0;
+      font-size: 12px;
+      color: #aaa;
       text-align: center;
-      font-size: 13px;
-      color: var(--muted);
-      padding: 24px;
     }
-    footer a { color: var(--blue); text-decoration: none; }
   </style>
 </head>
 <body>
 
-<header>
-  <a href="/"><img src="favicon.png" alt="Alerta Médico" class="logo-icon" /></a>
-  <a href="/">Alerta Médico</a>
-</header>
-
-<div class="container">
-  <h1>Política de Privacidade</h1>
-  <p class="updated">Última atualização: julho de 2026</p>
-
-  <div class="card">
-    <h2>🔐 Resumo — o essencial em 3 linhas</h2>
-    <div class="highlight">
-      Seus dados de saúde ficam no seu celular, se você ativar o backup do Android, uma cópia criptografada será salva na sua própria conta Google. Nós não coletamos, não armazenamos e não compartilhamos nenhuma informação pessoal.
+<div class="card">
+  <div class="logo">
+    <div class="logo-icon">🚨</div>
+    <div class="logo-text">
+      <h1>Alerta Médico</h1>
+      <p>Política de Privacidade</p>
     </div>
-    <p>Esta política descreve como o aplicativo <strong>Alerta Médico</strong> trata suas informações.</p>
+  </div>
+  <p class="updated">Última atualização: 18 de julho de 2026</p>
+
+  <div class="highlight">
+    <span class="badge">Resumo</span><br>
+    Seus dados de saúde ficam <strong>no seu aparelho</strong>. O Alerta Médico não tem conta,
+    não tem cadastro e não guarda seus dados em servidor nenhum — e não vende nem cede dados a
+    ninguém. Algumas funções, quando <strong>você</strong> as usa, enviam informações limitadas
+    pela internet. Esta política lista <strong>todas</strong> elas, uma a uma, na seção 4.
   </div>
 
-  <div class="card">
-    <h2>📱 Dados armazenados localmente</h2>
-    <p>O Alerta Médico armazena as seguintes informações <strong>no seu dispositivo</strong>, em um banco de dados local (SQLite) que nunca é enviado aos nossos servidores:</p>
-    <ul>
-      <li>Nome completo</li>
-      <li>Tipo sanguíneo</li>
-      <li>Data de nascimento</li>
-      <li>Alergias</li>
-      <li>Lista de medicamentos (nome genérico, comercial, dose)</li>
-      <li>Contatos de emergência (nome, telefone, parentesco)</li>
-      <li>Lembretes de medicamentos e horários configurados</li>
-      <li>Observações médicas pessoais</li>
-    </ul>
-    <p>Esses dados são classificados como <strong>dados sensíveis</strong> pela Lei Geral de Proteção de Dados (Lei 13.709/2018, art. 5º, II) por serem dados de saúde. O Alerta Médico respeita essa classificação ao não coletá-los ou transmiti-los.</p>
+  <h2>1. Quem somos</h2>
+  <p>
+    O <strong>Alerta Médico</strong> é um aplicativo para Android e iOS desenvolvido por Fabio
+    (<a href="mailto:contato@alertamedico.ia.br">contato@alertamedico.ia.br</a>), com o objetivo
+    de auxiliar no gerenciamento de medicamentos, atividades de saúde e alertas de emergência.
+    Para os fins da Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018), o desenvolvedor é o
+    controlador dos poucos dados que chegam a sair do aparelho, descritos na seção 4.
+  </p>
+
+  <h2>2. Dados guardados no seu aparelho</h2>
+  <p>O aplicativo armazena as seguintes informações <strong>localmente</strong>, em um banco de
+  dados privado do app (SQLite), sob a proteção de isolamento do sistema operacional:</p>
+  <ul>
+    <li>Nome, data de nascimento e tipo sanguíneo</li>
+    <li>Alergias e condições médicas (anotações livres)</li>
+    <li>Lista de medicamentos, doses e horários de uso</li>
+    <li>Histórico de doses tomadas, puladas e atividades realizadas</li>
+    <li>Contatos de emergência</li>
+    <li>Consultas médicas agendadas</li>
+  </ul>
+  <p>
+    Esses dados <strong>não são enviados ao desenvolvedor</strong> e não saem do aparelho, exceto
+    nas situações que você mesmo aciona, listadas na seção 4. Excluir o app exclui todos eles.
+  </p>
+
+  <h2>3. Para que os dados são usados</h2>
+  <ul>
+    <li>Exibir lembretes de medicamentos e atividades nos horários programados</li>
+    <li>Mostrar informações médicas na tela de bloqueio para socorristas (se você ativar)</li>
+    <li>Registrar o histórico de adesão ao tratamento, para você mostrar ao seu médico</li>
+    <li>Consultar a tabela de interações entre os seus medicamentos, com base local no app</li>
+    <li>Avisar a pessoa que cuida de você, se você conectar um cuidador</li>
+    <li>Gerar arquivo de backup cifrado, exportável por você</li>
+  </ul>
+
+  <h2>4. O que sai do aparelho — a lista completa</h2>
+
+  <h3>4.1 Avisos ao cuidador (só se você conectar um)</h3>
+  <p>
+    Se você parear um cuidador, cada resposta sua ("tomei" / "não tomei") e a sua agenda de doses
+    são enviadas ao celular dele por notificação push. O conteúdo clínico — qual remédio, qual
+    dose, o apelido que ele te deu — viaja <strong>cifrado de ponta a ponta</strong>: os
+    servidores de notificação (Expo, nos EUA, e Google/Apple) transportam a mensagem, mas não
+    conseguem ler o conteúdo; o que eles veem é o horário e o volume das mensagens. O pareamento
+    é feito preferencialmente por código QR mostrado de um celular ao outro, sem passar por rede.
+    Você pode desconectar o cuidador a qualquer momento, na tela Cuidador — os avisos param na
+    hora. Base legal: consentimento específico do titular (LGPD, art. 11, I).
+  </p>
+
+  <h3>4.2 Relatórios técnicos de erro (Sentry)</h3>
+  <p>
+    Quando o app encontra um erro interno, um relatório técnico é enviado ao serviço Sentry
+    (EUA) contendo modelo do aparelho, versão do sistema e do app e a descrição técnica da
+    falha. O serviço está configurado no modo mínimo: <strong>sem dados pessoais, sem gravação
+    de tela, sem rastreamento de navegação</strong> — e as mensagens de erro são higienizadas
+    para não conter identificadores. Serve exclusivamente para consertar defeitos. Base legal:
+    legítimo interesse (LGPD, art. 7º, IX), com minimização.
+  </p>
+
+  <h3>4.3 Relato de medicamento não encontrado ou erro em bula</h3>
+  <p>
+    Se você usar "informar erro" ou cadastrar um medicamento que a base não reconhece, o app
+    envia o <strong>nome do medicamento</strong> e o texto que você escrever (além da plataforma
+    e versão do app) para uma planilha do desenvolvedor (serviço Google). O envio
+    <strong>não contém nenhum identificador seu</strong> — nem nome, nem conta, nem número do
+    aparelho — e a tela pede que você não inclua dados pessoais no texto. Serve para corrigir e
+    ampliar a base de medicamentos.
+  </p>
+
+  <h3>4.4 Download de bulas e atualização da base de interações</h3>
+  <p>
+    As bulas em PDF são baixadas do servidor do app (alertamedico.ia.br) e a base de interações
+    é atualizada a partir de repositórios públicos (GitHub/jsDelivr). Como em qualquer acesso à
+    internet, esses servidores veem o endereço IP do aparelho e qual arquivo foi baixado. Nenhum
+    dado do seu perfil ou da sua lista de medicamentos é enviado nessas requisições.
+  </p>
+
+  <h3>4.5 Backup (só quando você exporta)</h3>
+  <p>
+    O arquivo de backup contém todos os seus dados e só é gerado quando você toca em "Exportar
+    backup". Ele é <strong>cifrado com uma senha que você escolhe</strong> — sem ela, o arquivo
+    não abre, nem pelo desenvolvedor. Para onde o arquivo vai (Arquivos, Drive, WhatsApp) é
+    escolha sua no momento da exportação.
+  </p>
+
+  <h3>4.6 Tela de bloqueio</h3>
+  <p>
+    Se você ativar a ficha médica ou os lembretes na tela de bloqueio, essas informações ficam
+    visíveis a qualquer pessoa com o celular em mãos — é intencional: socorristas precisam ler
+    sem desbloquear. Você controla isso nas configurações do app e do sistema.
+  </p>
+
+  <div class="highlight">
+    Fora os itens acima, <strong>nada sai do aparelho</strong>. Não há serviços de publicidade,
+    análise de comportamento ou venda de dados — e nunca haverá acesso do desenvolvedor à sua
+    lista de medicamentos ou ao seu histórico.
   </div>
 
-  <div class="card">
-    <h2>☁️ Backup na sua conta Google (opcional)</h2>
-    <p>Se o backup do Android estiver ativado no seu aparelho (Configurações → Google → Backup), o próprio sistema operacional faz periodicamente uma <strong>cópia criptografada</strong> dos dados do app no Google Drive, vinculada exclusivamente à sua conta Google. Essa cópia é usada para restaurar seus dados automaticamente ao trocar de celular ou reinstalar o aplicativo.</p>
-    <ul>
-      <li>O backup é gerenciado pelo Android/Google — <strong>o desenvolvedor não tem acesso</strong> a esses dados</li>
-      <li>Você pode desativá-lo a qualquer momento nas configurações do Android</li>
-      <li>O app também oferece backup manual em arquivo (Perfil Médico → Backup de Dados), que fica sob seu controle total</li>
-    </ul>
-  </div>
+  <h2>5. Transferência internacional</h2>
+  <p>
+    Os serviços técnicos citados (Expo, Sentry, Google) operam servidores nos Estados Unidos.
+    As informações que chegam a eles são as mínimas descritas na seção 4 — cifradas, no caso do
+    cuidador — e a transferência se dá conforme o art. 33 da LGPD, com base nas garantias
+    contratuais desses fornecedores.
+  </p>
 
-  <div class="card">
-    <h2>🚫 O que NÃO fazemos</h2>
-    <ul>
-      <li>Não pedimos e-mail, senha ou qualquer cadastro</li>
-      <li>Não enviamos seus dados para servidores</li>
-      <li>Não vendemos ou compartilhamos informações</li>
-      <li>Não usamos rastreamento de uso ou analytics</li>
-      <li>Não exibimos anúncios</li>
-      <li>Não acessamos contatos, câmera, microfone ou localização</li>
-    </ul>
-  </div>
+  <h2>6. Permissões solicitadas</h2>
+  <ul>
+    <li><strong>Notificações</strong> — enviar os lembretes e alertas no horário programado.</li>
+    <li><strong>Alarmes exatos</strong> (Android) — disparar o lembrete na hora certa, mesmo
+      com o aparelho em economia de energia.</li>
+    <li><strong>Iniciar na inicialização</strong> (Android) — reagendar os lembretes após
+      reiniciar o aparelho.</li>
+    <li><strong>Vibração</strong> — chamar atenção para o alerta.</li>
+  </ul>
+  <p>O app não pede localização, câmera, microfone nem acesso aos contatos do sistema.</p>
 
-  <div class="card">
-    <h2>📡 Conexão à internet</h2>
-    <p>O aplicativo usa conexão à internet apenas para as seguintes finalidades:</p>
-    <ul>
-      <li><strong>Atualização da base de medicamentos:</strong> periodicamente, o app verifica se há uma versão mais completa do banco de medicamentos e interações hospedado em CDN público. Nenhum dado pessoal é enviado nessa requisição — é um download apenas de leitura.</li>
-      <li><strong>Reporte anônimo de medicamentos não encontrados:</strong> quando o usuário cadastra um medicamento cujo nome não consta na base local, esse nome é enviado anonimamente aos nossos servidores para análise e possível inclusão futura. <em>Nenhuma informação pessoal é incluída</em> — apenas o nome do medicamento digitado.</li>
-    </ul>
-    <p>O app funciona completamente offline para todas as funcionalidades principais (tela de bloqueio, lembretes, interações com os dados já carregados).</p>
-  </div>
+  <h2>7. Retenção</h2>
+  <ul>
+    <li><strong>No aparelho:</strong> os dados ficam até você editá-los, apagá-los ou
+      desinstalar o app.</li>
+    <li><strong>No celular do cuidador:</strong> o histórico de avisos fica no aparelho dele;
+      ao remover a pessoa acompanhada, é apagado.</li>
+    <li><strong>Relatórios técnicos e relatos de erro:</strong> mantidos apenas pelo tempo
+      necessário para a correção.</li>
+  </ul>
 
-  <div class="card">
-    <h2>🔔 Notificações e permissões</h2>
-    <p>O Alerta Médico solicita as seguintes permissões do Android:</p>
-    <ul>
-      <li><strong>Notificações:</strong> para exibir a ficha médica na tela de bloqueio e enviar lembretes de medicamentos</li>
-      <li><strong>Alarmes exatos:</strong> para disparar lembretes nos horários configurados com precisão</li>
-      <li><strong>Inicialização automática:</strong> para restaurar a notificação de emergência após reinício do celular</li>
-    </ul>
-    <p>Nenhuma dessas permissões é usada para rastrear ou coletar dados.</p>
-  </div>
+  <h2>8. Seus direitos (LGPD)</h2>
+  <p>Nos termos da Lei 13.709/2018, você pode, a qualquer momento:</p>
+  <ul>
+    <li><strong>Acessar</strong> — todos os dados são visíveis nas telas do próprio app</li>
+    <li><strong>Corrigir</strong> — edite diretamente nas telas de Perfil, Medicamentos e Contatos</li>
+    <li><strong>Excluir</strong> — desinstale o app ou apague os dados nas configurações do sistema</li>
+    <li><strong>Portar</strong> — exporte tudo pela função "Exportar backup"</li>
+    <li><strong>Revogar consentimentos</strong> — desconecte o cuidador na tela Cuidador</li>
+  </ul>
+  <p>
+    Para solicitações que dependam do desenvolvedor (ex.: exclusão de um relato de erro enviado),
+    escreva para <a href="mailto:contato@alertamedico.ia.br">contato@alertamedico.ia.br</a>.
+    Você também pode peticionar à Autoridade Nacional de Proteção de Dados (ANPD).
+  </p>
 
-  <div class="card">
-    <h2>🏥 Tela de bloqueio</h2>
-    <p>Quando o alerta de emergência está ativo, as informações do seu perfil médico (nome, tipo sanguíneo, medicamentos e alergias) ficam visíveis na notificação da tela de bloqueio do Android.</p>
-    <p>Isso é <strong>intencional e necessário</strong> para que socorristas possam acessar as informações sem precisar desbloquear o celular. Você pode desativar o alerta a qualquer momento na aba Emergência do aplicativo.</p>
-  </div>
+  <h2>9. Crianças</h2>
+  <p>
+    O aplicativo é destinado a adultos e não coleta intencionalmente dados de menores.
+    Em caso de uso por menores, um responsável deve gerenciar as informações inseridas.
+  </p>
 
-  <div class="card">
-    <h2>🌿 Recurso de reporte de medicamentos </h2>
-    <p>Se você pesquisar um medicamento que não está na nossa base de dados, o app oferece a opção de reportar o nome para que possamos adicioná-lo em atualizações futuras.</p>
-    <p>Ao usar esse recurso voluntário, <strong>apenas o nome do medicamento</strong> é enviado — de forma anônima, sem qualquer dado pessoal associado.</p>
-  </div>
+  <h2>10. Aviso médico</h2>
+  <p>
+    O Alerta Médico é uma ferramenta auxiliar de organização e <strong>não substitui avaliação,
+    diagnóstico ou orientação médica profissional</strong>. As bulas exibidas são as publicadas
+    pelos fabricantes, e a tabela de interações é material de consulta — em caso de dúvida, fale
+    com seu médico ou farmacêutico. As informações inseridas no app são de responsabilidade
+    exclusiva do usuário.
+  </p>
 
-  <div class="card">
-    <h2>🗑️ Exclusão de dados</h2>
-    <p>Como todos os dados estão no seu dispositivo, você pode excluí-los a qualquer momento:</p>
-    <ul>
-      <li><strong>Dados específicos:</strong> apague diretamente no app (medicamentos, contatos, perfil)</li>
-      <li><strong>Todos os dados locais:</strong> desinstale o aplicativo — todos os dados são removidos automaticamente pelo Android</li>
-      <li><strong>Backup na nuvem:</strong> pode ser excluído nas configurações de backup da sua conta Google; o Google também o remove automaticamente após um período prolongado sem uso do app</li>
-    </ul>
-  </div>
+  <h2>11. Alterações nesta política</h2>
+  <p>
+    Eventuais atualizações desta política serão publicadas nesta página com nova data de
+    revisão. Mudanças que ampliem o que sai do aparelho serão destacadas dentro do próprio
+    aplicativo antes de valer.
+  </p>
 
-  <div class="card">
-    <h2>👶 Crianças</h2>
-    <p>Este aplicativo não é direcionado a crianças menores de 13 anos e não coleta dados de menores de forma intencional.</p>
-  </div>
-
-  <div class="card">
-    <h2>⚠️ Aviso médico</h2>
-    <p>O Alerta Médico é uma ferramenta de informação e organização pessoal. As informações sobre interações medicamentosas têm caráter exclusivamente educativo e não substituem avaliação médica ou farmacêutica profissional.</p>
-    <p>Consulte sempre seu médico e a bula do medicamento antes de tomar decisões sobre seus medicamentos.</p>
-  </div>
-
-  <div class="card">
-    <h2>📬 Contato</h2>
-    <p>Dúvidas sobre esta política ou sobre o aplicativo:</p>
-    <p><strong>E-mail:</strong> <a href="mailto:evidencemedai@gmail.com">contato@alertamedico.ia.br</a></p>
-    <p><strong>Site:</strong> <a href="https://alertamedico.ia.br">alertamedico.ia.br</a></p>
-  </div>
-
-  <div class="card">
-    <h2>🔄 Alterações nesta política</h2>
-    <p>Se esta política for alterada de forma relevante, a data de "Última atualização" no topo será modificada. Como não temos seus dados de contato, recomendamos verificar esta página periodicamente.</p>
-  </div>
+  <h2>12. Contato</h2>
+  <p>
+    Para dúvidas, solicitações ou exercício de direitos relacionados a esta política:
+    <a href="mailto:contato@alertamedico.ia.br">contato@alertamedico.ia.br</a>
+  </p>
 </div>
 
 <footer>
-  <a href="/">← Voltar ao site</a> &nbsp;·&nbsp; © 2026 Alerta Médico
+  &copy; 2026 Alerta Médico &mdash; Todos os direitos reservados
 </footer>
 
 </body>
