@@ -36,7 +36,12 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 from pathlib import Path
 
-from playwright.async_api import async_playwright, Page, BrowserContext
+# O navegador só é usado pelo fluxo de download; validar_bula/ativos_esperados são
+# importados por _crosscheck.py e baixar_generico_anvisa.py em ambientes sem playwright.
+try:
+    from playwright.async_api import async_playwright, Page, BrowserContext
+except ModuleNotFoundError:
+    async_playwright = Page = BrowserContext = None  # type: ignore
 
 # ── Configuração ──────────────────────────────────────────────────────────────
 
@@ -180,6 +185,29 @@ QUALIFICADORES = [
     "succinato", "tartarato",
 ]
 
+# Sinônimos de SUBSTÂNCIA (nunca de marca): a bula certa escreve o mesmo fármaco com
+# outra grafia ou DCB. Marca (Invokana↔canagliflozina) NÃO entra: aceitar marca como
+# sinônimo esconderia o composto-em-slug-puro que a checagem de intruso pega.
+# Espelha SINONIMOS em tools/audit-bulas.js — divergir = gate aprova o que a auditoria
+# reprova (conferido por _crosscheck.py). Chaves e valores em forma normalizada (_norm).
+SINONIMOS = {
+    "metimazol":       ["tiamazol"],              # DCB brasileira do mesmo fármaco
+    "amisulprida":     ["amissulprida"],          # grafia com dois esses
+    "dimetilfumarato": ["fumarato de dimetila"],  # ordem invertida
+    "remdesivir":      ["rendesivir"],            # adaptação PT
+    "canacinumabe":    ["canaquinumabe"],
+    "alemtuzumabe":    ["alentuzumabe"],
+    "alglucosidase":   ["alglicosidase"],         # biológico: alfa-alglicosidase
+    "eritropoietina":  ["alfaepoetina", "epoetina"],
+    "vitamina d":      ["colecalciferol"],
+    "vitamina d3":     ["colecalciferol"],
+    "vitamina k":      ["fitomenadiona"],
+}
+
+
+def _expandir(lista: list[str]) -> list[str]:
+    return [x for item in lista for x in ([item] + SINONIMOS.get(item, []))]
+
 
 def _norm(s: str) -> str:
     s = unicodedata.normalize("NFD", s.lower())
@@ -270,7 +298,9 @@ def validar_bula(pdf: Path, generic_name: str) -> tuple[bool, str]:
     def _em(t: str, alvo: str) -> bool:
         return t in alvo or (len(t) >= 9 and t[:-4] in alvo)
 
-    if not any(_raiz(e) in texto for e in esperados) and not any(_em(t, texto) for t in tokens):
+    esperados_exp = _expandir(esperados)
+    tokens_exp = _expandir(tokens)
+    if not any(_raiz(e) in texto for e in esperados_exp) and not any(_em(t, texto) for t in tokens_exp):
         cabeca = " ".join(l for l in bruto.splitlines() if l.strip())[:80]
         return False, f"não cita '{generic_name}' — a bula é de outro medicamento ({cabeca!r})"
 
@@ -286,8 +316,8 @@ def validar_bula(pdf: Path, generic_name: str) -> tuple[bool, str]:
         intrusos = [
             v for v in VOCAB_ATIVOS
             if _raiz(v) in ident
-            and not any(_raiz(e) in v or _raiz(v) in e for e in esperados)
-            and not any(_em(t, v) for t in tokens)
+            and not any(_raiz(e) in v or _raiz(v) in e for e in esperados_exp)
+            and not any(_em(t, v) for t in tokens_exp)
         ]
         if intrusos:
             return False, f"bula de medicamento COMPOSTO (traz também: {', '.join(intrusos)})"

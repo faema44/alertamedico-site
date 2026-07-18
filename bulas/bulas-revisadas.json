@@ -5,50 +5,20 @@
     "ou seja, ele só reclama de bula errada NOVA. Ao consertar uma pendência, remova a",
     "entrada daqui; ao aceitar um falso positivo novo, adicione com o motivo."
   ],
-
   "bula_correta_alarme_falso": {
-    "_motivo": "A bula está CERTA. A auditoria marca por diferença de NOME, não de conteúdo.",
-
-    "amisulprida":            "bula escreve 'amissulprida' (grafia brasileira, dois esses) — SOCIAN® da Sanofi, mesmo fármaco",
-    "alemtuzumabe":            "bula escreve 'alentuzumabe'",
-    "canacinumabe":            "bula escreve 'canaquinumabe'",
-    "remdesivir":              "bula escreve 'rendesivir'",
-    "dimetilfumarato":         "bula escreve 'fumarato de dimetila'",
-    "alglucosidase-alfa":      "biológico inverte o nome: 'alfa-alglicosidase'",
-    "eritropoietina":          "biológico inverte o nome: 'alfaepoetina'",
-
-    "vitamina-d":              "colecalciferol É vitamina D",
-    "vitamina-d3-colecalciferol": "idem — o nome do banco já traz os dois",
-    "vitamina-k-fitomenadiona":   "fitomenadiona É vitamina K",
-    "vitaminas-do-complexo-b":    "tiamina/piridoxina SÃO do complexo B",
-    "silimarina":              "silybum marianum é a planta de onde vem a silimarina",
-
-    "gengibre":                "monografia de fitoterápico cita outras plantas na sinonímia",
-    "guarana":                 "idem",
-    "hortela-pimenta":         "idem",
-
-    "invokana":                "'Invokana' está no banco como genericName (é MARCA de canagliflozina) — corrigir o BANCO, a bula está certa",
-    "canagliflozina":          "mesmo par acima: um acusa o outro de intruso",
-
-    "articaina":               "articaína odontológica é sempre com epinefrina — produto padrão, não é bula trocada",
-    "dutasterida-tansulosina": "PDF escaneado (texto é lixo de OCR) — conteúdo confere na leitura visual"
+    "_motivo": "A bula está CERTA. A auditoria marca por diferença de NOME, não de conteúdo. Desde 2026-07-18 as variações de GRAFIA/DCB moram em SINONIMOS (tools/audit-bulas.js e download_bulas.py); aqui só resta o que sinônimo de substância não deve cobrir: marca (Invokana), monografia de fitoterápico citando outras plantas, e constituinte esperado (epinefrina na articaína dental, tiamina no complexo B).",
+    "vitaminas-do-complexo-b": "tiamina/piridoxina SÃO do complexo B",
+    "silimarina": "silybum marianum é a planta de onde vem a silimarina",
+    "gengibre": "monografia de fitoterápico cita outras plantas na sinonímia",
+    "guarana": "idem",
+    "hortela-pimenta": "idem",
+    "invokana": "'Invokana' está no banco como genericName (é MARCA de canagliflozina) — corrigir o BANCO, a bula está certa",
+    "canagliflozina": "mesmo par acima: um acusa o outro de intruso",
+    "articaina": "articaína odontológica é sempre com epinefrina — produto padrão, não é bula trocada"
   },
-
   "pendente_bula_errada": {
-    "_motivo": [
-      "AINDA ERRADAS e SEM FONTE BRASILEIRA. As duas primeiras só têm bula em Portugal — não",
-      "há produto registrado no Brasil. O PDF que está publicado hoje nelas é de OUTRO",
-      "medicamento, o que é pior que não ter bula: DECIDIR se remove (link quebrado, honesto).",
-      "",
-      "ARMADILHA REGISTRADA: o Quinacris PARECE a bula da quinina (nome 'Quinacris', bula de",
-      "'difosfato de...'), mas é CLOROQUINA — antimalárico diferente, com toxicidade cardíaca",
-      "e retiniana própria. Quem pegou foi a validação de conteúdo, não o olho. Não publicar."
-    ],
-
-    "benzilpenicilina-potassica-benzilpenicilina-procaina": "slug de composto com bula de um sal só",
-    "penicilina-g-potassica-penicilina-g-procaina":         "idem"
+    "_motivo": "RESOLVIDO em 2026-07-18: as duas bulas de penicilina combinada foram trocadas pela do PENKARON (Blau Farmacêutica, benzilpenicilina procaína 300.000 UI + potássica 100.000 UI) — o combo não aparece no autocomplete do bulário, só pelo nome comercial. Os dois slugs levam o MESMO PDF de propósito (par registrado em pdf_duplicado_ok)."
   },
-
   "pdf_removido_sem_versao_pura": {
     "_motivo": [
       "REMOVIDOS do site. Estes ativos não têm produto PURO registrado no Brasil, e o PDF que",
@@ -63,21 +33,18 @@
       "e existem puros (Fenilefrin injetável, Bisoltussin xarope). O que não acha no Sara não",
       "é o que não existe; o Sara é catálogo de genérico, não o mercado inteiro."
     ],
-
-    "umeclidinio":             "estava com o TRELEGY, que é TRIPLA (fluticasona + umeclidínio + vilanterol). O Incruse Ellipta (puro) existe no Brasil mas não achamos o PDF: ANVISA não devolve, consultaremedios não tem, e br.gsk.com/media/6688/incruse-ellipta.pdf faz 302 para o 404 (o 200 é da página de erro). Se achar, é só baixar",
+    "umeclidinio": "estava com o TRELEGY, que é TRIPLA (fluticasona + umeclidínio + vilanterol). O Incruse Ellipta (puro) existe no Brasil mas não achamos o PDF: ANVISA não devolve, consultaremedios não tem, e br.gsk.com/media/6688/incruse-ellipta.pdf faz 302 para o 404 (o 200 é da página de erro). Se achar, é só baixar",
     "imunoglobulina-antitetanica": "estava com o Imunoglobulin® (Blau), que é imunoglobulina humana NORMAL. A antitetânica é hiperimune específica — outra indicação",
-    "toxoide-difterico":       "estava com a vacina TRÍPLICE (difteria + tétano + pertussis acelular). Toxoide diftérico isolado não existe como produto",
+    "toxoide-difterico": "estava com a vacina TRÍPLICE (difteria + tétano + pertussis acelular). Toxoide diftérico isolado não existe como produto",
     "toxoide-difterico-toxoide-tetanico": "estava com a mesma TRÍPLICE — a dupla adulto (dT) não tem pertussis",
     "acido-folico-sulfato-ferroso": "estava com o FURP-Sulfato Ferroso PURO (sem ácido fólico). Os compostos que achamos usam outro sal de ferro (Neutrofer Fólico = glicinato férrico, Folifer = bisglicinato) — sal diferente é produto diferente, mesma régua da penicilina benzatina × potássica",
-
     "dicloridrato-de-quinina": "estava com a bula de HIDROXIZINA. Quinina não tem registro no Brasil (bula só em Portugal). CUIDADO: o Quinacris parece ser dela mas é CLOROQUINA",
-    "azelastina":              "estava com o Dymista (+ fluticasona). Allergodil puro só tem bula em Portugal",
-    "pseudoefedrina":          "só existe com anti-histamínico (triprolidina/loratadina)",
-    "etinilestradiol":         "só existe com progestágeno (drospirenona/levonorgestrel)",
-    "carisoprodol":            "só existe em associação analgésica",
-    "amilorida":               "só existe com hidroclorotiazida — o 'Amilorid' também é a associação (conferido lendo o PDF)"
+    "azelastina": "estava com o Dymista (+ fluticasona). Allergodil puro só tem bula em Portugal",
+    "pseudoefedrina": "só existe com anti-histamínico (triprolidina/loratadina)",
+    "etinilestradiol": "só existe com progestágeno (drospirenona/levonorgestrel)",
+    "carisoprodol": "só existe em associação analgésica",
+    "amilorida": "só existe com hidroclorotiazida — o 'Amilorid' também é a associação (conferido lendo o PDF)"
   },
-
   "pdf_duplicado_ok": {
     "_motivo": [
       "Dois slugs com o MESMO arquivo (mesmo sha256). Em geral isso é BUG: foi assim que se",
@@ -91,23 +58,33 @@
       "",
       "Ao consertar uma pendência, remova a entrada daqui."
     ],
-
     "atracurio+besilato-de-atracurio": "mesmo fármaco: o banco tem 'Atracúrio' e 'Besilato de Atracúrio'. O besilato é o SAL, não outro fármaco — a bula do genérico serve para os dois",
-    "timolol+timolol-ocular":          "mesmo fármaco: no Brasil o timolol é essencialmente colírio. O banco separa por engano",
-
     "amoxicilina-clavulanato+amoxicilina-clavulanato-de-potassio": "mesmo composto, o banco tem os dois nomes",
-    "bevacizumabe+bevacizumabe-oncologico":                        "mesmo fármaco, entrada duplicada no banco",
-    "cefalotina+cefalotina-sodica":                                "base e sal sódico do mesmo antibiótico",
-    "fator-viii+fator-viii-de-coagulacao":                         "mesmo fator, dois nomes no banco",
-    "ferro-sulfato+sulfato-ferroso":                               "mesmo sal de ferro, ordem invertida no nome",
+    "bevacizumabe+bevacizumabe-oncologico": "mesmo fármaco, entrada duplicada no banco",
+    "cefalotina+cefalotina-sodica": "base e sal sódico do mesmo antibiótico",
+    "fator-viii+fator-viii-de-coagulacao": "mesmo fator, dois nomes no banco",
+    "ferro-sulfato+sulfato-ferroso": "mesmo sal de ferro, ordem invertida no nome",
     "imunoglobulina-humana-endovenosa+imunoglobulina-humana-normal": "são a mesma coisa: IgG humana normal EV (Imunoglobulin® Blau)",
-    "infliximabe+infliximabe-crohn":                               "mesmo biológico, o banco separou por indicação",
-    "oxacilina+oxacilina-sodica":                                  "base e sal sódico",
-    "pravastatina+pravastatina-sodica":                            "base e sal sódico",
-    "ramelteon+ramelteona":                                        "mesma substância, duas grafias",
-
+    "infliximabe+infliximabe-crohn": "mesmo biológico, o banco separou por indicação",
+    "oxacilina+oxacilina-sodica": "base e sal sódico",
+    "pravastatina+pravastatina-sodica": "base e sal sódico",
+    "ramelteon+ramelteona": "mesma substância, duas grafias",
     "canagliflozina+invokana": "a BULA está certa nos dois (é o Invokana da Janssen). Errado é o BANCO: 'Invokana' está cadastrado como genericName, sendo MARCA de canagliflozina. Some quando a entrada invertida sair do medications-db — o que exige release na Play Store, porque o guard do dbSync não deixa a base ENCOLHER por OTA",
-
-    "penicilina-g-benzatina+penicilina-g-potassica-penicilina-g-procaina": "PENDÊNCIA CONHECIDA, não é alias: o slug do composto está com a bula da benzatina (um sal só). Ver pendente_bula_errada"
+    "acetilcisteina+acetilcisteina-po": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "ampicilina+ampicilina-comprimido": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "benzilpenicilina-potassica-benzilpenicilina-procaina+penicilina-g-potassica-penicilina-g-procaina": "mesmo combo (procaína+potássica) em duas nomenclaturas do banco; PDF = Penkaron",
+    "betametasona+betametasona-xarope": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "carbamazepina+carbamazepina-suspensao": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "cetirizina+cetirizina-comprimido": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "cetoprofeno+cetoprofeno-comprimido": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "cimetidina+cimetidina-injetavel": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "fenobarbital+fenobarbital-gotas": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "haloperidol+haloperidol-injetavel": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "midazolam+midazolam-injetavel": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "morfina+morfina-injetavel": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "moxifloxacino+moxifloxacino-comprimido": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "ranitidina+ranitidina-comprimido": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "salbutamol+salbutamol-injetavel": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma",
+    "tenoxicam+tenoxicam-injetavel": "base == cópia byte-idêntica da bula da forma principal — convenção do acervo multiforma: o slug base atende o link direto e o sufixado atende o seletor de forma"
   }
 }
