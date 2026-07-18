@@ -175,14 +175,16 @@
     <div class="toc-title">Nesta página</div>
     <a href="#para-que-serve">Para que serve o app</a>
     <a href="#como-usar">Como usar — passo a passo</a>
-    <a href="#tela-bloqueio">Tela de bloqueio</a>
+    <a href="#tela-bloqueio">Tela de bloqueio (Android)</a>
     <a href="#config-bloqueio">Como liberar a notificação na tela de bloqueio</a>
+    <a href="#iphone-medical-id">No iPhone: Ficha Médica da Apple</a>
     <a href="#interacoes">Interações medicamentosas</a>
     <a href="#lembretes">Lembretes de medicamentos</a>
+    <a href="#cuidador">Cuidador (em desenvolvimento)</a>
     <a href="#sons">Sons diferenciados por tipo</a>
     <a href="#agenda">Atividades e Consultas</a>
     <a href="#bula">Busca e bula de medicamentos</a>
-    <a href="#bateria">Lembretes não tocam? Solução para Samsung e outros</a>
+    <a href="#bateria">Lembretes não tocam? Solução para Samsung e outros (Android)</a>
     <a href="#backup">Backup dos seus dados</a>
     <a href="#privacidade">Privacidade e segurança (LGPD)</a>
     <a href="#avisos">Avisos e limitações importantes</a>
@@ -199,7 +201,7 @@
       </div>
       <div class="hero-feature">
         <div class="hero-feature-icon">⚡</div>
-        <div class="hero-feature-text">Detecta interações perigosas entre seus medicamentos</div>
+        <div class="hero-feature-text">Tabela de consulta com interações perigosas entre medicamentos e fitoterápicos</div>
       </div>
       <div class="hero-feature">
         <div class="hero-feature-icon">🔔</div>
@@ -208,6 +210,10 @@
       <div class="hero-feature">
         <div class="hero-feature-icon">📅</div>
         <div class="hero-feature-text">Agenda de atividades físicas e consultas médicas com lembretes automáticos</div>
+      </div>
+      <div class="hero-feature">
+        <div class="hero-feature-icon">👥</div>
+        <div class="hero-feature-text">Avisa uma pessoa de confiança se você não confirmar uma dose <em>(em desenvolvimento)</em></div>
       </div>
     </div>
     <hr class="hero-divider" />
@@ -222,13 +228,14 @@
     <div class="step"><div class="step-num">2</div><div class="step-text">Cadastre os medicamentos que você usa na aba <strong>Medicamentos</strong>, tocando em +. O assistente pergunta nome, dose, horários, prazo e estoque — um passo de cada vez.</div></div>
     <div class="step"><div class="step-num">3</div><div class="step-text">Use a aba <strong>Atividades</strong> para registrar atividades físicas, medições (pressão, glicose, peso) e consultas médicas — lembretes são criados automaticamente.</div></div>
     <div class="step"><div class="step-num">4</div><div class="step-text">Acompanhe na aba <strong>Histórico</strong> as doses que você tomou ou pulou e as atividades realizadas.</div></div>
-    <div class="step"><div class="step-num">5</div><div class="step-text">Com o alerta ativo, sua ficha médica fica visível na <strong>tela de bloqueio</strong> imediatamente — sem precisar desbloquear o celular.</div></div>
+    <div class="step"><div class="step-num">5</div><div class="step-text">Se quiser (em desenvolvimento), conecte a aba <strong>Cuidador</strong> a uma pessoa de confiança — ela é avisada se você não confirmar uma dose.</div></div>
+    <div class="step"><div class="step-num">6</div><div class="step-text">Com o alerta ativo, sua ficha médica fica visível na <strong>tela de bloqueio</strong> imediatamente — sem precisar desbloquear o celular.</div></div>
     <div class="tip">💡 Após configurar lembretes, a tela Início exibe um card <strong>"Próximos lembretes"</strong> com o horário mais próximo de cada medicamento — por exemplo: <em>Zyloric hoje às 14:00 · Glifage amanhã às 08:00</em>. Toque no card para ir à lista de medicamentos.</div>
   </div>
 
   <!-- Tela de bloqueio -->
   <div id="tela-bloqueio" class="card">
-    <div class="card-title">🔒 Ícone na tela de bloqueio</div>
+    <div class="card-title">🔒 Ícone na tela de bloqueio (Android)</div>
     <p>Quando o alerta está ativo, uma notificação permanente aparece na tela de bloqueio do Android. Ao expandir (deslizando para baixo), o socorrista vê:</p>
     <ul class="bullets">
       <li>Seu nome e tipo sanguíneo</li>
@@ -252,10 +259,20 @@
     <div class="tip">💡 O caminho exato varia por fabricante.<br /><strong>Samsung:</strong> Configurações → Notificações → Configurações avançadas → Mostrar na tela de bloqueio.<br /><strong>Motorola:</strong> Configurações → Notificações → Privacidade de notificações.</div>
   </div>
 
+  <!-- iPhone: Ficha Médica -->
+  <div id="iphone-medical-id" class="card">
+    <div class="card-title">🍎 No iPhone: Ficha Médica da Apple</div>
+    <p>A Apple não permite que nenhum app coloque sua própria ficha na tela de bloqueio — só a <strong>Ficha Médica (Medical ID)</strong> nativa do app Saúde aparece ali, em Emergência. Por isso, no iPhone o Alerta Médico funciona de um jeito diferente do Android:</p>
+    <div class="step"><div class="step-num">1</div><div class="step-text">Em <strong>Configurações → Tela de Bloqueio</strong>, ative o lembrete da Ficha Médica.</div></div>
+    <div class="step"><div class="step-num">2</div><div class="step-text">Quando seus medicamentos mudarem, o app avisa que a Ficha Médica pode estar desatualizada.</div></div>
+    <div class="step"><div class="step-num">3</div><div class="step-text">Toque para copiar a lista de remédios e cole no app Saúde: toque na sua foto → Ficha Médica → Editar → campo Medicamentos.</div></div>
+    <div class="tip">💡 O app não tem como ler nem confirmar o que está na Ficha Médica da Apple — quem preenche é você, no app Saúde. O Alerta Médico só lembra.</div>
+  </div>
+
   <!-- Interações -->
   <div id="interacoes" class="card">
     <div class="card-title">⚡ Interações medicamentosas</div>
-    <p>O app verifica automaticamente combinações perigosas entre os seus medicamentos. Alertas aparecem diretamente nos cartões da lista e são classificados em três níveis:</p>
+    <p>O app traz uma tabela de consulta com combinações perigosas já catalogadas, classificadas em três níveis de risco. Não é uma verificação automática dos remédios que você cadastrou — é uma referência que você consulta quando quiser, em <strong>Configurações → Tabelas</strong>.</p>
     <div class="risk critical">
       <div class="risk-label">⚡ Crítico</div>
       <div class="risk-desc">Combinação contraindicada. Informe imediatamente seu médico.</div>
@@ -268,7 +285,7 @@
       <div class="risk-label">⚡ Moderado</div>
       <div class="risk-desc">Atenção recomendada. Converse com seu médico ou farmacêutico.</div>
     </div>
-    <div class="tip">💡 No app, abra <strong>Configurações → Tabelas</strong> para ver todas as interações da base (mais de 900), com busca e filtros por tipo e risco, além das listas completas de medicamentos e fitoterápicos.</div>
+    <div class="tip">💡 Na tela Tabelas você tem busca e filtros por tipo e risco, além das listas completas de medicamentos e fitoterápicos cadastrados na base.</div>
   </div>
 
   <!-- Vídeo -->
@@ -295,6 +312,20 @@
       <li><strong>Stand-by (⏸)</strong> — suspenda um medicamento sem apagar: ele sai dos alarmes, da tela de bloqueio e das interações, e volta com um toque em Retomar</li>
     </ul>
     <div class="tip">💡 O ícone 🔔 / 🔕 no cartão do medicamento silencia ou reativa o som do lembrete sem apagá-lo. Lembretes funcionam offline — nenhuma conexão é necessária.</div>
+  </div>
+
+  <!-- Cuidador -->
+  <div id="cuidador" class="card">
+    <div class="card-title">👥 Cuidador</div>
+    <span style="display:inline-flex; align-items:center; gap:6px; background:rgba(224,123,79,0.12); color:var(--accent); border:1px solid rgba(224,123,79,0.35); font-size:12px; font-weight:700; letter-spacing:0.4px; padding:5px 12px; border-radius:20px; margin-bottom:12px;">🚧 Em desenvolvimento — em teste fechado</span>
+    <p>Conecta seu celular ao de uma pessoa de confiança — filho, cônjuge, vizinho — para que ela saiba se você não confirmar uma dose:</p>
+    <ul class="bullets">
+      <li><strong>Se alguém cuida de você:</strong> peça para ela gerar um convite em Cuidador → "Eu cuido de alguém" e mandar pelo WhatsApp; basta tocar no link para conectar</li>
+      <li><strong>Se você cuida de alguém:</strong> gere o convite você mesmo — dá para acompanhar mais de uma pessoa, cada uma com seu próprio histórico</li>
+      <li>O silêncio vira aviso — se a dose atrasa além do prazo combinado (15 min a 2h), quem cuida é notificado, mesmo com o celular desligado ou sem internet</li>
+      <li>Conteúdo cifrado: chegam só o nome do remédio, a dose e o horário — nunca o resto do perfil médico</li>
+    </ul>
+    <div class="tip">💡 Ainda em teste fechado. Peça acesso em <a href="/#cuidador" style="color:var(--blue); font-weight:600;">alertamedico.ia.br</a>.</div>
   </div>
 
   <!-- Sons diferenciados -->
@@ -334,7 +365,7 @@
 
   <!-- Bateria -->
   <div id="bateria" class="card">
-    <div class="card-title">🔋 Lembretes não tocam? Veja como corrigir</div>
+    <div class="card-title">🔋 Lembretes não tocam? Veja como corrigir (Android)</div>
     <p>Samsung e outros fabricantes bloqueiam alarmes de apps em segundo plano por padrão. Para os lembretes funcionarem mesmo com o celular em repouso:</p>
     <div class="step"><div class="step-num">1</div><div class="step-text">Configurações → Apps → <strong>Alerta Médico</strong> → Bateria</div></div>
     <div class="step"><div class="step-num">2</div><div class="step-text">Selecione <strong>"Sem restrições"</strong> (em vez de "Otimizada")</div></div>
@@ -346,7 +377,7 @@
     <div class="card-title">💾 Backup dos seus dados</div>
     <p>Seus dados são protegidos de duas formas:</p>
     <ul class="bullets">
-      <li><strong>Automático</strong> — com o backup do Android ativo (Configurações → Google → Backup), uma cópia criptografada vai para sua conta Google e é restaurada sozinha ao trocar de celular ou reinstalar o app</li>
+      <li><strong>Automático</strong> — com o backup do Android ativo (Configurações → Google → Backup) ou o iCloud ativo no iPhone (Ajustes → [seu nome] → iCloud), uma cópia criptografada vai para sua própria conta e é restaurada sozinha ao trocar de celular ou reinstalar o app</li>
       <li><strong>Manual</strong> — em Configurações → Backup, salve um arquivo no celular (ex.: pasta Downloads) ou compartilhe por WhatsApp/e-mail, e restaure quando precisar</li>
     </ul>
     <div class="tip">💡 O backup automático depende do backup do Google estar ativado no aparelho. O arquivo manual é uma garantia extra — guarde-o fora do celular.</div>
@@ -375,7 +406,7 @@
     <p>A base de dados pode estar incompleta ou desatualizada. Para informações oficiais sobre medicamentos registrados no Brasil, consulte o <strong>Bulário Eletrônico da ANVISA</strong> (bulario.anvisa.gov.br).</p>
 
     <div class="warning-label">Funcionamento depende do seu celular</div>
-    <p>A exibição na tela de bloqueio, os lembretes e as notificações dependem das configurações do seu dispositivo. O comportamento pode variar conforme o fabricante, modelo e versão do Android. O Alerta Médico não garante funcionamento idêntico em todos os aparelhos.</p>
+    <p>A exibição na tela de bloqueio, os lembretes e as notificações dependem das configurações do seu dispositivo. O comportamento pode variar conforme o fabricante, modelo e versão do Android ou iOS — e a Apple não permite que o app tenha uma ficha própria na tela de bloqueio (veja "No iPhone: Ficha Médica da Apple"). O Alerta Médico não garante funcionamento idêntico em todos os aparelhos.</p>
   </div>
 
   <!-- Links -->
@@ -390,7 +421,7 @@
   <a class="link-card" href="references.html">
     <div>
       <div class="link-card-main">📚 Referências Científicas</div>
-      <div class="link-card-sub">Papers e guidelines que embasam as interações detectadas</div>
+      <div class="link-card-sub">Papers e guidelines que embasam as interações catalogadas</div>
     </div>
     <div class="link-card-arrow">›</div>
   </a>

@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alerta Médico — Lembretes de medicamentos, interações e ficha de emergência</title>
-  <meta name="description" content="App gratuito para Android: lembretes de horário para seus medicamentos, detecção de interações perigosas e ficha médica na tela de bloqueio para socorristas." />
+  <meta name="description" content="App gratuito para Android e iPhone: lembretes de horário para seus medicamentos, tabela de consulta a interações perigosas e ficha médica na tela de bloqueio para socorristas." />
   <meta property="og:title" content="Alerta Médico" />
-  <meta property="og:description" content="Lembretes de medicamentos, detecção de interações perigosas e ficha de emergência na tela de bloqueio. Gratuito e 100% offline." />
+  <meta property="og:description" content="Lembretes de medicamentos, tabela de consulta a interações perigosas e ficha de emergência na tela de bloqueio. Gratuito e 100% offline." />
   <meta property="og:url" content="https://www.alertamedico.ia.br" />
   <link rel="icon" href="favicon.png" type="image/png" />
   <style>
@@ -163,6 +163,11 @@
       text-transform: uppercase; letter-spacing: 1px;
       margin-bottom: 12px;
     }
+    .ios-note {
+      margin-top: 14px; display: flex; gap: 8px; align-items: flex-start;
+      font-size: 12px; color: rgba(255,255,255,0.6); line-height: 1.5;
+    }
+    .ios-note-icon { flex-shrink: 0; }
 
     /* ══════════════════════════════════════════
        BANDA 2 — Interações
@@ -389,13 +394,13 @@
 
 <!-- ══ HERO — compacto ══ -->
 <section class="hero">
-  <div class="hero-badge">📱 Gratuito para Android · 100% offline</div>
+  <div class="hero-badge">📱 Gratuito para Android e iPhone · 100% offline</div>
   <h1>Tome seus remédios na hora certa.<br /><span>E, numa emergência, quem te socorrer já sabe quais.</span></h1>
   <p class="hero-desc">
-    Lembretes diários de medicamentos, controle de estoque e detecção de interações perigosas —
+    Lembretes diários de medicamentos, controle de estoque e uma tabela de consulta a interações perigosas —
     e a mesma ficha fica pronta na tela de bloqueio para socorristas, sem esforço extra.
   </p>
-  <a class="btn-primary" href="#" id="play-btn">▶ &nbsp;Baixar na Google Play</a>
+  <a class="btn-primary" href="#" id="play-btn">▶ &nbsp;Entrar no teste fechado</a>
   <div class="hero-pills">
     <span class="hero-pill">✔ Sem conta</span>
     <span class="hero-pill">✔ Sem internet</span>
@@ -510,6 +515,10 @@
           <div class="ls-row"><span class="ls-key">Contato</span><span class="ls-val">Maria Silva (filha)</span></div>
           <div class="ls-alert">⚠️ Usa anticoagulante — risco de sangramento elevado</div>
         </div>
+        <div class="ios-note">
+          <span class="ios-note-icon">🍎</span>
+          <span><strong>No iPhone</strong> a Apple não permite esse tipo de ficha na tela de bloqueio. O Alerta Médico te lembra de manter atualizada a Ficha Médica (Medical ID) do app Saúde — e ajuda a copiar a lista de remédios para lá.</span>
+        </div>
       </div>
     </div>
   </section>
@@ -523,7 +532,7 @@
       <div>
         <div class="label">Interações medicamentosas</div>
         <h2 class="title">Seus remédios podem ser<br />perigosos juntos</h2>
-        <p class="sub">Milhões de brasileiros combinam remédios entre si — ou com chás e fitoterápicos — sem saber que a mistura pode causar hemorragia, síndrome serotoninérgica ou parada cardíaca. O app detecta isso automaticamente com uma base de mais de 900 interações catalogadas, incluindo Erva de São João, Ginkgo biloba e outros fitoterápicos.</p>
+        <p class="sub">Milhões de brasileiros combinam remédios entre si — ou com chás e fitoterápicos — sem saber que a mistura pode causar hemorragia, síndrome serotoninérgica ou parada cardíaca. O Alerta Médico traz uma tabela de consulta com mais de 900 interações catalogadas, incluindo Erva de São João, Ginkgo biloba e outros fitoterápicos, para você pesquisar antes de misturar.</p>
         <div class="int-examples">
           <div class="int-item critical">
             <div class="int-badge critical">Crítico</div>
@@ -596,7 +605,7 @@
       <div class="step">
         <div class="step-num">2</div>
         <div class="step-title">Medicamentos</div>
-        <div class="step-desc">Cadastre seus remédios — o app detecta interações na hora.</div>
+        <div class="step-desc">Cadastre seus remédios e consulte a tabela de interações sempre que precisar.</div>
       </div>
       <div class="step">
         <div class="step-num">3</div>
@@ -611,7 +620,7 @@
       <div class="step">
         <div class="step-num">5</div>
         <div class="step-title">Ativar alerta</div>
-        <div class="step-desc">Ative em Configurações → Tela de Bloqueio — sua ficha aparece na tela de bloqueio imediatamente.</div>
+        <div class="step-desc">Ative em Configurações → Tela de Bloqueio — sua ficha aparece na tela de bloqueio imediatamente. No iPhone, o app te lembra de manter atualizada a Ficha Médica da Apple.</div>
       </div>
     </div>
     <p style="margin-top:28px; font-size:14px; color:var(--muted);">
@@ -628,7 +637,7 @@
         <div class="privacy-icon">📱</div>
         <div>
           <div class="privacy-item-title">Dados no seu celular</div>
-          <div class="privacy-item-desc">Tudo fica no dispositivo. Com o backup do Android ativo, uma cópia criptografada vai apenas para a sua conta Google.</div>
+          <div class="privacy-item-desc">Tudo fica no dispositivo. Com o backup automático do Android ou do iCloud ativo, uma cópia criptografada vai apenas para a sua própria conta.</div>
         </div>
       </div>
       <div class="privacy-item">
@@ -662,8 +671,8 @@
 <!-- CTA Final -->
 <section class="cta-band">
   <h2>Baixe agora — é gratuito</h2>
-  <p>Disponível para Android. Sem anúncios, sem assinatura — seus dados de saúde ficam no aparelho.</p>
-  <a class="btn-primary" href="#" id="play-btn-final">▶ &nbsp;Baixar na Google Play</a>
+  <p>Disponível para Android e iPhone, ambos em teste fechado. Sem anúncios, sem assinatura — seus dados de saúde ficam no aparelho.</p>
+  <a class="btn-primary" href="#" id="play-btn-final">▶ &nbsp;Entrar no teste fechado</a>
 </section>
 
 <!-- Footer -->
