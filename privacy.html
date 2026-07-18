@@ -211,9 +211,32 @@
 
   <h3>4.6 Tela de bloqueio</h3>
   <p>
-    Se você ativar a ficha médica ou os lembretes na tela de bloqueio, essas informações ficam
-    visíveis a qualquer pessoa com o celular em mãos — é intencional: socorristas precisam ler
-    sem desbloquear. Você controla isso nas configurações do app e do sistema.
+    No Android, se você ativar a ficha médica ou os lembretes na tela de bloqueio, essas
+    informações ficam visíveis a qualquer pessoa com o celular em mãos — é intencional:
+    socorristas precisam ler sem desbloquear. Você controla isso nas configurações do app e
+    do sistema.
+  </p>
+  <p>
+    No iPhone é diferente. A Apple não permite que nenhum app de terceiros ponha a própria
+    ficha na tela de bloqueio: ali aparece somente a <strong>Ficha Médica (Medical ID)</strong>
+    do app Saúde, da própria Apple. O Alerta Médico <strong>não lê nem preenche</strong> essa
+    ficha — ele apenas avisa quando a sua lista de medicamentos mudou e a ficha pode ter ficado
+    desatualizada. Se você tocar em copiar, a lista vai para a área de transferência do aparelho
+    para você colar na Ficha Médica; quem faz isso é você, e nada é enviado a lugar nenhum.
+  </p>
+
+  <h3>4.7 Backup automático do sistema operacional</h3>
+  <p>
+    Se o backup do Android estiver ligado (Configurações → Google → Backup) ou o iCloud estiver
+    ativo no iPhone (Ajustes → seu nome → iCloud), o próprio sistema copia periodicamente os
+    dados do app para a sua conta Google ou Apple, cifrados e vinculados exclusivamente a ela.
+    É isso que devolve seus medicamentos quando você troca de aparelho ou reinstala o app.
+  </p>
+  <p>
+    Esse backup é feito pelo sistema operacional, não pelo Alerta Médico: <strong>o
+    desenvolvedor não tem acesso a ele</strong> e nem fica sabendo que existe. Você liga e
+    desliga nas configurações do aparelho, e pode apagar a cópia nas configurações da sua conta
+    Google ou Apple.
   </p>
 
   <div class="highlight">
@@ -239,7 +262,16 @@
       reiniciar o aparelho.</li>
     <li><strong>Vibração</strong> — chamar atenção para o alerta.</li>
   </ul>
-  <p>O app não pede localização, câmera, microfone nem acesso aos contatos do sistema.</p>
+  <p>
+    No iPhone, o app pede apenas <strong>notificações</strong>: alarmes exatos e inicialização
+    automática não são oferecidos pela Apple a apps de terceiros, então esses dois itens
+    existem só no Android.
+  </p>
+  <p>
+    O app não pede localização, câmera, microfone nem acesso aos contatos do sistema. O convite
+    do cuidador é mostrado como código QR na tela — quem escaneia é a câmera do outro celular,
+    pelo app de câmera do próprio sistema.
+  </p>
 
   <h2>7. Retenção</h2>
   <ul>
@@ -249,6 +281,9 @@
       ao remover a pessoa acompanhada, é apagado.</li>
     <li><strong>Relatórios técnicos e relatos de erro:</strong> mantidos apenas pelo tempo
       necessário para a correção.</li>
+    <li><strong>Backup do sistema (Google ou Apple):</strong> segue as regras da conta em que
+      está guardado; as duas apagam a cópia automaticamente após um período prolongado sem uso
+      do app, e você pode apagá-la antes disso nas configurações da conta.</li>
   </ul>
 
   <h2>8. Seus direitos (LGPD)</h2>
