@@ -155,14 +155,32 @@
     hora. Base legal: consentimento específico do titular (LGPD, art. 11, I).
   </p>
 
-  <h3>4.2 Relatórios técnicos de erro (Sentry)</h3>
+  <h3>4.2 Diagnóstico técnico (Sentry)</h3>
   <p>
-    Quando o app encontra um erro interno, um relatório técnico é enviado ao serviço Sentry
-    (EUA) contendo modelo do aparelho, versão do sistema e do app e a descrição técnica da
-    falha. O serviço está configurado no modo mínimo: <strong>sem dados pessoais, sem gravação
-    de tela, sem rastreamento de navegação</strong> — e as mensagens de erro são higienizadas
-    para não conter identificadores. Serve exclusivamente para consertar defeitos. Base legal:
-    legítimo interesse (LGPD, art. 7º, IX), com minimização.
+    O app envia dois tipos de informação técnica ao serviço Sentry (EUA), nenhuma delas com
+    dado seu:
+  </p>
+  <ul>
+    <li>
+      <strong>A cada vez que você abre o app</strong>, um registro de sessão: modelo do
+      aparelho, versão do sistema, versão do app e o instante de abertura e fechamento. Serve
+      para saber se uma versão nova está travando em algum aparelho e quantos aparelhos já
+      receberam a atualização. Não descreve o que você fez dentro do app — apenas que ele
+      abriu e se fechou normalmente ou por falha.
+    </li>
+    <li>
+      <strong>Quando o app encontra um erro interno</strong>, um relatório com os mesmos dados
+      do aparelho mais a descrição técnica da falha, higienizada para não conter
+      identificadores.
+    </li>
+  </ul>
+  <p>
+    O serviço está configurado no modo mínimo: <strong>sem dados pessoais, sem gravação de
+    tela, sem rastreamento de navegação entre telas</strong>. Não há identificador de conta
+    nem qualquer forma de ligar essas informações a você — o que chega ao Sentry é
+    indistinguível entre um aparelho e outro do mesmo modelo. Serve exclusivamente para
+    consertar defeitos e acompanhar a estabilidade das versões. Base legal: legítimo interesse
+    (LGPD, art. 7º, IX), com minimização.
   </p>
 
   <h3>4.3 Relato de medicamento não encontrado ou erro em bula</h3>
