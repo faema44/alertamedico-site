@@ -169,6 +169,23 @@
     }
     .ios-note-icon { flex-shrink: 0; }
 
+    .qr-card {
+      margin-top: 16px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 18px;
+      padding: 20px 22px;
+      display: flex; flex-direction: column; gap: 14px; align-items: center;
+    }
+    .qr-img {
+      width: 172px; height: 172px; flex-shrink: 0; display: block;
+      background: #fff; border-radius: 10px; padding: 9px;
+    }
+    .qr-text { width: 100%; }
+    .qr-title { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .qr-desc { font-size: 12px; color: rgba(255,255,255,0.65); line-height: 1.55; }
+    .qr-desc strong { color: rgba(255,255,255,0.9); }
+
     /* ══════════════════════════════════════════
        BANDA 2 — Interações
     ══════════════════════════════════════════ */
@@ -534,6 +551,19 @@
         <div class="ios-note">
           <span class="ios-note-icon">🍎</span>
           <span><strong>No iPhone</strong> a Apple não permite esse tipo de ficha na tela de bloqueio. O Alerta Médico te lembra de manter atualizada a Ficha Médica (Medical ID) do app Saúde — e ajuda a copiar a lista de remédios para lá.</span>
+        </div>
+        <div class="qr-card">
+          <img src="qr-exemplo.svg" class="qr-img"
+               alt="QR code de uma ficha de emergência de exemplo, com nome, tipo sanguíneo, alergia, contato e medicamentos" />
+          <div class="qr-text">
+            <div class="qr-title">A mesma ficha em QR code</div>
+            <p class="qr-desc">
+              O socorrista aponta a câmera e lê tudo na hora. O código é <strong>texto puro, não link</strong> —
+              abre sem internet e sem destravar o celular. Funciona no <strong>Android e no iPhone</strong>, e dá
+              para imprimir e guardar na carteira: aí a ficha funciona até com o celular sem bateria.
+              Escaneie o código acima para ver um exemplo.
+            </p>
+          </div>
         </div>
       </div>
     </div>
