@@ -202,6 +202,7 @@ SINONIMOS = {
     "vitamina d":      ["colecalciferol"],
     "vitamina d3":     ["colecalciferol"],
     "vitamina k":      ["fitomenadiona"],
+    "amlodipino":      ["anlodipino"],           # DCB oficial no Brasil escreve com N
 }
 
 
