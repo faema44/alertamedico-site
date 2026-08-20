@@ -355,40 +355,6 @@
       .feature-grid.reversed { direction: ltr; }
       header nav { display: none; }
     }
-
-    /* ── Modal: solicitar acesso ao teste ── */
-    .test-modal-overlay {
-      display: none; position: fixed; inset: 0; z-index: 200;
-      background: rgba(15,37,80,0.55);
-      align-items: center; justify-content: center; padding: 24px;
-    }
-    .test-modal-overlay.open { display: flex; }
-    .test-modal {
-      background: #fff; border-radius: 16px; padding: 32px;
-      max-width: 440px; width: 100%;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-    }
-    .test-modal h3 { color: var(--blue); font-size: 20px; font-weight: 800; margin-bottom: 12px; }
-    .test-modal p { font-size: 14px; color: var(--muted); line-height: 1.6; margin-bottom: 20px; }
-    .test-modal-email-row {
-      display: flex; align-items: center; gap: 10px;
-      background: var(--bg); border: 1px solid rgba(28,63,122,0.15);
-      border-radius: 10px; padding: 12px 14px; margin-bottom: 20px;
-    }
-    .test-modal-email { font-size: 15px; font-weight: 700; color: var(--blue); flex: 1; word-break: break-all; }
-    .test-modal-copy {
-      background: var(--accent); color: #fff; border: none;
-      font-size: 13px; font-weight: 700; padding: 8px 14px;
-      border-radius: 8px; cursor: pointer; flex-shrink: 0;
-      transition: opacity .15s;
-    }
-    .test-modal-copy:hover { opacity: 0.9; }
-    .test-modal-close {
-      display: block; width: 100%; text-align: center;
-      background: none; border: none; color: var(--muted);
-      font-size: 14px; font-weight: 600; padding: 10px; cursor: pointer;
-    }
-    .test-modal-close:hover { color: var(--text); }
   </style>
 </head>
 <body>
@@ -471,7 +437,6 @@
             <span><strong>Lista de compras</strong> — o app marca o que está acabando e gera a lista da farmácia em PDF, WhatsApp ou e-mail.</span>
           </li>
         </ul>
-        <a class="btn-primary" href="#" id="play-btn-alarm">▶ &nbsp;Configurar meus lembretes</a>
       </div>
       <div>
         <div class="alarm-mockup">
@@ -527,9 +492,6 @@
         <div class="label">Dados médicos</div>
         <h2 class="title">As mesmas informações,<br />prontas para uma emergência</h2>
         <p class="sub">Os remédios que você já cadastra para os lembretes viram, automaticamente, sua ficha de emergência. Em um acidente, socorristas precisam saber seus medicamentos e alergias antes de agir — o Alerta Médico exibe essa ficha na tela de bloqueio, sem precisar desbloquear o celular.</p>
-        <div class="cta-row">
-          <a class="btn-primary" href="#" id="play-btn-dados">▶ &nbsp;Configurar minha ficha</a>
-        </div>
       </div>
       <div>
         <div class="ls-screen-label">Tela de bloqueio — visível para socorristas</div>
@@ -615,7 +577,6 @@
           </div>
         </div>
         <div class="cta-row">
-          <a class="btn-primary" href="#" id="play-btn-int">▶ &nbsp;Verificar meus medicamentos</a>
           <a class="link-refs" href="references.html">Ver referências científicas →</a>
         </div>
       </div>
@@ -734,45 +695,5 @@
   <div>© 2026 Alerta Médico · Todos os direitos reservados</div>
 </footer>
 
-<!-- Modal: solicitar acesso ao teste fechado -->
-<div class="test-modal-overlay" id="test-modal-overlay">
-  <div class="test-modal">
-    <h3>📩 Solicitar acesso ao teste</h3>
-    <p>O Alerta Médico está em teste fechado. Envie um e-mail para o endereço abaixo dizendo se seu celular é <strong>Android ou iPhone</strong> — no Android, inclua o e-mail da sua conta Google (convite pelo Google Play); no iPhone, o e-mail do seu Apple ID (convite pelo TestFlight). Você recebe o convite em poucas horas.</p>
-    <div class="test-modal-email-row">
-      <span class="test-modal-email" id="test-modal-email">testar@alertamedico.ia.br</span>
-      <button class="test-modal-copy" id="test-modal-copy-btn" type="button">Copiar</button>
-    </div>
-    <button class="test-modal-close" id="test-modal-close-btn" type="button">Fechar</button>
-  </div>
-</div>
-
-<script>
-  const TEST_EMAIL = 'testar@alertamedico.ia.br';
-  const overlay = document.getElementById('test-modal-overlay');
-  const copyBtn = document.getElementById('test-modal-copy-btn');
-  const closeBtn = document.getElementById('test-modal-close-btn');
-
-  document.querySelectorAll('[id^="play-btn"]').forEach(el => {
-    el.href = '#';
-    el.addEventListener('click', (e) => {
-      e.preventDefault();
-      overlay.classList.add('open');
-    });
-  });
-
-  closeBtn.addEventListener('click', () => overlay.classList.remove('open'));
-  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('open'); });
-
-  copyBtn.addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(TEST_EMAIL);
-      copyBtn.textContent = 'Copiado ✓';
-    } catch {
-      copyBtn.textContent = 'Selecione e copie';
-    }
-    setTimeout(() => { copyBtn.textContent = 'Copiar'; }, 2000);
-  });
-</script>
 </body>
 </html>
