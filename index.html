@@ -586,13 +586,9 @@
     }
 
     .video-link-card {
-      display: grid;
-      grid-template-columns: 56px 1fr auto;
-      gap: 16px;
-      align-items: center;
-      min-height: 92px;
       margin-top: 22px;
-      padding: 18px 20px;
+      display: block;
+      overflow: hidden;
       border: 1px solid var(--line);
       border-radius: 16px;
       background: var(--white);
@@ -603,19 +599,27 @@
     }
     .video-link-card:hover { transform: translateY(-2px); border-color: #b9c8d8; }
     .video-play {
-      width: 56px;
-      height: 56px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 64px;
+      height: 64px;
       display: grid;
       place-items: center;
       border-radius: 50%;
       background: #c4302b;
       color: var(--white);
-      font-size: 22px;
+      font-size: 24px;
       line-height: 1;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
     }
+    .video-thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: var(--navy-950); }
+    .video-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .video-link-content { display: block; padding: 18px 20px 20px; }
     .video-link-title { color: var(--navy-950); font-size: 17px; font-weight: 800; line-height: 1.35; }
     .video-link-credit { margin-top: 4px; color: var(--muted); font-size: 15px; line-height: 1.4; }
-    .video-link-arrow { color: var(--navy-700); font-size: 28px; }
+    .video-link-action { display: inline-block; margin-top: 10px; color: var(--navy-700); font-size: 15px; font-weight: 800; }
 
     .text-link {
       display: inline-flex;
@@ -807,9 +811,8 @@
       .qr-box img { width: 120px; height: 120px; }
       .steps { grid-template-columns: 1fr; }
       .privacy-list { grid-template-columns: 1fr; }
-      .video-link-card { grid-template-columns: 52px 1fr; padding: 16px; }
-      .video-play { width: 52px; height: 52px; }
-      .video-link-arrow { display: none; }
+      .video-link-content { padding: 16px; }
+      .video-play { width: 58px; height: 58px; font-size: 22px; }
       .footer-inner { flex-direction: column; align-items: flex-start; }
     }
 
@@ -1051,12 +1054,15 @@
             <p><strong>A consulta ajuda a informar, mas não substitui atendimento médico.</strong> Nunca comece, interrompa ou troque um medicamento sem falar com um médico ou farmacêutico.</p>
           </div>
           <a class="video-link-card" href="https://www.youtube.com/watch?v=lPaP_QgjEW4" target="_blank" rel="noopener" aria-label="Assistir ao vídeo do Dr. André Wambier sobre interações medicamentosas no YouTube">
-            <span class="video-play" aria-hidden="true">▶</span>
-            <span>
+            <span class="video-thumb">
+              <img src="andre-wambier-interacoes.jpg" alt="Dr. André Wambier explicando uma interação perigosa entre medicamentos" width="480" height="360" />
+              <span class="video-play" aria-hidden="true">▶</span>
+            </span>
+            <span class="video-link-content">
               <span class="video-link-title">Por que as interações medicamentosas podem ser perigosas?</span>
               <span class="video-link-credit">Dr. André Wambier · Cardio DF · YouTube</span>
+              <span class="video-link-action">Assistir no YouTube →</span>
             </span>
-            <span class="video-link-arrow" aria-hidden="true">›</span>
           </a>
         </div>
       </div>
