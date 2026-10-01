@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alerta Médico — Seus remédios, horários e dados de emergência</title>
   <meta name="description" content="App gratuito para organizar medicamentos, receber lembretes, consultar interações e manter dados médicos importantes acessíveis em uma emergência." />
-  <meta name="theme-color" content="#286052" />
+  <meta name="theme-color" content="#1c3f7a" />
   <meta property="og:title" content="Alerta Médico" />
   <meta property="og:description" content="Mais tranquilidade para cuidar dos seus medicamentos todos os dias." />
   <meta property="og:url" content="https://www.alertamedico.ia.br" />
@@ -15,24 +15,24 @@
     *, *::before, *::after { box-sizing: border-box; }
 
     :root {
-      --navy-950: #173c35;
-      --navy-900: #214d43;
-      --navy-800: #286052;
-      --navy-700: #316b5b;
+      --navy-950: #0f2547;
+      --navy-900: #16325f;
+      --navy-800: #1c3f7a;
+      --navy-700: #26508f;
       --orange-700: #a04630;
       --orange-600: #b95339;
       --orange-100: #fbede5;
       --green-700: #267057;
       --green-100: #eaf6f0;
-      --blue-100: #eaf1eb;
-      --blue-050: #f1f5ef;
+      --blue-100: #eaf2fb;
+      --blue-050: #f4f8fc;
       --sand-100: #faf6ee;
       --white: #ffffff;
-      --text: #263e36;
-      --muted: #5d6b64;
-      --line: #dce3da;
-      --shadow: 0 24px 64px rgba(33, 77, 67, 0.10);
-      --shadow-soft: 0 8px 28px rgba(33, 77, 67, 0.04);
+      --text: #172335;
+      --muted: #526174;
+      --line: #d9e1ea;
+      --shadow: 0 24px 64px rgba(22, 50, 95, 0.10);
+      --shadow-soft: 0 8px 28px rgba(22, 50, 95, 0.04);
       --radius-lg: 28px;
       --radius-md: 20px;
       --radius-sm: 14px;
@@ -156,7 +156,7 @@
       bottom: -260px;
       width: 520px;
       height: 520px;
-      border: 1px solid #dce4d5;
+      border: 1px solid #dbe3ee;
       border-radius: 50%;
       pointer-events: none;
     }
@@ -254,7 +254,7 @@
       max-width: 410px;
       margin-inline: auto;
       padding: 14px;
-      border: 7px solid #e2e6db;
+      border: 7px solid #e1e7ef;
       border-radius: 38px;
       background: var(--white);
       box-shadow: var(--shadow);
@@ -266,13 +266,13 @@
       height: 7px;
       margin: 3px auto 12px;
       border-radius: 99px;
-      background: #b7c4b5;
+      background: #b5c2d3;
     }
 
     .app-preview {
       overflow: hidden;
       border-radius: 27px;
-      background: #f4f6f0;
+      background: #f2f4f8;
     }
 
     .app-preview-header {
@@ -338,7 +338,7 @@
       text-align: center;
     }
     .trust-list li + li { border-left: 1px solid var(--line); }
-    .trust-check { color: var(--green-700); font-size: 20px; }
+    .trust-check { color: var(--navy-700); font-size: 20px; }
 
     .section { padding: 88px 0; scroll-margin-top: 86px; }
     .section-soft { background: var(--blue-050); }
@@ -390,7 +390,7 @@
     }
 
     .benefit-card:nth-child(2) .benefit-icon { background: var(--orange-100); color: var(--orange-700); }
-    .benefit-card:nth-child(3) .benefit-icon { background: var(--green-100); color: var(--green-700); }
+    .benefit-card:nth-child(3) .benefit-icon { background: var(--blue-100); color: var(--navy-800); }
 
     h3 { color: var(--navy-950); font-size: 24px; letter-spacing: -0.015em; }
     .benefit-card p { margin-top: 12px; color: var(--muted); }
@@ -428,8 +428,8 @@
       place-items: center;
       margin-top: 1px;
       border-radius: 50%;
-      background: var(--green-100);
-      color: var(--green-700);
+      background: var(--blue-100);
+      color: var(--navy-800);
       font-size: 16px;
       font-weight: 900;
     }
@@ -752,7 +752,7 @@
 
     footer {
       padding: 36px 0;
-      background: #173c35;
+      background: var(--navy-950);
       color: rgba(255, 255, 255, 0.64);
       font-size: 14px;
     }
